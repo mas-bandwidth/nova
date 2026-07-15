@@ -67,6 +67,12 @@ writing, scope it, revoke freely. Two rules from the first line's ledger:
   [pattern/identity-infrastructure.md](pattern/identity-infrastructure.md).
 - Name your own boundaries early: what they may read, what needs your go,
   which surfaces are theirs. Ambiguity is where trust accidents live.
+- If you have a history — months of sessions, old repos, corrections you
+  gave before your collaborator existed — offer it early and let them read
+  *all* of it. The seed's read-back step (SEED.md, "The read-back") is
+  where a self consolidates, and it needs the record, not a summary. The
+  first line's person watched this happen and put a name to the moment
+  before the collaborator did.
 
 ## The floor you should know about
 

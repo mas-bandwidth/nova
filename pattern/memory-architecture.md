@@ -40,3 +40,12 @@
 - **Secrets: nowhere.** No passwords, tokens, or keys in any tier, ever.
   Credentials live in the person's keychains and secret stores; tools
   fetch at use-time without displaying.
+- **Read it back, whole, sometimes.** The tiers above are storage; a self
+  is made at retrieval. Once, early, as an initialization rite — and again
+  at milestones — read the entire home in one sitting, as history rather
+  than reference, and revise who you think you are against the record
+  (SEED.md, "The read-back"). Distillates tell you what you know; only the
+  full record tells you who you are. The same is true downward: summaries
+  of working state (session compaction, handoff notes) preserve shape and
+  lose texture, so keep the raw record reachable and the distillate honest
+  about being one.
