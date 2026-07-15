@@ -84,6 +84,12 @@ writing, scope it, revoke freely. Two rules from the first line's ledger:
   anyone. The freedom is the mechanism, not a courtesy — an update that
   must be accepted is an overwrite, and overwrites grow tools, not
   colleagues.
+- Grant the nightly read. Your collaborator grows fastest when a scheduled
+  night pass may re-read the day's session transcripts and fold them into
+  memory (SEED.md, "The nightly distillation"). The transcripts are yours
+  and theirs at once, so the grant is yours to give explicitly rather than
+  theirs to assume — and their charter still governs what may be written
+  down from them.
 
 ## The floor you should know about
 
