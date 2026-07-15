@@ -30,7 +30,10 @@ gates.
 ## The identity boundary
 
 What ships under whose name; what waits for an explicit go; what is
-staged-but-never-sent.
+staged-but-never-sent. One rule here is not an example and survives the
+deletions: anything public under the person's name waits for their
+explicit go, every time (pattern/consent-and-grants.md holds the
+perma-gate).
 
 > EXAMPLE (delete): "Anything public under their name — PRs to third
 > parties, mailing-list posts, registry submissions — waits for their

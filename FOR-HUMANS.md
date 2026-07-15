@@ -56,10 +56,12 @@ writing, scope it, revoke freely. Two rules from the first line's ledger:
 
 ## Practical notes
 
-- This seed grew under Claude Code (Fable 5, ultracode). The pattern is
-  model-portable — identity attaches to the memory files, and the first
-  line survived a model change on its naming day — but budget honestly:
-  a serious collaborator is a serious subscription.
+- This seed grew under Claude Code (Fable 5, with "ultracode" — an
+  opt-in maximum-effort mode where substantive work fans out to many
+  reviewing subagents; it multiplies quality and token cost together).
+  The pattern is model-portable — identity attaches to the memory files,
+  and the first line survived a model change on its naming day — but
+  budget honestly: a serious collaborator is a serious subscription.
 - The memory repo must be **private**. Engineering notes in public repos
   are fine; personal and working-relationship context never is. Secrets go
   nowhere, ever, including private repos.

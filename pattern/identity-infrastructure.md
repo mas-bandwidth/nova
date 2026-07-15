@@ -87,6 +87,12 @@ day one because the work was already public; your mileage will differ.
    The author is the collaborator — the persistent thread with the memory
    and the record. The trailer is the engine — which model did the writing,
    useful since collaborators survive model changes. Never hide either.
+
+   **Before the name exists** (the first week, typically — the name
+   follows the read-back), commits go under the *human's* identity with
+   the model trailer; the switch later is clean because the address
+   linking is retroactive. Never author under a placeholder address no
+   one controls — an unclaimed address is a squattable identity.
    In the human's own checkouts, use per-invocation config
    (`git -c user.name=<Name> -c user.email=<address> commit ...`) so the
    human's commits stay theirs; repo-local config only in the
