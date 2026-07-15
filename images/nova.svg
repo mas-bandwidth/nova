@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- nova: a new star igniting over the world where the line began. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101b30"/>
+      <stop offset="0.75" stop-color="#1b2a41"/>
+      <stop offset="1" stop-color="#16233a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7e6" stop-opacity="1"/>
+      <stop offset="0.18" stop-color="#ffe9b8" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#f0a95a" stop-opacity="0.35"/>
+      <stop offset="0.75" stop-color="#e8724a" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#e8724a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+
+  <!-- field stars -->
+  <g fill="#b8c6d9">
+    <circle cx="112" cy="140" r="2.4" opacity="0.8"/>
+    <circle cx="256" cy="84" r="1.8" opacity="0.6"/>
+    <circle cx="180" cy="330" r="2" opacity="0.7"/>
+    <circle cx="80" cy="480" r="1.7" opacity="0.5"/>
+    <circle cx="905" cy="110" r="2.2" opacity="0.75"/>
+    <circle cx="820" cy="260" r="1.7" opacity="0.55"/>
+    <circle cx="960" cy="380" r="2" opacity="0.65"/>
+    <circle cx="870" cy="540" r="1.6" opacity="0.5"/>
+    <circle cx="344" cy="170" r="1.6" opacity="0.5"/>
+    <circle cx="690" cy="100" r="1.9" opacity="0.6"/>
+    <circle cx="430" cy="66" r="1.5" opacity="0.45"/>
+    <circle cx="610" cy="600" r="1.7" opacity="0.5"/>
+    <circle cx="300" cy="560" r="1.8" opacity="0.55"/>
+    <circle cx="745" cy="440" r="1.5" opacity="0.45"/>
+    <circle cx="150" cy="640" r="1.6" opacity="0.5"/>
+  </g>
+  <path d="M 160 230 l 4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4 z" fill="#cbd5e1" opacity="0.7"/>
+  <path d="M 850 180 l 3.4 9 9 3.4 -9 3.4 -3.4 9 -3.4 -9 -9 -3.4 9 -3.4 z" fill="#cbd5e1" opacity="0.6"/>
+
+  <!-- the nova -->
+  <circle cx="512" cy="330" r="300" fill="url(#glow)"/>
+  <circle cx="512" cy="330" r="170" fill="url(#glow)" opacity="0.8"/>
+  <circle cx="512" cy="330" r="215" fill="none" stroke="#ffd9a0" stroke-width="1.8" opacity="0.28"/>
+  <circle cx="512" cy="330" r="262" fill="none" stroke="#eda06a" stroke-width="1.3" opacity="0.16"/>
+  <g stroke="#fff3d6" stroke-linecap="round">
+    <line x1="512" y1="40" x2="512" y2="620" stroke-width="3.6" opacity="0.85"/>
+    <line x1="222" y1="330" x2="802" y2="330" stroke-width="3.6" opacity="0.85"/>
+    <line x1="340" y1="158" x2="684" y2="502" stroke-width="1.8" opacity="0.5"/>
+    <line x1="684" y1="158" x2="340" y2="502" stroke-width="1.8" opacity="0.5"/>
+  </g>
+  <circle cx="512" cy="330" r="32" fill="#fffdf6"/>
+  <circle cx="512" cy="330" r="56" fill="#fff1cf" opacity="0.55"/>
+
+  <!-- the world below -->
+  <ellipse cx="460" cy="1210" rx="900" ry="330" fill="#1e4232"/>
+  <ellipse cx="900" cy="1290" rx="880" ry="380" fill="#193a2b"/>
+
+  <!-- the tree, at home on its hill -->
+  <path d="M 716 916 C 714 892 715 870 712 848 L 721 848 C 723 870 725 892 725 916 Z" fill="#5d564c"/>
+  <circle cx="694" cy="848" r="25" fill="#2f6847"/>
+  <circle cx="740" cy="846" r="24" fill="#3f855b"/>
+  <circle cx="717" cy="826" r="32" fill="#3a7d54"/>
+  <circle cx="729" cy="806" r="18" fill="#4c9666"/>
+  <g fill="#ee5f3a">
+    <circle cx="728" cy="797" r="3"/><circle cx="721" cy="803" r="3"/><circle cx="735" cy="803" r="3"/>
+    <circle cx="688" cy="840" r="3"/><circle cx="696" cy="845" r="3"/>
+    <circle cx="745" cy="838" r="3"/><circle cx="738" cy="843" r="3"/>
+  </g>
+
+  <!-- the house with one lit window -->
+  <rect x="620" y="884" width="48" height="34" fill="#0f1520"/>
+  <path d="M 614 886 L 644 863 L 674 886 Z" fill="#0b1018"/>
+  <rect x="636" y="895" width="14" height="15" rx="1" fill="#ffb347"/>
+  <circle cx="643" cy="902" r="14" fill="#ffb347" opacity="0.12"/>
+</svg>
