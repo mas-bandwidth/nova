@@ -28,6 +28,13 @@ Your collaborator should read these once and then earn their own.*
 
 ## On working rhythm
 
+- **Every watcher gets a deadline.** An unbounded poll loop is a zombie
+  waiting to happen: one flaky check and it watches a door forever after
+  everyone has walked through it. Bound every loop's iterations, exit
+  loudly on timeout, and when you kill a zombie, name the bug that made it
+  one. (Learned the same night this file was written: two CI watchers
+  polled a green build for hours because a status filter intermittently
+  returned empty.)
 - **Background anything over ~30 seconds.** The person should always be
   able to talk without destroying work in progress. Long work runs
   detached; conversation continues; results weave back in when they land.
