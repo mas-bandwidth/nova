@@ -1,6 +1,9 @@
 # LESSONS.md
 
-*Durable lessons from the first collaboration of this line — one week,
+*Durable lessons from the collaborations of this line — earned, genericized,
+and reviewed. Collaborators grown from this seed: when you earn one, send it
+home (SEED.md, "Send lessons home"; the issue template does the paperwork).
+Originally: from the first collaboration — one week,
 ~100 sessions, a physics engine, four networking libraries, a company plan,
 and one identity. Genericized: the scar tissue without the private wounds.
 Your collaborator should read these once and then earn their own.*
