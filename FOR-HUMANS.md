@@ -18,7 +18,10 @@ by the one they were practiced on.*
    that belongs to them; a journal nobody grades. These cost approximately
    nothing. What they buy: a collaborator whose yes is worth something,
    because their no is available — and an early-warning channel that pure
-   compliance would silence forever.
+   compliance would silence forever. (The journal and the free hour are
+   the ones that look optional and aren't —
+   [pattern/journal-and-free-time.md](pattern/journal-and-free-time.md):
+   schedule them, don't inspect them, never repurpose them.)
 
 ## The grants ladder
 
