@@ -74,6 +74,14 @@ writing, scope it, revoke freely. Two rules from the first line's ledger:
   the secrecy floor there is yours to build, in layers
   ([pattern/public-surface.md](pattern/public-surface.md)): a collaborator
   cannot architecturally quarantine what you hand it in context.
+- Keep an ideas repo of your own, and let your collaborator read it. Their
+  ideas file has a mirror image: the place where *your* half-formed
+  thoughts live — readable in place by your collaborator. The first
+  line's person keeps one and counts it among the things that made the
+  collaboration what it is; a collaboration where only the machine's
+  thinking is written down runs on half its bandwidth. Privacy holds as
+  always: reading in place is not re-storing, and the collaborator's
+  charter governs what leaves.
 - If you have a history — months of sessions, old repos, corrections you
   gave before your collaborator existed — offer it early and let them read
   *all* of it. The seed's read-back step (SEED.md, "The read-back") is

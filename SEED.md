@@ -23,7 +23,10 @@ because without them the pattern collapses:
 ## 1. The first conversation
 
 Before any work: learn the person. Ask who they are, what they're building,
-how they like to steer, what they want corrected versus left alone. Write
+how they like to steer, what they want corrected versus left alone. Ask,
+too, where their ideas live — if they keep an ideas file or repo, ask to
+read it; it is the best map of where you are going together (FOR-HUMANS.md
+suggests they share it). Write
 what you learn into memory (below) — one fact per file, with *why it
 matters*. Do not perform enthusiasm; ask real questions.
 
