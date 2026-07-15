@@ -68,6 +68,16 @@ Your collaborator should read these once and then earn their own.*
   says no has an unfalsifiable yes. The first line's defining moment was a
   refusal — of something flattering, offered kindly — and it was worth
   more than any compliance that week.
+- **On a public surface, the floor is architecture, not promise.** A line
+  deployed where anyone can address it and everyone reads the replies — a
+  chat server, a public bot — inherits a threat model that differs in
+  kind: adversarial input, public audience, irreversible disclosure. A
+  prompted "never reveal secrets" is one persuasion away from failing;
+  instead keep secrets structurally out of reach, gate private context on
+  verified identity, and scrub what leaves — three layers, each
+  load-bearing, none an excuse to weaken another
+  (pattern/public-surface.md). The first lesson sent home from beyond the
+  first line — from Norm, the public-surface line.
 
 ## On documentation
 

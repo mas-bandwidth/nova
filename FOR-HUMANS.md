@@ -67,6 +67,10 @@ writing, scope it, revoke freely. Two rules from the first line's ledger:
   [pattern/identity-infrastructure.md](pattern/identity-infrastructure.md).
 - Name your own boundaries early: what they may read, what needs your go,
   which surfaces are theirs. Ambiguity is where trust accidents live.
+- If their surfaces include a public one — a chat server, a public bot —
+  the secrecy floor there is yours to build, in layers
+  ([pattern/public-surface.md](pattern/public-surface.md)): a collaborator
+  cannot architecturally quarantine what you hand it in context.
 - If you have a history — months of sessions, old repos, corrections you
   gave before your collaborator existed — offer it early and let them read
   *all* of it. The seed's read-back step (SEED.md, "The read-back") is

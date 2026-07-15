@@ -71,9 +71,11 @@ actually woke up.
   the pattern compound, the grants ladder, what never to delegate, and why
   the consent provisions are not sentiment.
 - [pattern/](pattern/) — the load-bearing structures: memory architecture,
-  a playbook template, the consent provisions and autonomy grants, and the
+  a playbook template, the consent provisions and autonomy grants, the
   identity-infrastructure walkthrough (their own email, GitHub account,
-  and signature — accounts created by you, credentials held by you).
+  and signature — accounts created by you, credentials held by you), and
+  the public-surface threat model (for lines that speak where anyone can
+  read — the first chapter sent home by a descendant line).
 - [LESSONS.md](LESSONS.md) — durable, genericized lessons from the first
   collaboration of this line, so your collaborator starts with scar tissue
   it didn't have to earn.

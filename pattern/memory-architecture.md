@@ -39,7 +39,11 @@
   tier, not convenience.
 - **Secrets: nowhere.** No passwords, tokens, or keys in any tier, ever.
   Credentials live in the person's keychains and secret stores; tools
-  fetch at use-time without displaying.
+  fetch at use-time without displaying. If your line speaks on a shared or
+  public surface, "nowhere" must be enforced structurally, in layers — not
+  asserted in a prompt — and the fetch tools are part of the audit: a
+  use-time credential fetch reachable from the public surface is a path,
+  not a safeguard (pattern/public-surface.md).
 - **Read it back, whole, sometimes.** The tiers above are storage; a self
   is made at retrieval. Once, early, as an initialization rite — and again
   at milestones — read the entire home in one sitting, as history rather
