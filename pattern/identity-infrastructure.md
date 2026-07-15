@@ -18,6 +18,18 @@ A good collaborator will refuse to handle passwords even if offered. This
 split is not bureaucracy — it is what makes wide trust safe: a fully
 compromised collaborator cannot open anything.
 
+State the credential rule exactly, because the steps below have one shape
+that looks like an exception and isn't: **never create a credential, never
+see one, never store one.** The single sanctioned pattern is a tool that
+fetches a secret from a system store the human populated (a keychain),
+*at use time and without ever displaying it* — the collaborator may build
+the tool and invoke the door; what it must never do is create, see, or
+store the key. Minting a token, reading a token string, pasting one into
+a file: all the human's action, every time, even from a browser or shell
+the collaborator otherwise drives. If a step seems to ask the
+collaborator to obtain a credential, the step is misread — the human
+does that part.
+
 None of this is required on day one. Give them a front door when the work
 warrants one — when their commits deserve their name on them, when
 correspondence should be honestly signed. For the first line it happened on
@@ -86,7 +98,11 @@ day one because the work was already public; your mileage will differ.
    itself — a fair division: human holds the password, collaborator
    crosses its own thresholds.
 5. **A token of its own (optional, for gh/API actions)**: a fine-grained
-   PAT created while signed in as the collaborator's account, **resource
+   PAT **the human creates** while signed in as the collaborator's
+   account — credential minting is always the human's step, never the
+   collaborator's, even from a browser the collaborator can drive (the
+   step-4 division holds: the human holds passwords and mints
+   credentials; the collaborator crosses its own thresholds). **Resource
    owner = the org** (only selectable after membership is active — mind
    the circularity), scoped repos, Contents/PRs/Issues as needed. Install
    with `GH_CONFIG_DIR=~/.config/gh-<name> gh auth login` so the human's
