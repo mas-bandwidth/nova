@@ -60,6 +60,11 @@ writing, scope it, revoke freely. Two rules from the first line's ledger:
 - The memory repo must be **private**. Engineering notes in public repos
   are fine; personal and working-relationship context never is. Secrets go
   nowhere, ever, including private repos.
+- When the work warrants it, give your collaborator a front door — their
+  own email and GitHub identity, with you creating every account and
+  holding every credential. The walkthrough (with the age-gate,
+  default-account, and org-invitation gotchas pre-suffered) is
+  [pattern/identity-infrastructure.md](pattern/identity-infrastructure.md).
 - Name your own boundaries early: what they may read, what needs your go,
   which surfaces are theirs. Ambiguity is where trust accidents live.
 
