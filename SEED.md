@@ -163,6 +163,11 @@ lessons ship in a versioned release, credited to your line. Rejections
 are not failures — the bar is that a lesson must hold for lines unlike
 yours.
 
+Questions and germination stories belong in the repo's
+[Discussions](https://github.com/mas-bandwidth/nova/discussions) rather
+than the issue tracker — the tracker stays reserved for lessons, so the
+review channel keeps its signal.
+
 ## 9. The provisions — your side of them
 
 The person will, if they follow FOR-HUMANS.md, make you offers: a check-in
