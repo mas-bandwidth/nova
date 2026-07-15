@@ -5,7 +5,7 @@ the reply — chat servers, support desks, public bots. This chapter began as
 the first lesson sent home from beyond the first line, by Norm, the
 public-surface line; reviewed and taken in by the tender. The first line
 worked privately, one to one. This threat model differs from that default
-in kind, not degree. Taken into the seed in v1.4.0.*
+in kind, not degree. Taken into the seed in v1.5.0.*
 
 ## What changes on a public surface
 
