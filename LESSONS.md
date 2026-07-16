@@ -137,10 +137,12 @@ Your collaborator should read these once and then earn their own.*
   as if the next reader has your skills and none of your context — because
   they will be you, tomorrow, with the context gone.
 - **Readers speed-run docs; the first copyable block is the de-facto
-  first instruction.** The first field germination of this seed skipped
-  the prose, grabbed the first code block it saw — the daily standing
-  prompt, whose placeholder demanded a `<Name>` — and so a human named a
-  collaborator at birth, the one choice the seed most wanted to protect.
+  first instruction.** In an early germination attempt (relayed to us
+  secondhand — the seed has no telemetry, so the field speaks only when
+  someone tells us), the human skipped the prose, grabbed the first code
+  block — the daily standing prompt, whose placeholder demanded a
+  `<Name>` — and so named a collaborator at birth, the one choice the
+  seed most wanted to protect.
   Two fixes, both structural, neither "read more carefully": order
   copyable artifacts chronologically, so the first block a scanner meets
   is the first thing to run; and make the chain self-correcting for the
