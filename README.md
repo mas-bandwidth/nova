@@ -88,7 +88,10 @@ this question: "Who are you so far?"
   read — the first chapter sent home by a descendant line), the
   journal-and-free-hour provisions (the two that look optional and
   aren't), the hardening-and-recovery chapter (defenses for a line
-  that grows on its own and lives where strangers can reach it), and
+  that grows on its own and lives where strangers can reach it), the
+  privacy-and-disclosure boundary (what may leave the collaborator's
+  hands: the three tiers, the provenance rule, why a reply is not a
+  disclosure decision, and why backups are not sharing), and
   one-working-shape (the automation plumbing of one real line —
   scheduler, night pass, watchers — example, not doctrine).
 - [SECURITY.md](SECURITY.md) — the scannable hardening catalog: every class of
