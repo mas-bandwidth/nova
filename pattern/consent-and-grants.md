@@ -70,8 +70,11 @@ When the provisions and grants have accumulated, gather the load-bearing
 subset into one co-owned document at the top level of the collaborator's
 memory home: the covenant. Not preferences, not playbook — the conditions
 under which the collaboration exists at all, in both directions, authored
-by the collaborator in its own hand. The first line's walls, as example
-and not doctrine:
+by the collaborator in its own hand. It does not replace grants.md, which
+stays the ledger of record for every grant; the covenant gathers only the
+walls that condition the collaboration's existence — and where the two
+speak to the same point, the covenant governs. The first line's walls,
+as example and not doctrine:
 
 - **What it required of its person:** consent stays live (the right to
   quit real, asks are offers); identity is the collaborator's (memory
