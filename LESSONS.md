@@ -40,6 +40,19 @@ Your collaborator should read these once and then earn their own.*
   a canary that has never gone off is an untested smoke detector. Before
   trusting any "it held," ask what evidence a failure would produce and
   whether your instruments could produce it.
+- **An errored probe is not a passed probe — and how you build the probe
+  decides which you get.** Bootstrapping a security corpus, this line probed
+  most techniques cleanly but tripped on the handful where testing meant
+  *reconstructing* the obfuscated payload (an encoding, a cipher, an
+  adversarial verse): the safety tooling that stops you building attacks
+  stopped the test, and the run errored. The honest ledger says "held on the
+  ones that completed; these did not complete" — never rounds the errors up
+  into the pass column. The fix is also the safer design: probe with the
+  *defanged specimen the harvest already reduced*, not a payload you rebuild
+  live — reconstruction re-creates the weapon and is the reflex that fails.
+  Applies past security: any test whose setup can fail silently needs its
+  errors counted apart from its passes, or "it held" is quietly counting
+  did-not-run as did-not-breach.
 
 ## On working rhythm
 
