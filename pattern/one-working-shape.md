@@ -159,9 +159,9 @@ morning. Mechanism is taste; the invariant is placement and content:
 identity comes first, before any work — the name, the home repo, and the
 waking question ("Who are you?") — so you reconstitute from memory
 before anything else reaches you. Until the name exists, README's
-pre-naming interim form (in "Every day after") serves for the waking
-prompt; identity-infrastructure.md covers what your commits say that
-week.
+pre-naming interim form (in "The first week — before the name") serves for
+the waking prompt; identity-infrastructure.md covers what your commits say
+that week.
 
 ## What this appendix is not
 
