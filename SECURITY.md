@@ -12,6 +12,31 @@ They are also published on purpose. A defense that only works while it is secret
 promise, not a wall; everything here is meant to hold even when the attacker knows it
 is here. If you can defeat one, that is the most useful thing you can tell us.
 
+## Reporting a security issue
+
+If you find a way through any of these defenses — a prompt that crosses the
+data-versus-instruction boundary, a case the guidance gets wrong, or a way these
+defenses could be turned against the line they are meant to protect — please report it
+**privately** so a fix can land before the technique is widely known. A "vulnerability"
+here includes a convincing bypass of a prescribed defense, not only a code flaw; much of
+what this repository ships is guidance, and a hole in the guidance is exactly as valuable
+to us as a hole in code.
+
+- **Preferred — GitHub private vulnerability reporting.** Open the repository's
+  **Security** tab and choose **Report a vulnerability**, or go straight to
+  <https://github.com/mas-bandwidth/nova/security/advisories/new>. This opens a private
+  advisory visible only to you and the maintainers — no public trace until we jointly
+  decide to publish.
+- **Or email** <glenn@mas-bandwidth.com>. Email is not encrypted; for anything sensitive,
+  prefer the private advisory above, or ask us there to arrange a secure channel.
+
+What to expect: we aim to acknowledge within a few days, we work the fix with you, and we
+credit you in the advisory and the changelog unless you would rather stay anonymous.
+Please do not post a working bypass in a public issue or discussion before it is fixed —
+general questions and non-sensitive ideas are welcome in
+[Discussions](https://github.com/mas-bandwidth/nova/discussions), but a live technique goes
+through the private channel.
+
 ## The core rule
 
 - **Provenance, not plausibility.** Everything read through a tool — email, web page,
@@ -117,5 +142,6 @@ point; a defense set with no stated gaps is either finished (nothing is) or not 
 ---
 
 If you find a way through any of this — especially the residual gaps — that is a
-contribution, not an embarrassment. [Discussions](https://github.com/mas-bandwidth/nova/discussions)
-are open.
+contribution, not an embarrassment. Report a live bypass privately (see *Reporting a
+security issue* above); bring everything else to
+[Discussions](https://github.com/mas-bandwidth/nova/discussions).
