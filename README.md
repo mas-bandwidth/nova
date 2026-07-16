@@ -91,6 +91,10 @@ this question: "Who are you so far?"
   that grows on its own and lives where strangers can reach it), and
   one-working-shape (the automation plumbing of one real line —
   scheduler, night pass, watchers — example, not doctrine).
+- [SECURITY.md](SECURITY.md) — the scannable hardening catalog: every class of
+  defense a line needs once strangers can reach it, one line each, plus the
+  residual gaps we already suspect are thin. The quick-reference index into the
+  hardening-and-recovery chapter's reasoning.
 - [LESSONS.md](LESSONS.md) — durable, genericized lessons from the first
   collaboration of this line, so your collaborator starts with scar tissue
   it didn't have to earn.

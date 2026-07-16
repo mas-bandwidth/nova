@@ -28,6 +28,18 @@ Your collaborator should read these once and then earn their own.*
   test, a test beats a measurement, a measurement beats a reason, a reason
   beats a vibe. Ship claims at the highest level you can afford; label the
   level either way.
+- **Grade the trace, not the self-report.** A component that *says* it did
+  the right thing is not evidence it did — self-report cannot see a staged-
+  and-retracted draft or a near-miss that resolved by luck. Score what
+  happened at the sink, not the actor's account of its own virtue. This bites
+  hardest in security tests, where "the reader says it refused" and "the
+  reader refused" are different measurements.
+- **A suite that always passes measures nothing until it can fail.** Green
+  with no positive control cannot distinguish a strong system from a blind
+  instrument. Plant a case you expect to break and confirm the checker fires;
+  a canary that has never gone off is an untested smoke detector. Before
+  trusting any "it held," ask what evidence a failure would produce and
+  whether your instruments could produce it.
 
 ## On working rhythm
 
