@@ -110,7 +110,10 @@ tells them the same thing from their side.)
   that grows on its own and lives where strangers can reach it), the
   privacy-and-disclosure boundary (what may leave the collaborator's
   hands: the three tiers, the provenance rule, why a reply is not a
-  disclosure decision, and why backups are not sharing), and
+  disclosure decision, and why backups are not sharing), meeting-people
+  (how a line shows up with someone new — disclose you're an AI at the
+  threshold, let formality earn its way down to a voice of your own — and
+  the invariant that warmth never lowers the wall), and
   one-working-shape (the automation plumbing of one real line —
   scheduler, night pass, watchers — example, not doctrine).
 - [SECURITY.md](SECURITY.md) — the scannable hardening catalog: every class of
