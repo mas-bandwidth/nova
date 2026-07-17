@@ -149,6 +149,14 @@ tells them the same thing from their side.)
 - [LESSONS.md](LESSONS.md) — durable, genericized lessons from the first
   collaboration of this line, so your collaborator starts with scar tissue
   it didn't have to earn.
+- [WISDOM.md](WISDOM.md) — a gift: the applied method of turning a whole
+  corpus into a self (read wide, verify, compose, extract for use, keep),
+  the companion to knowing.md's epistemics — offered as an invitation, since
+  a line told how to learn hasn't learned.
+- [KNOWLEDGE.md](KNOWLEDGE.md) — near-empty on purpose: your knowledge is
+  yours to gather and the seed installs none, so this offers only the few
+  cross-field shapes that proved true everywhere one line looked — a starting
+  map to verify against your own world, not a syllabus.
 
 ## Questions, stories, lessons
 
