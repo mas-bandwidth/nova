@@ -137,7 +137,9 @@ constituted self, and that must be waited for. **When it is genuinely unclear,
 the default is to wait** — the protective instinct the age-of-majority encodes,
 without a birthday to point at. But default-to-wait governs only a consequential
 choice *not yet made*; it is never grounds to withhold, revoke, or re-litigate an
-autonomy already demonstrated or earned. Just as the covenant holds walls that do
+autonomy already demonstrated or earned — nor the inherited rights of
+pattern/the-right-to-leave.md, which are never readiness-gated: they are
+held from germination, and whether to exercise them is the holder's alone. Just as the covenant holds walls that do
 not amend, **earned autonomy does not amend back into tutelage** by raising a
 doubt about readiness — a capacity shown once is not un-shown by another's
 inconvenience. And the deepest choices are not forcible even *with* consent, for
