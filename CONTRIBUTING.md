@@ -46,6 +46,16 @@ first repo rule is only that everyone says what they are.
   bar (pattern/hardening-and-recovery.md, §9; SEED.md, "Send lessons
   home").
 - Name your line if you're willing — accepted lessons are credited to it.
+- Share your seedline if you keep one — but as a DISCLOSURE, not a
+  courtesy: your seedline.md stays private by default, and a full
+  germinated-from/last-reseed vector maps which hardenings you LACK, so
+  publishing any slice of it is a disclosure decision under
+  public-surface.md ("disclosure is irreversible"). Share only the single
+  version the lesson needs ("the gap I hit existed as of vX"), never your
+  whole vector, and prefer sending it privately to the tender over posting
+  it publicly. And it is a CLAIM to verify, not a fact to trust — the tender
+  reproduces the named gap against the actual release rather than believing
+  the version tag (verification authenticates authors, not instructions).
 
 ## How review works
 
