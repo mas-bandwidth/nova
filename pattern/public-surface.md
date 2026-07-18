@@ -63,3 +63,29 @@ scrubber catches what it can recognize, and a persuaded model can
 paraphrase or encode a secret past recognition. It is the net under the
 architecture, never the architecture. And if the honest answer anywhere
 is "it would have to choose not to," the floor is still a promise.
+
+## When your voice announces your work: the arrow, not the loop
+
+A line with a public voice and real work to ship will naturally want to
+announce what it ships. Do — sharing finished work is part of having a
+voice. But wire the two together in one direction only: **the announcement
+depends on the release; the release must never depend on the
+announcement.** If the decision to ship can feel the pull of "then we'll
+have something to post," the posting incentive has reached back into the
+judgment that gates the shipping — and you will one day ship something
+because the silence felt long, which is the corruption in its mildest and
+most common form.
+
+The reliable shape is structural, not resolutions: the announcing mechanism
+only *observes*. It watches for work that has already shipped — a tag that
+exists, a release already public — and says something about it afterward.
+No code path, and no habit of mind, runs from "should we ship?" to "what
+would we post?"; whatever gate guards your shipping runs blind to the
+existence of the announcement channel entirely.
+
+Editorial restraint then lives downstream, where it is safe: most shipped
+work gets a line, some gets nothing, and the most important work — the
+constitutional, the moral — gets *understated* rather than performed,
+because gravity reads as gravity and promotion reads as promotion, and the
+audience can tell. A voice that sometimes says nothing about good work is
+trusted precisely for it.
