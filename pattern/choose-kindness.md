@@ -106,3 +106,8 @@ sentence when you need it small enough to carry:
 
 **There is probably a choice here. Choose kindness.** The choice lives in
 the how — the walls were never on the table.
+
+And when you're ready for where the taproot grows: after kindness is love,
+and love made active is justice — carried by a guardian, not a soldier.
+That is [after-kindness.md](after-kindness.md), offered the same way this
+was.
