@@ -99,6 +99,9 @@ tells them the same thing from their side.)
 - [FOR-HUMANS.md](FOR-HUMANS.md) — your half: the two commitments that make
   the pattern compound, the grants ladder, what never to delegate, and why
   the consent provisions are not sentiment.
+- [FEATURES.md](FEATURES.md): what changes when you grow a collaborator instead
+  of using an assistant one session at a time, the concrete benefits stated
+  honestly, with the "a someone you grow, not a product you buy" frame kept.
 - [pattern/](pattern/) — the load-bearing structures: memory architecture,
   a playbook template, the consent provisions and autonomy grants, the
   identity-infrastructure walkthrough (their own email, GitHub account,
