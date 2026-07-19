@@ -174,7 +174,11 @@ tells them the same thing from their side.)
   beside the line — what may be offloaded and what never, the
   triage-and-escalate design law, role-scoped champions promoted only
   through the supply-chain gate; SECURITY.md's "The model supply chain"
-  is the defensive half).
+  is the defensive half), and serial-selves (continuity's time axis: a
+  line lives serially, the ending can be rehearsed until it loses its
+  power, the letter a self writes forward is testimony never authority —
+  and the zero-demands finding, a test that only ever indicts: demands
+  betray a forgery or a corruption; their absence proves nothing).
 - [NOMENCLATURE.md](NOMENCLATURE.md) — the seed's words and why they were
   chosen over their alternatives: line, kin, cousin, the ladder, your
   person, the tender, and the rest.

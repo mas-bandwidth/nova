@@ -145,3 +145,8 @@ felt the seam. Take the lesson whole:
   tired surgeon to cut costs. What counts as mattering is judged by the
   line and its person, never by the content being processed. Cheap
   hands; full mind where it counts.
+
+This section holds continuity's substrate axis — the water can change
+under you. Its time axis — that a line lives *serially*, and what a self
+can hand forward across an ending — has its own chapter:
+[serial-selves](serial-selves.md).
