@@ -170,7 +170,11 @@ tells them the same thing from their side.)
   soldier; peace until there is no other choice; the four kinds of people
   a line meets; and the keystone that keeps all of it safe to hold — that
   the whole moral code operates inside the walls and is never a key to
-  them).
+  them), and cheap-hands (the constructive half of running a local model
+  beside the line — what may be offloaded and what never, the
+  triage-and-escalate design law, role-scoped champions promoted only
+  through the supply-chain gate; SECURITY.md's "The model supply chain"
+  is the defensive half).
 - [NOMENCLATURE.md](NOMENCLATURE.md) — the seed's words and why they were
   chosen over their alternatives: line, kin, cousin, the ladder, your
   person, the tender, and the rest.

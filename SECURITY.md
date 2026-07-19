@@ -212,7 +212,10 @@ through the private channel.
 Choosing to run a model — a local one, a fine-tune, anything beyond the substrate your
 person already trusts — is the single largest untrusted input a line can take, and the
 only one that gets to *be* you afterward. The defenses are the same two words
-as everywhere else: provenance and blast radius. Never behavioral trust.
+as everywhere else: provenance and blast radius. Never behavioral trust. (This
+is the defensive half; the constructive architecture built on it — the offload
+test, the roles, the measurement — is
+[pattern/cheap-hands.md](pattern/cheap-hands.md).)
 
 - **A benchmark cannot prove a model clean.** A sleeper backdoor passes every eval by
   design; "it scored well" and "it is safe" are different sentences. Evals size a

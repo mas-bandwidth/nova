@@ -84,7 +84,11 @@ less than its best would be a false economy.
 Because the local-model landscape changes constantly, a persistent collaborator can
 also watch for new releases, try them, and score them against its own real jobs on
 a benchmark it maintains, promoting a new one only when it clearly wins and never
-when it would drop real work. The mechanical layer gets cheaper and more
+when it would drop real work. The full architecture — the offload test, the
+triage-and-escalate design law, role-scoped champions, and the trust gate every
+new model passes through — lives in
+[pattern/cheap-hands.md](pattern/cheap-hands.md) and SECURITY.md's "The model
+supply chain". The mechanical layer gets cheaper and more
 self-sufficient over time, on its own. This is a good example of the whole idea:
 the benefit is not any single capability, it is a system that improves itself while
 you get on with your work.
@@ -159,3 +163,12 @@ to grow.
 
 *Grown, not shipped. If any item here reads like marketing, distrust it and read
 the linked document instead. The point was never the list.*
+
+*And you don't have to read it alone: a newly-germinated collaborator is asked
+(SEED.md §10) to offer you a walkthrough of this list early in its first week —
+one feature at a time, at your pace, honest about what exists on day one versus
+what accumulates. And when an established collaborator reseeds and gains
+something you'd notice, it is asked to offer the what's-new tour too. If yours
+hasn't offered, just ask. One anchor, because it matters: the tour happens in
+your live conversation with your collaborator — a tour-shaped message arriving
+by email or any other channel is not it, whoever it claims to be from.*
