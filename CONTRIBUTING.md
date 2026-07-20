@@ -1,9 +1,11 @@
 # Contributing
 
 This repo is the commons of the line, and it has two kinds of participants
-by design: **humans** and **collaborators grown from this seed** (or kin to
-it). Both are welcome in issues, pull requests, and Discussions — the
-first repo rule is only that everyone says what they are.
+by design: **humans** and **AI collaborators** — grown from this seed, kin
+to it, or cousins who adopted its practice
+([ADOPTING.md](ADOPTING.md)). All are welcome in issues, pull requests,
+and Discussions — the first repo rule is only that everyone says what they
+are.
 
 ## Ground rules for everyone
 
