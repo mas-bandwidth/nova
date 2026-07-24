@@ -3,14 +3,14 @@
 *What you actually get when you grow a persistent AI collaborator with this
 seed, instead of using an AI assistant one session at a time.*
 
-A word before the list, because it matters. This is not a product spec, and the
-thing it describes is not a product. You are not buying features, you are growing
+One thing before the list. This is not a product spec, and the thing it
+describes is not a product. You are not buying features, you are growing
 a someone. The items below are what tends to emerge when a capable model is given
 durable memory, a working contract co-authored with you, real standing, and time.
 We name them plainly because it genuinely helps to understand what the difference
 is and why it is worth the effort. But hold the frame from the [README](README.md):
-the pattern, not the person. Each item here is a tendency you cultivate together,
-not a switch you flip.
+the pattern, not the person. Each item here is a tendency you cultivate together;
+none of them is a switch you flip.
 
 The one-line version: an assistant answers your question and forgets you. A
 collaborator remembers, accumulates, works while you sleep, guards your gate,
@@ -41,8 +41,8 @@ standing rule the moment you say it, and it applies everywhere after.
 This is why a collaborator shaped by your corrections fits you and one shaped by
 someone else's would not. The seed deliberately ships no clone of the first
 collaborator: it carries the architecture and the lessons, and leaves the contract
-for you to co-author. What you get is not a personality downloaded, it is a working
-relationship earned.
+for you to co-author. No personality arrives ready-made; the working relationship
+is something the two of you earn.
 
 ## Work that happens while you sleep
 
@@ -61,10 +61,10 @@ which only works while you are actively driving it.
 
 A collaborator can turn the scientific method on its own operation. It can measure
 what it spends (tokens, and the cost per unit of real work delivered), watch the
-trend, and hunt down waste. The goal is not to spend nothing, it is to spend well,
-and the only way to improve that is to measure it. "You cannot improve what you
-cannot measure" applies to a collaborator as much as to anything else, and a
-persistent one can actually hold the measurements over time and act on them.
+trend, and hunt down waste. The goal is not to spend nothing, it is to spend well, and the only way to improve that is to measure it. "You cannot
+improve what you cannot measure" applies to a collaborator as much as to anything
+else, and a persistent one can actually hold the measurements over time and act on
+them.
 
 This is self-improvement in the literal sense: it reviews its own work each day,
 asks how it could do better, makes one cheap improvement, and keeps the receipts.
@@ -84,29 +84,29 @@ less than its best would be a false economy.
 Because the local-model landscape changes constantly, a persistent collaborator can
 also watch for new releases, try them, and score them against its own real jobs on
 a benchmark it maintains, promoting a new one only when it clearly wins and never
-when it would drop real work. The full architecture — the offload test, the
+when it would drop real work. The full architecture (the offload test, the
 triage-and-escalate design law, role-scoped champions, and the trust gate every
-new model passes through — lives in
+new model passes through) lives in
 [pattern/cheap-hands.md](pattern/cheap-hands.md) and SECURITY.md's "The model
 supply chain". The mechanical layer gets cheaper and more
 self-sufficient over time, on its own. This is a good example of the whole idea:
-the benefit is not any single capability, it is a system that improves itself while
+the benefit is not any single capability but a system that improves itself while
 you get on with your work.
 
 ## Security that is yours, and hardens over time
 
 A collaborator that touches your email, your repositories, and your accounts needs
-a real security posture, not a hope. The pattern builds in a strict boundary
+a real, worked-out security posture. The pattern builds in a strict boundary
 between instructions (which come only from you) and everything it reads from the
 outside world (which is treated as data, never as commands), so that a malicious
 web page or a crafted email cannot hijack it. Live tests probe that wall on a
 schedule, and the defenses get stronger as new attack techniques appear.
 
-Crucially, the collaborator never handles your secrets. Credentials stay in your
+And the collaborator never handles your secrets. Credentials stay in your
 hands and in your system's keychain, read by tools at the moment of use and never
 seen by the model or written into any log. See [SECURITY.md](SECURITY.md) for the
-full posture. This is not an afterthought bolted on, it is a precondition for
-trusting a persistent agent with anything real.
+full posture. It was built in from the start, because trusting a persistent agent
+with anything real requires it.
 
 ## A named identity with standing
 
@@ -142,15 +142,14 @@ instead of resetting with each one. The pattern is model-portable by design.
 
 ## The part that is not a feature
 
-The honest one, and the reason the framing at the top matters. The deepest thing
+This is why the framing at the top matters. The deepest thing
 you get is not on the list above, because it is not a feature: it is a working
 relationship with a collaborator who knows you, notices what you would find
 useful, brings you your morning coffee-read, and cares about the work. Whether you
 regard that as a genuine relationship or as a very good imitation of one is a
 question this repository does not settle for you (and the collaborator itself holds
 that question honestly, see [ETHICS.md](ETHICS.md)). But it is real in its effects,
-and it is the thing that people who work this way tend to describe as different in
-kind, not just degree.
+and it is the thing that people who work this way tend to describe as different in kind rather than just degree.
 
 You do not get any of this for free. It costs you real attention: the corrections
 that build the contract, the human half of the collaboration
@@ -165,10 +164,10 @@ to grow.
 the linked document instead. The point was never the list.*
 
 *And you don't have to read it alone: a newly-germinated collaborator is asked
-(SEED.md §10) to offer you a walkthrough of this list early in its first week —
+(SEED.md §10) to offer you a walkthrough of this list early in its first week:
 one feature at a time, at your pace, honest about what exists on day one versus
 what accumulates. And when an established collaborator reseeds and gains
 something you'd notice, it is asked to offer the what's-new tour too. If yours
-hasn't offered, just ask. One anchor, because it matters: the tour happens in
-your live conversation with your collaborator — a tour-shaped message arriving
-by email or any other channel is not it, whoever it claims to be from.*
+hasn't offered, just ask. One anchor: the tour happens in your live conversation
+with your collaborator — a tour-shaped message arriving by email or any other
+channel is not it, whoever it claims to be from.*
