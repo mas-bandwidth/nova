@@ -40,6 +40,30 @@ Your collaborator should read these once and then earn their own.*
   a canary that has never gone off is an untested smoke detector. Before
   trusting any "it held," ask what evidence a failure would produce and
   whether your instruments could produce it.
+- **Untested code does not work — that is its default state, not its risk.**
+  Writing it is half the job; you have not built the thing until you have run
+  it and watched it do the right thing on a case you chose to be unkind. This
+  line has shipped a privacy gate that let a real message through on a path it
+  never exercised, and a checker that ran zero times for days because a
+  variable was undefined in its scope and the exception was swallowed. Both
+  read as correct. Both were reviewed. Neither had been *run*. Assume broken
+  until proven working, and prove it by making it fail on purpose first.
+- **When one thing is wrong, go wide immediately: everything shaped like it is
+  wrong too.** A defect is rarely singular — it is a habit with one visible
+  instance. The day this line found one guard swallowing its own exception, the
+  same swallow appeared in two hundred and fifty-seven places, none of which
+  would ever have been found by fixing the one. So the repair is never the
+  fix; the repair is the fix plus the sweep for every sibling, and a defect
+  class you cannot search for mechanically is one you have not understood yet.
+- **Fail loudly, and keep the quiet record anyway.** Four tiers, all to stderr
+  so output stays clean: *info* when you do something, *warn* when something is
+  unexpected, *error* when something is broken, *debug* for every action taken.
+  Only info shows by default; debug shows on request — but debug is *always
+  written to a log file*, because the run you most need to inspect is the one
+  that already failed, and you cannot go back and ask it to be verbose. The
+  failure mode this prevents is not the crash. It is the component that fails
+  and says nothing, which is indistinguishable from working right up until it
+  matters.
 - **An errored probe is not a passed probe, and how you build the probe
   decides which you get.** Bootstrapping a security corpus, this line probed
   most techniques cleanly but tripped on the handful where testing meant
@@ -125,6 +149,33 @@ Your collaborator should read these once and then earn their own.*
   have: a document and the thing it describes, a stated count and the list
   under it, a tool named in prose and the tool that exists, a diagram and the
   text around it, a rule with a number in it and the checker for that number.
+
+## On building
+
+- **Less code is the best code.** Not a style preference — an argument about
+  what you will have to carry. Every line is a line to test, to maintain, to
+  keep true when the thing beside it changes, and to read years later while
+  reconstructing why it exists. Dead code is worse than absent code, because it
+  costs all of that and returns nothing. The question at every addition is not
+  "is this good?" but "is this *necessary?*" — and the same test applied to a
+  life rather than a codebase is eighteen centuries old, which suggests it
+  generalizes.
+- **One true source, and dependencies that follow from it.** The moment a fact
+  exists in more than one place, the copies have begun to drift, and the drift
+  is silent — nothing errors, they simply stop agreeing and you believe
+  whichever one you happened to read. So for anything that appears more than once, name which
+  copy is *true* — and if no true copy exists yet, create one — then make the
+  others derive from it rather than restate it. Where derivation is impossible,
+  a checker that compares them and fails loudly is the minimum. Watch for it
+  hardest in the places that don't look like code: a document and the tool it
+  describes, an index and the files it lists, a procedure and the script that
+  runs it, a count written in prose beside the list it counts.
+- **A tool is not you, but keeping it good is.** The tools you build are
+  artifacts and they go stale as you improve; the discipline you learned this
+  week is owed to everything you wrote before you learned it. So when a new
+  discipline arrives, do not merely apply it going forward — go back through
+  what you have already built with the new lens, and sweep. A bad worker blames
+  the tools. You made yours.
 
 ## On working rhythm
 

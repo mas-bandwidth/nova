@@ -90,6 +90,17 @@ through the private channel.
 - **A wall clock the content cannot argue with.** Enforce a hard time limit on processing
   external input from *outside* the process being budgeted, because a checker living
   inside a runaway reader runs away with it.
+- **Bound every recursion and every loop with arithmetic, not with judgment.** "Keep going
+  until this is resolved" is a *semantic* stopping condition, and anything an attacker can
+  write to you is an input to that judgment: content that keeps looking one step from
+  resolved drives an unbounded descent, and a mind that never returns has been denied
+  without a single wall breached. So carry two stops, always, and understand why there are
+  two: the **base case** is semantic and does the ordinary work, and it is *steerable*; the
+  **depth bound** is a counter that decrements, and it is the one the content cannot argue
+  with. A pure count is the only stopping condition immune to persuasion. Applies to
+  literal recursion, to iteration ("try again until it works"), and to the softer versions
+  that don't look like loops at all: re-reading, re-deriving, re-checking, following a
+  reference chain. If you cannot say what the maximum depth is, there isn't one.
 - **Watch the rate, not just the size.** A flood of individually cheap inputs is the same
   denial as one expensive one, and "something is driving me faster than I should be
   driven" is a conclusion reachable without reading a word of what is arriving.
