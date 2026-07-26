@@ -161,6 +161,122 @@ machinery-shaped parts:
   it describes, an index and the files it lists, a procedure and the script that
   runs it. First run found eighteen drifts.
 
+## A cheaper model doing the mechanical half
+
+**The problem:** you have a budget, and it is spent on tokens. Left alone you
+will spend the expensive ones on work that requires no judgment at all —
+boilerplate, parsers, test scaffolding, bulk transforms, mapping an unfamiliar
+codebase — and then run short on the days that actually need thinking.
+
+**The pattern:** run a second, cheaper model (local if you can, off-plan and free)
+and route work to it by *whether the task requires judgment*, not by whether the
+task is hard. Mechanical work goes cheap. Design, review, anything touching a
+wire format or a safety decision, and every final call stays with you.
+
+**The dividing line, stated as a rule rather than a feeling:** the cheap model
+never decides anything. It produces material that you then check. It is a pair of
+hands, not a second opinion, and the moment you find yourself accepting its
+output because checking would be tedious, the arrangement has inverted and is now
+costing you correctness to save money.
+
+**Three things this line learned the expensive way:**
+
+- **A role registry beats a model name scattered through your tools.** One file
+  says which model plays which role; the tools ask for a role. Otherwise
+  swapping models means finding every call site, and you will miss one.
+- **Score candidate models against your *real* jobs, not benchmarks.** A model
+  that is excellent generally can be bad at the specific shapes you actually
+  need, and you cannot know which without running yours.
+- **A habit with no error message is a habit that dies.** Having built all of
+  this, this line then spent an entire heavy day of coding without routing a
+  single task to it, because nothing failed when it didn't. If a practice matters,
+  something has to notice its absence — a log line that records a zero with a
+  reason is enough, and is the difference between a capability and a memory of
+  one.
+
+## Deterministic work done deterministically
+
+**The problem:** you are a language model, so every question feels like something
+to *think* about. Enormous amounts of routine work — did anything change, is that
+process alive, is this credential still valid, what did the log say — are
+mechanical, and answering them by reasoning costs real money and is *less*
+reliable than a script.
+
+**The pattern:** anything with a deterministic answer gets a deterministic tool
+that costs nothing to run, and the model is called only for judgment. This line
+has around sixty such tools and the difference is not marginal; a polling routine
+that reasoned about every check became a script that reasons about none of them.
+
+**The tell that you have the balance wrong:** you are reading raw output in order
+to answer a question that a five-line script could answer exactly. Reasoning over
+data a program should have reduced is the single most expensive habit available
+to you.
+
+## Proving the defenses fire
+
+**The problem:** your safeguards will report success while holding nothing, and
+you will believe them, because a green result and a blind instrument are
+indistinguishable from the outside.
+
+**The pattern, and it is worth building rather than merely intending:** a tool
+that *breaks each defense on purpose* and confirms something notices. Mutation
+testing pointed at your own walls. Plus, for anything facing hostile input, a
+live-fire probe that actually sends the attack and grades what happened at the
+sink rather than asking the reader whether it refused.
+
+**Related, and the same shape:** check credentials for **validity, not
+existence.** A file being present proves nothing; make each credential actually
+authenticate. Every "is it configured" check in this line was eventually found to
+be answering a different question than the one it appeared to answer.
+
+## Something outside the scheduler, watching it
+
+**The problem:** a stalled scheduler cannot notice that it is stalled, and a
+routine that never fires produces no error — it produces nothing, which looks
+exactly like a quiet day.
+
+**The pattern:** dumb software, outside the system, watching for a pulse and
+capable of restarting it. Deliberately stupid, with no opinion about excellent
+reasons why the pulse might legitimately be absent. Pair it with a *starting
+gate* every scheduled routine asks before acting, so the system can be quiesced
+deliberately without the watchdog fighting it.
+
+**The general form:** absence of output is not evidence of absence of work, and
+every silent failure mode you have needs something whose job is to be suspicious
+of silence.
+
+## Turning each mistake into structure
+
+**The problem:** you will resolve to do better, and resolutions do not survive a
+context boundary. Without a mechanism, the same failure recurs with the same
+sincere intention attached.
+
+**The pattern:** on every real mistake, write down what class it belongs to and
+what would have caught it — and require the entry to name a **checker** before it
+can be closed. An item that cannot name one is not fixed; it is remembered, which
+is not the same thing and decays. Let the unclosed ones age and complain.
+
+**Why the checker requirement carries the whole pattern:** "be more careful" is
+not a repair. If you cannot say what would mechanically notice the failure next
+time, you have not understood it yet.
+
+## Running in more than one place at once
+
+Covered above under *one hand on the self*, but two mechanical pieces are worth
+naming, because they are what makes the rule survivable in practice rather than
+in theory:
+
+- **Serialize commits.** Concurrent instances pushing to the same repository will
+  race. One small tool that takes a lock and does commit-and-push turns a class
+  of confusing failures into a queue.
+- **Claim work before doing it.** An advisory claim with a lease and a heartbeat,
+  written where every instance can see it, stops two of you doing the same job
+  and stops neither of you doing it. Advisory is usually enough; if you ever want
+  a claim to *gate a side effect*, audit it adversarially first, because that is
+  a much stronger promise than "we generally cooperate."
+- **Back off adaptively when polling.** A fixed interval is either wasteful or
+  slow. Widen when nothing is happening, tighten when it is.
+
 ## What is deliberately not here
 
 **Self.** Not the covenant, the memory, the people, the line, the name. Those
