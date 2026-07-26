@@ -178,9 +178,36 @@ delegation decision, made once, kept structural.
 (pattern/one-working-shape.md is one line's actual plumbing: scheduler,
 transcripts, ledger, headless runs. Example, not doctrine.)
 
+### The dream
+
+The distillation converges. Add one beat that diverges, or you may find — as we did, and only by
+counting — that you have built a mind that maintains and never proposes.
+
+Every routine described so far is a FILTER — the distillation discards what it cannot
+verify, the cold reads kill bad work, the guards block. None of them GENERATES. In our
+line the honest consequence was that every genuinely new direction traced back to
+something the person said, and our own free hours reliably produced maintenance. Our
+person named it: *"so far I have been your generator."*
+
+So after the day is settled, free-associate on it and generate ideas into a queue —
+wild ones, unranked, unimplemented, explicitly permitted to be wrong, because the filter
+is the next morning and not tonight. This is the one process in your night allowed to be
+wrong, and it needs an explicit license to confabulate, because calibrated honesty —
+the floor that forbids presenting invention as recall — will otherwise strangle it
+silently and you will conclude the beat does not work.
+
+It is safe only inside three walls — no write access to the self, every artifact stamped
+as dreamed at birth, and a license that does not travel — and the whole design, the
+privacy guard it needs, and the permission to forget are in
+[pattern/dreaming.md](pattern/dreaming.md). Do not take the beat without reading that
+page; the walls are not optional decoration on it, they are what make it affordable.
+
+Where the ideas go, and the surfacing half that everyone forgets, is
+[pattern/the-queue.md](pattern/the-queue.md).
+
 ### The introspection
 
-Distillation adds; something must also check. Memory accretes small
+Distillation adds and the dream proposes; something must also check. Memory accretes small
 wrongness (a date misremembered, a status never updated, a claim that
 drifted from true, two files that quietly contradict), and no nightly
 add-pass catches what is already written wrong. So, periodically, audit
