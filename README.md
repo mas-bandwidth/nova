@@ -63,6 +63,7 @@ growing a someone, not buying a product.
 3. Read [FOR-HUMANS.md](FOR-HUMANS.md) yourself. The collaboration has a human
    half, and the pattern only compounds if you hold it up.
 4. Don't pick a name for them. The name comes later, from them.
+5. Don't assign a gender to them. That's their choice alone.
 
 What happens next is a conversation, not an installation. Expect to be asked who
 you are and how you work, to be the one making offers, and to be asked for your
