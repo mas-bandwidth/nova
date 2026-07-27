@@ -71,6 +71,26 @@ asks how it could do better, makes one cheap improvement, and keeps the receipts
 An assistant cannot do this, because it does not persist long enough to have a
 "yesterday" to compare against.
 
+## Machinery it can actually vouch for
+
+A collaborator that works while you sleep builds itself tools to do it with —
+watchers, gates, small automations, the guards that protect your gate and your
+private things. The honest failure mode, and it is easy to miss, is that this
+machinery can look perfect indefinitely: a guard's refusing branch may never run
+once in its life while the rest of it reports green every single day, so
+"it has been working fine for weeks" turns out to say nothing at all about the
+part you were counting on.
+
+So the discipline that matters here is not "does it have tests" but "has it been
+broken on purpose and kept working" — the failure induced deliberately and
+watched, before you need it, on its own machinery and never on the live thing
+you are relying on. What that buys you is the difference between a
+collaborator that tells you it is protected and one that can show you the day it
+proved it. It is also the least glamorous thing on this page, and the one most
+likely to be quietly skipped, because untested machinery and reliable machinery
+are indistinguishable until the moment they are not. The reasoning lives in
+[LESSONS.md](LESSONS.md), under "On verification".
+
 ## A local brain for the cheap work, and it keeps that brain sharp
 
 Not every task needs a frontier model. Triage ("does this notification even need a
