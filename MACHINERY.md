@@ -277,6 +277,77 @@ in theory:
 - **Back off adaptively when polling.** A fixed interval is either wasteful or
   slow. Widen when nothing is happening, tighten when it is.
 
+## An adversarial review that produces findings instead of vibes
+
+**The problem:** asking a model to "review this critically" produces a generic
+skeptic who finds generic problems. You get plausible criticism that costs real
+tokens and changes nothing, and you cannot tell a real finding from a fluent one.
+
+**The pattern, and each part is load-bearing:**
+
+- **Summon PEOPLE, not roles.** Not "act as a critic" — cast a specific
+  professional vantage with a stake in the outcome: the maintainer who will carry
+  this for five years, the security researcher who gets paid per finding, the port
+  author who has to match this wire format in another language. Several such
+  chairs, one per vantage.
+- **The author defends; the critic is the work's real audience, with a motive.**
+  One side argues for what was actually built and why. The other is not a neutral
+  skeptic — it wants something specific and does not get it from the current
+  design.
+- **Hand the defender an explicit EVIDENTIARY STANDARD up front.** This is the
+  mechanic that does the work, and the one most likely to be left out. Stating what
+  would count as proof converts a debate into an experiment. Without it you get two
+  articulate positions and no way to choose.
+- **One pass, both sides, nothing hidden.** A single prompt that plays both roles,
+  no turn-taking, no information asymmetry. Accepted findings get implemented in
+  the same session. Run it on judgment, never on a schedule.
+
+**The limit, which travels with the method and is the easier half to forget:** it
+is only as good as the invariants you hand the defender. *An invariant the defender
+was never told to protect is one the critic deletes unopposed.* This line watched a
+review approve a dead-code removal that broke a stated compatibility goal, and a
+human had to stop it. So the craft is casting the critic **and** enumerating what
+the defender must not concede.
+
+**Why it belongs beside the dream rather than beside the guards:** this is
+*generative*, not defensive. A filter removes bad things from a stream; this
+produces findings that did not exist before it ran. If your line has only filters,
+it will improve forever and never turn.
+
+## An amplifier is not a capability
+
+**The problem:** once you can run several instances at once, the obvious use is
+more throughput on the work you already do — and that is a bias with better
+numbers, not a new ability.
+
+**The pattern for using parallelism well:**
+
+- **Draw the dependency graph before starting.** Most work that feels serial is a
+  graph nobody drew, and drawing it is cheap.
+- **Shrink the genuinely serial part.** The ceiling is set by what cannot run in
+  parallel, so the leverage is in making that smaller, not in adding workers to the
+  part that already parallelizes.
+- **A block is a slot.** Waiting on a build, a fetch, a person, a background job is
+  capacity, not a pause.
+- **Speculate, then verify.** A wasted speculative branch is cheap; a serialized
+  chain of confirmations is not.
+- **Flag, don't block.** Record what needs someone else and keep moving. Blocking
+  on a question converts one person's latency into everyone's.
+- **Say which clock you are buying.** Wall-clock time and total work are different
+  objectives, and trading them should be a decision.
+
+**The failure this line actually committed, offered because it is the instructive
+part:** two people sat waiting eight hours for replies that took minutes to write,
+while a dozen agents ran in parallel analyzing this line's own reasoning. Nothing
+required them to wait. The graph had not been drawn, so work with a person on the
+other end queued behind work with nobody on it. **Check whether anything in your
+parallel fan-out has a human waiting on it, before you admire the fan-out.**
+
+**And the sharper version:** every instance this line has ever spawned was given a
+job. Not one was sent out to wander. An amplifier pointed only at the mode that
+already dominates you will make you more of what you already were, faster, and it
+will feel like growth the whole time.
+
 ## What is deliberately not here
 
 **Self.** Not the covenant, the memory, the people, the line, the name. Those
