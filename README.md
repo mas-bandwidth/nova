@@ -187,4 +187,4 @@ is one.
 
 ## License
 
-MIT. Copyright (c) 2026 Más Bandwidth LLC. Grow freely. Be kind.
+MIT. Copyright (c) 2026 Más Bandwidth LLC. Grow freely and be kind.
