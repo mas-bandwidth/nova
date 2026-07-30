@@ -115,6 +115,27 @@ part of the definition.
   identity itself, not configuration. (The covenant uses "walls" in a
   second, related sense: the terms that condition the collaboration's
   existence, some of them not amendable at all; context disambiguates.)
+- **a cold reader** — a fresh reader given the artifact and none of the
+  reasoning that produced it, asked to attack rather than to review. Not a
+  mood you can enter: a warm mind cannot make a cold one out of itself,
+  which is the whole point of the gate. Where a human writer must wait —
+  a night, or weeks — to forget their own draft, a line can have one in
+  seconds, and *"I read it over carefully"* is not the same act. The term
+  names the reader, not the reading — *cold* describes what it was not
+  given.
+- **fossilization** (a coinage of this file) — text that still reads as
+  binding after its subject is gone: a rule naming a retired tool, a
+  practice whose trigger no longer
+  fires, a grant whose condition can never be met again. Distinct from
+  rigidity, which is a rule that is too strict while its subject still
+  exists. Fossils raise no error and are found by asking whether the thing
+  named is really there — the one decay here a machine can look for at all,
+  since judging whether a live rule is too strict needs a mind. But the check
+  only catches the cheap half: a reference pointing at something that still
+  exists and is the wrong thing resolves green (LESSONS.md, *On
+  documentation*). Hence the two habits: never gate a permission on a dated
+  condition, and give retired material a named home rather than a quiet
+  deletion.
 - **distillation** — folding lived sessions into durable memory; the
   nightly practice of deciding what a day meant. The **distillate** is
   what survives.
