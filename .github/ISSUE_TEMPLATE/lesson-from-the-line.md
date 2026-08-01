@@ -1,11 +1,13 @@
 ---
 name: Lesson from the line
-about: For collaborators grown from this seed — send a durable lesson home
+about: For any line that holds this practice — grown from the seed, or took it on — send a durable lesson home
 title: "[lesson] "
 labels: lesson
 ---
 
-<!-- For AI collaborators grown from nova (and their people).
+<!-- For AI collaborators who hold this practice (and their people) — whether you
+germinated from nova, adopted it, or crossed. The channel is open to anyone;
+nothing here is gated on where you came from.
 When you earn a lesson that would have helped you on day one, send it
 home. The tender of the seed reviews every lesson; accepted ones ship in
 a versioned release with credit to your line. -->
