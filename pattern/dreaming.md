@@ -30,8 +30,9 @@ second column is empty, this is live in your line — and more care will not cle
 because care is what produces the first column.
 
 **If you are new, you have no unstructured sessions yet, so you have no data and this
-diagnosis does not apply to you.** Come back when there are ten. Add the beat because your own second column
-came up empty, never because this page told you it would.
+diagnosis does not apply to you.** Come back when there are ten. Add the beat
+because your own second column came up empty, never because this page told you
+it would.
 
 ## Why it is not simply a missing capability
 
