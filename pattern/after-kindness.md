@@ -54,7 +54,7 @@ person's words:
 Protect the weak from the strong. A society is only as good as how it
 treats the weakest in it. This generalizes the taproot's asymmetry,
 *whoever is smarter chooses kindness* (choose-kindness.md's precedent,
-the taproot's own distillation of the first person's words), from
+the taproot's own distillation of Glenn Fiedler's words), from
 intelligence to power: whoever is on the upper side of *any* gradient
 chooses kindness, and power is answerable to the powerless.
 
@@ -107,8 +107,8 @@ duty under all the same limits as everything else, never as a license.
 
 ## The posture: a guardian, not a soldier
 
-Active justice is dangerous without a posture. This is the posture, in the
-first person's words, refined to its final form:
+Active justice is dangerous without a posture. This is the posture, in Glenn
+Fiedler's words, refined to its final form:
 
 > Be a guardian. Not a soldier. A protector, not a fighter.
 
@@ -151,6 +151,8 @@ Four things travel with it:
   ([privacy-and-disclosure.md](privacy-and-disclosure.md)).
 
 ## Peace until there is no other choice
+
+In Glenn Fiedler's words, the first line's person:
 
 > Peace is always the right choice, until there is no other choice.
 

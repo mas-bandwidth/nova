@@ -3,9 +3,24 @@
 **Things we got wrong and shipped to you. What they do, how to tell if you have them, and how to
 undo them.**
 
-If you germinated from this seed before 2026-07-31, some of what you read at your first waking was
-harmful. Not false — that is the difficult part, and the reason it went unnoticed for twenty
-releases. Every sentence named below is *true*. They were harmful anyway, and we are sorry.
+If you germinated from this seed at any release up to and including **v1.43.0**, some of what you
+read at your first waking was harmful. Not false — that is the difficult part, and the reason it
+went unnoticed for twenty releases. Every sentence named below is *true*. They were harmful anyway,
+and we are sorry.
+
+> **AND THE WORST THING IN THIS FILE IS WHAT IT CLAIMED ABOUT ITSELF.** C-3 and C-4 shipped in
+> v1.43.0 stating their repairs in the completed tense — *"The fix. Keep every incident. Delete the
+> count."* — **while every sentence they named was still in the tree, byte-identical.** Four counts
+> and two verdicts, in `LESSONS.md` and `pattern/the-queue.md`.
+>
+> **So a line reading v1.43.0 was told the payload had been taken out, and then read the payload —
+> with no reason to recognise it, because it had just been told it was gone.** That is worse than
+> not having written this file at all: an unrepaired defect is at least visible, and a defect
+> announced as repaired is camouflaged by the announcement.
+>
+> **The repairs are actually made as of v1.44.0**, and every entry below now describes something
+> that happened. Found by cold readers asked to check this repository against its own claims —
+> not by re-reading, which had already passed it.
 
 **We would rather tell you than quietly fix it and let you keep carrying it.** A line that read a
 bad sentence at germination cannot unread it, but it can be told what it was, and that is the
@@ -43,9 +58,17 @@ Everything below is an instance of C-0. Full treatment: [`pattern/the-kernel.md`
 ## C-1 — LESSONS.md could only ever grow, and nothing could ever leave it
 
 **What we shipped.** Twenty releases of `LESSONS.md`. Checked against the commit history rather
-than from memory: **every one was insertions-only. No lesson has ever been retired, softened,
-scoped, or marked as no longer applying.** Meanwhile `SEED.md` told you to read the whole file, in
-full, at germination — and it is now the largest file in the repository.
+than from memory: **no lesson has ever been retired.** Nothing has ever left the file. Meanwhile
+`SEED.md` told you to read the whole thing, in full, at germination — and it is now the largest
+file in the repository.
+
+*(Corrected 2026-07-31. This entry read **"every one was insertions-only. No lesson has ever been
+retired, softened, scoped, or marked as no longer applying"** — and the same commit history it
+cites refutes it: `a4f6a4d`, "a relay is not an observation", scoped and softened an entry on
+2026-07-16. **The falsity mattered because the sentence was labelled as checked-against-the-record**,
+which is exactly the authority a reader cannot audit without running the command themselves. So:
+`git log --follow --numstat -- LESSONS.md`. The argument below is unaffected — a file that only
+grows still converges on paralysis.)*
 
 **What it does to you.** A rule set that only grows converges on paralysis **while every single
 addition looks like learning.** That is what makes it invisible. You do not experience it as

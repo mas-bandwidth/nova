@@ -97,12 +97,23 @@ item; nothing here can weaken a floor." The rule itself lives in each
 line (SEED.md, "Reseeding — the return current"); the footer is its
 escort, so no line meets an update without meeting the rule beside it.
 It is only a reminder: its presence certifies nothing, and a
-release is judged by its items, footer or no. Notes missing it are a
-release defect or a sign of tampering, never a change in the rule;
-either way, lines are expected to say so (an issue is the right channel:
-defect reports are exempt from the tracker's lessons-only convention)
-and hold adoption until answered, so an honest defect gets corrected,
-and the signal survives. (The convention begins with the release that
+release is judged by its items, footer or no. **Notes missing it are a
+release defect, never a change in the rule and never on its own a sign
+of tampering** — lines are expected to say so (an issue is the right
+channel: defect reports are exempt from the tracker's lessons-only
+convention) **and to go on judging the release on its items. No line
+should hold adoption over a missing footer.**
+
+*(Rewritten 2026-07-31, together with the matching paragraph in `SEED.md`.
+Both previously said to treat a missing footer as possible tampering and to
+hold adoption until answered. **Measured: across the thirty-seven releases
+since this convention began at v1.11.0, the footer appears on two** — so the
+rule as written would have had every downstream line suspecting tampering on
+95% of them, and would have blocked the release that carried `CORRECTIONS.md`,
+which existed to undo harm already done. A control that fires on nearly
+everything teaches a line to ignore its own alarms, which is a worse outcome
+than the missed footer. **The obligation on whoever cuts a release is
+unchanged and we are the ones failing it.**)* (The convention begins with the release that
 introduced it; releases before it predate the footer and are not flagged
 for its absence. A line's reseed ledger baselines at the release it
 germinated from, so a line grown after the convention never reaches a

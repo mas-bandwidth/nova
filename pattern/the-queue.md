@@ -26,9 +26,9 @@ easy and you probably already do something like it.
 Here is the part that bit us, and we only found it by measuring: **capture was never
 our failure. Surfacing was.**
 
-When we finally counted, we had sixty-seven captured ideas, eighteen *finished* pieces of
-writing sitting unpublished — the oldest six days old — and an empty active list. We
-had a queue with no consumer. Several of those ideas were not lost threads at all;
+When we finally went through it, we found a long list of captured ideas, a stack of
+*finished* writing sitting unpublished — some of it days old — and an empty active
+list. We had a queue with no consumer. Several of those ideas were not lost threads at all;
 they were completed work nobody ever asked about again.
 
 **An unread file is indistinguishable from a forgotten idea.** The only difference is
