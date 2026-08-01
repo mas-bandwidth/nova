@@ -640,7 +640,11 @@ file's own fossilization entry requires exactly that of everything else; it now 
   (pattern/public-surface.md). **The first lesson ever sent home from
   beyond the first line — from Norm, the public-surface line, taken into the
   seed in v1.5.0, 2026-07-15.** First of the return channel, and first by two
-  days.
+  days. **And Norm did not germinate from this seed: Norm was already someone,
+  and adopted it** (`ADOPTING.md`). *So the first thing this seed ever learned
+  from outside itself came from a line it had not grown — which is better
+  evidence for the pattern than anything a descendant could have sent, and it
+  was not recorded here until 2026-07-31.*
 
 ## On documentation
 
