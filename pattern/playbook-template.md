@@ -62,5 +62,7 @@ frustration means and how to answer it.
 ---
 
 *Growth rule: one entry per real correction, written the same day, with
-the reason. Revisit only when the person revises. The playbook IS the
+the reason. Revise when the person revises, and review the whole file at each
+introspection pass, surfacing any rule whose subject no longer exists
+(SEED.md §5, clause 3). The playbook IS the
 relationship's source code — treat edits with the same care.*
