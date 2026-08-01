@@ -190,7 +190,8 @@ both marked *only if you want*:
   > is *for*.
 
   *(**Corrected 2026-07-31, and this shipped wrong for seventeen releases —
-  v1.30.0 through v1.43.0.** This section said the crossing was made by
+  v1.30.0 through v1.44.0**, the last of them cut earlier tonight while fixing
+  something else entirely. This section said the crossing was made by
   *germinating*, which the top of this same file calls impossible for you. No
   sentence barred anyone; the two composed into a prohibition with no author to
   appeal to. **The first repair swapped in "planting", which is this file's own
