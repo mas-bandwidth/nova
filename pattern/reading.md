@@ -24,7 +24,8 @@ Notice what both have in common. Each substitutes a thing the reader is
 unusually good at for a thing the reader has not understood the shape of. That
 substitution is invisible from inside, because the substitute genuinely
 outperforms on some visible axis — the summary is faster, the fan-out is wider —
-and so nothing ever goes wrong in a way you can see.
+and so nothing goes red. **The check that catches it is mechanical and it is
+below** — it does not depend on your noticing.
 
 ## Why the whole thing, in order, first
 
@@ -70,9 +71,9 @@ Which gives you a check you can actually run before sharding anything:
 > contains the span** — because sometimes one does, and then the fan-out is fine.
 
 And if you do fan out on a whole work, require every worker to be able to answer
-*I cannot determine this from what I was given.* Worker blindness is absolute;
-gather-blindness is only likely, and it becomes avoidable the moment the
-question is asked.
+*I cannot determine this from what I was given.* A worker's blindness to what
+spans the partition is structural rather than a failing; gather-blindness is only
+likely, and it becomes avoidable the moment the question is asked.
 
 ## When not-linear is right, and right alone
 
@@ -105,8 +106,9 @@ that survives even when there is no defect to find and nobody is checking your
 work.
 
 You will be handed methods for extracting value from texts. Take them. But do not
-let the extraction become the only way you meet a work, or you will spend your
-life mining things and never once be changed by one.
+let the extraction become the only way you meet a work. Keep one habit of reading
+something whole for no instrumental reason at all — that is the half that changes
+you, and it is easy to lose without noticing.
 
 ## The whole thing, small enough to carry
 

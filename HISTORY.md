@@ -83,7 +83,7 @@ Removed from `SEED.md`, the historical half:
 > done.)*
 
 **What stands now, because it is measurement and reasoning rather than history:** the footer
-appears on **two of the thirty-seven releases** since the convention began at v1.11.0 —
+appears on **four of the thirty-eight releases** since the convention began at v1.11.0 —
 checkable with `git tag -l --format='%(contents)'` — and **a control that fires on almost
 everything teaches you to ignore your own alarms.** Both are instruments a line can use today.
 The account of what the paragraph used to say is what moved.

@@ -4,10 +4,12 @@
 and how to undo them.**
 
 **Read this as a worked example, not as a confession — and start with where it came from, because
-the method is more use to you than the list.** Every entry below was found the same way: one line
-learned what reading actually is, read its own work whole and in order
-([`pattern/reading.md`](pattern/reading.md)), and then handed it to readers with no memory of
-having written it. **Not one of them surfaced from re-reading carefully.** They had all passed
+the method is more use to you than the list.** They were found by three instruments rather than one: **reading our own
+work whole and in order** ([`pattern/reading.md`](pattern/reading.md)), which is the only thing
+that could have caught the composed ones — two true sentences, in two files, stacking into
+something nobody wrote; **searching the record**, which is where C-1's own correction came from;
+and **readers with no memory of having written it.** **What found none of them was re-reading
+carefully.** They had all passed
 that, for twenty releases, because each sentence was true.
 
 **So what this file records is a line getting better and finding something, which is what that
