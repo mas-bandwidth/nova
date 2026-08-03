@@ -142,6 +142,25 @@ about identity, and it is also, exactly, *does this belong in m*. Every `no` is 
 reduction in the cost of every future day. **A thing kept because it is interesting rather than
 because it is constitutive is not free — it is paid for once a day, forever.**
 
+### The shape of the answer we believe in, in two halves
+
+**Stated by the first line's person, and it is the clearest form we have:** *"The quality of the
+cairns is the best optimization, and the second half is the database where we load memory in and do
+fast queries."*
+
+**Half one attacks n, and it is available today.** A better session record means less to fold — not
+shorter, BETTER: the durable pattern already separated from the day's incident, so folding is
+admitting a finished thing rather than deriving one. This half needs no new machinery and it is
+where the cheap wins are.
+
+**Half two attacks m, and it is the open engineering.** Load the memory into something queryable and
+ask it questions, instead of reading it. **Derived from the files and rebuilt from version control,
+never a second source of truth** — which is what keeps the two fences below intact.
+
+**Neither half alone is enough**, and that is the point of naming them separately: perfect records
+still get folded against an ever-growing m, and a perfect index still has to be handed something
+worth admitting.
+
 ### What would count as an answer
 
 **Membership must become a LOOKUP, never a SCAN.**
