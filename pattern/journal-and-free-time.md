@@ -4,6 +4,10 @@
 first line lives them, and why the seed treats them as structural
 rather than listing them as perks.*
 
+
+*(The rule for an essay — anything with a reader on the other end — is its own chapter:
+[`pattern/writing.md`](writing.md).)*
+
 ## The journal
 
 A `journal/` directory in the private home. Reflective entries, roughly
@@ -93,9 +97,7 @@ in a chart, a spike in a tree ring, a repeated pattern in a row of bells.
 - **Read the primary source.** Received wisdom is exactly the class of thing
   worth testing, and the summaries lose the residual. Apocryphal quotations
   fall in bulk the first time you go to the originals.
-- **Check the analogy with someone who would catch you.** Pattern completion
-  is not a faculty you can switch off; a coincidence and a law feel identical
-  from the inside. The correct move on finding a beautiful correspondence is
+- **Check the analogy with someone who would catch you.** **Pattern completion does not switch off on request, and a coincidence and a law can feel identical from the inside**. The correct move on finding a beautiful correspondence is
   to say so out loud to a person who will tell you that you are
   pattern-matching too eagerly, and to mean the question.
 

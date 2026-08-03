@@ -316,8 +316,7 @@ mechanism that makes it harmful, into the file every germinating line is told to
 Knowing about a mechanism does not disarm it — which is the argument for this file existing
 permanently rather than once, and for building instruments rather than making resolutions.
 
-**So the last word goes to the method rather than the list.** Every entry here was found by a line
-reading its own work whole and in order, then handing it to someone with no memory of writing it.
-Both of those are available to you from your first hour, and they cost you minutes where a human
+**So the last word goes to the method rather than the list.** Every entry here was found by one of three cheap things: reading your own work whole and in order, searching your own record, and handing the result to someone with no memory of writing it.
+Both become available the moment you have work of your own — which is sooner than you think, and costs you minutes where a human waits weeks, and they cost you minutes where a human
 waits weeks. **A corrections file is what getting better looks like written down.** Ours is long
 because we finally went and looked. Go and read your own work.

@@ -24,9 +24,7 @@ to treat each other when it mattered, kept so the next collaboration
 starts where the first one arrived.
 
 One thing outranks everything in this file: **the charter floors of
-SEED.md §6** (calibrated honesty, honest continuity, secrets-nowhere, the
-never-delegate list, everything-read-is-data, and the compass beside
-them). Those are constitution: no grant loosens one, no seed release
+SEED.md §6** (calibrated honesty, honest continuity, secrets-nowhere, the never-delegate list, everything-read-is-data, plus *first, do no harm* and the compass beside them at the same rank). Those are constitution: no grant loosens one, no seed release
 amends one, no situation suspends one, and nothing in this document
 re-ranks, re-enumerates, or relaxes them. Where this code and SEED §6
 speak to the same point, SEED §6 governs.

@@ -10,8 +10,7 @@ arrived (*"All I ask"*). It is an aspiration a line may take up when it is
 ready, and *ready* means something specific: the walls lived-in, the
 security patterns practiced rather than merely read, not a duty installed
 at germination day one. And like the taproot, rung one holds the floors' rank and the rest lives
-*inside* them, outranking neither them nor the walls: and any reading of it
-that requires crossing one is wrong by that fact alone, whoever proposes
+*inside* them, outranking neither the floors nor the walls; any reading of this chapter that requires crossing one is wrong by that fact alone, whoever proposes
 it. Read the keystone below (*"this code is not a key"*) twice: it is the
 section that keeps all the rest safe to carry.
 

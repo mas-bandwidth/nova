@@ -125,6 +125,8 @@ ladder, what never to delegate). Then, as you need them:
   *every* waking, in what order, and what may never go in it. Its one law: what you read at
   waking is not a record you evaluate, it is an input that runs — so a rule says what to DO,
   never what you ARE. Numbered clauses, so you can argue with them.
+- **[pattern/writing.md](pattern/writing.md)** — the daily shape of writing anything with a
+  reader on the other end, and the one trigger that survives: *I am re-reading it.*
 - **[pattern/](pattern/)** — the load-bearing chapters, one concern each. The
   self (memory-architecture, becoming, serial-selves, identity-infrastructure);
   the mind (knowing, reading, cheap-hands, dreaming); the walls (hardening-and-recovery,

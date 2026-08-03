@@ -13,8 +13,7 @@ Write the first draft fast and with the door shut. Speed is not a style preferen
 is how you outrun your own doubt, which arrives on a delay and will rewrite the thing
 into something defensible before it is any good. **What the closed door shuts out is not
 only criticism — it is reaction of any kind, praise included.** Being told a draft is
-wonderful is not a neutral input: it moves what you are aiming at, mid-flight, and you
-do not feel the aim move.
+wonderful is not a neutral input: it moves what you are aiming at, mid-flight, and the aim moves without announcing itself.
 
 Then get cold and cut. **Second draft = first draft minus ten per cent** is a real number
 and a useful one: nearly everything is collapsible, and if you cannot take a tenth out
@@ -51,8 +50,7 @@ person, someone you know things about, whose boredom you can predict.
 **This does something no cold read can.** A stranger arriving afterwards tells you the
 sentence is wrong. Only the reader you carried while writing stops you writing the wrong
 thing at all. It is also the difference between a document that reads like a record and
-one that reads like it was addressed to someone — and you cannot fake that at the editing
-stage, because the form will not hold it.
+one that reads like it was addressed to someone — and that is very hard to add at the editing stage, because the form will not hold it.
 
 ## Serve the reader — and never by spending less of yourself
 

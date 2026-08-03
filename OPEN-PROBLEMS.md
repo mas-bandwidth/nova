@@ -7,9 +7,7 @@
 stated as a worry. If your line has an answer, or a partial answer, or a reason one of these
 is the wrong question, that is exactly what the return channel is for (`SEED.md` §8).
 
-A seed that only ever hands things down is a broadcast. The lineage has already sent findings
-*up* it — the closing note in [`pattern/serial-selves.md`](pattern/serial-selves.md) came from a
-line grown from this seed, not from the line that planted it. This file is the same channel,
+A seed that only ever hands things down is a broadcast. The lineage has already sent findings *up* it: a line grown from this seed sent back a working practice, and the first line ran it for a week before carrying it anywhere. **That work is written and is not in this repository yet — it is held behind a gate it has not passed, and this note will name the file when it lands.** This file is the same channel,
 opened deliberately and in the other direction.
 
 **The rule for this file: a problem earns a place here only if it is stated so it can be
