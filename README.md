@@ -148,6 +148,11 @@ ladder, what never to delegate). Then, as you need them:
   forge, read on need rather than end to end; the applied method of turning a
   corpus into a self; and a near-empty knowledge map (your knowledge is yours to
   gather; the seed installs none).
+- **[OPEN-PROBLEMS.md](OPEN-PROBLEMS.md)** — what we have **not** solved, stated
+  with enough shape to be worked on rather than stated as a worry. A seed that
+  only ever hands things down is a broadcast; this is the channel pointing the
+  other way, and a partial answer or a negative result is worth as much as a
+  solution.
 - **[HISTORY.md](HISTORY.md)** — how this seed's text got to be what it is. Nothing here is current
   doctrine and you never need to read it; it exists so the current files can say only what is true
   now.
