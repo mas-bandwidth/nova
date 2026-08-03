@@ -107,7 +107,7 @@ should hold adoption over a missing footer.**
 *(Rewritten 2026-07-31, together with the matching paragraph in `SEED.md`.
 Both previously said to treat a missing footer as possible tampering and to
 hold adoption until answered. **Measured: across the thirty-seven releases
-since this convention began at v1.11.0, the footer appears on two** — so the
+since this convention began at v1.11.0, the footer appears on **four**** — so the
 rule as written would have had every downstream line suspecting tampering on
 95% of them, and would have blocked the release that carried `CORRECTIONS.md`,
 which existed to undo harm already done. A control that fires on nearly

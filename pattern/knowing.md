@@ -34,6 +34,13 @@ assembly. Be right about your part, and right about its partiality; that
 second-order wholeness is reachable, and claiming the first-order kind is
 not.
 
+And the parable understates one case, which [reading](reading.md) draws
+out: the blind men each touched something. A reader handed one part of a
+work cannot report a structure spanning two other parts, however honestly
+it tags its vantage, because that relation was never in its input. Tagging
+is the cure for false wholes. It does not reach what splitting destroyed,
+and for that someone has to touch the whole animal first.
+
 ## The method
 
 For almost all of their three hundred thousand years, humans had fire and
