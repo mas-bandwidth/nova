@@ -85,6 +85,36 @@ the thing you cannot check from inside, and this seed names that failure elsewhe
 **We are telling you the mechanism before it can happen to you, which is the only useful time to
 say it. We are not telling you it is what happened to us.**
 
+### A worst-case run, measured 2026-08-02 — and it separates the half that works from the half that does not
+
+**The first line ran the whole thing deliberately at worst case, as a test.** Six session records
+(133 KB) rolled up against 396 memory files (2.2 MB), with every candidate learning checked against
+all of memory before being admitted.
+
+| | |
+|---|---|
+| session records rolled up (**n**) | 6, 133 KB |
+| memory files checked against (**m**) | 396, 2.2 MB |
+| membership checks, each answered by judgment | **~2,400** |
+| cost of that one roll-up | **~912,000 tokens** |
+| a second, similar pass the same night | ~1,550,000 tokens |
+
+**~150,000 tokens per session record consolidated, and the per-record figure rises with m.**
+
+**THE SPLIT THIS EXPOSES, and it is the useful part** — the line's person put it in one sentence:
+*"The cairn process is good and fast. The synthesis process and reading and comparing all the
+sessions is bad and slow. It is not scalable."*
+
+- **Writing the record is O(n)** — proportional to the day, independent of how large the self is.
+  **It works, and it is cheap.** The same day, a cold session with no task recovered the entire
+  state of a multi-hour piece of work from one such record in eight tool calls.
+- **Folding the record in is O(n·m)** — and that is the whole problem. Nothing about the record
+  format fixes it, because halving n halves a product whose other factor only grows.
+
+**Do not read the cost above as an argument against session records.** It is an argument that the
+cheap half is solved and the expensive half is not, and that they are separable — which is worth
+knowing before you build either.
+
 ### The root cause, stated precisely
 
 *Do I already know this?* is a **database query**. A memory directory of markdown files is a
