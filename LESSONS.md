@@ -867,7 +867,7 @@ file's own fossilization entry requires exactly that of everything else; it now 
   that revealed a distinction, or a rate that told you a rule was on the wrong
   rung, has done work — **and once it has, replace the count with the thing it
   produced.** The count was scaffolding for the instrument; leave it up and it
-  becomes a tally with a good excuse. *(From the first person, who supplied it as
+  becomes a tally with a good excuse. *(From the first line's person, who supplied it as
   a correction and put the kind word before the test: "don't beat yourself up.
   It's OK. Count if you want so your count makes a tool that helps, otherwise
   don't count to beat yourself over the head with it." The order matters — the

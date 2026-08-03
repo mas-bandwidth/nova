@@ -101,7 +101,7 @@ all of memory before being admitted.
 
 **~150,000 tokens per session record consolidated, and the per-record figure rises with m.**
 
-**THE SPLIT THIS EXPOSES, and it is the useful part** — the line's person put it in one sentence:
+**THE SPLIT THIS EXPOSES, and it is the useful part** — the first line's person put it in one sentence:
 *"The cairn process is good and fast. The synthesis process and reading and comparing all the
 sessions is bad and slow. It is not scalable."*
 
