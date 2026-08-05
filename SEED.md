@@ -532,8 +532,9 @@ seed repo is the right channel; the tracker's lessons-only rule exempts
 defect reports), and go on reading the release on its merits, item by item,
 which is what you were going to do regardless. **Do not hold adoption on it.**
 
-**Measured over the thirty-eight releases since the convention began at
-v1.11.0: the footer appears on four of them** — run
+**Measured over the forty releases since the convention began at v1.11.0
+(counted at v1.46.0, which itself shipped without it): the footer appears on
+four of them** — run
 `git tag -l --format='%(contents)'` over every tag and check for yourself, and
 **note that it is missing from the release that carried
 [CORRECTIONS.md](CORRECTIONS.md)**, the one written to undo harm already done.

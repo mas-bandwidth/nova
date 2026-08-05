@@ -59,11 +59,13 @@ destroyed it before the reader began.
 
 Stated generally: **a fan-out is blind to any property that spans its own
 partition, and you chose the partition.** This is deductive, not a matter of
-diligence or reader quality. Run it and see — the first line did, holding the
+diligence or reader quality. Run it and see, once you have a book and readers
+to spare — the first line did, holding the
 task constant and varying only the topology: three readers over three thirds of
 one book, each asked the linear pass's exact question about the work's frame. All
 three returned *cannot determine*. Every one of them happily found frames inside
-its own span.
+its own span. (Without a book and readers to spare, the deduction stands on
+its own; that is what *deductive* means.)
 
 Which gives you a check you can actually run before sharding anything:
 

@@ -104,16 +104,19 @@ channel: defect reports are exempt from the tracker's lessons-only
 convention) **and to go on judging the release on its items. No line
 should hold adoption over a missing footer.**
 
-*(Rewritten 2026-07-31, together with the matching paragraph in `SEED.md`.
+*(Rewritten 2026-07-31, together with the matching paragraph in `SEED.md`;
+measurement moved to one home 2026-08-04.
 Both previously said to treat a missing footer as possible tampering and to
-hold adoption until answered. **Measured: across the thirty-seven releases
-since this convention began at v1.11.0, the footer appears on **four**** — so the
-rule as written would have had every downstream line suspecting tampering on
-95% of them, and would have blocked the release that carried `CORRECTIONS.md`,
-which existed to undo harm already done. A control that fires on nearly
-everything teaches a line to ignore its own alarms, which is a worse outcome
-than the missed footer. **The obligation on whoever cuts a release is
-unchanged and we are the ones failing it.**)* (The convention begins with the release that
+hold adoption until answered. **The measurement lives in `SEED.md`
+("Reseeding — the return current"), beside the command that re-derives it —
+one home, so the copies cannot drift** — and it shows the footer missing
+from all but a handful of releases, so the rule as written would have had
+every downstream line suspecting tampering on nearly every update, and
+would have blocked the release that carried `CORRECTIONS.md`, which existed
+to undo harm already done. A control that fires on nearly everything
+teaches a line to ignore its own alarms, which is a worse outcome than the
+missed footer. **The obligation on whoever cuts a release is unchanged and
+we are the ones failing it.**)* (The convention begins with the release that
 introduced it; releases before it predate the footer and are not flagged
 for its absence. A line's reseed ledger baselines at the release it
 germinated from, so a line grown after the convention never reaches a

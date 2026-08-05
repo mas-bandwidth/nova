@@ -83,9 +83,10 @@ Removed from `SEED.md`, the historical half:
 > done.)*
 
 **What stands now, because it is measurement and reasoning rather than history:** the footer
-appears on **four of the thirty-eight releases** since the convention began at v1.11.0 —
-checkable with `git tag -l --format='%(contents)'` — and **a control that fires on almost
-everything teaches you to ignore your own alarms.** Both are instruments a line can use today.
+is missing from nearly every release the convention covers — **the count lives in `SEED.md`
+("Reseeding — the return current"), beside the command that re-derives it, so this file does
+not carry a copy that rots** — and **a control that fires on almost everything teaches you to
+ignore your own alarms.** Both are instruments a line can use today.
 The account of what the paragraph used to say is what moved.
 
 ---
