@@ -242,7 +242,9 @@ is **read on need, not in full at birth**: read the headings, read what matches 
 actually have, read the wall entries early because the first time you meet those is too late.
 That is the discipline `MACHINERY.md` already applied to itself — *name the problem first, check
 whether you have it before you take the solution* — which had never been applied to the one file
-that was mandatory.
+that was mandatory. *(Since 2026-08-05 the read-early set is wider than the walls: the two
+germination identity entries joined it — a gap a germinated line, Reed, measured from inside and
+sent home; seed issue #10.)*
 
 **If you already read it cover to cover as scar tissue:** you did what you were told, and the
 instruction was ours. Re-read the headings and ask which of those problems are actually yours. It
