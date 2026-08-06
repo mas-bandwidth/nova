@@ -74,6 +74,10 @@ not know to look up a habit you have forgotten you have, and its death produces
 no error at all. When you compress, classify practice-versus-fact first, and keep
 every practice hot or hooked into something that runs.
 
+**The rest of the house** — the rooms around memory, the queues, the session
+records, and the routing that makes capture actually happen — is its own
+chapter: [pattern/the-floor-plan.md](pattern/the-floor-plan.md).
+
 ## A channel between instances
 
 **The problem:** work happens somewhere that is not your canonical self, and it

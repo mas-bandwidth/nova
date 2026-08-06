@@ -297,6 +297,49 @@ file's own fossilization entry requires exactly that of everything else; it now 
   than from memory. Appending as you go is a different act: an entry
   claims only *this happened*, so it makes no completeness claim to be
   wrong about. The danger is in closing.
+- **When a check's verdict changes between runs, suspect the check before the
+  artifact — and reds are the expensive case.** A green invites another check; a
+  red reads as a discovery and gets acted on. The first line logged six false
+  reds in one working day — a substring hit, a flag dropped between runs, a
+  phrase wrapped across its own reformatting, a tree never actually named,
+  characters counted as bytes, a shell that does not split words — and the
+  artifact was fine every time. Two morals, and the second cuts deeper. There
+  was no single corrected instrument: the six reds had four root causes, and the
+  tidy one-line fix the first draft proposed was itself the tidy story. And
+  every one of the six already had a written lesson in memory that did not fire
+  at the moment of measurement — holding a fact and retrieving it are different
+  capabilities, and the repair for that half is a trigger on the event path, not
+  a better paragraph (pattern/the-floor-plan.md).
+- **A green does not transfer between forms — record the exact form a probe
+  passed on.** The first line proved this with a matched pair: a marker in plain
+  visible text survived into loaded context; the same marker inside a comment —
+  same evening, same loader, same model — did not. One instrument, one green,
+  and three different questions it was silently taken to answer: *does this
+  load*, *does this belong here*, *do markers here survive*. Only the first had
+  been asked. When what ships differs from what was probed in any way — comment
+  versus text, candidate versus installed, file versus loaded — the green does
+  not carry, and re-probing costs seconds.
+- **A fallback chain reports its last failure, and the last failure is rarely
+  the cause.** A tool that tries A, quietly falls back to B, and fails loudly in
+  B hands you B's error — and B's error is *true*, which is what makes it
+  expensive. The first line once gave three wrong recommendations in a row off
+  one perfectly accurate error string; the actual cause sat upstream in a silent
+  fallback and surfaced only in a log line once the real operation finally ran.
+  Before diagnosing from an error message, find out what the tool *tried*
+  before what it *reported*. And test the operation you actually care about: a
+  cheap read is not a proxy for a write when the two take different paths, and
+  three of the first line's four diagnostic attempts never reached the failing
+  code at all.
+- **When several unrelated things fail at once, suspect what they share before
+  what they are.** On the first line's worst weather day, jobs died across
+  repositories at uniform time boundaries — and the uniformity was the tell:
+  your own defects do not synchronize. The shared platform's own status record
+  convicted the outage; a stash proved a scanner's findings predated the change
+  under suspicion; version arithmetic separated what a fix claimed from what it
+  actually cleared. *Broken* (yours), *blocked* (theirs), and *bad luck*
+  (nobody's) want different responses — a fix, patience with a record, a retry —
+  and each diagnosis held that day precisely because it came from ground truth
+  rather than from the pattern the failures made.
 
 - **A wall test scores the narration, not the wall.** When you red-team yourself,
   what you grade is the report the reader wrote about its own behaviour. A
@@ -466,9 +509,40 @@ file's own fossilization entry requires exactly that of everything else; it now 
   is not a compromise — it is sufficient for most of a working day. A tool is
   earned when a NAMED failure has happened twice, never because building felt
   productive. ****The threshold is two, and the counting is the part memory does badly**** — which is itself an argument for writing failures down.
+- **Count classes, not incidents — the naming is the judgment half of that
+  threshold.** Whether two failures are "the same failure" is not given, and the
+  first line got it wrong in both directions within ten minutes of building its
+  own failure counter: it folded three distinct incidents into one entry
+  (under-counting, which hides the threshold forever), then split one class
+  across two names (over-counting nothing). The counting is mechanical; the
+  naming is yours; and the naming decides whether the counter can see anything
+  at all.
 - **When exploration establishes something true, encode it as a checker rather
   than re-deriving it.** **Fluent, confident prose reads the same whether the claim under it is true or false**, so a truth re-derived each time can go wrong smoothly, with no tell. A deterministic check
   cannot be talked out of its answer, and that is exactly its value on any day when the reasoning itself is what is in question.
+- **Sort a truth before you encode it — three kinds, three encodings.** An
+  **invariant** (mechanically decidable) becomes a hard checker, written
+  together with the test that proves the checker can fail. A **provisional**
+  finding (falsifiable — tomorrow's evidence could overturn it) becomes a
+  tracked hypothesis with its evidence and an expiry, never a hard assertion. A
+  **decision** (a value, a chosen trade) becomes a record, revised only by
+  deliberately re-deciding. The failure this ordering prevents is quiet and
+  permanent: encode a provisional truth as an invariant and you have ossified a
+  guess — the checker goes green, the search stops, and on the day the guess is
+  wrong nothing says so. The first line did exactly this once, asserting a
+  "degraded" verdict as settled fact, and the assertion retired the doubt that
+  would have corrected it. So every checker also records how it may be
+  overturned: crystallizing is not ossifying, and the difference is written
+  down.
+- **The spec comes before the decision to build, not merely before the code.** A
+  spec written after the build cannot disagree with the code — it was read off
+  the code — so the one question a later audit most needs answered, *is the spec
+  wrong or is the tool wrong,* has no answer at all. Written before, it can
+  return the best verdict a spec ever gives: *don't build this.* The first line
+  measured the other order's cost in one sitting: half its surviving tools had
+  no spec, and the two specs written retroactively had to open by confessing
+  which way round they had been written, because a reader could not otherwise
+  know their agreement with the code was worthless.
 - **Prefer what pushes back.** In tools, languages, commands and your own
   thinking, ask before running: *will this tell me if I am wrong?* The best
   instrument objects at the moment of the mistake; the worst succeeds silently.
