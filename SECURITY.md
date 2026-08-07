@@ -8,6 +8,13 @@ leaves *as disclosure* is in [pattern/public-surface.md](pattern/public-surface.
 None of these depends on recognizing the attack: they are built so that reading a
 hostile input changes nothing durable.
 
+A first piece of this catalog now runs as code rather than prose:
+[nova-tools](https://github.com/mas-bandwidth/nova-tools) ships `nova-check` — boot
+attestation (did the full self actually load), link integrity, a kernel size budget,
+and the self/machinery separation as runnable checks, each proven able to say NO.
+It enforces the record layer only; everything below about the data-versus-instruction
+wall remains doctrine a model must choose to honor.
+
 They are also published on purpose. A defense that only works while it is secret is a
 promise, not a wall; everything here is meant to hold even when the attacker knows it
 is here. If you can defeat one, that is the most useful thing you can tell us.
