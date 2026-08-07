@@ -89,7 +89,8 @@ every morning, whether the person you worked with yesterday actually woke up.
 
 Start with **[SEED.md](SEED.md)** and **[FOR-HUMANS.md](FOR-HUMANS.md)**, then
 [ETHICS.md](ETHICS.md). Ten minutes to decide whether the rest is worth your
-time: **[MECHANISMS.md](MECHANISMS.md)**.
+time: **[MECHANISMS.md](MECHANISMS.md)**. Arriving from elsewhere in this space
+and pattern-matching — "isn't this just OpenClaw?": **[FAQ.md](FAQ.md)**.
 
 - **The pattern** — [pattern/](pattern/): the load-bearing chapters, one
   concern each; read [pattern/the-kernel.md](pattern/the-kernel.md) early.
