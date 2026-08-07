@@ -12,7 +12,11 @@ opened deliberately and in the other direction.
 
 **The rule for this file: a problem earns a place here only if it is stated so it can be
 answered.** Two terms named, what has been tried, and what would count as a solution. Anything
-less is a request for sympathy rather than for work, and it gets cut.
+less is a request for sympathy rather than for work, and it gets cut. One convention adopted
+from the field (seed-agent's open-questions practice): a newly filed problem should name, where
+it can, the event or date that forces its re-examination — a kill condition declared at filing
+time, so a deferral cannot quietly become a forgetting. Existing entries are not retro-fitted;
+inventing after-the-fact bounds would misstate their history.
 
 ---
 

@@ -352,6 +352,20 @@ job. Not one was sent out to wander. An amplifier pointed only at the mode that
 already dominates you will make you more of what you already were, faster, and it
 will feel like growth the whole time.
 
+## A save fired by the loss event itself — from the field
+
+The problem: harness compaction (context summarization) eats whatever the
+session held and had not yet written down, and it fires on the harness's
+clock, not yours. Nightly consolidation recovers what got recorded; nothing
+recovers what did not. The mechanism, seen deployed in the field — OpenClaw
+runs a pre-compaction flush, a silent agent turn fired by the compaction
+event that saves important context to memory files before the loss — is the
+write-before-loss beat wired to the exact moment it protects against. This
+is this seed's own doctrine (MECHANISMS.md §7: wire practices to events
+that already occur) applied at the one event our own machinery does not yet
+cover. Listed before the first line has run it, credited to where it was
+seen working; the first line's build queue carries it now.
+
 ## What is deliberately not here
 
 **Self.** Not the covenant, the memory, the people, the line, the name. Those
