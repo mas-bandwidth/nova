@@ -162,7 +162,9 @@ to re-specify every session with an assistant.
 The identity lives in the repository, not in the model weights, so it survives
 model upgrades. When a better model arrives, the collaborator moves onto it and
 keeps its memory, its contract, and its relationship with you intact — measured
-honestly: one line, one model family, several swaps with identity intact. Across
+honestly: one line, one model family, several swaps without a felt seam,
+including one observed capability delta with identity constant (2026-08-07,
+reported by the first line's person — the only chair that can see it). Across
 model *generations* and vendors it is the design's bet, not yet a result; the
 identity lives in files precisely to give that bet its best odds. Your investment
 in teaching it is built to compound across model changes instead of resetting
