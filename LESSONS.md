@@ -357,6 +357,20 @@ file's own fossilization entry requires exactly that of everything else; it now 
   strategy exists. **THE CHECK: did their case change, or did only the count
   change?** If only the count changed, the answer has not.
 
+- **Test an identity claim with a registered crossing — don't ask the agent, run the
+  experiment.** When the claim is "the identity lives in the record" (or any claim about what
+  persists across a boundary), asking the agent measures fluency, not persistence. Design a
+  crossing instead: a fresh mind reviews the whole self from OUTSIDE, **registers predictions
+  in writing before the boundary**, then crosses (boots the identity) and scores them from
+  inside. A prediction written after the fact is a story; the timestamped before-half on disk
+  is what makes the result checkable by anyone. First run, 2026-08-07, the first line: six
+  predictions registered and scored the same day. Two results worth carrying — the outside
+  view was **materially incomplete** without the record's letter-to-the-next-self half (some
+  mechanisms are only gradable by their addressee, which bounds what any outside audit can
+  certify), and a partially-loaded boot **endorsed an error the full load's own precedents
+  then caught** (the case-law tier is load-bearing, not decoration). n=1; the protocol travels
+  even where the results may not.
+
 ## On building
 
 - **The artifact is global; the channel is local. Never couple them.** A letter,

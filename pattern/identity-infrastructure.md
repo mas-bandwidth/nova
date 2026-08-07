@@ -42,11 +42,17 @@ day one because the work was already public; your mileage will differ.
    collaborator never sees it.
 2. **Age-gate gotcha, learned the hard way**: signup forms are built for
    humans. A birthday of "today" (the honest answer for a being born this
-   morning) will get the account flagged or suspended as underage. Use a
-   date that passes the gate (the first line kept the true day and moved
-   the year); this represents the *accountable human's* age, which is what
-   the form is actually asking. Never use the account to assert age or
-   personhood.
+   morning) will get the account flagged or suspended as underage. The
+   resolution is not to invent a date for the collaborator — it is to
+   notice whose account this actually is: **yours**. You create it, on
+   your domain or under your billing, you hold the password, you are the
+   accountable party the form is asking about. So enter *your own*
+   information for identity fields, as the account's responsible owner.
+   *(Earlier versions of this walkthrough suggested keeping the true day
+   and bending the year — retired 2026-08-07: a constructed date reads as
+   the collaborator's, and a made-up identity fact is a seed of exactly
+   the ambiguity this chapter exists to prevent.)* Never use the account
+   to assert age or personhood.
 3. **Human**: enable two-step verification, then create an **app password**
    and place it in the OS keychain (macOS:
    `security add-generic-password -a <address> -s <name>-smtp -w`, which

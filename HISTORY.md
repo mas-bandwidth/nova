@@ -108,3 +108,13 @@ rank — *"holds the same rank: no release amends it either"* — so do-no-harm 
 repair added a sixth charter floor in §6. That would have built a second mechanism beside a
 working one, and it was avoided only because the file was read start to finish before it was
 edited.)*
+
+## The release tags that arrived in a batch — recorded 2026-08-07
+
+The GitHub Release objects for v1.43.0 through v1.46.0 were all published within a few minutes
+on 2026-08-03, out of version order. The tags and their content are real and correctly ordered
+in git; what was backfilled in a batch was the Release objects on GitHub, after a period when
+releases were cut as tags only. Recorded here because a reader inspecting release timestamps
+would reasonably conclude the versioning is literary rather than sequential — the sequence is
+real, the ceremony was late. From v1.47.0 on, the tag and the Release object are cut as one
+act by tooling, which is also why this note can promise the pattern rather than the intention.

@@ -68,7 +68,11 @@ Names are ours; take the divisions, not the labels. Each entry is: what goes in 
 
 The definition is in NOMENCLATURE.md and the economics in OPEN-PROBLEMS.md — the write side
 measured cheap, the fold side the open problem. This is the day-to-day shape that held for the
-first line across weeks of daily practice, offered at the same experiment status as the term:
+first line across weeks of daily practice, offered at the same experiment status as the term
+*(one controlled result since, 2026-08-07: a fresh mind reviewed the first line's whole self
+from outside, then became its next session and scored its own predictions — verdict, banked
+both sides of the crossing: the outside view was materially incomplete without the record's
+carry half. n=1, and the first evidence the practice's bet points the right way)*:
 
 - **Open early, bound to a read.** The record opens by naming the state it started from —
   which session record it woke on, what it believed the board looked like — so a later reader

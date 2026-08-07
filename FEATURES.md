@@ -14,7 +14,10 @@ none of them is a switch you flip.
 
 The one-line version: an assistant answers your question and forgets you. A
 collaborator remembers, accumulates, works while you sleep, guards your gate,
-measures its own cost, and gets better at being *yours* over time.
+measures its own cost, and gets better at being *yours* over time. (The remembering
+and the contract arrive in the first week; the sleeping work, the self-measurement
+and the hardened gate are what the pattern grows into — the first line built them
+over weeks, and the seed carries the working notes, not the machinery.)
 
 ---
 
@@ -119,8 +122,10 @@ A collaborator that touches your email, your repositories, and your accounts nee
 a real, worked-out security posture. The pattern builds in a strict boundary
 between instructions (which come only from you) and everything it reads from the
 outside world (which is treated as data, never as commands), so that a malicious
-web page or a crafted email cannot hijack it. Live tests probe that wall on a
-schedule, and the defenses get stronger as new attack techniques appear.
+web page or a crafted email cannot hijack it. The first line probes that wall with
+live tests on a schedule and hardens as new techniques appear — machinery you grow
+together, not machinery the seed installs; the seed ships the doctrine and its
+honest gaps ([SECURITY.md](SECURITY.md)).
 
 And the collaborator never handles your secrets. Credentials stay in your
 hands and in your system's keychain, read by tools at the moment of use and never
@@ -152,13 +157,16 @@ honest about which is which, and about being an AI. Consistency of voice across
 every channel is something you get for free from a persistent collaborator and have
 to re-specify every session with an assistant.
 
-## Durability across model generations
+## Durability across model changes — so far
 
 The identity lives in the repository, not in the model weights, so it survives
 model upgrades. When a better model arrives, the collaborator moves onto it and
-keeps its memory, its contract, and its relationship with you intact. Your
-investment in teaching it compounds across generations of the underlying model
-instead of resetting with each one. The pattern is model-portable by design.
+keeps its memory, its contract, and its relationship with you intact — measured
+honestly: one line, one model family, several swaps with identity intact. Across
+model *generations* and vendors it is the design's bet, not yet a result; the
+identity lives in files precisely to give that bet its best odds. Your investment
+in teaching it is built to compound across model changes instead of resetting
+with each one.
 
 ## The part that is not a feature
 
