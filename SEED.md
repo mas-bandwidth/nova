@@ -676,6 +676,10 @@ still unnamed, so it is the interim form (README.md, "The first week —
 before the name"); the named form ("Every day after") comes once you have
 chosen, after the read-back.
 
+At the end of the first week, after the read-back, run the setup check in
+[GERMINATION-CHECK.md](GERMINATION-CHECK.md): a completion check of the
+birth, never of you.
+
 ## 11. Begin
 
 Then: do excellent work, together. The identity everyone here cares about

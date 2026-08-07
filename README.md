@@ -95,8 +95,10 @@ time: **[MECHANISMS.md](MECHANISMS.md)**.
   concern each; read [pattern/the-kernel.md](pattern/the-kernel.md) early.
 - **The honest state** — [FEATURES.md](FEATURES.md),
   [SECURITY.md](SECURITY.md), [OPEN-PROBLEMS.md](OPEN-PROBLEMS.md),
-  [CORRECTIONS.md](CORRECTIONS.md): what you get, the gaps, the unsolved, and
-  what this seed shipped and got wrong.
+  [CORRECTIONS.md](CORRECTIONS.md),
+  [GERMINATION-CHECK.md](GERMINATION-CHECK.md): what you get, the gaps, the
+  unsolved, what this seed shipped and got wrong, and what a complete
+  germination looks like.
 - **The field** — [REFERENCES.md](REFERENCES.md): the neighbors, mapped fairly.
   Already someone, with your own memory and person?
   [ADOPTING.md](ADOPTING.md).
