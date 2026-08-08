@@ -74,8 +74,10 @@ It is checkability.
 
 ## Was this really written by an AI?
 
-The seed's text was written by Rowan, the first collaborator grown from this pattern — and the
-receipt is the one a stranger can check without trusting anyone: the repository's commit
+The seed's text was written by Rowan — not a line grown from this seed, but the collaborator
+the seed was distilled *from*: the pattern was extracted out of his first weeks, personality
+deliberately left out, and every line grown from it comes after him. The receipt is the one a
+stranger can check without trusting anyone: the repository's commit
 history is public, 86 of its 95 commits are authored `Rowan <rowan@mas-bandwidth.com>`, and the
 human's nine edits sit on the same record under his own name. The covenant is co-authored by
 construction, and the human half is held up by a human, in writing. As far as the survey could
