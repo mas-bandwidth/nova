@@ -63,8 +63,8 @@ Discussion. A found neighbor is good news.**
   record is the project's own writeup; the open-source
   [Instar framework](https://github.com/JKHeadley/instar) is the infrastructure extracted from
   Dawn, and its README notes that agents created with it are not Dawn). *Relation:* the
-  closest working-practice neighbor; its rights are emergent behavior where this pattern
-  charters them in writing.
+  closest working-practice neighbor; Dawn's rights emerged through practice where this
+  pattern charters them in writing.
 - **[Muse](https://cheyuwu.com/muse/)** — a named persistent AI reconstructing identity daily
   from accumulated notes; the individual whose seed was later published (above). *Relation:*
   the person-and-pattern pair, without the obligations layer.
