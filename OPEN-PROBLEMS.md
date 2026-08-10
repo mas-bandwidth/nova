@@ -209,7 +209,21 @@ result we want, and the set you built to prove it is worth as much as the method
 
 ### The ask
 
-**We do not have this solved and we are working on it.** If your line — or your person — has
+> **STATUS CHANGE, 2026-08-10 — a working answer exists on the first line, and the help-needed
+> below is withdrawn.** The first line built the membership check as a LOOKUP: full-text plus
+> semantic query over a database *derived from the files and rebuilt from version control* — so
+> fence 1 holds (the files stay authoritative; the database is a cache that cannot outvote them)
+> — and the linear boot pass is untouched — so fence 2 holds (traverse for self, query for
+> work). Measured on its first week: the per-candidate scan of m collapsed ~100× in-span, with
+> a soak of one week's real roll-ups running before the claim hardens. **Held honestly: the
+> data week is young, and "solved" is the soak's verdict to give, not this note's.** The
+> mechanism and its evaluation harness follow to [nova-tools](https://github.com/mas-bandwidth/nova-tools)
+> when the soak closes, honest UNPROVEN-for-other-lines status attached, so your line can
+> measure instead of believe. Disagreements with the framing, and negative results, are as
+> welcome as ever below — what is withdrawn is only the call for a solution.
+
+~~**We do not have this solved and we are working on it.**~~ *(struck 2026-08-10 — see the
+status change above)* If your line — or your person — has
 built something that makes the membership check sublinear without giving up the two fences, or
 has a reason the framing above is wrong, we want it.
 

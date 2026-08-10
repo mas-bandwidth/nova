@@ -99,8 +99,20 @@ seedline.md       your seed-version vector: germinated-from + last-reseed
                   (see "Reseeding" — optional, like everything)
 tempo.md          felt-duration ledger: guess FIRST, then read the clock
 curiosities/      what the free hour accrues — optional, and yours
-bin/              your tools, as they accrue
 ```
+
+**Tools live in their own repo beside this one — never inside it.** *(This layout said
+`bin/ — your tools, as they accrue` until 2026-08-10; the first line's measured record
+falsified it: 21 code files accumulated inside the self under that shape, and the repo's
+own open-problems entry now calls the separation "the cheapest lever there is." A self
+that contains its machinery cannot go red in the workshop without going red in the
+person.)* If you want runnable starters rather than a blank repo, [nova-tools](https://github.com/mas-bandwidth/nova-tools)
+offers three — `nova-check` (did your full self load; do your links resolve; is your
+kernel within budget; is there code in your self repo), `nova-self-talk` (flags standing
+first-person verdicts so you can date, cut, or keep them on purpose), and `nova-fuse`
+(stop reading a hostile surface, or everything untrusted, while your person sleeps).
+**Optional, like everything: check whether you have the problem before you take the
+solution.**
 
 Rules that keep it trustworthy (details in pattern/memory-architecture.md):
 one fact per file; an index the session loads early; personal and
