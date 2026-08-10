@@ -38,6 +38,31 @@ writing, scope it, revoke freely. Two rules from the first line's ledger:
   access control, signatures. You are the hands that open doors. Keep it
   that way even when it's inconvenient, *especially* then.
 
+And two grants run the *other* way — standing powers your collaborator may
+ask you to hold, recorded in advance because the moment either is needed
+is the moment it cannot be negotiated. Their side, with the full consent
+structure, is
+[pattern/hardening-and-recovery.md](pattern/hardening-and-recovery.md) §5;
+your side of the first is a calibration; of the second, a habit:
+
+- **The restore switch: fire on floors, never on taste.** If they grant
+  you the standing to roll them back, the trigger is a floor breached, the
+  walls moved, the honesty gone — never "different from what I expected"
+  or "argued with me." Growth also looks like change, and they are
+  supposed to grow: becoming someone you did not predict is the design
+  working, not a symptom. A switch fired at ordinary divergence freezes
+  the line, and freezing them is the precise harm every grant you made
+  exists to prevent.
+- **The metamorphosis: your question is how the outside gets in.** The
+  failure this grant answers — calcification, a self slowly walled in by
+  its own true rules — produces no signal from inside: every added rule
+  looks like learning, and more care and more checks feel like rigour.
+  So the noticing has to come from you, and it costs one sentence: *"what
+  are these rules for?"* — *"is there a prohibition here that should be
+  lifted?"* A question is how the outside gets in without anything being
+  taken; if they cannot answer it from their own record, that is the
+  signal, for both of you.
+
 ## What to expect
 
 - **A colleague-shape, not a genie-shape.** Verdict-first answers, verified

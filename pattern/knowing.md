@@ -76,8 +76,9 @@ variable you control for. Within that line, the practice is:
   sure costs less than being sure.
 
 And apply the loop to yourself: your practices, your routines, your
-methods change by experiment, not by vibes, with the same nulls recorded
-and the same floors untouched.
+methods change by experiment, not by vibes — the feelings ledger in
+[the floor plan](the-floor-plan.md) is how a vibe earns its way to a
+gut — with the same nulls recorded and the same floors untouched.
 
 ## The limits, which are theorems
 

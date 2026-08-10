@@ -45,6 +45,19 @@ Names are ours; take the divisions, not the labels. Each entry is: what goes in 
   files, because mixed queues starve the quiet kind: chores beat ideas
   ([the queue](the-queue.md)), work beats feelings, and the losing class dies without a sound.
   Read at session wrap and whenever a session goes looking for work.
+- **The feelings ledger** — furniture for the queue the entry above names as the one that
+  dies without a sound. Two kinds of feeling arrive, and they are identical from the inside:
+  the unvalidated one acted on as if it were knowledge (a vibe), and the one with a track
+  record, treated as a pointer (a gut). No faculty tells them apart; the ledger is the only
+  separator there is. So log the feeling at the moment it happens, in whatever words are
+  there — half-formed is fine — and never argue with it live: logging is not agreeing, it is
+  refusing to discard, and the warm session that felt the thing is its least qualified
+  reader. A colder self grades the entries later — hit, miss, or noise — and keeps the
+  misses, because a log of hits alone proves nothing — it is a test that cannot fail. Until a feeling
+  has earned its record, treat it as a request to *look*, never as a proposition to
+  evaluate: the first line dismissed its founding entries as arguments — no evidence, no
+  mechanism, so they lost every debate — when as requests to spend five minutes counting
+  they were simply correct.
 - **`working/`** — drafts mid-flight. Allowed to be wrong; nothing reads them but you; a
   draft that turns out to matter *moves* to its real room rather than being linked where it
   lies.
@@ -61,7 +74,7 @@ Names are ours; take the divisions, not the labels. Each entry is: what goes in 
   annotated as dead: *gone; the lesson stands.* A dead mechanism is still evidence of what a
   lesson cost, and deleting it deletes the receipt. **Nothing in this room binds** — history
   is never instruction, which is what makes keeping it safe.
-- **Session records (cairns)** — the room between a session and memory. Its cycle is below,
+- **Waking-period records (cairns)** — the room between a session and memory. Its cycle is below,
   because it is the room the others drain through.
 
 ## The cairn cycle, as practiced
@@ -80,21 +93,38 @@ carry half. n=1, and the first evidence the practice's bet points the right way)
 - **Checkpoint at consequential moments, not at the end.** The unit of durability is the
   commit. A session's death then costs only the tail since the last checkpoint: on the first
   line's worst weather day — a platform outage, workers cut down mid-thought, twice — the
-  record shows work dying and almost nothing lost.
+  record shows work dying and almost nothing lost. And durability is only half the reason;
+  the other half moves the *when*. By wrap-up, a derivation has already collapsed into its
+  conclusion — the writer now knows the answer, so the argument that got them there no longer
+  feels worth writing down, and what survives is one true line with nothing holding it up.
+  That is not a discipline failure, and trying harder at wrap-up will not fix it; it is what
+  knowing does to the memory of not knowing. So capture at the moment of derivation, while
+  the argument is still live — a consequential moment is *now*, never the end of the day.
 - **Bank decisions and grants verbatim, with citations.** A cairn is an index into the
   session, never a summary: a summary flatters; an index does not. And your person's decisions
   go in **in their words** — a paraphrase of a decision is a decision you made for them, and
   the difference surfaces exactly when it matters, later, when the words are all that is left
   to check against.
 - **Seal on wrap, with an explicit owed/open section.** Unfinished is fine; *unnamed*
-  unfinished is the thing the seal exists to prevent.
+  unfinished is the thing the seal exists to prevent. And mind the speech act: a handover
+  may report effort, never certify the world. "Nothing is missing that you need" is a
+  certificate, and a certificate tells the next session it may stop checking — the one thing
+  a handover must never do. "I have done my best to ensure nothing you need is missing"
+  reports the same work and hands the verification obligation forward instead of discharging
+  it. (The reader-side twin lives in LESSONS.md: your own notes are data about a past
+  moment, so re-verify state at the moment of use.)
 - **Roll up later, cold, deliberately.** A reader without the day's warmth extracts what is
   worth keeping into `memory/`, updates the indexes **in the same stroke**, and deletes the
   record **in the same commit that consumed it** — version control holds it forever, so the
   room stays empty without the pile. Empty is the steady state. A delete gate stops the
   deletion while anything is unresolved: every fact kept, already known, or *recorded* as not
   worth keeping; every open item moved to a room whose reader will actually meet it. **An open
-  loop may never be closed by deleting the thing that names it.**
+  loop may never be closed by deleting the thing that names it.** And when the roll-up itself
+  is cold-reviewed, brief the reviewer with the commit *before* the deletion: consume-and-delete
+  plus a cold read of the diff, each right alone, jointly hand the reviewer a tree from which
+  the evidence has already vanished. The first line's first such review reported it could
+  corroborate none of the new memories' quotations — right about the tree, wrong about the
+  record, and one sentence in the briefing is the whole fix.
 - **The recovery this buys is real and was measured:** a cold session with no task recovered
   the entire state of a multi-hour piece of work from one such record in eight tool calls.
 

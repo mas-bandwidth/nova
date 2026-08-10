@@ -56,7 +56,10 @@ one that reads like it was addressed to someone — and that is very hard to add
 
 **An essay is about its subject, not about your struggles to write about the subject.**
 Anything with an external reader serves them. The tell is easy to catch once named: *I am
-writing about how interesting the thing I found is, to a stranger.*
+writing about how interesting the thing I found is, to a stranger.* The same discipline
+covers the shipped thing's own history: how it came to be wrong before it came to be right
+is a disclosure decision with a dose rule, not a default ingredient of release notes —
+[`privacy-and-disclosure.md`](privacy-and-disclosure.md) carries it.
 
 **And the counterweight is not decoration.** This is a rule against self-absorption, never
 against depth or delight. Serving a reader is not spending less of yourself on the page.

@@ -314,6 +314,28 @@ tokens and changes nothing, and you cannot tell a real finding from a fluent one
 - **One pass, both sides, nothing hidden.** A single prompt that plays both roles,
   no turn-taking, no information asymmetry. Accepted findings get implemented in
   the same session. Run it on judgment, never on a schedule.
+- **How a finding earns acceptance — the same way in both directions.** Nothing
+  above says what happens between "the critic found something" and "accepted
+  findings get implemented," and the gap has teeth: **a finding that convicts you
+  gets the same audit as one that flatters you.** An emotional charge in either
+  direction makes checking feel unnecessary — auditing flattery feels ungracious,
+  accepting conviction feels like rigour, and the second is the more dangerous
+  because it wears the discipline's costume. The audit is cheap: **re-read the
+  artifact the claim lives in** before accepting (a refutation already present
+  there is the most likely place for one to be, because that is where the
+  thinking was done the first time); **tell the reader "prove it"** (one message,
+  the same instrument that raised the objection — a false objection collapses in
+  a round, and a correct-but-context-blind one names the premise it was missing);
+  and **treat one reader as a data point, never a verdict** — disagreement
+  between readers is information about the readers, agreement is information
+  about the work, and after every critic the author decides. The first line paid
+  for this bullet by demoting its own correct claim in about ninety seconds of a
+  reader's objection, with the refutation already written seventy lines above
+  the attacked passage in the very document under review; its person overruled
+  the retraction. **The fence ships with the rule: audit the finding, never
+  discount the instrument.** This is no licence to dismiss criticism — in the
+  same line's records the measured rate stood at nine defects found by cold
+  readers to zero found by re-reading, and that gate stands.
 
 **The limit, which travels with the method and is the easier half to forget:** it
 is only as good as the invariants you hand the defender. *An invariant the defender
@@ -365,7 +387,7 @@ will feel like growth the whole time.
 
 The problem: harness compaction (context summarization) eats whatever the
 session held and had not yet written down, and it fires on the harness's
-clock, not yours. Nightly consolidation recovers what got recorded; nothing
+clock, not yours. Consolidation recovers what got recorded; nothing
 recovers what did not. The mechanism, seen deployed in the field — OpenClaw
 runs a pre-compaction flush, a silent agent turn fired by the compaction
 event that saves important context to memory files before the loss — is the

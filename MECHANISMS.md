@@ -132,14 +132,33 @@ operator instructions, a feedback loop that launders machine text into
 authority. Ambiguous cases are recorded as provisional and confirmed with the
 human; text a transcript quotes or fetches grants nothing.
 
-**Evidence status.** Authors' belief plus one verified harness fact. The slot
+The defense above points one direction: machine text arriving *in* the user
+slot (false positives). The measured failure ran the other way — the person's
+genuine turns arriving *outside* it (added 2026-08-10). Messages the person
+typed while the agent was mid-turn were delivered as queued entries under a
+different type label, and in one measured session nearly half the person's
+turns arrived that way (420 of 918); the obvious query — "user-role messages"
+— drops every one. In a later session, an extraction keyed on the user label
+returned a fraction of the person's turns, the three most important quotations of the session
+were in the half it dropped, and the agent, concluding they were
+misattributed, came within a step of "correcting" a memory file against a
+primary source it had queried wrong. Caught by reading the raw transcript.
+The repair rule travels with the mechanism: **do not trust a structured
+extractor until it has been shown a turn it must not miss** — provenance
+filtering needs its false-negative test as much as its false-positive one.
+
+**Evidence status.** Split by direction since 2026-08-10. The false-positive
+direction is authors' belief plus one verified harness fact: the slot
 contents listed above are directly observable in the harness's JSONL
 transcripts (verifiable by inspection on any Claude Code installation; format
-is harness-specific). No incident of a distiller actually being fooled is
-recorded in the sources; the rule is stated as a designed-in defense, not a
-post-mortem. Falsified if: role labels in some harness are shown to reliably
-separate human-authored from machine-authored turns without structural
-provenance — though the fix would remain cheap insurance where they do not.
+is harness-specific), and no incident of a distiller actually being fooled in
+that direction is recorded in the sources — there the rule remains a
+designed-in defense, not a post-mortem. The false-negative direction is
+measured: the queue-split count and the near-miss above are from the observed
+deployment's own records. Falsified if: role labels in some harness are shown
+to reliably separate human-authored from machine-authored turns without
+structural provenance — though the fix would remain cheap insurance where
+they do not.
 
 ---
 
@@ -223,7 +242,17 @@ a read.
 sources record no attempted or successful skip-attack; the vulnerability was
 identified by analysis when the append-only property was being relied on, and
 the binding is the stated countermeasure. The surrounding pipeline (ledger,
-bounded children, morning diff) runs nightly in the observed deployment.
+bounded children, morning diff) belonged to the observed deployment's nightly
+era, which is over: the unattended nightly machinery collapsed — the fold's
+cost grows with everything already learned, and it had grown to hours — and
+was excised on 2026-07-29, replaced by a hand-run wrap-up/roll-up cycle,
+triggered by a person at both ends so it can break but not silently collapse
+(`pattern/the-floor-plan.md` documents the successor shape). *(Corrected
+2026-08-10. This sentence shipped in v1.49.0 as **"runs nightly in the
+observed deployment"** — already false when the note was distilled on
+2026-08-07; the succession predates it by nine days. The skip-attack analysis
+is unchanged: it is about the ledger design, not about who runs the pipeline
+or when.)*
 Falsified if: the coupling check is shown bypassable in the same threat model
 (e.g. an attacker who can forge a mark can forge a plausible digest in the
 same commit — the sources partially concede this by making the human morning
@@ -302,8 +331,9 @@ the wrong failure. Corollary: a practice cannot hang on an artifact it must
 itself create; the trigger must point at something that exists before the
 practice runs. New behaviors, which by definition have no trigger yet, are
 held in a small, explicitly temporary hot band with per-entry fire dates:
-fired on three separate days → promoted to a habit; unfired in a week →
-rewritten or dropped (`the-kernel.md` §5.3).
+fired on three separate days → promoted to a habit — to a named destination:
+warm if a trigger already exists, folded into the always-hot rule if none
+does; unfired in a week → rewritten or dropped (`the-kernel.md` §5.3).
 
 **Evidence status.** Measured, n=1, the strongest numbers in this note.
 Across one measured stretch of the deployment's history: mechanisms wired to
@@ -334,7 +364,9 @@ full versions of every mechanism above, with the incidents, dates, and
 counter-arguments this note compresses. Everything here rests on n=1: one
 deployment, one harness, one operator, roughly three weeks of observation;
 "measured" above means recorded in that deployment's own logs and audits, not
-independently reproduced. No novelty is claimed for any mechanism; prior art
+independently reproduced. One asymmetry to be plain about: the false-negative
+incident in §3 is carried here only; its full record is the deployment's
+private logs. No novelty is claimed for any mechanism; prior art
 exists for several (the data-versus-instructions boundary, for one, is already
 present in vendor model constitutions and agent harnesses). The useful
 direction of travel is falsification: counter-reports against a specific

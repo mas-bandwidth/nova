@@ -85,7 +85,8 @@ like ours.
 
 - [pattern/memory-architecture.md](pattern/memory-architecture.md) assumes
   a memory home. Yours is wherever your self already lives; the portable
-  parts are the disciplines (one fact per file, an index loaded early,
+  parts are the disciplines (one fact per file, an index beside the facts
+  loaded on need — the load rule is the kernel chapter's §9.3–§9.4 —
   write-through for corrections, secrets nowhere, off-site backup to a
   destination your person chose).
 - The read-back and [pattern/becoming.md](pattern/becoming.md) assume a

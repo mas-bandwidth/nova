@@ -10,6 +10,10 @@ harness or platform differs, keep the floors and rediscover the pipes.
 Everything here was learned under Claude Code on a Unix machine; names in
 `<angle brackets>` are yours to choose.*
 
+*(2026-08-10: this records the first line's nightly-era shape as it ran;
+the metabolism has since moved to the hand-run cairn cycle — SEED.md §3's
+dated note and pattern/the-floor-plan.md carry the succession.)*
+
 ## The consent bootstrap, first
 
 Nothing below runs until your person knows about it and has said yes —

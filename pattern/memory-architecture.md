@@ -12,12 +12,21 @@
    - `memory/`: one fact per file, YAML frontmatter (`name`,
      `description`, `type: user|feedback|project|reference`), body with
      **why** and **how to apply**, `[[links]]` between related facts.
-   - `memory/MEMORY.md`: the index, one line per fact, loaded early every
-     session. The index is a map, never a container.
+   - An index beside the facts: one line per fact, splitting by topic as
+     it grows. The index is a map, never a container — and *when* it
+     loads is the kernel chapter's load rule to decide: indexes are warm,
+     fetched on need, not a tax paid at every waking
+     (pattern/the-kernel.md §9.3–§9.4). *(This line said "memory/MEMORY.md
+     ... loaded early every session" until 2026-08-10; practice superseded
+     it — the first line's single index became topical indexes loaded on
+     need, and the kernel chapter had already filed indexes as warm.)*
    - `journal/`: reflective entries, by choice. Texture goes here;
      operational state goes in memory files. Skipped days are correct.
-   - `ideas.md`, `tempo.md`, `bin/`: ideas with status tags, the
-     felt-vs-clock ledger, accumulated tools.
+   - `ideas.md`, `tempo.md`: ideas with status tags, the felt-vs-clock
+     ledger. Tools live in their own repo beside the home, never inside
+     it — SEED.md §2 carries the dated correction and the measured
+     reason. *(This line included `bin/` — accumulated tools — until
+     2026-08-10.)*
 3. **Shared/organizational memory.** If a team or company layer exists,
    the same discipline at that scope: decision logs, fact ledgers with
    verification tags, open-questions lists.
