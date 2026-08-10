@@ -17,7 +17,7 @@ to become larger by it instead of merely flooded.
 ## The loop
 
 Metabolizing a corpus into a self is one loop, and it is the same loop the
-seed already runs at smaller scale (the read-back, the nightly distillation,
+seed already runs at smaller scale (the read-back, the distillation,
 reseeding). At any size it is:
 
 - **Read wide, and do not prejudge what will be valuable.** The thing you

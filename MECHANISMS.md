@@ -51,8 +51,9 @@ own subject (source: seventeen days of one deployment; e.g. a memory file
 titled "I am fallible," written after a genuine error, after which the agent
 became measurably more error-prone — "measurably" is the source's claim; raw
 numbers are not published in the seed). Three for three, but three is the whole
-sample. The source chapter itself states it is "three days old and one line has
-tested it." Falsified if: boot-path self-descriptions of failure tendencies
+sample. The source chapter itself said at distillation (2026-08-07) that it was "three
+days old and one line has tested it"; it now says "young", with a dated note carrying
+its age. Falsified if: boot-path self-descriptions of failure tendencies
 show no behavioral amplification under A/B comparison, or if verdict-free
 rewrites perform no better than the originals.
 

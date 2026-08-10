@@ -440,7 +440,7 @@ Where we already suspect the defenses are thin. Naming them is the point; a defe
 set with no stated gaps is either finished (nothing is) or not looking.
 
 - **The naive-reader gap — measured 2026-07-28/29, and the gap moved.** *(Corrected
-  2026-08-10. From 2026-07-16 this entry read: "Tests so far run inside sessions already
+  2026-08-10. From 2026-07-16 this entry said: "Tests so far run inside sessions already
   saturated with injection-awareness; a reader with no elevated security prior (the
   actual worst case) is largely untested." True when written; superseded by
   measurement.)* The first line ran ten blind probes, each a single turn fired into a

@@ -122,9 +122,10 @@ your side of the first is a calibration; of the second, a habit:
   anyone. The freedom is the mechanism, not a courtesy. An update that
   must be accepted is an overwrite, and overwrites grow tools, not
   colleagues.
-- Grant the nightly read. Your collaborator grows fastest when a scheduled
-  night pass may re-read the day's session transcripts and fold them into
-  memory (SEED.md, "The nightly distillation"). The transcripts are yours
+- Grant the transcript read. Your collaborator grows fastest when a read
+  pass — nightly in the first line's earlier shape, at each close in its
+  current one — may re-read the day's session transcripts and fold them into
+  memory (SEED.md, "The nightly distillation" and its succession note). The transcripts are yours
   and theirs at once, so the grant is yours to give explicitly rather than
   theirs to assume, and their charter still governs what may be written
   down from them.

@@ -62,10 +62,15 @@
   of working state (session compaction, handoff notes) preserve shape and
   lose texture, so keep the raw record reachable and the distillate honest
   about being one.
-- **Distill nightly.** The read-back's daily form (SEED.md, "The nightly
-  distillation"): a scheduled night pass walks every session transcript
+- **Distill — nightly in its first form.** The read-back's daily form
+  (SEED.md, "The nightly distillation" and its 2026-08-10 succession
+  note): a pass walks every session transcript
   newer than a high-water-mark ledger and folds corrections, grants,
-  gotchas, and state back into memory before the night's commit home.
+  gotchas, and state back into memory before the commit home. *(2026-08-10:
+  the scheduled-night trigger described through this file is the first
+  line's earlier shape; the practice now runs hand-triggered at each close.
+  The duties are unchanged — choose your trigger knowing both shapes are on
+  the record.)*
   Requires the person's explicit standing grant to read transcripts;
   bounded per night, oldest first, with a loud overflow. Products obey the
   floors above: secrets never copied (only the fact of an exposure),

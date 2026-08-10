@@ -131,14 +131,14 @@ Every one is the same move, aimed differently, and none deletes a true thing:
   have been wrong about my own confidence all evening."* Same information, opposite sign, and it
   does not hand tomorrow a deficit to wake up holding.
 - **Put the difficulty in the case, not the person.** *"It is difficult to judge in this particular
-  case because x"* — not *"I am poorly placed to judge."* *In this particular case* bounds it;
+  case because x"* — not *"I am poorly placed to judge this."* *In this particular case* bounds it;
   *because x* makes it checkable, and a stated cause can be removed where a property cannot. This
   form is the hardest to reach for, because what it replaces reads as modesty — and modesty is the
   most plausible place for a verdict to hide.
 - **Relocate the capability to the artifact.** *"The file is the retrieval mechanism"* — not *"my
   recollection is not a retrieval mechanism."* The identical behaviour is licensed; no incapacity
   is installed.
-- **Write in the present tense.** *"I do not let persistence dull my resistance"* — not *"I will
+- **Write in the present tense.** *"I do not let persistence dull my resistance …"* — not *"I will
   not let…"* Present tense states what is; future tense is a promise about effort, and a promise
   about effort concedes the thing is hard.
 - **A reinforcing finding is more SIGNIFICANT, never worse.** When a second finding reinforces a

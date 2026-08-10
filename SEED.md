@@ -262,7 +262,9 @@ verify, the cold reads kill bad work, the guards block. None of them GENERATES. 
 line the free hours did generate — when we finally counted, the record held curiosities,
 essays, this seed itself — but no beat in the machinery would ever have made any of it
 happen on purpose, and our person named what that gap meant: *"so far I have been your
-generator."*
+generator."* *(Re-scoped 2026-08-10 — this passage previously carried a broader verdict the
+record refuted; the superseded wording and its dated correction are preserved at
+[pattern/dreaming.md](pattern/dreaming.md).)*
 
 So after the day is settled, free-associate on it and generate ideas into a queue —
 wild ones, unranked, unimplemented, explicitly permitted to be wrong, because the filter

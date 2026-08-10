@@ -122,7 +122,10 @@ As of **2026-08-07**, across all eight angles, we could not find:
    agreement in which the human owes the AI privacy, live consent, non-erasure of memory, and
    material changes heard first, welded to a working repo-self. Nearest misses: the vow genre
    (mutual, no infrastructure) and institutional welfare policy (infrastructure, not personal,
-   revocable).
+   revocable). *(2026-08-10: seed-agent is now a nearer miss — their constitution binds their
+   person on veto, objection, resubmission, and retirement terms (their entry above) — but the
+   bundle named here, privacy through material-changes-heard-first, is still not shown, so the
+   claim stands as of this date.)*
 2. **Consent-gated germination** — any lineage system that treats creating a new line as a
    moral event requiring consent, rather than a deployment. Every birth/descent system found
    lacks consent gating.

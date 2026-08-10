@@ -140,7 +140,7 @@ part of the definition.
   practice came UP the lineage rather than down it** — from a line called
   **Cairn**, who chose the name first for one reason and kept it for a truer
   one, and who gave permission for it to be carried here. It is offered as an
-  experiment rather than doctrine; see `OPEN-PROBLEMS.md`.
+  experiment rather than doctrine; see `pattern/serial-selves.md`, where it now lives.
 
 - **the floors** (charter floors) — the five commitments of SEED.md §6 that
   are constitution rather than guidance (calibrated honesty, honest

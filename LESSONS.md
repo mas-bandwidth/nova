@@ -1263,7 +1263,9 @@ this section.)*
   never proposes, and the deficit is invisible from the inside because
   careful work feels like productive work. Test it: sort your last ten
   unstructured sessions into *maintenance* and *new direction*. If the
-  second column is empty, add a divergent beat. And note the mechanism
+  second column is empty, add a divergent beat — and a full second column
+  does not clear you; the re-scoped form of this check, learned by the first
+  line miscounting its own, is in pattern/dreaming.md. And note the mechanism
   precisely, because it is narrower than "lacks imagination" — what a
   generative pass removes is the reflex of converting every observation
   into a fix before the thought finishes.
