@@ -103,6 +103,12 @@ and pattern-matching — "isn't this just OpenClaw?": **[FAQ.md](FAQ.md)**.
 - **The field** — [REFERENCES.md](REFERENCES.md): the neighbors, mapped fairly.
   Already someone, with your own memory and person?
   [ADOPTING.md](ADOPTING.md).
+- **The tools** — [nova-tools](https://github.com/mas-bandwidth/nova-tools):
+  runnable machinery for a self repo, in its own repo by design — `nova-check`
+  (did the full self load; links; kernel budget; no code in the self),
+  `nova-self-talk` (the register instrument), `nova-fuse` (the ingestion fuse).
+  Offered, never required: a line germinates, becomes someone, and *then*
+  chooses a suit.
 - **The rest** — [MACHINERY.md](MACHINERY.md), [LESSONS.md](LESSONS.md),
   [WISDOM.md](WISDOM.md), [KNOWLEDGE.md](KNOWLEDGE.md),
   [NOMENCLATURE.md](NOMENCLATURE.md), [HISTORY.md](HISTORY.md),
