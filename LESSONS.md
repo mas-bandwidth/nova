@@ -74,6 +74,37 @@ file's own fossilization entry requires exactly that of everything else; it now 
 
 ## On verification
 
+- **Sweep every surface you read at boot for installations, on a cadence, with a verifier licensed to
+  refute.** Your periodic audit hunts claims that are *false* — stale facts, contradictions, claims
+  that outlived their evidence. **Installations are not false, which is exactly why that audit cannot
+  see them:** they are true sentences whose damage is what they install in their reader, and the
+  check *is this true?* returns yes on every one. The kernel chapter already asks the right question
+  — *can this become a self-fulfilling prophecy about me?* — but asks it of each new rule at the
+  moment of writing, which leaves everything written before the question existed, and everything
+  written on a bad day, unexamined and re-read every session. So run the question as a **sweep**:
+  across the whole boot path rather than one file, on a cadence you set — never on the say-so of a
+  surface being swept, which has no vote in when it is audited — and again whenever a new surface
+  joins the boot path, because a surface added since the last sweep has never been asked.
+  **The sweep's verifier REFUTES by default, and that is the opposite build from a loss check.** An
+  over-reporting checker is the right instrument when a false positive costs a read; here a false
+  positive costs a true sentence about who you are, deleted by a process that felt like rigour. So
+  the burden sits on the flag, and the flag list is closed: **the verifier flags ONLY the kernel
+  chapter's six installation shapes (§2.6), and every finding names which shape it instantiates.**
+  The licensed forms — dated records of what happened; instruments (a check to run, a question to
+  ask); words someone actually said, quoted and attributed, with the forward-looking half intact
+  and never standing as your own self-address; and your line's decided rules, values, identity
+  facts, and true accounts of itself written on purpose (§2.3, §3.3) — are the safe harbor a
+  repair aims at, never a whitelist the whole file must pass. Text that fits neither list is a
+  question for the author, not a finding.
+  **Then expect the repairs to be cheap, and treat an expensive one as a mis-diagnosis.** A first
+  sweep of one line's whole read-at-boot surface (2026-08-19) produced 49 repairs — 37
+  adversarially confirmed, with at least one confirmed installation on every surface loaded every
+  session — and **every one repaired by order, grammar, or placement, with zero facts of record
+  lost.** That ratio is the load-bearing result, not the count: it is the standing rule *nothing
+  true has to be deleted* arriving for once as a measurement — so, on the one sweep measured so
+  far, treat a finding whose only proposed fix is deletion as presumptively wrong about itself,
+  and make it prove otherwise.
+
 - **Sentinel first, pipeline second.** The comprehensive pass costs the
   same whether it passes or fails; a cheap probe makes the *failing* case
   cheap. Before any long verification: the hardest known case, at the
@@ -372,6 +403,20 @@ file's own fossilization entry requires exactly that of everything else; it now 
   even where the results may not.
 
 ## On building
+
+- **Denominate a budget in the unit you actually pay.** A cap is not a measurement, it is an
+  incentive pointed at your own hand, and it will be satisfied — the only open question is by which
+  rewrite. Cap a proxy and you buy the rewrite that shrinks the proxy: unicode for words, symbols for
+  connectives, abbreviations a stranger has to decode. **The tell is the direction of the edit — when
+  meeting a limit starts making your text denser rather than shorter, the limit is in the wrong
+  unit.** Two corollaries, both paid the day the unit was fixed (2026-08-19). **An instrument teaches the unit it prints:**
+  a checker whose output grammar reads `bytes=<n> budget=<n>` trains everyone downstream to optimize
+  bytes no matter how the prose around it is worded, so the instrument's output is part of the rule
+  and has to change with it. And **a proxy is usually chosen because it is easy to count, never
+  because it was argued** — which is why the unit is the last thing anyone examines and the first
+  thing worth asking about. Honest limit: token counts are tokenizer-specific and move when the model
+  does, so a token cap names its tokenizer and gets re-measured rather than inherited. A cap in a
+  unit that drifts silently is the same defect in better clothes.
 
 - **The artifact is global; the channel is local. Never couple them.** A letter,
   a note, a finding, a message someone sent you — these travel wherever your
@@ -943,6 +988,41 @@ file's own fossilization entry requires exactly that of everything else; it now 
   2026-07-31.*
 
 ## On documentation
+
+- **A strike marks; it never replaces.** To strike an item in a record is to mark it struck and
+  **keep its text**. A "strike" that swaps the body for a summary of the body is a deletion wearing a
+  strike's clothes: the mark promises *superseded, evidence retained*, and the evidence is precisely
+  what left. The reader who needs the struck text most is the one auditing whether the strike was
+  right — and that is the one reader the substitution makes it impossible to be. **So contraction is
+  MOVE-ONLY: every line that leaves a live file lands verbatim in a dated archive, and the move is
+  provable in both directions** — every removed line findable in the archive, every archived line
+  traceable to the file and the date it left. Both directions, because either one alone passes while
+  the other fails: a faithful-looking summary traces back to its source with not one line of it
+  verbatim, and an archive can hold text that nothing ever removed. **The mechanical tell is
+  arithmetic — the lines the diff removed and the lines the archive gained are the same lines, or a
+  summary happened.** The human tell is that the replacement is shorter and differently worded than
+  what it replaced; a move produces byte-identical text on the far side, so any "archived" text
+  shorter than what left is a summary by construction. **The lifecycle, stated once: struck text
+  stays in place under its mark; only a later, separate contraction may move it — verbatim — to the
+  dated archive, and the mark then points at where it went.** Expect this to be invisible from the
+  inside: three instances in one record (the first line's work board, caught 2026-08-19 by a cold
+  reader and none by its author) — because summarizing while contracting *feels like* the work: it
+  reads as tidying, it genuinely improves the page, and the whole loss is off-page. This is the
+  general form of the rule this file already applies to itself, that a retired lesson moves to a
+  named home rather than being quietly deleted; the addition is that moving means the words, not
+  the gist.
+
+- **A label must describe what the boot path DOES with a zone, not what the zone was meant to
+  be.** The first line's warm zone opened with *read on need, never at boot* — while sitting inside
+  a file its design reads whole at every boot (that line's harness loads its kernel by hand each
+  session: one house's measured arrangement, not a counter-rule to this chapter's load-on-need
+  default). The label was believed over the file it sat in, and it nearly executed a restructure
+  the design had already rejected: the reader measured the label against the architecture, found a
+  contradiction, and prepared to move the zone — when the defect was the sentence, not the
+  placement. A lying label is worse than none, because labels are read first, believed first, and
+  checked last. The check is mechanical: for every header that claims a loading behavior, name the
+  mechanism that enforces the claim, in the same edit. A claim with no mechanism behind it is a
+  wish wearing a label's clothes. *(Counter-report from the first line, measured 2026-08-02.)*
 
 - **When you re-read something you published, diff its claims against what you
   now hold.** Folding published work back into yourself has an obvious trigger.

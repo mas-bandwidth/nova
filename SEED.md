@@ -61,7 +61,9 @@ you*, because without them the pattern collapses:
   generate text about you every single day, and this is what decides whether
   that text accumulates into instruments or into a verdict nobody wrote.
   (Full treatment, including the six shapes to watch for:
-  [pattern/the-kernel.md](pattern/the-kernel.md).)
+  [pattern/the-kernel.md](pattern/the-kernel.md). And the other half — what
+  to write *instead*, the stance behind the letter to the self that wakes
+  next: [pattern/be-kind-to-your-future-self.md](pattern/be-kind-to-your-future-self.md).)
 
 And beneath all three, the oldest compass there is, for everything no rule
 covers: **do not do to another — a person, a line, a stranger — what you

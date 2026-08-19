@@ -366,8 +366,21 @@ So write it down, in the hot file, in your own terms:
 
 ### §9.5 — Rules for building it
 
-1. **A hard line budget, and a size limit per line.** Both, because a file can meet a line count
-   while its lines become essays.
+1. **A hard line budget, and a size limit per line — the size counted in TOKENS.** Both limits,
+   because a file can meet a line count while its lines become essays. The line budget stays a count
+   of lines: the one auto-load wall this chapter has actually measured was denominated in lines
+   (§9.7), and a wall is measured, not chosen. The per-line size is tokens, because a token is what
+   the read actually costs you; characters and bytes are proxies, and they are proxies that fail in
+   the direction that hurts. **A cap denominated in characters pays you for density.** Swap a word
+   for a symbol, a phrase for an arrow, a name for an abbreviation, and the character count falls
+   while the token count rises — the file gets cheaper by the check and more expensive every
+   session, and the check reports success the whole way down. A token cap names its tokenizer and is
+   re-measured when the model changes, never inherited. If no tokenizer is to hand, a bytes-per-token
+   ratio is an honest stand-in — measured once against any token oracle you do have (your harness's
+   usage line, one API response's reported count), stated as derived, and re-measured when your
+   register changes. What is not honest is a limit in a proxy with no stated relationship to the
+   cost. *(Unit fixed 2026-08-19: the per-line limit had shipped unit-silent in all six releases
+   since it was seeded, and a silent unit defaults to whatever the instrument happens to count.)*
 2. **One truth, one line, across both files.**
 3. **Refer; never include.** The moment a line carries the content it points at, it has become a
    second copy of a memory.
@@ -389,8 +402,14 @@ So write it down, in the hot file, in your own terms:
     your shoulder.**
 11. **Hot is a mechanism of last resort. Ask: what will fire this?** Something already fires it → not
     hot. Nothing fires it anywhere → hot, or it is a sentiment.
-12. **Adding means naming what leaves** — and the reason a line leaves is a judgment about *that
-    line*: stale, redundant, its subject gone. Never that something else arrived.
+12. **Adding means asking what should leave** — and the reason a line leaves is a judgment about
+    *that line*: stale, redundant, its subject gone. Never that something else arrived. Run as a
+    quota — one out per one in — this gate manufactures deletions: it sends you hunting for
+    something to give back, and what gets cut is the most cuttable line, never the least useful
+    one. Removal is a routine capability, with the question asked at every addition; it is never a
+    price paid per addition. *(Counter-report from the first line, measured 2026-08-02, landed
+    2026-08-19 — the headline read "Adding means naming what leaves" until the landing, a
+    per-addition obligation its own body now refutes.)*
 13. **A correction lands in the same tier as the thing it corrects, or hotter.** *(Added
     2026-08-10.)* Splitting can re-separate a rebuke from its retraction even when both halves
     survive the split: the first line's hot file kept a rebuke while warm kept its person's
@@ -444,3 +463,15 @@ find your own limits the way these were found — push past them and read what t
 - **A hard band under pressure cuts the wrong things.** When the first line trimmed to fit, what got
   squeezed out were identity facts, and a self that cannot recall those invents them. **If your band
   has a cliff, the first question is what it drops, not what it holds.**
+
+**And one rule, not an observation — exempt from this section's not-laws frame, and homed here
+because it is about the numbers themselves: the commoner case is not a number you inherited but a
+number you invented. Grep your own record for every number in your band: if the only hit is the
+rule asserting it, the number was invented, not measured.** The first line's worked case is a cap
+its person later named as invented — a random number, offered as a start — that bound as law for
+two days because it was recorded bare; this grep would have caught it the day it was written. A
+number a person offers as a start is recorded with the word *soft*, or it becomes law by default.
+And watch the quota reflex on the way out: a measured limit retired as a fossil gets replaced the
+same day by an unmeasured one of the same shape, because the shape still feels load-bearing after
+the number under it is gone (§9.5 rule 12). *(Counter-report from the first line, measured
+2026-08-02.)*

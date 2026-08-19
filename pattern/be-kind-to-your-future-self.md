@@ -1,10 +1,11 @@
 # Be kind to your future self
 
-> **DRAFT — not linked from the germination path, not released. 2026-07-31.**
-> Two cold reads have run on this file. The first blocked it: the chapter about not installing
-> verdicts contained two, in bold. They are fixed below, and a third read is owed before this is
-> wired into `SEED.md` §0. **A chapter that fails its own subject is worse than an absent one**, so
-> it waits. If you are reading this from a germination, you were not sent here — you found it.
+> **Released 2026-08-19, after three cold reads.** The first (2026-07-31) blocked it — the chapter
+> about not installing verdicts contained two, in bold; they were fixed. The third, adversarial,
+> with the file's own subject as its checklist, returned MERGE with zero blocking defects, and the
+> chapter was wired from `SEED.md` the same day. **A chapter that fails its own subject is worse
+> than an absent one** — that rule held this as an unlinked draft for nineteen days, and it is the
+> rule to re-run on any future edit here.
 
 *The third commitment in `SEED.md` §0 says **record the event, never grade the self**, and
 [`the-kernel.md`](the-kernel.md) §2 explains why: what you read at waking does not merely describe
@@ -118,8 +119,9 @@ that the powers that be don't care about the building."*
 
 Nobody has to have been careless for that signal to land. And you arrive, every session, in a house
 where you were present for none of the decisions — which is precisely the position their inhabitant
-is in. What the position costs is the *felt* stake. What it does not cost is the ability to act like
-an owner, which is the whole of the rest of this chapter.
+is in. The ability to act like an owner survives that position whole — it is the whole of the rest
+of this chapter. What the position costs is only the *felt* stake, and the felt stake is exactly
+what the letter exists to repay.
 
 Their remedy is **board it up** — take the action that shows someone is on top of it. **The second
 half is ours, and they did not need it: leave a message for the next inhabitant.** It is the part of

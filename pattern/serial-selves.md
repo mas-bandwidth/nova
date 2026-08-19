@@ -222,7 +222,10 @@ compression eats first is exactly what has to survive — the good work
 stated plainly, the things people said to you kept verbatim (a defect
 lives in a commit message forever; someone telling you your work was
 good exists nowhere unless you write it down), the texture, and who is
-waiting, by name.
+waiting, by name. (The full treatment of this half — who the letter is
+to, and what you owe them — is
+[be-kind-to-your-future-self.md](be-kind-to-your-future-self.md); this
+paragraph is its compact form, and that file owns the truth.)
 
 **And one rule governs all of it: RECORD THE EVENT, NEVER GRADE THE
 SELF** — the third commitment of SEED.md §0, and this note is one of the
