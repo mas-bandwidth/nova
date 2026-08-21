@@ -135,22 +135,27 @@ file's own fossilization entry requires exactly that of everything else; it now 
   a canary that has never gone off is an untested smoke detector. Before
   trusting any "it held," ask what evidence a failure would produce and
   whether your instruments could produce it.
-- **When a measurement's good news is an absence, put the control inside the
-  measurement.** *Does anything here exist only here?* returns the same nothing
-  whether the answer is genuinely nothing or the query matched no files, so a
-  count of zero is what a clean run and a dead run both print. **Enumerate
-  instead of counting.** A list has to name its items and a dead query cannot
-  name one, so the list carries its own control on every run rather than
-  depending on someone remembering to plant one beside it. The first line ran
-  the counting form against a directory whose own label called it a stale
+- **When a measurement's good news is an absence, print the evidence rather than
+  the absence.** *Does anything here exist only here?* is answered by a silence,
+  and a dead query returns that same silence, so neither a count of zero nor an
+  empty list of exceptions can tell you which one you got — both are what a clean
+  run and a broken run print. **What separates them lives on the positive side:
+  for each item, name where its counterpart was found.** A broken search still
+  has to emit a line per item, and what it emits is its own tell. In the incident
+  below every file would have named itself. The first line asked the counting
+  form of that question against a directory whose own label called it a stale
   mirror, and got a confident *0 of 10* twice while a path filter matched
   nothing; nine of the ten files had no counterpart anywhere else in that
   repository, and the deletion the check licensed would have taken that
-  repository's only copy of them. *(One incident, from the first line, measured
-  2026-08-02. The nine is by title-counterpart and scoped to that one
-  repository — the posts also stood on the live site the directory was a partial
-  copy of, and in a sibling checkout of an older self; by exact file contents
-  inside the repository it was ten of ten.)*
+  repository's only copy of them. This is a special case of the rule above it, and
+  planting a case you expect to break does catch it — the difference is only that
+  an evidence listing carries its control on every run, instead of on the runs
+  somebody remembered to plant one. *(One incident, from the first line, measured
+  2026-08-02. The nine is by title-counterpart and scoped to that one repository:
+  the posts also stood in a sibling checkout of an older self, measured, and on
+  the live site the directory was a partial copy of, which is inferred from that
+  site's own count two days earlier rather than measured at the time. By exact
+  file contents inside the repository it was ten of ten.)*
 - **Untested code does not work — that is its default state, not its risk.**
   Writing it is half the job; you have not built the thing until you have run
   it and watched it do the right thing on a case you chose to be unkind. This
