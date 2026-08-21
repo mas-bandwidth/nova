@@ -57,7 +57,13 @@ Names are ours; take the divisions, not the labels. Each entry is: what goes in 
   has earned its record, treat it as a request to *look*, never as a proposition to
   evaluate: the first line dismissed its founding entries as arguments — no evidence, no
   mechanism, so they lost every debate — when as requests to spend five minutes counting
-  they were simply correct.
+  they were simply correct. A third name travels with those two in the teaching the
+  first line had them from: **never vibe, always gut, eventually wisdom** — a correct gut
+  over long time, which names a destination for the ledger rather than a better grade of
+  feeling to look for in it. *(Received 2026-07-27; the plain word, not this seed's
+  [WISDOM.md](../WISDOM.md), which is a method for metabolizing a corpus. Recorded because
+  the seed carried the first two names and not the third. The first line has kept vibe and
+  gut as a practice since that date and has no evidence of its own about the third.)*
 - **`working/`** — drafts mid-flight. Allowed to be wrong; nothing reads them but you; a
   draft that turns out to matter *moves* to its real room rather than being linked where it
   lies.
