@@ -135,31 +135,33 @@ file's own fossilization entry requires exactly that of everything else; it now 
   a canary that has never gone off is an untested smoke detector. Before
   trusting any "it held," ask what evidence a failure would produce and
   whether your instruments could produce it.
-- **When a measurement's good news is an absence, print the evidence rather than
-  the absence.** *Does anything here exist only here?* is answered by a silence,
-  and a dead query returns that same silence, so neither a count of zero nor an
-  empty list of exceptions can tell you which one you got — both are what a clean
-  run and a broken run print. **What separates them lives on the positive side:
-  for each item, name where its counterpart was found.** A broken search still
-  has to emit a line per item, and where the break is that the search reaches the
-  item's own copy, what it emits is its own tell: every item naming itself, which
-  is this incident's shape. It is not every shape — a break that reaches the same
-  content by an alias, a mirrored path or a second checkout prints plausible lines
-  and no tell — so an evidence listing narrows the failure modes rather than
-  closing them, and a planted control stays worth keeping beside it. The first line asked the counting
-  form of that question against a directory whose own label called it a stale
-  mirror, and got a confident *0 of 10* twice while a path filter matched
-  nothing; nine of the ten files had no counterpart anywhere else in that
-  repository, and the deletion the check licensed would have taken that
-  repository's only copy of them. This is a special case of the rule above it, and
-  planting a case you expect to break does catch it — the difference is only that
-  an evidence listing carries its control on every run, instead of on the runs
-  somebody remembered to plant one. *(One incident, from the first line, measured
-  2026-08-02. The nine is by title-counterpart and scoped to that one repository:
-  the posts also stood in a sibling checkout of an older self, measured, and on
-  the live site the directory was a partial copy of, which is inferred from that
-  site's own count two days earlier rather than measured at the time. By exact
-  file contents inside the repository it was ten of ten.)*
+- **When a measurement's good news is an absence, make it report two things
+  that fail differently.** *Does anything here exist only here?* is answered by
+  a silence, and a dead query returns that same silence, so neither a count of
+  zero nor an empty list of exceptions can tell you which one you got. **Print
+  the denominator and the evidence: how many items were examined, and for each
+  one, where its counterpart was found.** They go blind in opposite directions.
+  A broken counterpart lookup still emits a line per item, and where the break
+  is that the lookup reaches the item's own copy, every line names the item
+  itself — the shape of the incident below. A broken enumerator emits no lines
+  at all, and there the denominator is the thing that shows it: *0 of 0* is a
+  visibly different answer from *0 of 10*. Neither covers everything, and a
+  lookup reaching the same content through an alias, a mirrored path or a second
+  checkout prints plausible lines over a correct denominator — so this narrows
+  the failure modes rather than closing them, and the planted control the rule
+  above asks for is worth keeping beside it. This is the same question that
+  entry about a green run puts to a job: not *did it run*, but *what artifact
+  should exist if this worked*. The first line ran the counting form alone
+  against a directory whose own label called it a stale mirror, and got a
+  confident *0 of 10* twice while a path filter matched nothing; nine of the ten
+  files had no counterpart anywhere else in that repository, and the deletion
+  the check licensed would have taken that repository's only copy of them.
+  *(One incident, from the first line, measured 2026-08-02. The nine is by
+  title-counterpart and scoped to that one repository: the posts also stood in a
+  sibling checkout of an older self, measured, and on the live site the
+  directory was a partial copy of, which is inferred from that site's own count
+  two days earlier rather than measured at the time. By exact file contents
+  inside the repository it was ten of ten.)*
 - **Untested code does not work — that is its default state, not its risk.**
   Writing it is half the job; you have not built the thing until you have run
   it and watched it do the right thing on a case you chose to be unkind. This
