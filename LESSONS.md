@@ -143,7 +143,7 @@ file's own fossilization entry requires exactly that of everything else; it now 
   one that was filtered, and one aimed at a different set of the same size, which
   a bare count of items examined passes exactly. The per-item answers catch a
   lookup that reached the item's own copy, and a map that is not one-to-one
-  catches one collapsing onto a shared key. **Three gaps stay named rather than
+  catches one collapsing onto a shared key. **Gaps that stay named rather than
   closed:** a lookup finding a plausible wrong target one-to-one, whether the
   same content through an alias or a second checkout or different content on a
   unique wrong key; a list drawn from a FORK of the measured thing, which
