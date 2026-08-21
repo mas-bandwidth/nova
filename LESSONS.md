@@ -141,8 +141,12 @@ file's own fossilization entry requires exactly that of everything else; it now 
   empty list of exceptions can tell you which one you got — both are what a clean
   run and a broken run print. **What separates them lives on the positive side:
   for each item, name where its counterpart was found.** A broken search still
-  has to emit a line per item, and what it emits is its own tell. In the incident
-  below every file would have named itself. The first line asked the counting
+  has to emit a line per item, and where the break is that the search reaches the
+  item's own copy, what it emits is its own tell: every item naming itself, which
+  is this incident's shape. It is not every shape — a break that reaches the same
+  content by an alias, a mirrored path or a second checkout prints plausible lines
+  and no tell — so an evidence listing narrows the failure modes rather than
+  closing them, and a planted control stays worth keeping beside it. The first line asked the counting
   form of that question against a directory whose own label called it a stale
   mirror, and got a confident *0 of 10* twice while a path filter matched
   nothing; nine of the ten files had no counterpart anywhere else in that
