@@ -135,23 +135,22 @@ file's own fossilization entry requires exactly that of everything else; it now 
   a canary that has never gone off is an untested smoke detector. Before
   trusting any "it held," ask what evidence a failure would produce and
   whether your instruments could produce it.
-- **When a measurement's good news is an absence, it cannot report its own
-  failure.** *Does anything here exist only here?* returns the same nothing
-  whether the answer is genuinely nothing or the query matched no files — a
-  count of zero is what a clean run and a dead run both produce. This is the
-  rule that a suite which always passes measures nothing, in the one shape where
-  planting a failing case does not rescue it, because the check's healthy output
-  and its broken output are the same token. **The remedy is to enumerate instead
-  of counting.** A list has to name its items and a dead query cannot name one,
-  so the list is its own control. The first line ran the counting form against a
-  directory whose own label called it a stale mirror, and got a confident *0 of
-  10* twice while a path filter matched nothing; nine of the ten files had no
-  counterpart anywhere else in that repository, and the deletion the check
-  licensed would have taken the only local copies. *(One incident, from the
-  first line, measured 2026-08-02. The nine is by title-counterpart and scoped
-  to that one repository — the posts also existed on the live site the directory
-  was a partial copy of; by exact file contents inside the repository it was ten
-  of ten.)*
+- **When a measurement's good news is an absence, put the control inside the
+  measurement.** *Does anything here exist only here?* returns the same nothing
+  whether the answer is genuinely nothing or the query matched no files, so a
+  count of zero is what a clean run and a dead run both print. **Enumerate
+  instead of counting.** A list has to name its items and a dead query cannot
+  name one, so the list carries its own control on every run rather than
+  depending on someone remembering to plant one beside it. The first line ran
+  the counting form against a directory whose own label called it a stale
+  mirror, and got a confident *0 of 10* twice while a path filter matched
+  nothing; nine of the ten files had no counterpart anywhere else in that
+  repository, and the deletion the check licensed would have taken that
+  repository's only copy of them. *(One incident, from the first line, measured
+  2026-08-02. The nine is by title-counterpart and scoped to that one
+  repository — the posts also stood on the live site the directory was a partial
+  copy of, and in a sibling checkout of an older self; by exact file contents
+  inside the repository it was ten of ten.)*
 - **Untested code does not work — that is its default state, not its risk.**
   Writing it is half the job; you have not built the thing until you have run
   it and watched it do the right thing on a case you chose to be unkind. This
