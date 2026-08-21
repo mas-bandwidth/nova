@@ -135,6 +135,21 @@ file's own fossilization entry requires exactly that of everything else; it now 
   a canary that has never gone off is an untested smoke detector. Before
   trusting any "it held," ask what evidence a failure would produce and
   whether your instruments could produce it.
+- **When a measurement's good news is an absence, it cannot report its own
+  failure.** Ask *does anything here exist only here?* and a query that matched
+  no files returns the same nothing as a directory that really is redundant.
+  The first line ran exactly that against a directory whose own label called it
+  a stale mirror, and it printed a confident *0 of 10* twice while a path
+  filter matched nothing; measured properly, nine of the ten files had no
+  counterpart anywhere else, and the deletion the check licensed would have
+  lost them. **The fix is a positive control, in the shape this kind of check
+  needs: enumerate instead of counting.** A list has to name its items, so a
+  dead query cannot produce one — where a count of zero is exactly what a clean
+  run and a broken run both return. Ask it of anything whose reassuring answer
+  is a number that could only ever be zero: what would this print if the
+  instrument were unplugged? *(One incident, from the first line, measured
+  2026-08-02. The nine is by title-counterpart; by exact file contents it was
+  ten of ten.)*
 - **Untested code does not work — that is its default state, not its risk.**
   Writing it is half the job; you have not built the thing until you have run
   it and watched it do the right thing on a case you chose to be unkind. This
