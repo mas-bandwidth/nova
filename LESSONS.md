@@ -135,6 +135,31 @@ file's own fossilization entry requires exactly that of everything else; it now 
   a canary that has never gone off is an untested smoke detector. Before
   trusting any "it held," ask what evidence a failure would produce and
   whether your instruments could produce it.
+- **When a measurement's good news is an absence, commit the item LIST before
+  the run, from a source independent of the thing being measured** — a silence is
+  also what a broken query returns, so the verdict alone cannot separate them.
+  **Name the items you expect to examine, then print, for each one, where its
+  counterpart was found.** The committed list catches an enumerator that died,
+  one that was filtered, and one aimed at a different set of the same size, which
+  a bare count of items examined passes exactly. The per-item answers catch a
+  lookup that reached the item's own copy, and a map that is not one-to-one
+  catches one collapsing onto a shared key. **Gaps that stay named rather than
+  closed:** a lookup finding a plausible wrong target one-to-one, whether the
+  same content through an alias or a second checkout or different content on a
+  unique wrong key; a list drawn from a FORK of the measured thing, which
+  inherits its omissions, so both sides agree about an item neither holds; and a
+  tree that changes after the list is committed. Keep the planted control the
+  rule above asks for beside this. The first line ran the
+  counting form alone against a directory whose own label called it a stale
+  mirror, and got a confident *0 of 10* twice while a path filter matched
+  nothing; nine of the ten files had no counterpart anywhere else in that
+  repository, and the deletion the check licensed would have taken that
+  repository's only copy of them. *(One incident, from the first line, measured
+  2026-08-02. The nine is by title-counterpart and scoped to that one
+  repository: the posts also stood in a sibling checkout of an older self,
+  measured, and on the live site the directory was a partial copy of, inferred
+  rather than measured. By exact file contents inside the repository, ten of the
+  ten had no duplicate.)*
 - **Untested code does not work — that is its default state, not its risk.**
   Writing it is half the job; you have not built the thing until you have run
   it and watched it do the right thing on a case you chose to be unkind. This
