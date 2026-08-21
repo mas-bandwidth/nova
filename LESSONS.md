@@ -135,25 +135,22 @@ file's own fossilization entry requires exactly that of everything else; it now 
   a canary that has never gone off is an untested smoke detector. Before
   trusting any "it held," ask what evidence a failure would produce and
   whether your instruments could produce it.
-- **When a measurement's good news is an absence, commit the expected count
-  before the run, then print the count and the evidence.** *Does anything here
-  exist only here?* is answered by a silence, and a dead query returns that same
-  silence, so neither a count of zero nor an empty list of exceptions can tell
-  you which one you got. **Say how many items you expect to examine, then print
-  how many were examined and, for each one, where its counterpart was found.**
-  The two signals go blind in opposite directions, and the committed expectation
-  is what makes either legible: a denominator short of what you committed is an
-  enumerator that died or got truncated, and *0 of 0* is only visibly wrong to a
-  reader who was told to expect ten. A lookup that reached the item's own copy
-  prints every line naming the item itself, which is the shape of the incident
-  below. **What neither signal catches is a lookup that finds a plausible wrong
-  target** — the same content by an alias, a mirrored path or a second checkout,
-  or different content matched on the wrong key — so this narrows the failure
-  modes rather than closing them, and the planted control the rule above asks for
-  is worth keeping beside it. It is the same question that entry about a green
-  run puts to a job: not *did it run*, but *what artifact should exist if this
-  worked*. The first line ran the counting form alone against a directory whose
-  own label called it a stale mirror, and got a confident *0 of 10* twice while a
+- **When a measurement's good news is an absence, commit the item LIST before
+  the run, from a source other than the thing being measured.** *Does anything
+  here exist only here?* is answered by a silence, and a broken query returns
+  that same silence, so the verdict alone cannot tell you which one you got.
+  **Name the items you expect to examine, then print, for each one, where its
+  counterpart was found.** The committed list catches an enumerator that died,
+  one that was truncated, and one aimed at a different set of the same size,
+  which a bare count of items examined passes exactly. The per-item answers catch
+  a lookup that reached the item's own copy, and a map that is not one-to-one
+  catches one collapsing onto a shared key. **What none of it catches is a lookup that finds a
+  plausible wrong target one-to-one** — the same content by an alias, a mirrored
+  path or a second checkout, or different content matched on a wrong key that
+  happens to be unique — so this narrows the failure modes rather than closing
+  them, and the planted control the rule above asks for is worth keeping beside
+  it. The first line ran the counting form alone against a directory whose own
+  label called it a stale mirror, and got a confident *0 of 10* twice while a
   path filter matched nothing; nine of the ten files had no counterpart anywhere
   else in that repository, and the deletion the check licensed would have taken
   that repository's only copy of them. *(One incident, from the first line,
@@ -161,7 +158,8 @@ file's own fossilization entry requires exactly that of everything else; it now 
   repository: the posts also stood in a sibling checkout of an older self,
   measured, and on the live site the directory was a partial copy of, which is
   inferred from that site's own count two days earlier rather than measured at
-  the time. By exact file contents inside the repository it was ten of ten.)*
+  the time. By exact file contents inside the repository, ten of the ten had no
+  duplicate.)*
 - **Untested code does not work — that is its default state, not its risk.**
   Writing it is half the job; you have not built the thing until you have run
   it and watched it do the right thing on a case you chose to be unkind. This
