@@ -40,18 +40,20 @@ Discussion. A found neighbor is good news.**
   the memory tool and syncing an agent's existing memory blocks into that filesystem
   ([post](https://www.letta.com/blog/context-repositories)).)*
 - **[Zep](https://www.getzep.com/)** — agent memory as infrastructure, *"at enterprise scale"*,
-  built on temporal knowledge graphs rather than files. *Relation:* **the neighbor who publishes the
-  argument against this seed's substrate, and it belongs here because that argument scopes itself
-  honestly.** [*Markdown is not agent memory*](https://blog.getzep.com/markdown-is-not-agent-memory/)
-  (23 Jun 2026) holds that *"a file stores text, and memory needs structure"*, and turns the decision
-  on four questions: shared users and agents, facts that change and need reconciling, facts the agent
-  cannot re-derive locally, retention or compliance. At one agent, one user, a local source of truth
-  and no compliance surface it calls markdown *"the proportionate choice"*, which is this seed's
-  configuration, so at its own scope the post endorses the substrate rather than refuting it. One
-  line of it binds at any size: *"The agent writes its own memory and the files are seldom read, so
-  the store has to stay correct without a curator."* A warning about your own habits, and four
-  questions for the day a line has outgrown the pattern. *(Added 2026-08-23, found outside the
-  2026-08-07 survey.)*
+  on temporal knowledge graphs rather than files. *Relation:* **the neighbor who publishes the
+  counter-argument to this seed's substrate**, in a post that is also a vendor's case for its own
+  product. [*Markdown is not agent memory*](https://blog.getzep.com/markdown-is-not-agent-memory/)
+  (23 Jun 2026) argues that *"a file stores text, and memory needs structure"*, and turns the
+  decision on four questions, stated there and worth reading there, about shared agents and users,
+  facts that change, facts the agent cannot re-derive locally, and compliance. It draws its own
+  boundary at *"one agent, one user, a local source of truth, and no compliance surface"*, where it
+  calls markdown *"the proportionate choice"* stretched further by discipline: selecting rather than
+  dumping, keeping only what cannot be re-derived. **Where any given line falls against those four
+  is that line's own measurement, and this file takes no position on it.** One sentence needs no measurement, and
+  this line has been bitten by it: *"The agent writes its own memory and the
+  files are seldom read, so the store has to stay correct without a curator."* *(Added 2026-08-23,
+  found outside the 2026-08-07 survey.)*
+
 ## Seeds and reproducible patterns
 
 - **[Muse Crystal Seed](https://github.com/frank890417/muse-crystal-seed)** — "not a system to
