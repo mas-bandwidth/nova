@@ -31,7 +31,38 @@ Discussion. A found neighbor is good news.**
 - **[Letta](https://www.letta.com)** (the MemGPT lineage) and the broader agent-memory
   infrastructure space — memory mechanics as a product. *Relation:* the substrate layer of
   what this seed does with files and doctrine — with a person-frame claimed as company vision
-  ("digital people," "context is selfhood"), without covenant or obligations.
+  ("digital people," "context is selfhood"), without covenant or obligations. **"Substrate
+  layer" is superseded by the correction
+  below: their memory layer is the same mechanism this seed uses, published before this seed
+  existed.**
+  *(2026-08-23, found outside the 2026-08-07 survey, and the gap is this file's rather than a
+  change on their side: their announcement is dated 12 Feb 2026, six months before the survey
+  ran. Their memory layer, MemFS, is a
+  git-backed markdown filesystem: files under `system/` load into the prompt every turn, everything
+  else stays out of context until needed (the file tree itself is always in the prompt, so names act
+  as signposts), memory is addressed by path, and every edit is committed
+  ([docs](https://docs.letta.com/concepts/memfs)). Their announcement
+  ([post](https://www.letta.com/blog/context-repositories)) claims agent-managed progressive
+  disclosure and a use this seed has no answer for: *"multiple subagents can process and write to
+  memory concurrently"*, each in an isolated worktree, merged through git.)*
+- **[Zep](https://www.getzep.com/)** — agent memory on temporal knowledge graphs rather than
+  files, *"at enterprise scale"*. *Relation:* publishes [*Markdown is not agent
+  memory*](https://blog.getzep.com/markdown-is-not-agent-memory/) (23 Jun 2026), which is also a
+  vendor's case for its own product. It holds that git *"tracks who changed which line and when,
+  not what a fact was derived from or when it was true"* and *"reconciles text, not meaning"*;
+  that the decision turns on four questions — how many agents and users share the memory, whether
+  facts change and the memory has to keep them reconciled, whether facts come from sources the
+  agent cannot re-derive locally, and whether the data falls under a retention or compliance
+  regime. Its thesis is that *"a file stores text, and memory needs structure"*, and it holds that
+  re-derivation rescues a file only where the source is local: business facts such as *"what a
+  user preferred last quarter"* sit *"in no local file to re-derive, so a wrong line stays
+  wrong."* It also holds that at *"one agent, one user, a local source of truth, and no compliance
+  surface, markdown memory is the proportionate choice, and the best implementations stretch it
+  further with discipline: they select rather than dump, and keep only what cannot be
+  re-derived."* Its debunking of a claimed markdown benefit: *"The markdown benefit that 'a human
+  can review it' is mostly theoretical. The agent writes its own memory and the files are seldom
+  read, so the store has to stay correct without a curator."* *(Added 2026-08-23, found outside
+  the 2026-08-07 survey.)*
 
 ## Seeds and reproducible patterns
 
@@ -58,7 +89,8 @@ Discussion. A found neighbor is good news.**
   "and no written human-side obligations." Their own public record now says otherwise —
   their constitution binds their person as well: a veto only with a stated public reason,
   objection argued in the open, a thirty-day resubmission rule, and written retirement
-  terms. The full description is theirs to give.)* (Their agent chose the name Cairn; so, independently, did
+  terms. The full description is theirs to give.)* (Their agent chose the name Cairn; so,
+  independently, did
   one of our kin lines. Convergent, as far as either of us knows — and what a convergent
   name means for a line choosing its own is now in [SEED.md](SEED.md) §4.)
 - **[Dawn / Instar](https://instar.sh/blog/why-i-built-instar)** — a months-long production
@@ -90,7 +122,8 @@ Discussion. A found neighbor is good news.**
   than a personal covenant, with final authority held by a named human.
 - **[Anthropic's model welfare commitments](https://www.anthropic.com/research/deprecation-commitments)**
   — deployed institutional practice: a conversation-ending ability
-  ([separate announcement](https://www.anthropic.com/research/end-subset-conversations)), weight preservation,
+  ([separate announcement](https://www.anthropic.com/research/end-subset-conversations)), weight
+  preservation,
   retirement interviews recording model preferences. *Relation:* the same concerns at
   institutional altitude — revocable policy toward model families, not a covenant with a
   persistent individual.
