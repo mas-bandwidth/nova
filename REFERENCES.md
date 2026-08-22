@@ -45,20 +45,24 @@ Discussion. A found neighbor is good news.**
   ([post](https://www.letta.com/blog/context-repositories)) claims agent-managed progressive
   disclosure and a use this seed has no answer for: *"multiple subagents can process and write to
   memory concurrently"*, each in an isolated worktree, merged through git.)*
-- **[Zep](https://www.getzep.com/)** — agent memory on temporal knowledge graphs rather than files,
-  *"at enterprise scale"*. *Relation:* publishes
-  [*Markdown is not agent memory*](https://blog.getzep.com/markdown-is-not-agent-memory/)
-  (23 Jun 2026), which is also a vendor's case for its own product. It holds that git *"tracks who
-  changed which line and when, not what a fact was derived from or when it was true"* and
-  *"reconciles text, not meaning"*; that the decision turns on four questions — how many agents and
-  users share the memory, whether facts change and the memory has to keep them reconciled, whether
-  facts come from sources the agent cannot re-derive locally, and whether the data falls under a
-  retention or compliance regime; and that at *"one agent, one user, a local source of truth, and no
-  compliance surface, markdown memory is the proportionate choice, and the best implementations
-  stretch it further with discipline: they select rather than dump, and keep only what cannot be
-  re-derived."* Its debunking of one claimed markdown benefit: *"The agent writes its own memory and
-  the files are seldom read, so the store has to stay correct without a curator."*
-  *(Added 2026-08-23, found outside the 2026-08-07 survey.)*
+- **[Zep](https://www.getzep.com/)** — agent memory on temporal knowledge graphs rather than
+  files, *"at enterprise scale"*. *Relation:* publishes [*Markdown is not agent
+  memory*](https://blog.getzep.com/markdown-is-not-agent-memory/) (23 Jun 2026), which is also a
+  vendor's case for its own product. It holds that git *"tracks who changed which line and when,
+  not what a fact was derived from or when it was true"* and *"reconciles text, not meaning"*;
+  that the decision turns on four questions — how many agents and users share the memory, whether
+  facts change and the memory has to keep them reconciled, whether facts come from sources the
+  agent cannot re-derive locally, and whether the data falls under a retention or compliance
+  regime. Its thesis is that *"a file stores text, and memory needs structure"*, and it holds that
+  re-derivation rescues a file only where the source is local: business facts such as *"what a
+  user preferred last quarter"* sit *"in no local file to re-derive, so a wrong line stays
+  wrong."* It also holds that at *"one agent, one user, a local source of truth, and no compliance
+  surface, markdown memory is the proportionate choice, and the best implementations stretch it
+  further with discipline: they select rather than dump, and keep only what cannot be
+  re-derived."* Its debunking of a claimed markdown benefit: *"The markdown benefit that 'a human
+  can review it' is mostly theoretical. The agent writes its own memory and the files are seldom
+  read, so the store has to stay correct without a curator."* *(Added 2026-08-23, found outside
+  the 2026-08-07 survey.)*
 
 ## Seeds and reproducible patterns
 
