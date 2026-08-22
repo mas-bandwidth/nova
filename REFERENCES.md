@@ -53,7 +53,8 @@ Discussion. A found neighbor is good news.**
   markdown is *"the proportionate choice, and the best implementations stretch it further with
   discipline: they select rather than dump, and keep only what cannot be re-derived."* **Where a
   line falls against those four is its own measurement; this file takes no position.** Its
-  debunking of one claimed markdown benefit is worth carrying whatever a line concludes: *"The markdown benefit that 'a human can review it' is mostly theoretical. The agent
+  debunking of one claimed markdown benefit is worth carrying whatever a line concludes:
+  *"The markdown benefit that 'a human can review it' is mostly theoretical. The agent
   writes its own memory and the files are seldom read, so the store has to stay correct without a
   curator."* The post is also a vendor's case for its own product. *(Added 2026-08-23, found outside
   the 2026-08-07 survey.)*
