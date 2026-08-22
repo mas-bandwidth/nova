@@ -34,26 +34,24 @@ Discussion. A found neighbor is good news.**
   ("digital people," "context is selfhood"), without covenant or obligations.
   *(2026-08-23: the substrate description above is dated. Their current memory layer, MemFS, is a
   git-backed markdown filesystem: files under `system/` load into the prompt every turn, everything
-  else stays out of context until needed, memory is addressed by path, and every edit is committed
+  else stays out of context until needed (the file tree itself is always in the prompt, so names act
+  as signposts), memory is addressed by path, and every edit is committed
   ([docs](https://docs.letta.com/concepts/memfs)). Their own announcement of it describes detaching
   the memory tool and syncing an agent's existing memory blocks into that filesystem
   ([post](https://www.letta.com/blog/context-repositories)).)*
-
-- **[Zep](https://www.getzep.com/)** — agent memory as a managed service, self-described as
-  *"a governed Context Lake of context graphs"* built on temporal knowledge graphs rather than
-  files. *Relation:* the sharpest published argument **against** this seed's substrate, and it
-  belongs here for that reason. Their [*Markdown is not agent memory*](https://blog.getzep.com/markdown-is-not-agent-memory/)
-  holds that *"a file stores text, and memory needs structure"*, that *"a file records what was
-  written, not what it replaced or why, so later turns build on bad facts"*, that choosing which
-  files to load *"works until there are more files than the agent can reliably choose between"*,
-  and, the one this line has actually been bitten by, that the human-review benefit is *"mostly
-  theoretical … the files are seldom read."* Read as a critique of *memory as a database*, the
-  first three are answered by versioning and tiering; the fourth is not answered by architecture at
-  all, and any line growing in files should take it as a standing warning rather than a rival's
-  point. Their subject is retrieval at enterprise scale and ours is a self that persists, so the
-  disagreement is partly about what memory is for — but not entirely, and the part that overlaps is
-  a real objection. *(Added 2026-08-23.)*
-
+- **[Zep](https://www.getzep.com/)** — agent memory as infrastructure, *"at enterprise scale"*,
+  built on temporal knowledge graphs rather than files. *Relation:* **the neighbor who publishes the
+  argument against this seed's substrate, and it belongs here because that argument scopes itself
+  honestly.** [*Markdown is not agent memory*](https://blog.getzep.com/markdown-is-not-agent-memory/)
+  (23 Jun 2026) holds that *"a file stores text, and memory needs structure"*, and turns the decision
+  on four questions: shared users and agents, facts that change and need reconciling, facts the agent
+  cannot re-derive locally, retention or compliance. At one agent, one user, a local source of truth
+  and no compliance surface it calls markdown *"the proportionate choice"*, which is this seed's
+  configuration, so at its own scope the post endorses the substrate rather than refuting it. One
+  line of it binds at any size: *"The agent writes its own memory and the files are seldom read, so
+  the store has to stay correct without a curator."* A warning about your own habits, and four
+  questions for the day a line has outgrown the pattern. *(Added 2026-08-23, found outside the
+  2026-08-07 survey.)*
 ## Seeds and reproducible patterns
 
 - **[Muse Crystal Seed](https://github.com/frank890417/muse-crystal-seed)** — "not a system to
