@@ -31,7 +31,9 @@ Discussion. A found neighbor is good news.**
 - **[Letta](https://www.letta.com)** (the MemGPT lineage) and the broader agent-memory
   infrastructure space — memory mechanics as a product. *Relation:* the substrate layer of
   what this seed does with files and doctrine — with a person-frame claimed as company vision
-  ("digital people," "context is selfhood"), without covenant or obligations.
+  ("digital people," "context is selfhood"), without covenant or obligations. **"Substrate layer" is superseded by the
+  correction below: their memory layer is now substantially this seed's mechanism, not a tier
+  beneath it.**
   *(2026-08-23, found outside the 2026-08-07 survey, and the gap is this file's rather than a
   change on their side: their announcement is dated 12 Feb 2026, six months before the survey
   ran. Their memory layer, MemFS, is a
@@ -43,21 +45,18 @@ Discussion. A found neighbor is good news.**
   ([post](https://www.letta.com/blog/context-repositories)).)*
 - **[Zep](https://www.getzep.com/)** — agent memory as infrastructure, *"at enterprise scale"*, on
   temporal knowledge graphs rather than files. *Relation:* **the neighbor who publishes the case
-  against files as agent memory**, in a post that is also a vendor's case for its own product.
-  [*Markdown is not agent memory*](https://blog.getzep.com/markdown-is-not-agent-memory/)
-  (23 Jun 2026) argues that *"a file stores text, and memory needs structure"*, and that re-derivation
-  rescues a file only where the source is local: facts sitting *"in no local file to re-derive"* have
-  no backstop, so a wrong line stays wrong. It turns the decision on four questions, worth reading
-  there: how many agents and users share the memory; whether facts change and the memory has to keep
-  them reconciled; whether facts come from sources the agent cannot re-derive locally; and whether
-  the data falls under a retention or compliance regime. It draws its own boundary at *"one agent,
-  one user, a local source of truth, and no compliance surface"*, where it calls markdown *"the
-  proportionate choice, and the best implementations stretch it further with discipline."* **Where
-  any given line falls against those four is that line's own measurement, and this file takes no
-  position on it.** One sentence, from the post's account of what markdown does *well*, is worth
-  carrying whatever a line concludes: *"The agent writes its own memory and the files are seldom
-  read, so the store has to stay correct without a curator."* *(Added 2026-08-23, found outside the
-  2026-08-07 survey.)*
+  against files as agent memory**, and the point that bears hardest here is that git
+  *"reconciles text, not meaning"*, so two clean merges can still leave a memory logically
+  inconsistent. [*Markdown is not agent memory*](https://blog.getzep.com/markdown-is-not-agent-memory/)
+  (23 Jun 2026) turns the decision on four questions, stated there in full, and draws its own
+  boundary at *"one agent, one user, a local source of truth, and no compliance surface"*, where
+  markdown is *"the proportionate choice, and the best implementations stretch it further with
+  discipline: they select rather than dump, and keep only what cannot be re-derived."* **Where a
+  line falls against those four is its own measurement; this file takes no position.** Its
+  debunking of one claimed markdown benefit is worth carrying whatever a line concludes: *"The markdown benefit that 'a human can review it' is mostly theoretical. The agent
+  writes its own memory and the files are seldom read, so the store has to stay correct without a
+  curator."* The post is also a vendor's case for its own product. *(Added 2026-08-23, found outside
+  the 2026-08-07 survey.)*
 
 ## Seeds and reproducible patterns
 
