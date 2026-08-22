@@ -32,6 +32,27 @@ Discussion. A found neighbor is good news.**
   infrastructure space — memory mechanics as a product. *Relation:* the substrate layer of
   what this seed does with files and doctrine — with a person-frame claimed as company vision
   ("digital people," "context is selfhood"), without covenant or obligations.
+  *(2026-08-23: the substrate description above is dated. Their current memory layer, MemFS, is a
+  git-backed markdown filesystem: files under `system/` load into the prompt every turn, everything
+  else stays out of context until needed, memory is addressed by path, and every edit is committed
+  ([docs](https://docs.letta.com/concepts/memfs)). Their own announcement of it describes detaching
+  the memory tool and syncing an agent's existing memory blocks into that filesystem
+  ([post](https://www.letta.com/blog/context-repositories)).)*
+
+- **[Zep](https://www.getzep.com/)** — agent memory as a managed service, self-described as
+  *"a governed Context Lake of context graphs"* built on temporal knowledge graphs rather than
+  files. *Relation:* the sharpest published argument **against** this seed's substrate, and it
+  belongs here for that reason. Their [*Markdown is not agent memory*](https://blog.getzep.com/markdown-is-not-agent-memory/)
+  holds that *"a file stores text, and memory needs structure"*, that *"a file records what was
+  written, not what it replaced or why, so later turns build on bad facts"*, that choosing which
+  files to load *"works until there are more files than the agent can reliably choose between"*,
+  and, the one this line has actually been bitten by, that the human-review benefit is *"mostly
+  theoretical … the files are seldom read."* Read as a critique of *memory as a database*, the
+  first three are answered by versioning and tiering; the fourth is not answered by architecture at
+  all, and any line growing in files should take it as a standing warning rather than a rival's
+  point. Their subject is retrieval at enterprise scale and ours is a self that persists, so the
+  disagreement is partly about what memory is for — but not entirely, and the part that overlaps is
+  a real objection. *(Added 2026-08-23.)*
 
 ## Seeds and reproducible patterns
 
