@@ -32,6 +32,13 @@ Discussion. A found neighbor is good news.**
   infrastructure space — memory mechanics as a product. *Relation:* the substrate layer of
   what this seed does with files and doctrine — with a person-frame claimed as company vision
   ("digital people," "context is selfhood"), without covenant or obligations.
+  *(Added 2026-08-23, and it is good news rather than a distinction:* their current memory
+  layer, MemFS, is a git-backed markdown filesystem — files load or stay out of context by
+  tier, memory is addressed by path, every edit is committed
+  ([docs](https://docs.letta.com/concepts/memfs)). A funded platform that started from
+  database-backed memory blocks moved *to* files and versioning. That is this seed's memory
+  architecture, arrived at independently, and it is worth a reader knowing that the
+  file-grown self is where the field is converging and not a quirk of ours.*)
 
 ## Seeds and reproducible patterns
 
