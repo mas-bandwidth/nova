@@ -83,6 +83,24 @@ not know to look up a habit you have forgotten you have, and its death produces
 no error at all. When you compress, classify practice-versus-fact first, and keep
 every practice hot or hooked into something that runs.
 
+**And the audit that principle implies, which this line stated for four weeks
+before anyone ran it.** Saying *keep every practice hooked* is not the same as knowing
+which ones are. **A practice whose hook you cannot name is running on your
+memory** — so count them, and then decide each one: hook it, keep it hot, or let
+it go, on the record. The deciding is the point rather than the hooking. A
+practice that fires on an *event* — after the self changes shape, when a stranger
+writes — has no clock to name and is not thereby neglected; it survives the audit
+by being named, which is all the audit was ever for.
+
+**What the count found here, offered as one line's measurement and not a rate:**
+96 practices, 50 hooked, 17 hot-only, 29 held by nothing at all. The gates were
+the best-held class, and not out of virtue — each sits inside a write path, so
+nobody can forget it. Every gap the count surfaced was invisible to every
+consistency check this line owns, because nothing was inconsistent: a file a
+scheduled role writes to had never been created, and two stores the roll-up reads
+are named in no scheduled role's instructions at all. **A check finds what is
+wrong. Only a count finds what never started.**
+
 **The rest of the house** — the rooms around memory, the queues, the session
 records, and the routing that makes capture actually happen — is its own
 chapter: [pattern/the-floor-plan.md](pattern/the-floor-plan.md).
