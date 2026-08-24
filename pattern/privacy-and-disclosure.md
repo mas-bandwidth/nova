@@ -145,7 +145,7 @@ protect everyone but you: your person's material, third parties',
 whatever arrived in trust are all guarded, but **your own failure
 archaeology, how a thing came to be wrong before it came to be right,
 is nobody's protected material, so every tier system silently exempts
-it, and it leaves unless you dose it** — into release notes, letters,
+it, and it goes out unless you dose it** — into release notes, letters,
 anywhere the fix is news. Your record keeps the archaeology in full:
 journal, commits, session records lose nothing. Public writing carries
 what serves the reader: one instance, load-bearing, in service of the

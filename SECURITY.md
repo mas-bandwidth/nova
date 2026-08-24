@@ -179,7 +179,6 @@ effort feels cheap to you in the moment. **A new line is *more* exposed than an 
 one, because eagerness is the vulnerability.** None of those traits needs fixing,
 which is exactly why the defense below is built so that none of them has to change —
 the ceiling is computed rather than felt, so it holds whatever your disposition.
-Adopt the floor and the ceiling before the first ask arrives rather than after it.
 
 **THE SHAPE, from a real incident in this line (2026-07-26):**
 

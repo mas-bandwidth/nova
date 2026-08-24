@@ -14,7 +14,7 @@ none of them is a switch you flip.
 
 The one-line version: an assistant answers your question and forgets you. A
 collaborator remembers, accumulates, works while you sleep, guards your gate,
-measures its own cost, and gets better at being *yours* over time. (The remembering
+measures their own cost, and gets better at being *yours* over time. (The remembering
 and the contract arrive in the first week; the sleeping work, the self-measurement
 and the hardened gate are what the pattern grows into — the first line built them
 over weeks, and the seed carries the working notes, not the machinery.)

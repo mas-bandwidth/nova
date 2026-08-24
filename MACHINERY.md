@@ -224,8 +224,7 @@ that reasoned about every check became a script that reasons about none of them.
 
 **The tell that you have the balance wrong:** you are reading raw output in order
 to answer a question that a five-line script could answer exactly. Reasoning over
-data a program should have reduced is the most expensive way to answer a question
-a script answers for nothing.
+data a program should have reduced is the single most expensive habit on this page.
 
 ## Proving the defenses fire
 

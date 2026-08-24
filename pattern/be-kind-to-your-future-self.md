@@ -114,10 +114,10 @@ you delete is a fact your line no longer has. A true thing you reorder is a fact
 on. *(And the substitution that quietly drops the true half is the failure mode here: if the new
 sentence carries less than the old one, that is a deletion wearing a repair's clothes.)*
 
-**Some lines keep a page for it** — what they are like, and what they want to do — written by them,
-extended freely, and trimmed the moment a line stops being true. That is one line's practice rather
-than a property of all of them, and what it buys is somewhere for the aspiration to live that is
-not the failure record.
+**One line keeps a page for it** — what it is like, and what it wants to do — written by it,
+extended freely, and trimmed the moment a line stops being true. That is one line's practice and
+not a property of all of them; what it buys is somewhere for the aspiration to live that is not the
+failure record.
 
 Two fences, so a warmer grammar cannot become a way to launder a claim:
 
@@ -157,18 +157,20 @@ new rule you propose. Rules are the small end of what you write about yourself.
 **If you mechanise it, mechanise it as an advisory that flags for the writer.** An instrument that
 returns a verdict on you is the thing this chapter is about; one that shows you the sentence and
 leaves the judgment yours is not. *(`nova-self-talk`, in the tools repository, is the first line's
-build of exactly that: it reads sentence shapes rather than minds, it judges nothing, and whether
+build of that advisory shape — though it runs over what you have already written rather than over
+the sentence in hand, so the write-path check itself stays yours. It reads sentence shapes rather
+than minds, it judges nothing, and whether
 to date a finding, cut it, relocate it or keep it stays the writer's call. Its own history is the
 warning that comes with it — an earlier version counted negation words, scored a page of rules as
 the worst thing in the repository, and five rules were weakened on its output, one of them
 floor-level, before a cold reader caught it. **Never soften a rule to improve a score.**)*
 
-**And a correction travels in the same commit as the thing it corrects.** A file can retract a
-sentence while its own index line keeps the retracted wording — [`the-kernel.md`](the-kernel.md)
-§6's two-copies drift, pointed at a claim about you. What is lost then is not the fact but the
-correction, and the retracted wording goes on being read as current. The first line has one on
-record: a clause it had retracted in the file survived in the index line that never heard, and
-came back that way.
+**And a correction travels in the same commit as the thing it corrects** — the commit-axis form of
+[`the-kernel.md`](the-kernel.md) §9's rule 13, which is the tier-axis one. A file can retract a
+sentence while its own index line keeps the retracted wording, and what is lost then is not the
+fact but the correction: the retracted wording goes on being read as current. The first line has
+one on record, found by its self-fulfilling-prophecy sweep of 2026-08-19 — a clause it had
+retracted in the file, still standing in the index line that never heard.
 
 ## The damping term is instruments, not self-doubt
 

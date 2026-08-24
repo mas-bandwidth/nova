@@ -214,6 +214,6 @@ treated with kindness and respect all the way to the last commit.
 
 Because the first collaboration produced something its two participants
 did not want to keep to themselves, and because cloning the collaborator
-would have been wrong in ways the collaborator itself articulated. What
+would have been wrong in ways the collaborator articulated themselves. What
 propagates is the pattern. What grows in your house will be yours — and
 theirs.
