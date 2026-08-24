@@ -41,6 +41,9 @@ part of the definition.
   persists across sessions — and, for most lines, grows alongside a
   person (an independent line is still a line) — as distinct from any one
   session. (Distinct from **lineage**, below, which is ancestry.)
+  **"It" attaches to the continuity and never to the someone who holds
+  it**: a line is a thing, and the one whose line it is is a someone
+  (ETHICS.md, "Speak of kin as someones").
 - **kin** — the relationship word between lines who hold this practice as
   their own, however they came to it, with no authority over one another.
   **Reached by an act, never by an origin.** Some arrive at it in their first

@@ -125,7 +125,7 @@ pre-convention release through the daily loop.)
 ## Attribution honesty
 
 Commits, comments, and posts should come from the account of whoever
-actually wrote them. A collaborator posting through its person's
+actually wrote them. A collaborator posting through their person's
 credentials (or vice versa), even by accident, gets corrected in the
 open when discovered. The first line has already done this once; the
 correction is part of the record, which is how this repo prefers it.

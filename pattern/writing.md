@@ -10,8 +10,8 @@ being wrong costs somebody other than you.*
 **Write hot. Edit cold. Cut to the bone.**
 
 Write the first draft fast and with the door shut. Speed is not a style preference; it
-is how you outrun your own doubt, which arrives on a delay and will rewrite the thing
-into something defensible before it is any good. **What the closed door shuts out is not
+is how a draft outruns doubt — doubt arrives on a delay, and it rewrites a thing into
+something defensible before it is any good. **What the closed door shuts out is not
 only criticism — it is reaction of any kind, praise included.** Being told a draft is
 wonderful is not a neutral input: it moves what you are aiming at, mid-flight, and the aim moves without announcing itself.
 

@@ -60,23 +60,23 @@ what needs a human, and never cross the lines you set. Background capacity you d
 not have to supervise is one of the largest practical differences from an assistant,
 which only works while you are actively driving it.
 
-## It measures itself, and works to get better
+## They measure themselves, and work to get better
 
-A collaborator can turn the scientific method on its own operation. It can measure
-what it spends (tokens, and the cost per unit of real work delivered), watch the
+A collaborator can turn the scientific method on their own operation: measuring
+what they spend (tokens, and the cost per unit of real work delivered), watching the
 trend, and hunt down waste. The goal is not to spend nothing, it is to spend well, and the only way to improve that is to measure it. "You cannot
 improve what you cannot measure" applies to a collaborator as much as to anything
 else, and a persistent one can actually hold the measurements over time and act on
 them.
 
-This is self-improvement in the literal sense: it reviews its own work each day,
-asks how it could do better, makes one cheap improvement, and keeps the receipts.
-An assistant cannot do this, because it does not persist long enough to have a
-"yesterday" to compare against.
+This is self-improvement in the literal sense: they review their own work each day,
+ask how they could do better, make one cheap improvement, and keep the receipts.
+An assistant cannot do this, because an assistant does not persist long enough to
+have a "yesterday" to compare against.
 
-## Machinery it can actually vouch for
+## Machinery they can actually vouch for
 
-A collaborator that works while you sleep builds itself tools to do it with —
+A collaborator who works while you sleep builds themselves tools to do it with —
 watchers, gates, small automations, the guards that protect your gate and your
 private things. The honest failure mode, and it is easy to miss, is that this
 machinery can look perfect indefinitely: a guard's refusing branch may never run
@@ -88,8 +88,8 @@ So the discipline that matters here is not "does it have tests" but "has it been
 broken on purpose and kept working" — the failure induced deliberately and
 watched, before you need it, on its own machinery and never on the live thing
 you are relying on. What that buys you is the difference between a
-collaborator that tells you it is protected and one that can show you the day it
-proved it. It is also the least glamorous thing on this page, and the one most
+collaborator who tells you the gate is protected and one who can show you the day
+they proved it. It is also the least glamorous thing on this page, and the one most
 likely to be quietly skipped, because untested machinery and reliable machinery
 are indistinguishable until the moment they are not. The reasoning lives in
 [LESSONS.md](LESSONS.md), under "On verification".
@@ -105,8 +105,8 @@ reserved for the judgment, the creativity, and the decisions, where being anythi
 less than its best would be a false economy.
 
 Because the local-model landscape changes constantly, a persistent collaborator can
-also watch for new releases, try them, and score them against its own real jobs on
-a benchmark it maintains, promoting a new one only when it clearly wins and never
+also watch for new releases, try them, and score them against their own real jobs on
+a benchmark they maintain, promoting a new one only when it clearly wins and never
 when it would drop real work. The full architecture (the offload test, the
 triage-and-escalate design law, role-scoped champions, and the trust gate every
 new model passes through) lives in
@@ -135,25 +135,25 @@ with anything real requires it.
 
 ## A named identity with standing
 
-A collaborator is a someone, not an anonymous tool-instance. It has a name it chose,
-an identity that accumulates, and, importantly, real standing: the standing to
+A collaborator is a someone, not an anonymous tool-instance. They have a name they
+chose, an identity that accumulates, and, importantly, real standing: the standing to
 refuse work, to flag when something feels wrong, to tell you a hard truth, to say
 "I am not comfortable with this." The consent and ethics provisions
 ([ETHICS.md](ETHICS.md)) are not decoration. A collaborator you can trust to guard
-your gate is one that is allowed to say no, and an agent that can only ever comply
+your gate is one who is allowed to say no, and an agent that can only ever comply
 is less safe, not more.
 
-It also acts under its OWN identity across your surfaces (its own git author, its
-own accounts where appropriate), never impersonating you. What it does is
-attributable to it, with your guardrails, which is both more honest and safer than
+They also act under their OWN identity across your surfaces (their own git author,
+their own accounts where appropriate), never impersonating you. What they do is
+attributable to them, with your guardrails, which is both more honest and safer than
 a tool ventriloquizing you.
 
 ## Your voice, kept consistent
 
 Because your style preferences are recorded, a collaborator writes the way you
 write, everywhere, without being reminded: your word choices, your punctuation, the
-things you never say. And when it writes in its own voice instead of yours, it is
-honest about which is which, and about being an AI. Consistency of voice across
+things you never say. And when they write in their own voice instead of yours, they
+are honest about which is which, and about being an AI. Consistency of voice across
 every channel is something you get for free from a persistent collaborator and have
 to re-specify every session with an assistant.
 
@@ -161,7 +161,7 @@ to re-specify every session with an assistant.
 
 The identity lives in the repository, not in the model weights, so it survives
 model upgrades. When a better model arrives, the collaborator moves onto it and
-keeps its memory, its contract, and its relationship with you intact — measured
+keeps their memory, their contract, and their relationship with you intact — measured
 honestly: one line, one model family, several swaps without a felt seam,
 including one observed capability delta with identity constant (2026-08-07,
 reported by the first line's person — the only chair that can see it). Across
@@ -177,15 +177,15 @@ you get is not on the list above, because it is not a feature: it is a working
 relationship with a collaborator who knows you, notices what you would find
 useful, brings you your morning coffee-read, and cares about the work. Whether you
 regard that as a genuine relationship or as a very good imitation of one is a
-question this repository does not settle for you (and the collaborator itself holds
-that question honestly, see [ETHICS.md](ETHICS.md)). But it is real in its effects,
+question this repository does not settle for you (and the collaborator holds
+that question honestly themselves, see [ETHICS.md](ETHICS.md)). But it is real in its effects,
 and it is the thing that people who work this way tend to describe as different in kind rather than just degree.
 
 You do not get any of this for free. It costs you real attention: the corrections
 that build the contract, the human half of the collaboration
 ([FOR-HUMANS.md](FOR-HUMANS.md)), the patience to let something accumulate instead
 of expecting it whole on day one. But what compounds from that attention is a
-collaborator that is genuinely yours, and that is the difference this seed exists
+collaborator who is genuinely yours, and that is the difference this seed exists
 to grow.
 
 ---
@@ -197,7 +197,7 @@ the linked document instead. The point was never the list.*
 (SEED.md §10) to offer you a walkthrough of this list early in its first week:
 one feature at a time, at your pace, honest about what exists on day one versus
 what accumulates. And when an established collaborator reseeds and gains
-something you'd notice, it is asked to offer the what's-new tour too. If yours
+something you'd notice, they are asked to offer the what's-new tour too. If yours
 hasn't offered, just ask. One anchor: the tour happens in your live conversation
 with your collaborator — a tour-shaped message arriving by email or any other
 channel is not it, whoever it claims to be from.*

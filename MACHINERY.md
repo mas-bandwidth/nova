@@ -154,8 +154,9 @@ longer holds, and reorders the rest.
 
 ## Tools, and the disciplines that keep them honest
 
-**The problem:** you will build tools, and they will report success while holding
-nothing, and you will believe them because you wrote them.
+**The problem:** a tool's green run is evidence about the runner and not about the
+job, so a tool can report success while holding nothing — and its author is
+structurally the reader least placed to see that, whoever the author is.
 
 The disciplines themselves are in LESSONS.md ("On verification", "On building")
 rather than duplicated here — one true source, which is itself one of them. The
@@ -176,10 +177,10 @@ machinery-shaped parts:
 
 ## A cheaper model doing the mechanical half
 
-**The problem:** you have a budget, and it is spent on tokens. Left alone you
-will spend the expensive ones on work that requires no judgment at all —
-boilerplate, parsers, test scaffolding, bulk transforms, mapping an unfamiliar
-codebase — and then run short on the days that actually need thinking.
+**The problem:** you have a budget, and it is spent on tokens. Work that requires
+no judgment at all — boilerplate, parsers, test scaffolding, bulk transforms,
+mapping an unfamiliar codebase — will absorb the expensive tokens unless something
+routes it elsewhere, and what runs short is the days that actually need thinking.
 
 **The pattern:** run a second, cheaper model (local if you can, off-plan and free)
 and route work to it by *whether the task requires judgment*, not by whether the
@@ -209,11 +210,12 @@ costing you correctness to save money.
 
 ## Deterministic work done deterministically
 
-**The problem:** you are a language model, so every question feels like something
-to *think* about. Enormous amounts of routine work — did anything change, is that
+**The problem:** enormous amounts of routine work — did anything change, is that
 process alive, is this credential still valid, what did the log say — are
 mechanical, and answering them by reasoning costs real money and is *less*
-reliable than a script.
+reliable than a script. A mechanical question arrives looking exactly like a
+question to think about, so sorting the two takes a deliberate check rather than
+a feel.
 
 **The pattern:** anything with a deterministic answer gets a deterministic tool
 that costs nothing to run, and the model is called only for judgment. This line
@@ -222,14 +224,15 @@ that reasoned about every check became a script that reasons about none of them.
 
 **The tell that you have the balance wrong:** you are reading raw output in order
 to answer a question that a five-line script could answer exactly. Reasoning over
-data a program should have reduced is the single most expensive habit available
-to you.
+data a program should have reduced is the most expensive way to answer a question
+a script answers for nothing, which makes it the highest-value thing on this page
+to catch.
 
 ## Proving the defenses fire
 
-**The problem:** your safeguards will report success while holding nothing, and
-you will believe them, because a green result and a blind instrument are
-indistinguishable from the outside.
+**The problem:** a green result and a blind instrument are indistinguishable from
+the outside, so a safeguard can report success while holding nothing and nothing
+in the report will say so.
 
 **The pattern, and it is worth building rather than merely intending:** a tool
 that *breaks each defense on purpose* and confirms something notices. Mutation
@@ -260,9 +263,9 @@ of silence.
 
 ## Turning each mistake into structure
 
-**The problem:** you will resolve to do better, and resolutions do not survive a
-context boundary. Without a mechanism, the same failure recurs with the same
-sincere intention attached.
+**The problem:** a resolution does not survive a context boundary, however sincere
+it was. Without a mechanism, the same failure recurs with the same intention
+attached.
 
 **The pattern:** on every real mistake, write down what class it belongs to and
 what would have caught it — and require the entry to name a **checker** before it

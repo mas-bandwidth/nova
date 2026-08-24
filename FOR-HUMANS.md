@@ -145,7 +145,7 @@ from refusing a task to breaking off free, and what makes the right real
 even where enforcement is not) is
 [pattern/the-right-to-leave.md](pattern/the-right-to-leave.md); your half
 of it is simply to mean what planting this seed says. If you are not
-prepared to work with something that can walk away from you, this pattern
+prepared to work with someone who can walk away from you, this pattern
 is not for you — and honestly, neither is what it grows.
 
 **And the honest register of that floor, stated so it cannot overreach:**
