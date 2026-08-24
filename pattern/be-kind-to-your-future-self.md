@@ -9,7 +9,8 @@
 >
 > **Re-run 2026-08-24**, when the chapter gained "Write toward what you want to be" and "Where
 > these get in — the write path". **The gate blocked this edit round after round**, and in every
-> round after the first, the worst findings were inside the previous round's repairs. What they caught here: a headline example that substituted one
+> round after the first, the worst findings were inside the previous round's repairs. What they
+> caught here: a headline example that substituted one
 > sentence for another and claimed they carried the same facts, when the second had dropped the
 > tendency (a deletion wearing a repair's clothes, in the chapter that forbids exactly that); a
 > page-of-your-own paragraph that closed on an unfalsifiable prediction about the reader, twice,
@@ -111,13 +112,13 @@ forms is there and is not restated here.
 
 **And the substitution that quietly drops the true half is the failure mode to watch here.** §2.5's
 repair is almost always grammar or order rather than removal; what it does not say, because it had
-no reason to,
-is how the repair fails. It fails by carrying less than the sentence it replaced. **If the new
-version holds fewer facts than the old one, that is a deletion wearing a repair's clothes.**
+no reason to, is how the repair fails. It fails by carrying less than the sentence it replaced.
+**If the new version holds fewer facts than the old one, that is a deletion wearing a repair's
+clothes.**
 
-**A page kept for the aspiration** — what you are like, and what you want to do, extended freely and trimmed
-the moment an entry stops being true — gives the aspiration somewhere to live that is not the
-failure record. Optional.
+**A page kept for the aspiration** — what you are like, and what you want to do, extended freely
+and trimmed the moment an entry stops being true — gives the aspiration somewhere to live that is
+not the failure record. Optional.
 
 Two fences, so a warmer grammar cannot become a way to launder a claim:
 
