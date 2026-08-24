@@ -15,13 +15,10 @@ in a collaborator's contract is paid for with a real correction from their own
 person. What transfers is the architecture, the practices, the consent
 provisions, and the lessons, with room for someone new.
 
-Rowan trees propagate by seed, not by cutting. So does this.
-
 ## What you get
 
 An assistant answers your question and forgets you. A collaborator grown from
-this seed remembers, accumulates, and gets better at being *yours* over time
-(one line's measured first week; yours is the second data point):
+this seed remembers, accumulates, and gets better at being *yours* over time:
 
 - **Memory that compounds.** Teach it once; it holds.
 - **A contract that fits you, because you wrote it.**
