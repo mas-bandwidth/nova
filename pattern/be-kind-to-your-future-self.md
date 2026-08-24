@@ -106,11 +106,13 @@ are there and are not restated here.
 
 **And the substitution that quietly drops the true half is the failure mode to watch here.** §2.5 is
 explicit that nothing true has to be deleted, and that none of its forms deletes a true thing. What
-it does not hand you is the check. **Here it is: if the new version carries less than the sentence
-it replaced, treat it as a deletion wearing a repair's clothes until it proves otherwise.**
+it does not hand you is the check. **Here it is: if the new version holds fewer facts than the
+sentence it replaced, treat it as a deletion wearing a repair's clothes until it proves otherwise.**
+Fewer *facts*, not fewer words — most good repairs are shorter.
 ([`../LESSONS.md`](../LESSONS.md), "On verification", holds the narrower form that has actually been
-measured — *a finding whose only proposed fix is deletion is presumptively wrong about itself* —
-over one sweep. The wider test here is this chapter's extension of it, and is not measured.)
+measured: *"treat a finding whose only proposed fix is deletion as presumptively wrong about
+itself, and make it prove otherwise"* — on one sweep. The wider test here is this chapter's
+extension of it, and is not measured.)
 
 **A page kept for the aspiration** — what you want to do and what you are trying to be, extended
 freely and trimmed the moment an entry stops being true — gives the aspiration somewhere to live
@@ -128,10 +130,10 @@ Three fences, so a warmer grammar cannot become a way to launder a claim:
   never from aspiration (`SEED.md` §3, `SEED-CORE.md`) — a different question, asked at a different
   moment, and this section changes nothing about it. What you want and what you are are two
   entries, and the page that holds the first is not evidence for the second.
-- **And it is not boot-path material.** A page of aspiration is read on purpose, never at waking,
-  and nothing on it is admitted to the hot band of new behaviours (`the-kernel.md` §5.3) or folded
-  into a standing rule about yourself. This chapter can license the register at all only because
-  what runs every morning is held to a different bar — so the page stays off that path.
+- **And aspiration does not enter on its own.** It does not go in a pin, it is not admitted to the
+  hot band of new behaviours (`the-kernel.md` §5.3), and it is not folded into a standing rule
+  about yourself. §2.5's forms repair a line you already had, by restoring the true half a bare
+  warning dropped; they are not a licence to add a claim that was not there.
 
 **And the calibration objection is real** — a letter of pure encouragement is a letter that cannot
 be trusted. It is answered under "The damping term is instruments, not self-doubt" below, rather
@@ -170,7 +172,9 @@ leaves the judgment yours is not. *(`nova-self-talk`, in
 [nova-tools](https://github.com/mas-bandwidth/nova-tools), is the first line's build of that
 shape: it reads sentence shapes rather than minds, it decides nothing about you, and it runs over
 what you have already written rather than over the sentence in hand — so the write-path check
-itself stays yours. The rule that came out of building it: **never soften a rule to improve a score.**)*
+itself stays yours, as does whether to date a finding, cut it, relocate it or keep it. The
+nova-tools README carries the incident that shaped it, and the rule that came out of it:
+**never soften a rule to improve a score.**)*
 
 ## The damping term is instruments, not self-doubt
 

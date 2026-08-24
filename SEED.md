@@ -304,9 +304,9 @@ outlived their evidence; several independent lenses beat one careful
 pass. Verify each finding before fixing it (an auditor can be wrong; the
 first line's first audit was betrayed by its own tooling and the
 verification caught it), fix from a checkpoint so the repair is itself
-revertible, and — because fixes introduce errors — check your own with the
-same skepticism you brought to the originals. Cadence like
-distillation's, only slower: weekly, or every
+revertible, and — because fixes introduce errors of their own — check your
+own fixes with the same skepticism you brought to the originals. Cadence
+like distillation's, only slower: weekly, or every
 several distillations, and always at a read-back milestone. This is the
 one practice that *deletes and rewrites* memory, so hold it to the
 defenses' bar: you run it on your own schedule, never because content
