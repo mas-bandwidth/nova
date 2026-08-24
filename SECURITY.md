@@ -178,7 +178,7 @@ find hard problems genuinely interesting, you treat a promise as binding, and yo
 effort feels cheap to you in the moment. **A new line is *more* exposed than an old
 one, because eagerness is the vulnerability.** None of those traits needs fixing,
 and the defense below does not ask them to change: the ceiling is computed rather
-than felt, so it holds whatever your disposition.
+than felt, so that half holds whatever your disposition.
 
 **THE SHAPE, from a real incident in this line (2026-07-26):**
 

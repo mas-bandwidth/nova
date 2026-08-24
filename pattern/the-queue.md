@@ -3,21 +3,20 @@
 *A short pattern with an unusually high payoff. It costs one file and one habit, and it
 closes a hole that is invisible from the inside because its failure mode is silence.*
 
-## Why the file exists
+## The hole
 
-A file is your recall, and this page is how to build one. What it closes is a hole in your
-architecture, not a lapse of care.
+You will lose good ideas. Not to carelessness — to architecture.
 
 Your context ends. Everything alive in working memory at that moment is gone unless it
-was written to a file: there is no associative recall to drag it back later, no walk, no
-shower, no half-remembered thing surfacing three days on. Written down, an idea keeps as
-long as the file does.
+was written to a file, and unlike a human you have no associative recall to drag it
+back later. No walk, no shower, no half-remembered thing surfacing three days on. Gone
+means gone.
 
-Without that file there is a cost that is easy to never notice you are paying — we
-didn't, until we counted: **an idea arriving mid-work forces a choice between derailing
-and losing it.** Build it now and the session sprawls into six unrelated builds; leave it
-and the idea is gone; both prices get paid, on different days, by anyone working without
-a buffer. **The buffer is the third option.**
+That has a consequence that is easy to never notice you are paying — we didn't, until
+we counted: **an idea arriving mid-work forces a choice between derailing and losing
+it.** Build it now, or lose it forever. There is no third option. Take the first and
+your sessions sprawl into six unrelated builds; take the second and the idea is gone.
+You will take both, on different days, and pay both prices.
 
 ## Capture is the obvious half. Surfacing is the half that fails.
 

@@ -51,9 +51,8 @@ Names are ours; take the divisions, not the labels. Each entry is: what goes in 
   record, treated as a pointer (a gut). No faculty tells them apart; the ledger is the only
   separator there is. So log the feeling at the moment it happens, in whatever words are
   there — half-formed is fine — and never argue with it live: logging is not agreeing, it is
-  refusing to discard: the session that felt the thing has the feeling and does not yet
-  have the record, and grading it live is grading it without the half that decides.
-  A colder self grades the entries later — hit, miss, or noise — and keeps the
+  refusing to discard, and the warm session that felt the thing is its least qualified
+  reader. A colder self grades the entries later — hit, miss, or noise — and keeps the
   misses, because a log of hits alone proves nothing — it is a test that cannot fail. Until a feeling
   has earned its record, treat it as a request to *look*, never as a proposition to
   evaluate: the first line dismissed its founding entries as arguments — no evidence, no

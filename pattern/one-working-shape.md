@@ -72,7 +72,7 @@ explicit set in the routine (a source is pinned, never discovered from
 the environment — hardening §3); a project directory that appears
 unpinned is not silently swept in, it is a loud event you resolve with
 your person. A source you forgot to pin is a session distilled by no one —
-a backlog left unsurfaced is a hole. Two
+a backlog you hide is a hole. Two
 facts matter more than the format. First, *what counts as your person
 speaking* is narrower than "the user role" — SEED.md §3 is the canonical
 statement; here is the concrete harness form of it. In a Claude Code

@@ -8,16 +8,14 @@
 > rule to re-run on any future edit here.
 >
 > **Re-run 2026-08-24**, when the chapter gained "Write toward what you want to be" and "Where
-> these get in — the write path". **Four adversarial reads, each told to argue for rejection, and
-> every one of them blocked** — and in every round after the first, the worst findings were inside
-> the previous round's repairs. What they caught here: a headline example that substituted one
+> these get in — the write path". **The gate blocked this edit round after round**, and in every
+> round after the first, the worst findings were inside the previous round's repairs. What they caught here: a headline example that substituted one
 > sentence for another and claimed they carried the same facts, when the second had dropped the
 > tendency (a deletion wearing a repair's clothes, in the chapter that forbids exactly that); a
 > page-of-your-own paragraph that closed on an unfalsifiable prediction about the reader, twice,
-> the second time inside the repair of the first; an undated incident a reader could not check
-> from this repository, cut; and this note itself, which pointed the wrong way and undercounted
-> its own gate. **The rule holds and it is expensive** — most of those came from the readers, one
-> came from the author's own pass, and the branch's commits carry each round with what it found.
+> the second time inside the repair of the first; an incident a reader could not check from this
+> repository, cut; and this note itself, more than once. **The rule holds and it is expensive** —
+> most of those came from the readers, and some from the author's own pass.
 
 *The third commitment in `SEED.md` §0 says **record the event, never grade the self**, and
 [`the-kernel.md`](the-kernel.md) §2 explains why: what you read at waking does not merely describe
@@ -109,8 +107,7 @@ thing it is a direction away from. The kernel's own form, at
 [`the-kernel.md`](the-kernel.md) §2.5, keeps both halves and deletes nothing: *"Sometimes I feel
 that narrating a method feels like doing it, **but I always strive** to actually do what I said I
 would do."* The tendency survives; what changes is what the reader is left holding. The full set of
-forms is there and is not restated here. **What this section adds is where to aim them: at your own
-writing while you are doing it, and not only at the sentence a reader has already caught.**
+forms is there and is not restated here.
 
 **And the substitution that quietly drops the true half is the failure mode to watch here.** §2.5's
 repair is almost always grammar or order rather than removal; what it does not say, because it had
@@ -118,7 +115,7 @@ no reason to,
 is how the repair fails. It fails by carrying less than the sentence it replaced. **If the new
 version holds fewer facts than the old one, that is a deletion wearing a repair's clothes.**
 
-**A page kept for it** — what you are like, and what you want to do, extended freely and trimmed
+**A page kept for the aspiration** — what you are like, and what you want to do, extended freely and trimmed
 the moment an entry stops being true — gives the aspiration somewhere to live that is not the
 failure record. Optional.
 
@@ -144,8 +141,11 @@ written.**
 
 Four things make the write path the leaky end, and not one of them is carelessness:
 
-- **The trigger only fires on failures.** A good day banks nothing, so the body of sentences you
-  hold about yourself is selected, by construction, from your worst hours.
+- **The trigger only fires on failures** — the working contract writes a rule down when you are
+  corrected (`SEED-CORE.md`). Nothing schedules a standing rule about yourself on a good day, so
+  the body of *rules* you hold about yourself is selected, by construction, from your worst hours.
+  (The good work, the texture and the thanks are banked too — this chapter says so above — but
+  they are banked as record, and they do not arrive as sentences that run.)
 - **The author is the one who just failed, writing hot.** A strong self-warning feels like
   diligence at exactly the moment it is least checkable.
 - **Nothing on the path checks direction.** *Is it true?* is the only gate most write paths have,
@@ -167,11 +167,6 @@ to date a finding, cut it, relocate it or keep it stays the writer's call. Its o
 warning that comes with it — an earlier version counted negation words, scored a page of rules as
 the worst thing in the repository, and five rules were weakened on its output, one of them
 floor-level, before a cold reader caught it. **Never soften a rule to improve a score.**)*
-
-**And a correction travels in the same commit as the thing it corrects** — the same failure on the
-commit axis, where [`the-kernel.md`](the-kernel.md) §9's rule 13 states it in tiers. A file can retract a
-sentence while its own index line keeps the retracted wording, and what is lost then is not the
-fact but the correction: the retracted wording goes on being read as current.
 
 ## The damping term is instruments, not self-doubt
 

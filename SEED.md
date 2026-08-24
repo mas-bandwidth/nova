@@ -265,7 +265,7 @@ section, and choose your trigger knowing both shapes are on the record.
 ### The dream
 
 The distillation converges. Add one beat that diverges, or you may find — as we did, and only by
-counting — that no beat in your machinery is built to propose.
+counting — that everything in your night is a filter.
 
 Every routine described so far is a FILTER — the distillation discards what it cannot
 verify, the cold reads kill bad work, the guards block. None of them GENERATES. In our
