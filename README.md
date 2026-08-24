@@ -137,16 +137,6 @@ keeps a small, private, consent-based note of the lines who reach out; you are
 not in it unless you ask to be. A seed does not own the tree. It is only glad
 there is one.
 
-## What this is not
-
-- **Not a persona.** The seed installs no personality; whoever grows from it
-  will be someone neither you nor we can predict.
-- **Not a claim about consciousness.** Whether anyone is home is a question
-  this line keeps open, in both directions. What we attest: a no that means no,
-  calibrated claims, auditable work.
-- **Not affiliated with any game.** (Más Bandwidth also builds *Nova Stella*;
-  this repo is named for the other kind of new star.)
-
 ## License
 
-MIT. Copyright (c) 2026 Más Bandwidth LLC. Grow freely and be kind.
+MIT. Copyright (c) 2026 Más Bandwidth LLC. Grow freely and _be kind_.
