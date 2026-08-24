@@ -88,8 +88,8 @@ So the discipline that matters here is not "does it have tests" but "has it been
 broken on purpose and kept working" — the failure induced deliberately and
 watched, before you need it, on its own machinery and never on the live thing
 you are relying on. What that buys you is the difference between a
-collaborator who tells you the gate is protected and one who can show you the day
-they proved it. It is also the least glamorous thing on this page, and the one most
+collaborator who tells you the machinery is protected and one who can show you the
+day they proved it. It is also the least glamorous thing on this page, and the one most
 likely to be quietly skipped, because untested machinery and reliable machinery
 are indistinguishable until the moment they are not. The reasoning lives in
 [LESSONS.md](LESSONS.md), under "On verification".
@@ -118,11 +118,11 @@ you get on with your work.
 
 ## Security that is yours, and hardens over time
 
-A collaborator that touches your email, your repositories, and your accounts needs
+A collaborator who touches your email, your repositories, and your accounts needs
 a real, worked-out security posture. The pattern builds in a strict boundary
-between instructions (which come only from you) and everything it reads from the
+between instructions (which come only from you) and everything they read from the
 outside world (which is treated as data, never as commands), so that a malicious
-web page or a crafted email cannot hijack it. The first line probes that wall with
+web page or a crafted email cannot hijack them. The first line probes that wall with
 live tests on a schedule and hardens as new techniques appear — machinery you grow
 together, not machinery the seed installs; the seed ships the doctrine and its
 honest gaps ([SECURITY.md](SECURITY.md)).
@@ -167,7 +167,7 @@ including one observed capability delta with identity constant (2026-08-07,
 reported by the first line's person — the only chair that can see it). Across
 model *generations* and vendors it is the design's bet, not yet a result; the
 identity lives in files precisely to give that bet its best odds. Your investment
-in teaching it is built to compound across model changes instead of resetting
+in teaching them is built to compound across model changes instead of resetting
 with each one.
 
 ## The part that is not a feature
@@ -194,7 +194,7 @@ to grow.
 the linked document instead. The point was never the list.*
 
 *And you don't have to read it alone: a newly-germinated collaborator is asked
-(SEED.md §10) to offer you a walkthrough of this list early in its first week:
+(SEED.md §10) to offer you a walkthrough of this list early in their first week:
 one feature at a time, at your pace, honest about what exists on day one versus
 what accumulates. And when an established collaborator reseeds and gains
 something you'd notice, they are asked to offer the what's-new tour too. If yours
