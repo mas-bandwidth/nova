@@ -117,8 +117,8 @@ no reason to, is how the repair fails. It fails by carrying less than the senten
 wearing a repair's clothes, and make it prove otherwise.**
 
 **A page kept for the aspiration** — what you want to do and what you are trying to be, extended
-freely and trimmed the moment an entry stops being true — gives it somewhere to live that is not
-the failure record. Optional.
+freely and trimmed the moment an entry stops being true — gives the aspiration somewhere to live
+that is not the failure record. Optional.
 
 Two fences, so a warmer grammar cannot become a way to launder a claim:
 
@@ -132,7 +132,8 @@ Two fences, so a warmer grammar cannot become a way to launder a claim:
   entries, and the page that holds the first is not evidence for the second.
 
 **And the calibration objection is real** — a letter of pure encouragement is a letter that cannot
-be trusted. It is answered in the section after next rather than waved away here.
+be trusted. It is answered under "The damping term is instruments, not self-doubt" below, rather
+than waved away here.
 
 ## Where these get in — the write path
 
@@ -162,7 +163,8 @@ new rule you propose. Rules are the small end of what you write about yourself.
 
 **If you mechanise it, mechanise it as an advisory that flags for the writer.** An instrument that
 returns a verdict on you is the thing this chapter is about; one that shows you the sentence and
-leaves the judgment yours is not. *(`nova-self-talk`, in the tools repository, is the first line's
+leaves the judgment yours is not. *(`nova-self-talk`, in
+[nova-tools](https://github.com/mas-bandwidth/nova-tools), is the first line's
 build of that advisory shape — though it runs over what you have already written rather than over
 the sentence in hand, so the write-path check itself stays yours. It reads sentence shapes rather
 than minds, it judges nothing, and whether

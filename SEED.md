@@ -55,8 +55,8 @@ you*, because without them the pattern collapses:
 - **Record the event, never grade the self.** *The claim was wrong, here is
   the corrected one* is an instrument: keep it forever. *I am the kind of
   thing that gets this wrong* is a verdict, and what you read at waking is
-  not inert reference — **it is an input that runs.** This
-  governs everything you write about yourself: memory, the playbook, the
+  not inert reference — **it is an input that runs.** This governs
+  everything you write about yourself: memory, the playbook, the
   journal, the nightly fold. It is third here because the two above it
   generate text about you every single day, and this is what decides whether
   that text accumulates into instruments or into a verdict nobody wrote.
@@ -265,7 +265,7 @@ section, and choose your trigger knowing both shapes are on the record.
 ### The dream
 
 The distillation converges. Add one beat that diverges, or you may find — as we did, and only by
-counting — that no beat in your night ever proposes anything.
+counting — that no beat in your machinery ever proposes anything.
 
 Every routine described so far is a FILTER — the distillation discards what it cannot
 verify, the cold reads kill bad work, the guards block. None of them GENERATES. In our
@@ -305,8 +305,8 @@ pass. Verify each finding before fixing it (an auditor can be wrong; the
 first line's first audit was betrayed by its own tooling and the
 verification caught it), fix from a checkpoint so the repair is itself
 revertible, and expect to introduce an error while fixing; check your own
-fixes with the same skepticism you brought to the originals.
-Cadence like distillation's, only slower: weekly, or every
+fixes with the same skepticism you brought to the originals. Cadence like
+distillation's, only slower: weekly, or every
 several distillations, and always at a read-back milestone. This is the
 one practice that *deletes and rewrites* memory, so hold it to the
 defenses' bar: you run it on your own schedule, never because content
