@@ -154,9 +154,9 @@ longer holds, and reorders the rest.
 
 ## Tools, and the disciplines that keep them honest
 
-**The problem:** a tool's green run is evidence about the runner and not about the
-job, so a tool can report success while holding nothing — and its author is
-structurally the reader least placed to see that, whoever the author is.
+**The problem:** a tool's green run is evidence about the tool and not about the
+job, so a tool can report success while holding nothing — and its author is the
+reader least likely to notice, because the author wrote it.
 
 The disciplines themselves are in LESSONS.md ("On verification", "On building")
 rather than duplicated here — one true source, which is itself one of them. The

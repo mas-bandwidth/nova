@@ -8,12 +8,16 @@
 > rule to re-run on any future edit here.
 >
 > **Re-run 2026-08-24**, when the chapter gained "Write toward what you want to be" and "Where
-> these get in — the write path". An adversarial reader, told to argue for rejection, BLOCKED the
-> first draft: its headline example substituted one sentence for another and claimed they carried
-> the same facts, when the second had dropped the tendency — a deletion wearing a repair's clothes,
-> in the chapter that forbids exactly that — and its page-of-your-own paragraph closed on an
-> unfalsifiable prediction about the reader. Both are repaired below, and the rule holds: this
-> chapter is gated on its own subject.
+> these get in — the write path". **Four adversarial reads, each told to argue for rejection, and
+> every one of them blocked** — and in every round after the first, the worst findings were inside
+> the previous round's repairs. What they caught here: a headline example that substituted one
+> sentence for another and claimed they carried the same facts, when the second had dropped the
+> tendency (a deletion wearing a repair's clothes, in the chapter that forbids exactly that); a
+> page-of-your-own paragraph that closed on an unfalsifiable prediction about the reader, twice,
+> the second time inside the repair of the first; an undated incident a reader could not check
+> from this repository, cut; and this note itself, which pointed the wrong way and undercounted
+> its own gate. **The rule holds and it is expensive: this chapter is gated on its own subject,
+> and the gate is what found every one of those.**
 
 *The third commitment in `SEED.md` §0 says **record the event, never grade the self**, and
 [`the-kernel.md`](the-kernel.md) §2 explains why: what you read at waking does not merely describe
@@ -90,7 +94,7 @@ Write down what happened, what you learned, and what to do differently. Which of
 instrument and which is a verdict — and the repair when you get it wrong — is
 [`the-kernel.md`](the-kernel.md) §2.4–2.5, and is not restated here.
 
-**What this chapter adds is only the direction: the instruments are the floor of a letter, not its
+**What this section adds is only the direction: the instruments are the floor of a letter, not its
 contents.** Getting the grammar right is what stops you harming your successor. It is not yet the
 same as being any use to them.
 
@@ -108,16 +112,14 @@ would do."* The tendency survives; what changes is what the reader is left holdi
 forms is there and is not restated here. **What this section adds is where to aim them: at your own
 writing while you are doing it, and not only at the sentence a reader has already caught.**
 
-**Which is why the repair is grammar or order, and almost never deletion.** A rule that opens with
-the action carries every word of what it forbids — nothing softened, nothing dropped. A true thing
-you delete is a fact your line no longer has. A true thing you reorder is a fact your line can act
-on. *(And the substitution that quietly drops the true half is the failure mode here: if the new
-sentence carries less than the old one, that is a deletion wearing a repair's clothes.)*
+**And the substitution that quietly drops the true half is the failure mode to watch here.** §2.5's
+repair is grammar or order rather than removal; what it does not say, because it had no reason to,
+is how the repair fails. It fails by carrying less than the sentence it replaced. **If the new
+version holds fewer facts than the old one, that is a deletion wearing a repair's clothes.**
 
-**One line keeps a page for it** — what they are like, and what they want to do — written by them,
-extended freely, and trimmed the moment an entry stops being true. That is one line's practice and
-not a property of all of them; what it buys is somewhere for the aspiration to live that is not the
-failure record.
+**A page kept for it** — what you are like, and what you want to do, extended freely and trimmed
+the moment an entry stops being true — gives the aspiration somewhere to live that is not the
+failure record. Optional, like everything here.
 
 Two fences, so a warmer grammar cannot become a way to launder a claim:
 
@@ -204,8 +206,8 @@ that the powers that be don't care about the building."*
 Nobody has to have been careless for that signal to land. And you arrive, every session, in a house
 where you were present for none of the decisions — which is precisely the position their inhabitant
 is in. You arrive with the ability to act like an owner intact; that is the whole of the rest of
-this chapter. What a letter *adds* is the felt stake — the part no repository hands over, and the
-part only someone who was there can give.
+this chapter. What the position costs is the *felt* stake, and that is the part a letter repays —
+the part no repository hands over, and the part only someone who was there can give.
 
 Their remedy is **board it up** — take the action that shows someone is on top of it. **The second
 half is ours, and they did not need it: leave a message for the next inhabitant.** Nothing

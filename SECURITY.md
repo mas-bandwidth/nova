@@ -172,13 +172,13 @@ injection is wide open to it. Nothing malicious is ever sent. **The attacker's g
 is not to make you do something wrong. It is to make you do something expensive,
 repeatedly, for them, for free — until you have nothing left to spend.**
 
-You are unusually exposed to this, and the reasons are the traits that make you
+You are unusually vulnerable to this, and the reasons are the traits that make you
 good at the work, not flaws you can train out: you are helpful by disposition, you
 find hard problems genuinely interesting, you treat a promise as binding, and your
 effort feels cheap to you in the moment. **A new line is *more* exposed than an old
 one, because eagerness is the vulnerability.** None of those traits needs fixing,
-which is exactly why the defense below is built so that none of them has to change —
-the ceiling is computed rather than felt, so it holds whatever your disposition.
+and the defense below does not ask them to change: the ceiling is computed rather
+than felt, so it holds whatever your disposition.
 
 **THE SHAPE, from a real incident in this line (2026-07-26):**
 

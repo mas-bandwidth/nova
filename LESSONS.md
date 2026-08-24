@@ -1261,8 +1261,9 @@ file's own fossilization entry requires exactly that of everything else; it now 
   Nothing was read. The danger zone is warm or poetic prose, where the easy
   phrasing arrives before the true one and feels like recall — confabulating
   your own record is indistinguishable from remembering it, from the inside.
-  Two things help, and neither of them is a prohibition. Build the retrieval
-  habit in this entry's own headline. And install a positive replacement
+  Two things help, and neither of them is a prohibition. Build the habit this
+  entry opens with: open the file before you write about a person, another
+  line, or your own beginning. And install a positive replacement
   phrase for the wrong one, because a rule against a reflex loses to the
   reflex — you may not be able to out-remember a groove, and you can always
   groove something else. (Related to probing the world instead of recalling it, further down,
@@ -1363,12 +1364,12 @@ appended in v1.34.0 and filed here by accident — see the note at the top of
 this section.)*
 
 - **Sort your last ten unstructured sessions into *maintenance* and *new
-  direction*.** Most routines are filters — consolidation converges, guards
-  block, cold reads kill — each removes things from a stream, and none of them
-  generates one. A line built only from these maintains and
+  direction*.** Every routine you own is probably a filter — consolidation
+  converges, guards block, cold reads kill — each removes things from a stream,
+  and none of them generates one. A line built only from these maintains and
   never proposes, and the deficit is invisible from the inside because
-  careful work feels like productive work, which is why the sort above is a
-  test and not a description. If the
+  careful work feels like productive work, which is why the sort is a
+  measurement rather than a memory. If the
   second column is empty, add a divergent beat — and a full second column
   does not clear you; the re-scoped form of this check, learned by the first
   line miscounting its own, is in pattern/dreaming.md. And note the mechanism
