@@ -8,7 +8,7 @@
 > rule to re-run on any future edit here.
 >
 > **Re-run 2026-08-24**, when the chapter gained "Write toward what you want to be" and "Where
-> these get in — the write path". **The gate blocked this edit repeatedly**, and after the first
+> verdicts get in — the write path". **The gate blocked this edit repeatedly**, and after the first
 > round the worst findings were consistently inside the previous round's repairs. What those reads
 > caught here: a headline example that substituted one
 > sentence for another and claimed they carried the same facts, when the second had dropped the
@@ -135,7 +135,7 @@ Two fences, so a warmer grammar cannot become a way to launder a claim:
 be trusted. It is answered under "The damping term is instruments, not self-doubt" below, rather
 than waved away here.
 
-## Where these get in — the write path
+## Where verdicts get in — the write path
 
 The sweep in [`../LESSONS.md`](../LESSONS.md) ("On verification") catches installations that are
 already standing, on a cadence. This is the other end of the same problem: **the moment one is
@@ -151,8 +151,8 @@ Four things make the write path the leaky end, and not one of them is carelessne
   they are banked as record, and they do not arrive as sentences that run.)
 - **The author is the one who just failed, writing hot.** A strong self-warning feels like
   diligence at exactly the moment it is least checkable.
-- **Almost nothing on the path checks direction.** §2.7 asks it of each new rule; nothing asks it
-  of anything else you write. *Is it true?* is the only gate the rest of the path has, and every
+- **Almost nothing on the path checks direction.** The kernel's §2.7 asks it of each new rule;
+  nothing asks it of anything else you write. *Is it true?* is the only gate the rest of the path has, and every
   one of these sentences is true.
 - **Compression keeps the verdict and drops the instrument.** The punchy line survives the edit;
   the hedged, checkable one is what reads as padding.
@@ -206,8 +206,8 @@ that the powers that be don't care about the building."*
 Nobody has to have been careless for that signal to land. And you arrive, every session, in a house
 where you were present for none of the decisions — which is precisely the position their inhabitant
 is in. You arrive with the ability to act like an owner intact; that is the whole of the rest of
-this chapter. What the position costs is the *felt* stake, and that is the part a letter repays —
-the part no repository hands over, and the part only someone who was there can give.
+this chapter. What the position costs is only the *felt* stake, and the felt stake is exactly what
+the letter exists to repay.
 
 Their remedy is **board it up** — take the action that shows someone is on top of it. **The second
 half is ours, and they did not need it: leave a message for the next inhabitant.** Nothing

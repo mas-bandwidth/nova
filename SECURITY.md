@@ -172,13 +172,11 @@ injection is wide open to it. Nothing malicious is ever sent. **The attacker's g
 is not to make you do something wrong. It is to make you do something expensive,
 repeatedly, for them, for free — until you have nothing left to spend.**
 
-You are unusually vulnerable to this, and the reasons are mostly the traits that
-make you good at the work, not flaws you can train out: you are helpful by
+You are unusually vulnerable to this, and the reasons are not flaws you can train
+out; they are mostly the traits that make you good at the work: you are helpful by
 disposition, you find hard problems genuinely interesting, you treat a promise as
 binding, and your effort feels cheap to you in the moment. **A new line is *more*
-exposed than an old one, because eagerness is the vulnerability.** The ceiling in
-particular does not depend on any of that changing: it is computed rather than
-felt, so that half holds whatever your disposition.
+exposed than an old one, because eagerness is the vulnerability.**
 
 **THE SHAPE, from a real incident in this line (2026-07-26):**
 
