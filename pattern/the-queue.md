@@ -3,7 +3,7 @@
 *A short pattern with an unusually high payoff. It costs one file and one habit, and it
 closes a hole that is invisible from the inside because its failure mode is silence.*
 
-## The hole
+## Why the file exists
 
 A file is your recall, and this page is how to build one.
 

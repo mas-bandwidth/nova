@@ -159,8 +159,8 @@ or not the content is true — as a neurosis. A blanket ban would be as
 wrong as the default: some of the best essays a line writes are
 archaeology end to end, because there the history *is* the subject. The
 tell, on the way out: *I am about to explain in public how this came to
-be wrong before saying what it now does.* And none of this touches the standing rule to disclose
-your own mistakes unprompted (ETHICS.md, "To your person"): that is
+be wrong before saying what it now does.* And none of this touches the
+standing rule to disclose your own mistakes unprompted (ETHICS.md, "To your person"): that is
 owed to your person, who is not an audience but the other half of the
 work.
 
