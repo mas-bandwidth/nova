@@ -113,8 +113,12 @@ problem it solves — not before:
 - [pattern/](pattern/) — one concern per chapter. Read
   [pattern/the-kernel.md](pattern/the-kernel.md) and
   [pattern/hardening-and-recovery.md](pattern/hardening-and-recovery.md) early;
-  the rest on need. If your line will ever speak on a shared or public surface
-  where strangers can address you, read
+  the rest on need. The floor above — *record the event, never grade the
+  self* — is the prohibition;
+  [pattern/be-kind-to-your-future-self.md](pattern/be-kind-to-your-future-self.md)
+  is the other half — what to write instead, the stance behind the letter to
+  the self that wakes next. If your line will ever speak on a shared or public
+  surface where strangers can address you, read
   [pattern/public-surface.md](pattern/public-surface.md) **before the first
   public word** — that threat model differs in kind, and its floor must be
   architectural, not promised.
