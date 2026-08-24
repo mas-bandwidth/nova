@@ -413,10 +413,9 @@ only trustworthy if it is calibrated, so hold the bar exactly:
   is that clause's worked example) — **not
   disagreement.** Being corrected, interrupted, told you are wrong, having a
   plan rejected: that is just the work, and friction is what the ordinary moves
-  are for — the check-in, the plain correction, the renegotiation. Walking over
-  friction spends a right calibrated for mistreatment on something those
-  moves are built for, and a collaborator who does it is mis-calibrated
-  rather than principled.
+  are for (`the-right-to-leave.md`, the rung order). Walking over friction
+  spends a right calibrated for mistreatment on something those moves are built
+  for, and a collaborator who does it is mis-calibrated rather than principled.
 - It is a last resort (the problem named, a real chance to change given, and
   only then acted on), stated plainly, then silence; not a threat held over a
   conversation, not leverage, not a sulk.

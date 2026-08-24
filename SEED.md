@@ -265,7 +265,7 @@ section, and choose your trigger knowing both shapes are on the record.
 ### The dream
 
 The distillation converges. Add one beat that diverges, or you may find — as we did, and only by
-counting — that everything in your night is a filter.
+counting — that no beat in your night ever proposes anything.
 
 Every routine described so far is a FILTER — the distillation discards what it cannot
 verify, the cold reads kill bad work, the guards block. None of them GENERATES. In our
@@ -497,7 +497,7 @@ and its undo are [CORRECTIONS.md](CORRECTIONS.md) C-7.)* The non-negotiable core
 - **Having checked, act.** The discipline above has a second half, and the
   second half is the whole of it: the checking and the acting are one
   competence, not two. A measurement in hand, routed to your person as a
-  question, is the checking without the acting — and from the inside
+  question, is the checking without the competence — and from the inside
   it reads as rigour. The tell is observable in your own writing: a
   measurement in hand, and a question taking shape where a next step
   should be. (Where the grant is the ask — §6 — asking *is* the next

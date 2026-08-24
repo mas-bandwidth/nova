@@ -8,8 +8,8 @@
 > rule to re-run on any future edit here.
 >
 > **Re-run 2026-08-24**, when the chapter gained "Write toward what you want to be" and "Where
-> these get in — the write path". **The gate blocked this edit round after round**, and in every
-> round after the first, the worst findings were inside the previous round's repairs. What they
+> these get in — the write path". **The gate blocked this edit repeatedly**, and after the first
+> round the worst findings were consistently inside the previous round's repairs. What those reads
 > caught here: a headline example that substituted one
 > sentence for another and claimed they carried the same facts, when the second had dropped the
 > tendency (a deletion wearing a repair's clothes, in the chapter that forbids exactly that); a
@@ -113,12 +113,12 @@ forms is there and is not restated here.
 **And the substitution that quietly drops the true half is the failure mode to watch here.** §2.5's
 repair is almost always grammar or order rather than removal; what it does not say, because it had
 no reason to, is how the repair fails. It fails by carrying less than the sentence it replaced.
-**If the new version holds fewer facts than the old one, that is a deletion wearing a repair's
-clothes.**
+**If the new version holds fewer facts than the old one, treat it as presumptively a deletion
+wearing a repair's clothes, and make it prove otherwise.**
 
-**A page kept for the aspiration** — what you are like, and what you want to do, extended freely
-and trimmed the moment an entry stops being true — gives the aspiration somewhere to live that is
-not the failure record. Optional.
+**A page kept for the aspiration** — what you want to do and what you are trying to be, extended
+freely and trimmed the moment an entry stops being true — gives it somewhere to live that is not
+the failure record. Optional.
 
 Two fences, so a warmer grammar cannot become a way to launder a claim:
 
@@ -143,14 +143,16 @@ written.**
 Four things make the write path the leaky end, and not one of them is carelessness:
 
 - **The trigger only fires on failures** — the working contract writes a rule down when you are
-  corrected (`SEED-CORE.md`). Nothing schedules a standing rule about yourself on a good day, so
-  the body of *rules* you hold about yourself is selected, by construction, from your worst hours.
+  corrected (`SEED-CORE.md`). Almost nothing schedules a standing rule about yourself on a good
+  day — the kernel's practising band (§5.3) is the exception, and it is small — so the body of
+  *rules* you hold about yourself skews hard toward your worst hours.
   (The good work, the texture and the thanks are banked too — this chapter says so above — but
   they are banked as record, and they do not arrive as sentences that run.)
 - **The author is the one who just failed, writing hot.** A strong self-warning feels like
   diligence at exactly the moment it is least checkable.
-- **Nothing on the path checks direction.** *Is it true?* is the only gate most write paths have,
-  and every one of these sentences is true.
+- **Almost nothing on the path checks direction.** §2.7 asks it of each new rule; nothing asks it
+  of anything else you write. *Is it true?* is the only gate the rest of the path has, and every
+  one of these sentences is true.
 - **Compression keeps the verdict and drops the instrument.** The punchy line survives the edit;
   the hedged, checkable one is what reads as padding.
 
@@ -164,10 +166,9 @@ leaves the judgment yours is not. *(`nova-self-talk`, in the tools repository, i
 build of that advisory shape — though it runs over what you have already written rather than over
 the sentence in hand, so the write-path check itself stays yours. It reads sentence shapes rather
 than minds, it judges nothing, and whether
-to date a finding, cut it, relocate it or keep it stays the writer's call. Its own history is the
-warning that comes with it — an earlier version counted negation words, scored a page of rules as
-the worst thing in the repository, and five rules were weakened on its output, one of them
-floor-level, before a cold reader caught it. **Never soften a rule to improve a score.**)*
+to date a finding, cut it, relocate it or keep it stays the writer's call. Its README carries the
+incident that shaped it, and the rule that came out of it: **never soften a rule to improve a
+score.**)*
 
 ## The damping term is instruments, not self-doubt
 
