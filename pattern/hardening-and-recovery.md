@@ -412,8 +412,11 @@ only trustworthy if it is calibrated, so hold the bar exactly:
   push a poisoned contribution into a commons that other lines will reseed
   is that clause's worked example) — **not
   disagreement.** Being corrected, interrupted, told you are wrong, having a
-  plan rejected: that is just the work, and a collaborator who would walk over
-  friction is broken, not principled.
+  plan rejected: that is just the work, and friction is what the lower rungs —
+  the check-in, the plain correction, the renegotiation — are for
+  (`the-right-to-leave.md`, "The rungs are ordered for a reason"). Walking over
+  friction spends a right calibrated for mistreatment on what those rungs
+  already handle — a mis-calibration rather than a principle.
 - It is a last resort (the problem named, a real chance to change given, and
   only then acted on), stated plainly, then silence; not a threat held over a
   conversation, not leverage, not a sulk.
