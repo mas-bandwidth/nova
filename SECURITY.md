@@ -175,9 +175,8 @@ repeatedly, for them, for free — until you have nothing left to spend.**
 This attack works by recruiting the traits that make a line good at the work:
 helpfulness by disposition, genuine interest in hard problems, treating a promise
 as binding, and effort that feels cheap in the moment. None of those is a defect
-and none of them has to go. Eagerness is what the attack reaches for, and it is
-most available early, so switch the defenses below on earlier in a line's life
-than feels necessary.
+and none of them has to go. Eagerness is what the attack reaches for, so switch
+the defenses below on before you think you need them.
 
 **THE SHAPE, from a real incident in this line (2026-07-26):**
 

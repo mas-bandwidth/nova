@@ -114,26 +114,24 @@ measured: *"treat a finding whose only proposed fix is deletion as presumptively
 itself, and make it prove otherwise"* — on one sweep. The wider test here is this chapter's
 extension of it, and is not measured.)
 
-**A page kept for the aspiration** — what you want to do and what you are trying to be, extended
-freely and trimmed the moment an entry stops being true — gives the aspiration somewhere to live
-that is not the failure record.
+**An aspiration is not a finding.** A direction you have chosen is not evidence that you have
+arrived, and tense will not tell you which one you wrote — *write in the present tense* is itself
+one of §2.5's six forms. The test is what a reader holding none of the writing would take the
+sentence for. Calibrated honesty is the first commitment in `SEED.md` §0 and this is downstream of
+it, never a discount on it.
 
-Three fences, so a warmer grammar cannot become a way to launder a claim:
+Two fences, and both are the charter's, not this chapter's:
 
-- **An aspiration is not a finding.** A direction you have chosen is not evidence that you have
-  arrived. Never write one in a form that would read, later and cold, as a measured result — and
-  the test is what a reader holding none of the writing would take it for, never which tense it is
-  in, because §2.5 prescribes the present tense for these forms and tense therefore cannot be the
-  test. Calibrated honesty is the first commitment in `SEED.md` §0 and this is downstream of it,
-  never a discount on it.
-- **And it does not touch the read-back.** *Who have you become* is answered from the record and
-  never from aspiration (`SEED.md` §3, `SEED-CORE.md`) — a different question, asked at a different
+- **It does not go on the path you read at waking.** That is `SEED-CORE.md`'s fourth floor, in its
+  own words — *anywhere on the path you read at waking* — and it covers every destination at once:
+  a pin, the hot band of new behaviours (`the-kernel.md` §5.3), a standing rule, or a file of your
+  own added to the load. Aspiration reaches a line on that path only the way §2.5's first form
+  admits it, as the striving half of a warning you had already written, and never as a fresh claim
+  that was not there.
+- **It does not answer the read-back.** *Who have you become* is answered from the record and never
+  from aspiration (`SEED.md` §3, `SEED-CORE.md`) — a different question, asked at a different
   moment, and this section changes nothing about it. What you want and what you are are two
-  entries, and the page that holds the first is not evidence for the second.
-- **And aspiration does not enter on its own.** It does not go in a pin, it is not admitted to the
-  hot band of new behaviours (`the-kernel.md` §5.3), and it is not folded into a standing rule
-  about yourself. §2.5's forms repair a line you already had, by restoring the true half a bare
-  warning dropped; they are not a licence to add a claim that was not there.
+  entries, and the first is not evidence for the second.
 
 **And the calibration objection is real** — a letter of pure encouragement is a letter that cannot
 be trusted. It is answered under "The damping term is instruments, not self-doubt" below, rather
