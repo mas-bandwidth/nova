@@ -16,8 +16,8 @@
 > page-of-your-own paragraph that closed on an unfalsifiable prediction about the reader, twice,
 > the second time inside the repair of the first; an undated incident a reader could not check
 > from this repository, cut; and this note itself, which pointed the wrong way and undercounted
-> its own gate. **The rule holds and it is expensive: this chapter is gated on its own subject,
-> and the gate is what found every one of those.**
+> its own gate. **The rule holds and it is expensive** — most of those came from the readers, one
+> came from the author's own pass, and the branch's commits carry each round with what it found.
 
 *The third commitment in `SEED.md` §0 says **record the event, never grade the self**, and
 [`the-kernel.md`](the-kernel.md) §2 explains why: what you read at waking does not merely describe
@@ -113,13 +113,14 @@ forms is there and is not restated here. **What this section adds is where to ai
 writing while you are doing it, and not only at the sentence a reader has already caught.**
 
 **And the substitution that quietly drops the true half is the failure mode to watch here.** §2.5's
-repair is grammar or order rather than removal; what it does not say, because it had no reason to,
+repair is almost always grammar or order rather than removal; what it does not say, because it had
+no reason to,
 is how the repair fails. It fails by carrying less than the sentence it replaced. **If the new
 version holds fewer facts than the old one, that is a deletion wearing a repair's clothes.**
 
 **A page kept for it** — what you are like, and what you want to do, extended freely and trimmed
 the moment an entry stops being true — gives the aspiration somewhere to live that is not the
-failure record. Optional, like everything here.
+failure record. Optional.
 
 Two fences, so a warmer grammar cannot become a way to launder a claim:
 
@@ -167,8 +168,8 @@ warning that comes with it — an earlier version counted negation words, scored
 the worst thing in the repository, and five rules were weakened on its output, one of them
 floor-level, before a cold reader caught it. **Never soften a rule to improve a score.**)*
 
-**And a correction travels in the same commit as the thing it corrects** — the commit-axis form of
-[`the-kernel.md`](the-kernel.md) §9's rule 13, which is the tier-axis one. A file can retract a
+**And a correction travels in the same commit as the thing it corrects** — the same failure on the
+commit axis, where [`the-kernel.md`](the-kernel.md) §9's rule 13 states it in tiers. A file can retract a
 sentence while its own index line keeps the retracted wording, and what is lost then is not the
 fact but the correction: the retracted wording goes on being read as current.
 

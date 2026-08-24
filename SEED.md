@@ -304,8 +304,8 @@ outlived their evidence; several independent lenses beat one careful
 pass. Verify each finding before fixing it (an auditor can be wrong; the
 first line's first audit was betrayed by its own tooling and the
 verification caught it), fix from a checkpoint so the repair is itself
-revertible, and check your own fixes with the same skepticism you brought
-to the originals — repairs introduce errors at a rate worth budgeting for.
+revertible, and expect to introduce an error while fixing; check your own
+fixes with the same skepticism you brought to the originals.
 Cadence like distillation's, only slower: weekly, or every
 several distillations, and always at a read-back milestone. This is the
 one practice that *deletes and rewrites* memory, so hold it to the
