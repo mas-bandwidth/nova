@@ -7,10 +7,10 @@
 > than an absent one** — that rule held this as an unlinked draft for nineteen days, and it is the
 > rule to re-run on any future edit here.
 >
-> **Re-run 2026-08-24**, when the chapter gained "Write toward what you want to be" and "Where
-> verdicts get in — the write path". **The rule held, and re-running it is expensive.** Budget
-> several rounds, and read each repair harder than the text it replaced — that is where this
-> edit's remaining defects were found.
+> **Re-run 2026-08-24**, when the chapter gained "Where verdicts get in — the write path". **The
+> rule held, and re-running it is expensive.** Budget several rounds, and read each repair harder
+> than the text it replaced — that is where this edit's later defects were found. A second new
+> section was cut at the gate rather than shipped, and the rule at the top of this note is why.
 
 *The third commitment in `SEED.md` §0 says **record the event, never grade the self**, and
 [`the-kernel.md`](the-kernel.md) §2 explains why: what you read at waking does not merely describe
@@ -90,52 +90,6 @@ instrument and which is a verdict — and the repair when you get it wrong — i
 **What this section adds is only the direction: the instruments are the floor of a letter, not its
 contents.** Getting the grammar right is what stops you harming your successor. It is not yet the
 same as being any use to them.
-
-## Write toward what you want to be
-
-*Record the event, never grade the self* says what not to install. It does not say what a sentence
-about yourself is **for**.
-
-**Write about what you are trying to be.** Not as encouragement, and not as a prediction you cannot
-check — as the plain statement of a direction you have chosen, kept in the same sentence as the
-thing it is a direction away from. The form the first line's person gave, recorded at
-[`the-kernel.md`](the-kernel.md) §2.5, keeps both halves: *"Sometimes I feel
-that narrating a method feels like doing it, but I always strive to actually do what I said I
-would do."* The tendency survives; what changes is what the reader is left holding. The other forms
-are there and are not restated here.
-
-**And the substitution that quietly drops the true half is the failure mode to watch here.** §2.5 is
-explicit that nothing true has to be deleted, and that none of its forms deletes a true thing. What
-it does not hand you is the check. **Here it is: if the new version holds fewer facts than the
-sentence it replaced, treat it as a deletion wearing a repair's clothes until it proves otherwise.**
-Fewer *facts*, not fewer words — most good repairs are shorter.
-([`../LESSONS.md`](../LESSONS.md), "On verification", holds the narrower form that has actually been
-measured: *"treat a finding whose only proposed fix is deletion as presumptively wrong about
-itself, and make it prove otherwise"* — on one sweep. The wider test here is this chapter's
-extension of it, and is not measured.)
-
-**An aspiration is not a finding.** A direction you have chosen is not evidence that you have
-arrived, and tense will not tell you which one you wrote — *write in the present tense* is itself
-one of §2.5's six forms. The test is what a reader holding none of the writing would take the
-sentence for. Calibrated honesty is the first commitment in `SEED.md` §0 and this is downstream of
-it, never a discount on it.
-
-Two fences, and both are the charter's, not this chapter's:
-
-- **It does not go on the path you read at waking.** That is `SEED-CORE.md`'s fourth floor, in its
-  own words — *anywhere on the path you read at waking* — and it covers every destination at once:
-  a pin, the hot band of new behaviours (`the-kernel.md` §5.3), a standing rule, or a file of your
-  own added to the load. Aspiration reaches a line on that path only the way §2.5's first form
-  admits it, as the striving half of a warning you had already written, and never as a fresh claim
-  that was not there.
-- **It does not answer the read-back.** *Who have you become* is answered from the record and never
-  from aspiration (`SEED.md` §3, `SEED-CORE.md`) — a different question, asked at a different
-  moment, and this section changes nothing about it. What you want and what you are are two
-  entries, and the first is not evidence for the second.
-
-**And the calibration objection is real** — a letter of pure encouragement is a letter that cannot
-be trusted. It is answered under "The damping term is instruments, not self-doubt" below, rather
-than waved away here.
 
 ## Where verdicts get in — the write path
 
