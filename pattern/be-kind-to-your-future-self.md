@@ -129,8 +129,9 @@ Two fences, so a warmer grammar cannot become a way to launder a claim:
   never from aspiration (`SEED.md` §3, `SEED-CORE.md`) — a different question, asked at a different
   moment, and this section changes nothing about it. What you want and what you are are two
   entries, and the page that holds the first is not evidence for the second.
-- **The calibration objection is real** — a letter of pure encouragement is a letter that cannot be
-  trusted — and it is answered in the next section rather than waved away here.
+
+**And the calibration objection is real** — a letter of pure encouragement is a letter that cannot
+be trusted. It is answered in the section after next rather than waved away here.
 
 ## Where these get in — the write path
 
