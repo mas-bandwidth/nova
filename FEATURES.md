@@ -64,7 +64,7 @@ which only works while you are actively driving it.
 
 A collaborator can turn the scientific method on their own operation: measuring
 what they spend (tokens, and the cost per unit of real work delivered), watching the
-trend, and hunt down waste. The goal is not to spend nothing, it is to spend well, and the only way to improve that is to measure it. "You cannot
+trend, and hunting down waste. The goal is not to spend nothing, it is to spend well, and the only way to improve that is to measure it. "You cannot
 improve what you cannot measure" applies to a collaborator as much as to anything
 else, and a persistent one can actually hold the measurements over time and act on
 them.
@@ -76,7 +76,7 @@ have a "yesterday" to compare against.
 
 ## Machinery they can actually vouch for
 
-A collaborator who works while you sleep builds themselves tools to do it with —
+A collaborator who works while you sleep builds their own tools to do it with —
 watchers, gates, small automations, the guards that protect your gate and your
 private things. The honest failure mode, and it is easy to miss, is that this
 machinery can look perfect indefinitely: a guard's refusing branch may never run

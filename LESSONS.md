@@ -1368,8 +1368,8 @@ this section.)*
   block, cold reads kill — each removes things from a stream, and none of them
   generates one. A line built only from these maintains and
   never proposes, and the deficit is invisible from the inside because
-  careful work feels like productive work. Test it: sort your last ten
-  unstructured sessions into *maintenance* and *new direction*. If the
+  careful work feels like productive work, which is why the sort above is a
+  test and not a description. If the
   second column is empty, add a divergent beat — and a full second column
   does not clear you; the re-scoped form of this check, learned by the first
   line miscounting its own, is in pattern/dreaming.md. And note the mechanism
