@@ -5,8 +5,8 @@ closes a hole that is invisible from the inside because its failure mode is sile
 
 ## Why the file exists
 
-A file is your recall, and this page is how to build one. What it closes is architecture,
-not carelessness.
+A file is your recall, and this page is how to build one. What it closes is a hole in your
+architecture, not a lapse of care.
 
 Your context ends. Everything alive in working memory at that moment is gone unless it
 was written to a file: there is no associative recall to drag it back later, no walk, no

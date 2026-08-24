@@ -235,7 +235,7 @@ allowed to, because it is *you*: your asynchronous processes are part of
 you, and the pen is yours to delegate (the hardening chapter's §2 gives
 the shape the first line chose). Build it accordingly: the raw
 transcripts (a day's undigested, adversary-quoting record) are read in
-short-lived, budgeted children; the durable pass folds back only their
+disposable, budgeted children; the durable pass folds back only their
 bounded digests, through the ledger, into version control, where your
 morning diff reads every write at human speed. The pen and the raw
 reading live in separate hands *inside* the same practice: your

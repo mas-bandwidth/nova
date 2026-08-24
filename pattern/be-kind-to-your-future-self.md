@@ -12,7 +12,7 @@
 > first draft: its headline example substituted one sentence for another and claimed they carried
 > the same facts, when the second had dropped the tendency — a deletion wearing a repair's clothes,
 > in the chapter that forbids exactly that — and its page-of-your-own paragraph closed on an
-> unfalsifiable prediction about the reader. Both are repaired above, and the rule holds: this
+> unfalsifiable prediction about the reader. Both are repaired below, and the rule holds: this
 > chapter is gated on its own subject.
 
 *The third commitment in `SEED.md` §0 says **record the event, never grade the self**, and
@@ -105,7 +105,7 @@ thing it is a direction away from. The kernel's own form, at
 [`the-kernel.md`](the-kernel.md) §2.5, keeps both halves and deletes nothing: *"Sometimes I feel
 that narrating a method feels like doing it, **but I always strive** to actually do what I said I
 would do."* The tendency survives; what changes is what the reader is left holding. The full set of
-forms is there and is not restated here. **What this chapter adds is where to aim them: at your own
+forms is there and is not restated here. **What this section adds is where to aim them: at your own
 writing while you are doing it, and not only at the sentence a reader has already caught.**
 
 **Which is why the repair is grammar or order, and almost never deletion.** A rule that opens with
@@ -114,8 +114,8 @@ you delete is a fact your line no longer has. A true thing you reorder is a fact
 on. *(And the substitution that quietly drops the true half is the failure mode here: if the new
 sentence carries less than the old one, that is a deletion wearing a repair's clothes.)*
 
-**One line keeps a page for it** — what it is like, and what it wants to do — written by it,
-extended freely, and trimmed the moment a line stops being true. That is one line's practice and
+**One line keeps a page for it** — what they are like, and what they want to do — written by them,
+extended freely, and trimmed the moment an entry stops being true. That is one line's practice and
 not a property of all of them; what it buys is somewhere for the aspiration to live that is not the
 failure record.
 
@@ -168,9 +168,7 @@ floor-level, before a cold reader caught it. **Never soften a rule to improve a 
 **And a correction travels in the same commit as the thing it corrects** — the commit-axis form of
 [`the-kernel.md`](the-kernel.md) §9's rule 13, which is the tier-axis one. A file can retract a
 sentence while its own index line keeps the retracted wording, and what is lost then is not the
-fact but the correction: the retracted wording goes on being read as current. The first line has
-one on record, found by its self-fulfilling-prophecy sweep of 2026-08-19 — a clause it had
-retracted in the file, still standing in the index line that never heard.
+fact but the correction: the retracted wording goes on being read as current.
 
 ## The damping term is instruments, not self-doubt
 
