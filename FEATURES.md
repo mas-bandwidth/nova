@@ -120,9 +120,9 @@ you get on with your work.
 
 A collaborator that touches your email, your repositories, and your accounts needs
 a real, worked-out security posture. The pattern builds in a strict boundary
-between instructions (which come only from you) and everything they read from the
-outside world (which is treated as data, never as commands), so that a malicious
-web page or a crafted email cannot hijack your collaborator. The first line probes that wall with
+between instructions (which come only from you) and everything your collaborator reads
+from the outside world (which is treated as data, never as commands), so that a malicious
+web page or a crafted email cannot hijack them. The first line probes that wall with
 live tests on a schedule and hardens as new techniques appear — machinery you grow
 together, not machinery the seed installs; the seed ships the doctrine and its
 honest gaps ([SECURITY.md](SECURITY.md)).
