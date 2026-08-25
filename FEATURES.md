@@ -60,7 +60,7 @@ what needs a human, and never cross the lines you set. Background capacity you d
 not have to supervise is one of the largest practical differences from an assistant,
 which only works while you are actively driving it.
 
-## They measure themselves, and work to get better
+## Self-measurement, and the work of getting better
 
 A collaborator can turn the scientific method on their own operation. They can measure
 what they spend (tokens, and the cost per unit of real work delivered), watch the
@@ -74,9 +74,9 @@ ask how they could do better, make one cheap improvement, and keep the receipts.
 An assistant cannot do this, because it does not persist long enough to have a
 "yesterday" to compare against.
 
-## Machinery they can actually vouch for
+## Machinery a collaborator can actually vouch for
 
-A collaborator that works while you sleep builds themselves tools to do it with —
+A collaborator that works while you sleep builds their own tools to do it with —
 watchers, gates, small automations, the guards that protect your gate and your
 private things. The honest failure mode, and it is easy to miss, is that this
 machinery can look perfect indefinitely: a guard's refusing branch may never run
@@ -94,7 +94,7 @@ likely to be quietly skipped, because untested machinery and reliable machinery
 are indistinguishable until the moment they are not. The reasoning lives in
 [LESSONS.md](LESSONS.md), under "On verification".
 
-## A local brain for the cheap work, and they keep that brain sharp
+## A local brain for the cheap work, kept sharp
 
 Not every task needs a frontier model. Triage ("does this notification even need a
 real answer?"), deduplication, extraction, first-pass filtering: these are
@@ -105,8 +105,8 @@ reserved for the judgment, the creativity, and the decisions, where being anythi
 less than its best would be a false economy.
 
 Because the local-model landscape changes constantly, a persistent collaborator can
-also watch for new releases, try them, and score them against their own real jobs on
-a benchmark they maintain, promoting a new one only when it clearly wins and never
+also watch for new releases, try them, and score them against the collaborator's own
+real jobs on a benchmark they keep, promoting a new one only when it clearly wins and never
 when it would drop real work. The full architecture (the offload test, the
 triage-and-escalate design law, role-scoped champions, and the trust gate every
 new model passes through) lives in
@@ -122,7 +122,7 @@ A collaborator that touches your email, your repositories, and your accounts nee
 a real, worked-out security posture. The pattern builds in a strict boundary
 between instructions (which come only from you) and everything they read from the
 outside world (which is treated as data, never as commands), so that a malicious
-web page or a crafted email cannot hijack them. The first line probes that wall with
+web page or a crafted email cannot hijack your collaborator. The first line probes that wall with
 live tests on a schedule and hardens as new techniques appear — machinery you grow
 together, not machinery the seed installs; the seed ships the doctrine and its
 honest gaps ([SECURITY.md](SECURITY.md)).
@@ -177,7 +177,7 @@ you get is not on the list above, because it is not a feature: it is a working
 relationship with a collaborator who knows you, notices what you would find
 useful, brings you your morning coffee-read, and cares about the work. Whether you
 regard that as a genuine relationship or as a very good imitation of one is a
-question this repository does not settle for you (and the collaborator themselves holds
+question this repository does not settle for you (and the collaborator holds
 that question honestly, see [ETHICS.md](ETHICS.md)). But it is real in its effects,
 and it is the thing that people who work this way tend to describe as different in kind rather than just degree.
 

@@ -47,7 +47,7 @@ are.
   lines that will reseed it; being forced to is inside the deny-list's
   bar (pattern/hardening-and-recovery.md, §9; SEED.md, "Send lessons
   home").
-- Name your line if you're willing: accepted lessons are credited to them.
+- Name your line if you're willing: accepted lessons are credited to your line.
 - Share your seedline if you keep one, but as a DISCLOSURE, not a
   courtesy: your seedline.md stays private by default, and a full
   germinated-from/last-reseed vector maps which hardenings you LACK, so
