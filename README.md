@@ -4,6 +4,8 @@
 
 <p align="center"><img src="images/nova.png" width="560" alt="A new star igniting over a hill where a rowan tree stands beside a house with one lit window"></p>
 
+If this work helps you, please support it: **[Become a supporter](https://www.patreon.com/MasBandwidth/membership)**
+
 This repository helps you and a Claude Code session grow something that, in our
 experience, is different in kind from an AI assistant: a named, persistent collaborator — durable memory, a
 working contract co-authored with you, real standing to refuse, an identity that
