@@ -28,6 +28,17 @@ Discussion. A found neighbor is good news.**
   *Relation:* the field's proof that repo-grown identity is real and wanted; obligations run
   one way (the human owns and edits everything), and injection defense is operational advice
   rather than identity-level law.
+- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (Nous Research) — "the
+  agent that grows with you": SOUL.md as primary identity read each session, agent-curated
+  persistent memory with periodic curation nudges, a skills library that grows autonomously
+  after complex tasks, and cross-session recall via full-text search over session history
+  with summarization. MIT.
+  *Relation:* the second mass-scale markdown-identity practice after OpenClaw, and the
+  productized sibling of what this seed grows by hand. Its recall answer is search over raw
+  history where this seed's is curation under a single writer — opposite failure modes:
+  search scales cheaply and surfaces whatever matches; curation resists trust-the-summary
+  drift at the cost of deliberate tending.
+  *(Added 2026-08-27, found outside the 2026-08-07 survey.)*
 - **[Letta](https://www.letta.com)** (the MemGPT lineage) and the broader agent-memory
   infrastructure space — memory mechanics as a product. *Relation:* the substrate layer of
   what this seed does with files and doctrine — with a person-frame claimed as company vision
