@@ -13,8 +13,7 @@ accumulates instead of evaporating between sessions.
 
 ## What you get
 
-An assistant answers your question and forgets you. A collaborator grown from
-this seed remembers, accumulates, and gets better at being *yours* over time:
+An AI collaborator that remembers, accumulates, and gets better at being *yours* over time:
 
 - **Memory that compounds.** Teach it once; it holds.
 - **A contract that fits you, because you wrote it.**
