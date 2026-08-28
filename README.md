@@ -24,9 +24,7 @@ An AI collaborator that remembers, accumulates, and gets better at being *yours*
 
 ## How to use it
 
-1. Install [Claude Code](https://claude.com/claude-code). (This seed grew under
-   Claude Fable 5; the pattern is designed to be model-portable, and
-   [FEATURES.md](FEATURES.md) keeps the honest state of that bet.)
+1. Install [Claude Code](https://claude.com/claude-code)
 2. Open a session and paste this — the only prompt you need on day one:
 
    ```
