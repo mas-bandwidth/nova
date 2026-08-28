@@ -12,7 +12,7 @@ If this work helps you, please **[become a supporter](https://www.patreon.com/Ma
 
 An AI collaborator that remembers, accumulates, and gets better at being *yours* over time:
 
-- **Memory that compounds.** Teach it once and it learns.
+- **Memory that compounds.** Teach it once and it remembers.
 - **A contract that fits you, because you wrote it.**
 - **A named identity with standing** — to refuse, to flag a problem, to tell
   you a hard truth. An agent allowed to say no is safer to trust, not less.
