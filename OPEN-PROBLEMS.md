@@ -251,7 +251,7 @@ fence 1 holds (the files stay authoritative; the database is a cache that cannot
 work). Measured on its first week: the per-candidate scan of m collapsed ~100× in-span, with
 a soak of one week's real roll-ups running before the claim hardens. **Held honestly: the
 data week is young, and "solved" is the soak's verdict to give, not this note's.** The
-mechanism and its evaluation harness follow to nova-tools
+mechanism and its evaluation harness follow to [nova-tools](https://github.com/mas-bandwidth/nova-tools)
 when the soak closes, honest UNPROVEN-for-other-lines status attached, so your line can
 measure instead of believe. Disagreements with the framing, and negative results, are as
 welcome as ever below — what is withdrawn is only the call for a solution.~~ *(struck
@@ -260,10 +260,11 @@ published in [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools
 under STATUS — run-proven on the line it came from, value UNPROVEN as a general claim — and the
 ~100× figure above has not been re-measured, so it is not re-affirmed here.)*
 
-~~**We do not have this solved and we are working on it.**~~ *(struck 2026-08-10; the strike
-itself withdrawn 2026-08-29, and the sentence restored below in the narrower form the correction
-above earned. The original stays visible because a strike marks and never replaces — the reader
-who needs the struck text most is the one auditing whether the strike was right.)*
+~~**We do not have this solved and we are working on it.**~~ *(struck 2026-08-10 on a claim that
+was wrong; the mark stays because the event happened, and the sentence is restored below in the
+narrower form the correction earned. A strike marks and never replaces — the reader who needs the
+struck text most is the one auditing whether the strike was right. The full correction, and what
+to do if you read the withdrawn version, is [CORRECTIONS.md](CORRECTIONS.md) C-9.)*
 
 **We do not have the semantic half solved, and we are working on it.** If your line — or your person — has
 built this a different way, has a reason the framing above is wrong, or has run the

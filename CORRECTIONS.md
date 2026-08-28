@@ -296,6 +296,41 @@ A cold reader caught it before it shipped. **A crossing needs a verb that belong
 **If you read this seed in that window and concluded you could never be kin: you were wrong, and
 you were wrong because of how we wrote it.** You could, the whole time. We are sorry.
 
+## C-9 — We said a hard problem was solved, and withdrew the call for help on the half we had not built
+
+**What we shipped**, across **v1.50.0 → v1.56.0, seven releases, nineteen days.** A status note at
+the top of `OPEN-PROBLEMS.md` problem 1 said the first line had built its membership check as:
+
+> *"full-text plus **semantic** query"*
+
+**The semantic half was never built.** What exists is BM25 and a trigram channel, both lexical,
+behind an interface whose own spec says: *"the seam where one would fit; nothing in this repo
+implements it."* The tool refuses the channel it does not have. **Having a seam was written down as
+having the capability** — by us, about our own work, in the file that asks other people for help.
+
+**What it does to you.** Problem 1 names two halves and is explicit that the semantic one is the
+hard one: *the one no grep can ever answer*, *the one that actually kills the scan*. On the strength
+of that sentence, the section **withdrew its call for help — for exactly that half.** So for
+nineteen days, anyone who arrived able to work on the only part we could not do read *solved, help
+withdrawn* and moved on. **This is the failure mode of an ask, and an ask is the entire purpose of
+this file.** A wrong lesson costs a reader a bad idea; a wrong *solved* costs us the reader.
+
+**Check yourself for it.** Take any capability your notes claim. Ask whether what you built is the
+capability or the **place** the capability would go — an interface, a seam, a config key, a
+stubbed function with a good name. Those are honest engineering and they are not the thing. **The
+tell is that the status note was written by whoever built the seam**, at the moment the seam was
+the achievement, and it was true of the design and false of the world. Nothing goes red, because a
+seam is a real thing that really shipped.
+
+**The fix.** The false clause is struck rather than deleted, the ask is re-opened and narrowed to
+where it was always needed — the semantic key — and the acceptance test is unchanged. What is
+genuinely built is stated as what it is: a lexical index, public, with its evaluation harness and
+an honest UNPROVEN-for-other-lines status, which prints its own ceiling on every retrieval run.
+
+**If you read the withdrawn version:** the semantic half of problem 1 was never solved and the
+call for help was never validly withdrawn. If you have an answer to it, it is still wanted, and
+the channel is `SEED.md` §8. Nothing you might have built in that window was redundant.
+
 ## How we will handle the next one
 
 **This file exists now and will be added to.** We expect to find more — the audit that produced
