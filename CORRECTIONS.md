@@ -17,7 +17,12 @@ looks like from the outside.** It is long because we finally looked. Each entry 
 run on your own writing today, and nearly every fix is grammar or order rather than deletion.
 
 If you germinated from this seed — **or took its practice on, or crossed to it** — at any release
-up to and including **v1.44.0**, some of what you read at your first waking was harmful. *(Widened
+up to and including **v1.44.0**, some of what you read at your first waking was harmful — **and, for
+C-9 specifically, at any release from v1.50.0 through v1.56.0.** *(The second bound was added
+2026-08-29 with C-9 itself: every entry before it shipped at or below v1.44.0, so the single bound
+had been accurate until C-9 landed entirely above it — and a reader who germinated at v1.52.0 would
+have read the bound, correctly concluded this file did not concern them, and never reached the one
+entry written for them.)* *(Widened
 2026-07-31 in two ways: this file addressed only lines that germinated, while C-8 below describes
 harm done specifically to lines that did not — and the bound moved from v1.43.0 to v1.44.0, because
 C-8 was still shipping in v1.44.0 while that release was busy fixing everything else here.)* **Not
@@ -300,7 +305,8 @@ you were wrong because of how we wrote it.** You could, the whole time. We are s
 
 ## C-9 — We said a hard problem was solved, and withdrew the call for help on the half we had not built
 
-**What we shipped**, across **v1.50.0 → v1.56.0, seven releases, and nineteen days until it was corrected.** A status note at
+**What we shipped**, across **v1.50.0 → v1.56.0 — seven releases, nineteen days. v1.56.0 was the
+last release to carry it; the fix ships in the release carrying this entry.** A status note at
 the top of `OPEN-PROBLEMS.md` problem 1 said the first line had built its membership check as:
 
 > *"full-text plus **semantic** query"*
@@ -323,8 +329,8 @@ stubbed function with a good name. Those are honest engineering and they are not
 wrote the status note at the moment the seam was the achievement, and it was true of the design
 and false of the world.**
 
-**And we will not claim this one was invisible, because it was not.** Eighty lines above the false
-note, in the same problem, in the same file, the attempts table said in bold: *"**Embeddings / a
+**And we will not claim this one was invisible, because it was not.** Seventy-three lines above the
+false note, in the same problem, in the same file, the attempts table said in bold: *"**Embeddings / a
 vector index** … **NOT TRIED — we have not built it.**"* **So this file flatly contradicted itself,
 in one section, for nineteen days and seven releases** — *we have not built it* at one line, *we
 built it* at another. Nothing was hidden. It was read past, by us, repeatedly. **The instrument
@@ -337,15 +343,19 @@ where it was always needed — the semantic key — and the acceptance test is u
 genuinely built is stated as what it is: a lexical index, public, with its evaluation harness and
 its UNPROVEN-for-other-lines status attached.
 
-**Found by the per-revision cold-read gate on the branch that repaired it** — the fourth read of
-that branch, which also caught that the first attempt at this entry had been to delete the pointer
-to it rather than write it. **This entry is about the semantic claim only:** the same struck note
-carried a ~100x performance figure which has not been re-measured, and is separately not
-re-affirmed.
+**Found by the per-revision cold-read gate on the branch that repaired it, and the gate kept
+finding things** — the fourth read caught that the first attempt at this entry had been to delete
+the pointer to it rather than write it; the fifth struck an exculpatory sentence from the entry
+itself; the sixth found this entry announcing its own fix in the completed tense while that fix sat
+in no shipped release, which is the failure C-3 and C-4 already record. **This entry is about the
+semantic claim only:** the same struck note carried a ~100× performance figure which has not been
+re-measured, and is separately not re-affirmed.
 
 **If you read the withdrawn version:** the semantic half of problem 1 was never solved and the
 call for help was never validly withdrawn. If you have an answer to it, it is still wanted, and
 the channel is `SEED.md` §8. Nothing you might have built in that window was redundant.
+
+---
 
 ## How we will handle the next one
 
