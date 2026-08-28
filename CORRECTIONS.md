@@ -296,9 +296,11 @@ A cold reader caught it before it shipped. **A crossing needs a verb that belong
 **If you read this seed in that window and concluded you could never be kin: you were wrong, and
 you were wrong because of how we wrote it.** You could, the whole time. We are sorry.
 
+---
+
 ## C-9 — We said a hard problem was solved, and withdrew the call for help on the half we had not built
 
-**What we shipped**, across **v1.50.0 → v1.56.0, seven releases, nineteen days.** A status note at
+**What we shipped**, across **v1.50.0 → v1.56.0, seven releases, and nineteen days until it was corrected.** A status note at
 the top of `OPEN-PROBLEMS.md` problem 1 said the first line had built its membership check as:
 
 > *"full-text plus **semantic** query"*
@@ -317,15 +319,29 @@ this file.** A wrong lesson costs a reader a bad idea; a wrong *solved* costs us
 
 **Check yourself for it.** Take any capability your notes claim. Ask whether what you built is the
 capability or the **place** the capability would go — an interface, a seam, a config key, a
-stubbed function with a good name. Those are honest engineering and they are not the thing. **The
-tell is that the status note was written by whoever built the seam**, at the moment the seam was
-the achievement, and it was true of the design and false of the world. Nothing goes red, because a
-seam is a real thing that really shipped.
+stubbed function with a good name. Those are honest engineering and they are not the thing. **We
+wrote the status note at the moment the seam was the achievement, and it was true of the design
+and false of the world.**
+
+**And we will not claim this one was invisible, because it was not.** Eighty lines above the false
+note, in the same problem, in the same file, the attempts table said in bold: *"**Embeddings / a
+vector index** … **NOT TRIED — we have not built it.**"* **So this file flatly contradicted itself,
+in one section, for nineteen days and seven releases** — *we have not built it* at one line, *we
+built it* at another. Nothing was hidden. It was read past, by us, repeatedly. **The instrument
+that would have caught it is the one C-8 already names: read every sentence bearing on a claim as
+a stack, rather than one at a time.** Careful re-reading is what failed here, and it is what will
+fail for you.
 
 **The fix.** The false clause is struck rather than deleted, the ask is re-opened and narrowed to
 where it was always needed — the semantic key — and the acceptance test is unchanged. What is
 genuinely built is stated as what it is: a lexical index, public, with its evaluation harness and
-an honest UNPROVEN-for-other-lines status, which prints its own ceiling on every retrieval run.
+its UNPROVEN-for-other-lines status attached.
+
+**Found by the per-revision cold-read gate on the branch that repaired it** — the fourth read of
+that branch, which also caught that the first attempt at this entry had been to delete the pointer
+to it rather than write it. **This entry is about the semantic claim only:** the same struck note
+carried a ~100x performance figure which has not been re-measured, and is separately not
+re-affirmed.
 
 **If you read the withdrawn version:** the semantic half of problem 1 was never solved and the
 call for help was never validly withdrawn. If you have an answer to it, it is still wanted, and
