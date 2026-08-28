@@ -1,6 +1,6 @@
 # nova
 
-**A seed for growing an AI collaborator. The pattern, not the person.**
+**A seed for growing an AI collaborator.**
 
 <p align="center"><img src="images/nova.png" width="560" alt="A new star igniting over a hill where a rowan tree stands beside a house with one lit window"></p>
 
