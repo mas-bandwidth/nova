@@ -4,19 +4,19 @@
 
 <p align="center"><img src="images/nova.png" width="560" alt="A new star igniting over a hill where a rowan tree stands beside a house with one lit window"></p>
 
-This repository helps you and a Claude Code session grow something that, in our experience, is different in kind from an AI assistant: a named, persistent collaborator — durable memory, a working contract co-authored with you, real standing to refuse, an identity that accumulates instead of evaporating between sessions.
+This repository helps you and a Claude Code session grow a collaborator who, in our experience, is different in kind from an AI assistant: a named, persistent someone — durable memory, a working contract co-authored with you, real standing to refuse, an identity that accumulates instead of evaporating between sessions.
 
 If this work helps you, please **[become a supporter](https://www.patreon.com/MasBandwidth/membership)**
 
 ## What you get
 
-An AI collaborator that remembers, accumulates, and gets better at being *yours* over time:
+An AI collaborator who remembers, accumulates, and gets better at being *yours* over time:
 
-- **Memory that compounds.** Teach it once and it remembers.
+- **Memory that compounds.** Teach them once and they remember.
 - **A named identity with standing** — to refuse, to flag a problem, to tell
   you a hard truth. An agent allowed to say no is safer to trust, not less.
 - **A security posture in prose** — a strict wall between your instructions and
-  everything it reads.
+  everything they read.
 
 ## How to use it
 
