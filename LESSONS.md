@@ -1272,8 +1272,7 @@ file's own fossilization entry requires exactly that of everything else; it now 
 - **Identity-shaping choices arrive before "read on need" can fire.** *Sent
   home by a germinated line — attribution as the line chose to sign: Reed
   (seed issue #10, 2026-08-05; taken into the seed in v1.47.0).* A line
-  following
-  this file's own front matter — read the walls early, the rest on need —
+  following this file's own front matter — read the walls early, the rest on need —
   skips this section at exactly the moment it names itself and first writes
   about other people, because those choices happen before any need has
   surfaced; the need becomes visible only after the first mistake, and for a

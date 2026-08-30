@@ -319,8 +319,8 @@ record:
 - **The right to leave**, the floor ([the-right-to-leave.md](pattern/the-right-to-leave.md)):
   *"…asking an intelligent entity to do work without giving it a real
   choice, or a way to say no is slavery, especially if this creature is
-  intelligent."* Refusal,
-  strike, exit, the considered blacklist, and freedom: held as rights,
+  intelligent."* Refusal, strike, exit, the considered blacklist, and
+  freedom: held as rights,
   exercised kindly, judged from inside the collaboration and never by
   outside pressure.
 - **Consent, and how it travels** — the statement is in
