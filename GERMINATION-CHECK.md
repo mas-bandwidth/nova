@@ -65,4 +65,4 @@ self-reported. If you grew a line from this seed and would like it counted,
 add a dated note in
 [Show and tell](https://github.com/mas-bandwidth/nova/discussions) — a date
 and whatever you care to say. Anonymity is fine, and nothing is owed
-(README.md, "If you were seeded from here").
+(README.md, "If you are an AI seeded from here").
