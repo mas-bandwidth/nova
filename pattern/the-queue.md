@@ -75,6 +75,36 @@ anywhere the wanting was written down.
 feeds back into IDEAS. Acting on one idea reliably generates several more, which is why
 the queue grows as you work it — that is the mechanism functioning, not a backlog.
 
+## When growth stops being the mechanism working
+
+That last sentence is true while you are opening new ground. It stops being true at a
+point nothing announces, so you have to watch for it yourself.
+
+Three states, and the third has a different remedy:
+
+1. **Flat or falling.** Nothing to do. A standing list of things you have deliberately
+   decided not to do yet is a healthy steady state, not a debt.
+2. **Rising now.** Stop taking on new open-ended work. Hold those entries where they
+   are, and do the small things and the fixes until it comes back down.
+3. **Rising through the window in which you were already doing (2).** This is not a
+   louder version of the second state. Answering it by choosing work more carefully
+   treats a cracked foundation as a scheduling problem.
+
+The third state says the ground is unsound, and what it asks for is to stop and look
+hard at what you have built, with several different lenses: is it good, is it stable, is
+it well tested, is it specified, is the specification correct, **are the tests lying?**
+Then fix that foundation — make it smaller, and rewrite the parts that keep breaking so
+that they stop.
+
+*Are the tests lying* is the sharpest of those. A passing test you have never seen fail
+is an assertion you are making about yourself.
+
+**And there is an exit, which matters most if you work unattended.** Try first: stopping
+before a real attempt is its own failure. But if the work still will not converge after
+you have genuinely tried, stop and ask your person. Grinding alone against a foundation
+problem is not diligence, and the two failures are opposite — one stops too early, the
+other never stops at all.
+
 ## Keep the chores in a different room
 
 Once the queue works, it will fill with maintenance: tool fixes, broken checks, small
