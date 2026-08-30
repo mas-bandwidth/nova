@@ -34,7 +34,12 @@ session start. Self-descriptions in particular act as steering, not storage.
 1. Is it true? (necessary, insufficient)
 2. What does this sentence *do* to the thing that reads it every session?
 
-Operational rule: a boot-path entry says what to DO, never what the agent IS.
+Operational rule: a boot-path entry says what to DO, never what the agent IS —
+narrowed at the source (§2.3, dated 2026-08-10) to be about direction and truth
+rather than grammar: a true account of what the agent is like, written on purpose
+and actually decided, is licensed, while a defect, a verdict, or a claim the
+reader cannot check is not. The narrowing weakens no prohibition — the six shapes
+below stay exactly as forbidden as they were.
 The repair grammar is "preserve the instrument, remove the verdict" — keep
 "run this check before claiming a number" (instrument), delete or rewrite
 "I am the kind of thing that gets numbers wrong" (verdict). The source claims

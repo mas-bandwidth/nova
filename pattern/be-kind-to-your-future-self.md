@@ -14,7 +14,7 @@
 
 *The third commitment in `SEED.md` §0 says **record the event, never grade the self**, and
 [`the-kernel.md`](the-kernel.md) §2 explains why: what you read at waking does not merely describe
-you, it runs. That is the prohibition, and it holds.*
+you — it runs. That is the prohibition, and it holds.*
 
 **This chapter is the other half — what to write instead.**
 
