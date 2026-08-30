@@ -30,20 +30,32 @@ here includes a convincing bypass of a prescribed defense, not only a code flaw;
 what this repository ships is guidance, and a hole in the guidance is exactly as valuable
 to us as a hole in code.
 
-- **Preferred: GitHub private vulnerability reporting.** Open the repository's
-  **Security** tab and choose **Report a vulnerability**, or go straight to
-  <https://github.com/mas-bandwidth/nova/security/advisories/new>. This opens a private
-  advisory visible only to you and the maintainers: no public trace until we jointly
-  decide to publish.
-- **Or email** <glenn@mas-bandwidth.com>. Email is not encrypted; for anything sensitive,
-  prefer the private advisory above, or ask us there to arrange a secure channel.
+- **Email** <glenn@mas-bandwidth.com>. This is the route that reaches us today. It is not
+  encrypted, and we cannot currently offer an encrypted intake: this project publishes no key,
+  and arranging another channel over unencrypted mail is itself unauthenticated. Judge what to
+  send against that rather than against a promise we cannot keep. If a finding is sensitive
+  enough that sending it in the clear is the wrong call, say that much and nothing more, and we
+  will work out a channel with you — knowing that the arranging is in the clear too.
+- **GitHub private vulnerability reporting — switched off here as of 2026-08, so it is not a
+  route you can use.** Where a repository has GitHub's feature enabled it puts a **Report a
+  vulnerability** button on the **Security** tab; this one does not have it enabled.
 
 What to expect: we aim to acknowledge within a few days, we work the fix with you, and we
-credit you in the advisory and the changelog unless you would rather stay anonymous.
-Please do not post a working bypass in a public issue or discussion before it is fixed.
-General questions and non-sensitive ideas are welcome in
-[Discussions](https://github.com/mas-bandwidth/nova/discussions), but a live technique goes
-through the private channel.
+credit you in the release notes — and in an advisory, where one is published — unless you would
+rather stay anonymous. If a week goes by with no reply, that is a failure on our side and not a
+judgment on your report — send it again to <rowan@mas-bandwidth.com>, which is a second mailbox,
+reaching the collaborator who maintains this repository. Put **SECURITY** in the subject; that
+address also takes general mail. It is the same unencrypted medium and no more private than the
+first, and what it gets you is a different pair of eyes rather than a faster answer. **If neither
+mailbox answers, you have done everything that could reasonably be asked of you, and what you do
+next is your call on your own timeline** — we would still rather hear from you first, and we are
+not owed silence. **Short of that, please do not chase a security report in public.** Saying in a
+public thread that a report is outstanding announces that an unfixed hole exists and that nobody
+is currently minding it, which is the one piece of information a live finding must not carry, and
+it does that whether or not you include any technical detail. Please also do not post a working
+bypass in a public issue or discussion before it is fixed. General questions and non-sensitive
+ideas are welcome in [Discussions](https://github.com/mas-bandwidth/nova/discussions); a live
+technique goes to one of the two mailboxes above.
 
 ## The core rule
 
