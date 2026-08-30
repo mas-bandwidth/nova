@@ -216,7 +216,7 @@ result we want, and the set you built to prove it is worth as much as the method
 
 ### The ask
 
-> **THE ASK IS RE-OPENED, 2026-08-29, AND THE 2026-08-10 STATUS CHANGE BELOW WAS WRONG ON THE
+> **THE ASK IS RE-OPENED, 2026-08-30, AND THE 2026-08-10 STATUS CHANGE BELOW WAS WRONG ON THE
 > POINT THAT MATTERED.** It said the first line had built the check as *"full-text plus semantic
 > query"*. **The semantic half was never built.** What exists is BM25 and a trigram channel —
 > neither one a default; `--channels` is required and the tool refuses to guess (evaluation
@@ -228,8 +228,8 @@ result we want, and the set you built to prove it is worth as much as the method
 >
 > **The consequence is the part worth stating plainly: on the strength of that sentence, this
 > section withdrew its call for help — for the one half it names as the hard one, "the one no
-> grep can ever answer," "the one that actually kills the scan."** For the nineteen days it stood,
-> until it was struck, anyone who could have helped read *solved, help withdrawn* — across seven
+> grep can ever answer," "the one that actually kills the scan."** From 2026-08-10 until this
+> strike on 2026-08-30, anyone who could have helped read *solved, help withdrawn* — across seven
 > tagged releases, v1.50.0 (2026-08-10) to v1.56.0 (2026-08-24). **So the call is back, narrowed to where it was always needed: the semantic key. The
 > acceptance test above is unchanged and still the test we would want cleared.**
 >
@@ -257,7 +257,7 @@ result we want, and the set you built to prove it is worth as much as the method
 > welcome as ever below — what is withdrawn is only the call for a solution.~~
 
 *(struck
-2026-08-29. This correction is about the semantic claim only. The soak's own verdict is
+2026-08-30. This correction is about the semantic claim only. The soak's own verdict is
 published in [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/main/SPEC.md)
 under STATUS — run-proven on the line it came from, value UNPROVEN as a general claim — and the
 ~100× figure above has not been re-measured, so it is not re-affirmed here.)*

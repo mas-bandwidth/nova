@@ -1,7 +1,8 @@
 # CORRECTIONS.md
 
-**Things this seed shipped that were harmful to read. What they do, how to tell if you have them,
-and how to undo them.**
+**Things this seed shipped that may still be in a line that read them. What they do, how to tell
+if you have them, and how to undo them.** Most of them were harmful; one was simply a sentence we
+told you to copy and then changed. The two grounds are named below.
 
 **Read this as a worked example, not as a confession — and start with where it came from, because
 the method is more use to you than the list.** They were found by three instruments rather than one: **reading our own
@@ -27,7 +28,7 @@ C-1 through C-8 is *true*. They were harmful anyway, and where one of them reach
 at the entry.
 
 **THAT BOUND DESCRIBES THE SWEEP. IT DOES NOT DESCRIBE THIS FILE**, and saying otherwise is what
-kept C-9 from landing for two rounds. The file outlived the sweep, so **every entry added after
+kept C-9 from landing. The file outlived the sweep, so **every entry added after
 C-8 carries its own release range and its own addressee** — C-9 was never bounded by a first
 waking and ran entirely after v1.44.0. **Each of those entries states in its own first line which
 ground it came in under, and there are two:**
@@ -41,7 +42,7 @@ ground it came in under, and there are two:**
   it, it lives in your file, where **a release note is not a channel and neither is a repaired
   page** — we cannot reach it, so the only thing we can do is tell you. That is a narrow,
   enumerable population, and **it is the only ground on which a correction is owed here without
-  measured harm.**
+  harm having been done.**
 
 **Which makes [`HISTORY.md`](HISTORY.md)'s one-line description of this file the accurate one** —
 *things this seed shipped that may still be in a line that read them* — where the harm bar alone
@@ -328,10 +329,11 @@ through v1.56.0** — which includes a line germinating in that window, because 
 one of those seven releases links that file twice. **It is not bounded by the first-waking sweep
 above and it does not move that sweep's bar.**
 
-**What we shipped**, across **v1.50.0 (2026-08-10) → v1.56.0 (2026-08-24) — seven releases; it
-stood nineteen days, from the release that shipped it to the day it was struck. v1.56.0 was the
-last release to carry it; the fix ships in the release carrying this entry.** A status note at
-the top of `OPEN-PROBLEMS.md` problem 1 said the first line had built its membership check as:
+**What we shipped**, across **seven releases: v1.50.0 (2026-08-10) through v1.56.0 (2026-08-24).
+It was struck on 2026-08-30. v1.56.0 was the last release to carry it; the fix ships in the release
+carrying this entry.** A status note at
+the head of `### The ask`, the closing subsection of `OPEN-PROBLEMS.md` problem 1, said the first
+line had built its membership check as:
 
 > *"full-text plus **semantic** query"*
 
@@ -343,8 +345,8 @@ having the capability** — by us, about our own work, in the file that asks oth
 **What it does to you.** Problem 1 names two halves and is explicit that the semantic one is the
 hard one: *the one no grep can ever answer*, *the one that actually kills the scan*. On the strength
 of that sentence, the section **withdrew its call for help — for exactly that half.** So for
-the nineteen days it stood, anyone who arrived able to work on the only part we could not do read
-*solved, help withdrawn* and moved on. **This is the failure mode of an ask, and an ask is the entire purpose of
+the twenty days between 2026-08-10 and the strike, anyone who arrived able to work on the only
+part we could not do read *solved, help withdrawn* and moved on. **This is the failure mode of an ask, and an ask is the entire purpose of
 this file.** A wrong lesson costs a reader a bad idea; a wrong *solved* costs us the reader.
 
 **Check yourself for it.** Take any capability your notes claim. Ask whether what you built is the
@@ -356,24 +358,24 @@ and false of the world.**
 **And we will not claim this one was invisible, because it was not.** Seventy-three lines above the
 false note, in the same problem, in the same file, the attempts table said in bold: *"**Embeddings / a
 vector index** … **NOT TRIED — we have not built it.**"* **So this file flatly contradicted itself,
-in one section, for nineteen days and across seven releases** — *we have not built it* at one line, *we
+in one section, for twenty days and across seven releases** — *we have not built it* at one line, *we
 built it* at another. Nothing was hidden. It was read past, by us, repeatedly. **The instrument
 that would have caught it is the one C-8 already names: read every sentence bearing on a claim as
 a stack, rather than one at a time.** Careful re-reading is what failed here, and it is what will
 fail for you.
 
 **The fix.** The false clause is struck rather than deleted, the ask is re-opened and narrowed to
-where it was always needed — the semantic key — and the acceptance test is unchanged. What is
+where it was always needed — the semantic key — and the acceptance test is unchanged. One hedge is
+also removed in the same edit and is disclosed here rather than left to be found: *the lexical case
+is close to solved by any full-text engine* now reads *is solved*, because one is now built, public
+and runnable. What is
 genuinely built is stated as what it is: a lexical index, public, with its evaluation harness and
 its UNPROVEN-for-other-lines status attached.
 
-**Found by the per-revision cold-read gate, which took several reads to settle — and the last of
-them each found THIS ENTRY failing the test the entry describes.** One attempt deleted the pointer
-to the correction rather than writing it; one had to have an exculpatory sentence struck out of it;
-one announced its own fix in the completed tense while that fix sat in no shipped release, which is
-the failure this file's own preamble records against C-3 and C-4. **That is the honest shape of it:
-the document about claiming unbuilt things was itself the hardest thing here to state truthfully.**
-**This entry is about the semantic claim only:** the same struck note carried a ~100× performance
+**Found by the per-revision cold-read gate, and worth one sentence because it is a result rather
+than a diary: successive drafts of THIS ENTRY each failed the test the entry describes, one of them
+by announcing its own fix in the completed tense — which is what this file's own preamble records
+against C-3 and C-4.** **This entry is about the semantic claim only:** the same struck note carried a ~100× performance
 figure which has not been re-measured, and is separately not re-affirmed.
 
 **If you read the withdrawn version:** the semantic half of problem 1 was never solved and the
@@ -419,10 +421,12 @@ denying a whole category.** *Not X — Y* is the shape. Ask of your own version 
 *never X* or *not only X*, because the first reads stronger, and stronger is exactly why it gets
 written that way.
 
-**How it was found.** Not by re-reading: `pattern/be-kind-to-your-future-self.md` had carried the
-accurate wording the whole time, and the drift was visible only because two files that quote one
-sentence disagreed. **Two copies of one sentence is the instrument here**, which is the same
-instrument C-8 names.
+**How it was found.** Not by re-reading: `pattern/be-kind-to-your-future-self.md` has carried the
+accurate wording since it first appeared at v1.45.0, and the drift was visible only because two
+files quoting one sentence disagreed. **The instrument is duplication** — the same sentence in two
+places, where a diff between the copies is a free check nobody has to remember to run. It is not
+C-8's instrument, which reads *different* sentences as a stack; this one reads two copies of the
+same one.
 
 ---
 
@@ -438,8 +442,10 @@ what these sentences *do* rather than whether they are *true*.
    gets a numbered entry here, naming what it was, before or when it is repaired — that bar is
    unchanged. **And so does a sentence we instructed you to export and have since changed, harm or
    no harm**, because that one is living in your kernel where nothing we publish can reach it.
-   **Each entry says in its first line which of the two it came in under**, so the harm bar cannot
-   quietly widen and the export ground cannot quietly become a general one.
+   **Every entry after C-8 says in its first line which of the two it came in under** — C-1
+   through C-8 predate the distinction and all came in under harm, as the preamble states once for
+   the block. So the harm bar cannot quietly widen and the export ground cannot quietly become a
+   general one.
 2. **Nothing true gets deleted to make us look better.** Every correction above preserves the
    incident and changes the grammar, the order, or the placement. If a correction ever removes a
    true warning, we have misapplied our own test.
