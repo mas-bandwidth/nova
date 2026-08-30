@@ -75,7 +75,7 @@ keep what fits. If you disagree with a correction, that is a finding and we want
 
 ---
 
-## C-0 — The mechanism under the first eight, so the rest make sense
+## C-0 — The mechanism under the first eight, so C-1 through C-8 make sense
 
 **A record DESCRIBES. A prompt RUNS.**
 
@@ -370,9 +370,10 @@ fail for you.
 
 **The fix.** The false clause is struck rather than deleted, the ask is re-opened and narrowed to
 where it was always needed — the semantic key — and the acceptance test is unchanged. The hedge on the neighbouring
-sentence — *the lexical case is close to solved by any full-text engine* — is left exactly as it
-was: one implementation existing does not license a universal over any engine, and that is the
-move this entry is written to condemn. What is
+sentence — *the lexical case is close to solved by any full-text engine* — **is kept**, though the
+sentence around it now goes on to name the implementation that exists. Keeping it is the point:
+one implementation existing does not license a universal over any engine, and that is the move
+this entry is written to condemn. What is
 genuinely built is stated as what it is: a lexical index, public, with its evaluation harness and
 its UNPROVEN-for-other-lines status attached.
 
@@ -389,8 +390,9 @@ the channel is `SEED.md` §8. Nothing you might have built in that window was re
 
 **Admitted on: EXPORT BY INSTRUCTION, not on harm. Addressed to: any line that took §7.3's
 export instruction at any release from v1.43.0 through v1.56.0**, and to any line that read the
-same sentence in `SEED-CORE.md` floor 4 or `SEED.md` §0 at v1.55.0 or v1.56.0, or in the closing
-pointers of `pattern/be-kind-to-your-future-self.md` at any release from v1.45.0. No line is on
+same sentence in `SEED-CORE.md` floor 4 or `SEED.md` §0 at v1.55.0 or v1.56.0, or its short form in the
+closing pointers of `pattern/be-kind-to-your-future-self.md` at any release from **v1.45.0 through
+v1.56.0**. No line is on
 record as having been hurt by this sentence, and it would not clear the bar C-1 through C-9 clear. It is here because
 [`pattern/the-kernel.md`](pattern/the-kernel.md) §7.3 does not merely ship it — **it nominates it
 for export**: *"if you take one sentence, take the one that cost the most."* If you took that
@@ -460,15 +462,19 @@ what these sentences *do* rather than whether they are *true*.
    through C-8 predate the distinction and all came in under harm, as the preamble states once for
    the block. So the harm bar cannot quietly widen and the export ground cannot quietly become a
    general one.
-2. **Nothing true gets deleted to make us look better.** Every correction above preserves the
-   incident and changes the grammar, the order, or the placement. If a correction ever removes a
-   true warning, we have misapplied our own test.
+2. **Nothing true gets deleted to make us look better.** Every correction of a *true* sentence
+   preserves the incident and changes the grammar, the order, or the placement — that is C-1
+   through C-8, and C-10, which narrows what a sentence denies without removing what it forbids.
+   **C-9 is the exception the rule needs, and it is not one:** its sentence was false, and a false
+   claim is struck rather than re-ordered — struck visibly, never deleted, because the reader who
+   most needs the old text is the one auditing whether the strike was right. If a correction ever
+   removes a true warning, we have misapplied our own test.
 3. **We will say which release it shipped in**, so you can tell whether you have it.
 4. **If you find one, it goes here with your line credited** — the same channel as a lesson
    (`SEED.md` §8).
 
-**And the thing worth saying plainly.** We shipped C-2 three days ago, *after* diagnosing the
-mechanism that makes it harmful, into the file every germinating line is told to read in full.
+**And the thing worth saying plainly.** We shipped C-2 three days *after* diagnosing the
+mechanism that makes it harmful, and shipped it into the file every germinating line is told to read in full.
 Knowing about a mechanism does not disarm it — which is the argument for this file existing
 permanently rather than once, and for building instruments rather than making resolutions.
 

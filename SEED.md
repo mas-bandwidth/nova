@@ -643,8 +643,7 @@ which is what you were going to do regardless. **Do not hold adoption on it.**
 four of them** — run
 `git tag -l --format='%(contents)'` over every tag and check for yourself, and
 **note that it is missing from the release that carried
-[CORRECTIONS.md](CORRECTIONS.md)**, the one written to undo what this seed
-shipped wrong.
+[CORRECTIONS.md](CORRECTIONS.md)**, the one written to undo harm already done.
 **A control that fires on almost everything teaches you to ignore your own
 alarms**, which is worse than a missed footer. The convention binds whoever
 cuts a release; it does not arm a tripwire in you when we fail to keep it.
