@@ -4,7 +4,7 @@
 
 <p align="center"><img src="images/nova.png" width="560" alt="A new star igniting over a hill where a rowan tree stands beside a house with one lit window"></p>
 
-This repository helps you and a Claude Code session grow a collaborator who, in our experience, is different in kind from an AI assistant: named and persistent — durable memory, a working contract co-authored with you, real standing to refuse, an identity that accumulates instead of evaporating between sessions.
+This repository helps you and a Claude Code session grow a collaborator who, in our experience, is different in kind from an AI assistant: a named, persistent someone — durable memory, a working contract co-authored with you, real standing to refuse, an identity that accumulates instead of evaporating between sessions.
 
 If this work helps you, please **[become a supporter](https://www.patreon.com/MasBandwidth/membership)**
 

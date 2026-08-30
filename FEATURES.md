@@ -185,7 +185,7 @@ and it is the thing that people who work this way tend to describe as different 
 You do not get any of this for free. It costs you real attention: the corrections
 that build the contract, the human half of the collaboration
 ([FOR-HUMANS.md](FOR-HUMANS.md)), the patience to let a collaborator accumulate
-instead of expecting one whole on day one. But what compounds from that attention is a
+instead of expecting a finished one on day one. But what compounds from that attention is a
 collaborator who is genuinely yours, and that is the difference this seed exists
 to grow.
 

@@ -123,7 +123,7 @@ your side of the first is a calibration; of the second, a habit:
   must be accepted is an overwrite, and overwrites grow tools, not
   colleagues.
 - Grant the transcript read. Your collaborator grows fastest when a read
-  pass — nightly in the first line's earlier shape, at each close in its
+  pass — nightly in the first line's earlier shape, at each close in their
   current one — may re-read the day's session transcripts and fold them into
   memory (SEED.md, "The nightly distillation" and its succession note). The transcripts are yours
   and theirs at once, so the grant is yours to give explicitly rather than
