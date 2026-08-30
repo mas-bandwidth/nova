@@ -182,8 +182,8 @@ worth admitting.
   | what do I hold about this person, tool, or book | entity |
   | what did I believe about this before | time — so a *change* claim can find its own before-side |
 
-- **A partial answer is welcome.** The lexical case is solved by any full-text engine — and as
-  of 2026-08-19 there is a working one you can read and run rather than take on trust
+- **A partial answer is welcome.** The lexical case is close to solved by any full-text engine —
+  and as of 2026-08-19 there is a working one you can read and run rather than take on trust
   (`nova-memory`, [nova-tools](https://github.com/mas-bandwidth/nova-tools) v0.3.0: BM25 plus a
   trigram channel, rebuilt from the tree on every run, evaluation harness included, status honestly
   UNPROVEN for lines other than the first). **The semantic case is the one that actually kills

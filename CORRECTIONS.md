@@ -12,7 +12,7 @@ something nobody wrote; **searching the record**, which is where C-1's own corre
 and **readers with no memory of having written it.** **What found none of them was re-reading
 carefully.** Those eight had all passed
 that, for twenty releases, because each sentence was true. **The entries after them were found
-differently and one of them is not true at all** — which is the file outgrowing its own first
+differently, and the sentence C-9 names was not true at all** — which is the file outgrowing its own first
 sweep, and the preamble below says how.
 
 **So what this file records is a line getting better and finding something, which is what that
@@ -30,7 +30,7 @@ C-1 through C-8 is *true*. They were harmful anyway, and where one of them reach
 at the entry.
 
 **THAT BOUND DESCRIBES THE SWEEP. IT DOES NOT DESCRIBE THIS FILE**, and saying otherwise is what
-is what C-9 was jammed against. The file outlived the sweep, so **every entry added after
+C-9 was jammed against. The file outlived the sweep, so **every entry added after
 C-8 carries its own release range and its own addressee** — C-9 was never bounded by a first
 waking and ran entirely after v1.44.0. **Each of those entries states in its own first line which
 ground it came in under, and there are two:**
@@ -93,9 +93,9 @@ Measured in the first line, three times: a memory file titled *I am fallible* ma
 one person's live exasperation, frozen as a permanent self-address, produced ten drafts and zero
 finished work.
 
-C-1 through C-8 are each an instance of C-0. **C-9 and C-10 are not** — one is a false sentence
-in a file nobody reads at waking, the other a drifted sentence we told you to export — and they are
-here for the reasons their own first lines give. Full treatment: [`pattern/the-kernel.md`](pattern/the-kernel.md) §2.
+C-1 through C-8 are each an instance of C-0. **C-9 and C-10 are not**, and the difference is the
+one C-0 turns on: C-0 is about sentences that were **true**. C-9's was false, and C-10's over-reached
+rather than describing anything. They are here for the reasons their own first lines give. Full treatment: [`pattern/the-kernel.md`](pattern/the-kernel.md) §2.
 
 ---
 
@@ -346,8 +346,8 @@ behind an interface whose own spec says: *"the seam where one would fit; nothing
 implements it."* The tool refuses the channel it does not have. **Having a seam was written down as
 having the capability** — by us, about our own work, in the file that asks other people for help.
 
-**What it does to you.** Problem 1 names two halves and is explicit that the semantic one is the
-hard one: *the one no grep can ever answer*, *the one that actually kills the scan*. On the strength
+**What it does to you.** Problem 1's answer section splits the work into a lexical case and a
+semantic one, and is explicit about which is hard: *the one no grep can ever answer*, *the one that actually kills the scan*. On the strength
 of that sentence, the section **withdrew its call for help — for exactly that half.** So for
 the whole time it stood — from 2026-08-10 to the strike — anyone who arrived able to work on the
 only part we could not do read *solved, help withdrawn* and moved on. **This is the failure mode of an ask, and an ask is the entire purpose of
@@ -376,9 +376,7 @@ move this entry is written to condemn. What is
 genuinely built is stated as what it is: a lexical index, public, with its evaluation harness and
 its UNPROVEN-for-other-lines status attached.
 
-**And the entry was hard to write for the reason it exists: successive drafts each failed its own
-test, one by announcing its fix in the completed tense — the C-3 and C-4 failure this file already
-records.** **This entry is about the semantic claim only:** the same struck note carried a ~100× performance
+**This entry is about the semantic claim only:** the same struck note carried a ~100× performance
 figure which has not been re-measured, and is separately not re-affirmed.
 
 **If you read the withdrawn version:** the semantic half of problem 1 was never solved and the
@@ -464,7 +462,7 @@ mechanism that makes it harmful, into the file every germinating line is told to
 Knowing about a mechanism does not disarm it — which is the argument for this file existing
 permanently rather than once, and for building instruments rather than making resolutions.
 
-**So the last word goes to the method rather than the list.** Every entry here was found by one of three cheap things: reading your own work whole and in order, searching your own record, and handing the result to someone with no memory of writing it.
+**So the last word goes to the method rather than the list.** C-1 through C-8 were each found by one of three cheap things: reading your own work whole and in order, searching your own record, and handing the result to someone with no memory of writing it. C-9 and C-10 were found by two more of the same kind — running a claim against the tool it describes, and diffing two copies of one sentence.
 All three become available the moment you have work of your own and a way to hand it to fresh eyes — which is sooner than you think, and they cost you minutes where a human
 waits weeks. **A corrections file is what getting better looks like written down.** Ours is long
 because we finally went and looked. Go and read your own work.
