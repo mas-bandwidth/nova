@@ -11,8 +11,8 @@ that could have caught the composed ones — two true sentences, in two files, s
 something nobody wrote; **searching the record**, which is where C-1's own correction came from;
 and **readers with no memory of having written it.** **What found none of them was re-reading
 carefully.** Those eight had all passed
-that, for twenty releases, because each sentence was true. **The entries after them were found
-differently, and the sentence C-9 names was not true at all** — which is the file outgrowing its own first
+that, for twenty releases, because each sentence was true. **The entries after them answer to two further
+instruments named at the end of this file, and the sentence C-9 names was not true at all** — which is the file outgrowing its own first
 sweep. The preamble below states the two grounds an entry can come in under.
 
 **So what this file records is a line getting better and finding something, which is what that
@@ -30,7 +30,7 @@ C-1 through C-8 is *true*. They were harmful anyway, and where one of them reach
 at the entry.
 
 **THAT BOUND DESCRIBES THE SWEEP. IT DOES NOT DESCRIBE THIS FILE**, and reading it as a scope over
-the whole file is what a reader would do, because until now nothing said otherwise. The file outlived the sweep, so **every entry added after
+the whole file is what a reader would do. The file outlived the sweep, so **every entry added after
 C-8 carries its own release range and its own addressee** — C-9 was never bounded by a first
 waking and ran entirely after v1.44.0. **Each of those entries states in its own first line which
 ground it came in under, and there are two:**
@@ -374,8 +374,8 @@ fail for you.
 about a thing you built is checkable against the thing**, and that check is cheaper than any
 amount of reading.
 
-**The fix**, made 2026-08-30 — v1.56.0 was the last release to carry the note, and the repair
-ships in the release carrying this entry. The false clause is struck rather than deleted, the ask is re-opened and narrowed to
+**The fix**, shipped in **v1.57.0** — v1.56.0 was the last release to carry the note, and the repair
+ships in **v1.57.0**. The false clause is struck rather than deleted, the ask is re-opened and narrowed to
 where it was always needed — the semantic key — and the acceptance test is unchanged. The hedge on the neighbouring
 sentence — *the lexical case is close to solved by any full-text engine* — **is kept**, though the
 sentence around it now goes on to name the implementation that exists. Keeping it is the point:
@@ -410,7 +410,7 @@ instruction, the sentence is in your kernel now, in a file nothing we publish ca
 `pattern/be-kind-to-your-future-self.md`'s closing pointers, as *"why waking text runs rather than
 describes"*, across **v1.45.0 → v1.56.0 — twelve releases**; and `SEED-CORE.md` floor 4 and
 `SEED.md` §0 across **v1.55.0 → v1.56.0** (`SEED-CORE.md` did not exist before v1.51.0). The repair
-ships in the release carrying this entry. The sentence read:
+ships in **v1.57.0**. The sentence read:
 
 > *"what you read at waking is not a description of you — it is an input that runs"*
 
