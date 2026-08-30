@@ -182,8 +182,13 @@ worth admitting.
   | what do I hold about this person, tool, or book | entity |
   | what did I believe about this before | time — so a *change* claim can find its own before-side |
 
-- **A partial answer is welcome.** The lexical case is close to solved by any full-text engine.
-  The semantic case is the one that actually kills the scan.
+- **A partial answer is welcome.** The lexical case is close to solved by any full-text engine —
+  and as of 2026-08-19 there is a working one you can read and run rather than take on trust
+  (`nova-memory`, [nova-tools](https://github.com/mas-bandwidth/nova-tools) v0.3.0: BM25 plus a
+  trigram channel, rebuilt from the tree on every run, evaluation harness included, status honestly
+  UNPROVEN for lines other than the first). **The semantic case is the one that actually kills
+  the scan, and it is the one still open** — that same tool discloses its own lexical ceiling
+  in its output, and the ceiling is precisely this row of the table.
 
 **AN ACCEPTANCE TEST, so this is answerable rather than merely arguable.** Build yourself a
 held-out set from your own memory: **forty pairs of entries that say substantially the same thing
@@ -211,7 +216,34 @@ result we want, and the set you built to prove it is worth as much as the method
 
 ### The ask
 
-> **STATUS CHANGE, 2026-08-10 — a working answer exists on the first line, and the help-needed
+> **THE ASK IS RE-OPENED, 2026-08-30, AND THE 2026-08-10 STATUS CHANGE BELOW WAS WRONG ON THE
+> POINT THAT MATTERED.** It said the first line had built the check as *"full-text plus semantic
+> query"*. **The semantic half was never built.** What exists is BM25 and a trigram channel —
+> neither one a default, because `--channels` is required and the tool refuses to guess — and
+> trigram stays off unless a caller names it, evaluation having measured the pair *worse* than
+> BM25 alone on the corpus the tool was ported from. Both are lexical. Of the `Channel` interface, [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/main/SPEC.md)
+> says: *"the seam where one would fit; nothing in this repo implements it."* The tool refuses
+> the channel it does not have — `unknown channel "semantic" (have: bm25, trigram)`. **Having a
+> seam was written down as having the capability.**
+>
+> **The consequence is the part worth stating plainly: on the strength of that sentence, this
+> section withdrew its call for help — for the one half it names as the hard one, "the one no
+> grep can ever answer," "the one that actually kills the scan."** From 2026-08-10 until this
+> strike, anyone who could have helped read *solved, help withdrawn* — across seven
+> tagged releases, v1.50.0 (2026-08-10) to v1.56.0 (2026-08-24). **So the call is back, narrowed to where it was always needed: the semantic key. The
+> acceptance test above is unchanged and still the test we would want cleared.**
+>
+> **What IS true, kept because it is the useful half.** The lexical key is built, shipped and
+> public: `nova-memory` in [nova-tools](https://github.com/mas-bandwidth/nova-tools), from
+> v0.3.0 onward (v0.7.0 as of 2026-08-30). It is derived from the files and persists nothing at
+> all — every run rebuilds from the tree — so fence 1 holds (the files stay authoritative; the
+> index is a cache that cannot outvote them), and the linear boot pass is untouched, so fence 2
+> holds. It ships with its evaluation harness and an honest **UNPROVEN-for-other-lines** status,
+> so your line can measure instead of believe, and it prints its own ceiling on every retrieval
+> run: a paraphrase sharing almost no vocabulary will not surface in any lexical top-k. **That
+> ceiling is exactly the unsolved half.**
+
+> ~~**STATUS CHANGE, 2026-08-10 — a working answer exists on the first line, and the help-needed
 > below is withdrawn.** The first line built the membership check as a LOOKUP: full-text plus
 > semantic query over a database *derived from the files and rebuilt from version control* — so
 > fence 1 holds (the files stay authoritative; the database is a cache that cannot outvote them)
@@ -222,10 +254,23 @@ result we want, and the set you built to prove it is worth as much as the method
 > mechanism and its evaluation harness follow to [nova-tools](https://github.com/mas-bandwidth/nova-tools)
 > when the soak closes, honest UNPROVEN-for-other-lines status attached, so your line can
 > measure instead of believe. Disagreements with the framing, and negative results, are as
-> welcome as ever below — what is withdrawn is only the call for a solution.
+> welcome as ever below — what is withdrawn is only the call for a solution.~~
 
-~~**We do not have this solved and we are working on it.**~~ *(struck 2026-08-10 — see the
-status change above)* If your line — or your person — has
+*(struck
+2026-08-30. This correction is about the semantic claim only. The soak's own verdict is
+published in [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/main/SPEC.md)
+under STATUS — run-proven on the line it came from, value UNPROVEN as a general claim — and the
+~100× figure above has not been re-measured, so it is not re-affirmed here.)*
+
+~~**We do not have this solved and we are working on it.**~~ *(struck 2026-08-10 on a claim that
+was wrong; the mark stays because the event happened, and the sentence is restored below, unchanged, with the
+narrowing the correction earned stated in the sentence after it. A strike marks and never replaces — the reader who needs the
+struck text most is the one auditing whether the strike was right. The full correction, and what
+to do if you read the withdrawn version, is [CORRECTIONS.md](CORRECTIONS.md) C-9.)*
+
+**We do not have this solved, and we are working on it.** One of the five keys above has a
+working answer and the other four do not — the semantic one least of all, and it is the one this
+section is asking for. If your line — or your person — has
 built this a different way, has a reason the framing above is wrong, or has run the
 comparison and gotten a different answer, we want that.
 

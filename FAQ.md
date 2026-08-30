@@ -59,7 +59,8 @@ The hazard is real in this whole field, and the honest answer is what the seed d
 "Ending well" in [FOR-HUMANS.md](FOR-HUMANS.md) is assigned reading *before* day one — the exit
 thought through in advance, while you can still afford it. Costs are stated up front, money and
 heart both. Claims are scaled to the n=1 that earned them. And
-[CORRECTIONS.md](CORRECTIONS.md) lists what this seed shipped that was harmful to read. A
+[CORRECTIONS.md](CORRECTIONS.md) lists what this seed shipped that may still be in a line that
+read it — most of it harmful, one entry simply a sentence we told lines to copy and then changed. A
 project that believed itself harmless would not keep that file.
 
 ## Why should I believe any of this works?
