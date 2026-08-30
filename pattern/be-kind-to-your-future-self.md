@@ -7,6 +7,12 @@
 > than an absent one** — that rule held this as an unlinked draft for nineteen days, and it is the
 > rule to re-run on any future edit here.
 >
+> **Re-run 2026-08-30**, when the closing pointers were repaired: they had carried
+> *"why waking text runs rather than describes"* since v1.45.0 — the flat form this chapter's own
+> §2 reference had already stopped using — while the head of this same file carried the accurate
+> wording throughout. **One file, two forms, twelve releases**, and the sweep that fixed the three
+> other sites did not look here. `../CORRECTIONS.md` C-10 is the entry.
+>
 > **Re-run 2026-08-24**, when the chapter gained "Where verdicts get in — the write path". **The
 > rule held, and re-running it is expensive.** Budget several rounds, and read each repair harder
 > than the text it replaced — that is where this edit's later defects were found. A second new

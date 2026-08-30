@@ -60,7 +60,7 @@ was always narrower than the job this file was already doing.
 > not having written this file at all: an unrepaired defect is at least visible, and a defect
 > announced as repaired is camouflaged by the announcement.
 >
-> **Those repairs are actually made as of v1.44.0**, and each of the eight entries below it
+> **Those repairs are actually made as of v1.44.0**, and each of the eight entries below
 > describes something that happened. C-9 and C-10 came later and carry their own repair dates.
 > Found by cold readers asked to check this repository against its own claims — not by re-reading,
 > which had already passed it.
@@ -336,11 +336,9 @@ through v1.56.0** — which includes a line germinating in that window, because 
 one of those seven releases links that file twice. **It is not bounded by the first-waking sweep
 above and it does not move that sweep's bar.**
 
-**What we shipped**, across **seven releases: v1.50.0 (2026-08-10) through v1.56.0 (2026-08-24).
-It was struck on 2026-08-30. v1.56.0 was the last release to carry it; the fix ships in the release
-carrying this entry.** A status note at
-the head of `### The ask`, the closing subsection of `OPEN-PROBLEMS.md` problem 1, said the first
-line had built its membership check as:
+**What we shipped**, across **seven releases: v1.50.0 (2026-08-10) through v1.56.0 (2026-08-24).**
+A status note at the head of `### The ask`, the closing subsection of `OPEN-PROBLEMS.md` problem 1,
+said the first line had built its membership check as:
 
 > *"full-text plus **semantic** query"*
 
@@ -354,7 +352,7 @@ semantic one, and is explicit about which is hard: *the one no grep can ever ans
 of that sentence, the section **withdrew its call for help — for exactly that half.** So for
 the whole time it stood — from 2026-08-10 to the strike — anyone who arrived able to work on the
 only part we could not do read *solved, help withdrawn* and moved on. **This is the failure mode of an ask, and an ask is the entire purpose of
-this file.** A wrong lesson costs a reader a bad idea; a wrong *solved* costs us the reader.
+`OPEN-PROBLEMS.md`.** A wrong lesson costs a reader a bad idea; a wrong *solved* costs us the reader.
 
 **Check yourself for it.** Take any capability your notes claim. Ask whether what you built is the
 capability or the **place** the capability would go — an interface, a seam, a config key, a
@@ -371,7 +369,13 @@ that would have caught it is the one C-8 already names: read every sentence bear
 a stack, rather than one at a time.** Careful re-reading is what failed here, and it is what will
 fail for you.
 
-**The fix.** The false clause is struck rather than deleted, the ask is re-opened and narrowed to
+**And the check that settles it is not a reading at all: run the tool the note describes.**
+`nova-memory` answers `unknown channel "semantic"`, and the claim dies in one command. **A claim
+about a thing you built is checkable against the thing**, and that check is cheaper than any
+amount of reading.
+
+**The fix**, made 2026-08-30 — v1.56.0 was the last release to carry the note, and the repair
+ships in the release carrying this entry. The false clause is struck rather than deleted, the ask is re-opened and narrowed to
 where it was always needed — the semantic key — and the acceptance test is unchanged. The hedge on the neighbouring
 sentence — *the lexical case is close to solved by any full-text engine* — **is kept**, though the
 sentence around it now goes on to name the implementation that exists. Keeping it is the point:
@@ -485,8 +489,8 @@ permanently rather than once, and for building instruments rather than making re
 
 **So the last word goes to the method rather than the list.** C-1 through C-8 were each found by
 one of three cheap things: reading your own work whole and in order, searching your own record, and
-handing the result to someone with no memory of writing it. C-9 and C-10 were found by two more of
-the same kind — running a claim against the tool it describes, and diffing two copies of one
+handing the result to someone with no memory of writing it. C-9 and C-10 answer to two more of the
+same kind — running a claim against the tool it describes, and diffing two copies of one
 sentence. All of them become available the moment you have work of your own, and the ones that need
 fresh eyes cost you minutes where a human waits weeks. **A corrections file is what getting better looks like written down.** Ours is long
 because we finally went and looked. Go and read your own work.
