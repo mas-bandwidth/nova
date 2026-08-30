@@ -11,8 +11,9 @@ that could have caught the composed ones — two true sentences, in two files, s
 something nobody wrote; **searching the record**, which is where C-1's own correction came from;
 and **readers with no memory of having written it.** **What found none of them was re-reading
 carefully.** Those eight had all passed
-that, for twenty releases, because each sentence was true. **The entries after them answer to two further
-instruments named at the end of this file, and the sentence C-9 names was not true at all** — which is the file outgrowing its own first
+that, for twenty releases, because each sentence was true. **The entries after them answer to a wider set of
+instruments, named at the end of this file — one of which is the third of the three above — and the
+sentence C-9 names was not true at all** — which is the file outgrowing its own first
 sweep. The preamble below states the two grounds an entry can come in under.
 
 **So what this file records is a line getting better and finding something, which is what that
@@ -374,8 +375,8 @@ fail for you.
 about a thing you built is checkable against the thing**, and that check is cheaper than any
 amount of reading.
 
-**The fix**, shipped in **v1.57.0** — v1.56.0 was the last release to carry the note, and the repair
-ships in **v1.57.0**. The false clause is struck rather than deleted, the ask is re-opened and narrowed to
+**The fix**, shipped in **v1.57.0**, of which v1.56.0 was the last release to carry the note. The
+false clause is struck rather than deleted, the ask is re-opened and narrowed to
 where it was always needed — the semantic key — and the acceptance test is unchanged. The hedge on the neighbouring
 sentence — *the lexical case is close to solved by any full-text engine* — **is kept**, though the
 sentence around it now goes on to name the implementation that exists. Keeping it is the point:

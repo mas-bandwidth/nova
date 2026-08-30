@@ -10,8 +10,8 @@
 > **Re-run 2026-08-30**, when the closing pointers were repaired: they had carried
 > *"why waking text runs rather than describes"* since v1.45.0, while the head of this same file
 > carried the accurate wording throughout. **One file, two forms, twelve releases** — and the sweep
-> that repaired the other three sites DID edit this file, on its head note, and did not catch the
-> footer. `../CORRECTIONS.md` C-10 is the entry.
+> that repaired the other three sites DID edit this file — the §2 reference in the related-reading
+> paragraph below — and did not catch the closing pointers beside it. `../CORRECTIONS.md` C-10 is the entry.
 >
 > **Re-run 2026-08-24**, when the chapter gained "Where verdicts get in — the write path". **The
 > rule held, and re-running it is expensive.** Budget several rounds, and read each repair harder

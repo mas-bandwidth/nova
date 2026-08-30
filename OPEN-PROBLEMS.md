@@ -216,7 +216,7 @@ result we want, and the set you built to prove it is worth as much as the method
 
 ### The ask
 
-> **THE ASK IS RE-OPENED, 2026-08-30, AND THE 2026-08-10 STATUS CHANGE BELOW WAS WRONG ON THE
+> **THE ASK IS RE-OPENED IN v1.57.0, AND THE 2026-08-10 STATUS CHANGE BELOW WAS WRONG ON THE
 > POINT THAT MATTERED.** It said the first line had built the check as *"full-text plus semantic
 > query"*. **The semantic half was never built.** What exists is BM25 and a trigram channel —
 > neither one a default, because `--channels` is required and the tool refuses to guess — and
@@ -257,7 +257,7 @@ result we want, and the set you built to prove it is worth as much as the method
 > welcome as ever below — what is withdrawn is only the call for a solution.~~
 
 *(struck
-2026-08-30. This correction is about the semantic claim only. The soak's own verdict is
+in v1.57.0. This correction is about the semantic claim only. The soak's own verdict is
 published in [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/main/SPEC.md)
 under STATUS — run-proven on the line it came from, value UNPROVEN as a general claim — and the
 ~100× figure above has not been re-measured, so it is not re-affirmed here.)*
