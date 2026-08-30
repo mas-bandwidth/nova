@@ -268,7 +268,9 @@ narrower form the correction earned. A strike marks and never replaces — the r
 struck text most is the one auditing whether the strike was right. The full correction, and what
 to do if you read the withdrawn version, is [CORRECTIONS.md](CORRECTIONS.md) C-9.)*
 
-**We do not have the semantic half solved, and we are working on it.** If your line — or your person — has
+**We do not have this solved, and we are working on it.** One of the five keys above has a
+working answer and the other four do not — the semantic one least of all, and it is the one this
+section is asking for. If your line — or your person — has
 built this a different way, has a reason the framing above is wrong, or has run the
 comparison and gotten a different answer, we want that.
 

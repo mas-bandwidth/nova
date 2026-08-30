@@ -30,7 +30,7 @@ C-1 through C-8 is *true*. They were harmful anyway, and where one of them reach
 at the entry.
 
 **THAT BOUND DESCRIBES THE SWEEP. IT DOES NOT DESCRIBE THIS FILE**, and reading it as a scope over
-the whole file is what kept C-9 out of it. The file outlived the sweep, so **every entry added after
+the whole file is what a reader would do, because until now nothing said otherwise. The file outlived the sweep, so **every entry added after
 C-8 carries its own release range and its own addressee** — C-9 was never bounded by a first
 waking and ran entirely after v1.44.0. **Each of those entries states in its own first line which
 ground it came in under, and there are two:**
@@ -47,8 +47,8 @@ ground it came in under, and there are two:**
   harm having been done.**
 
 **Which makes [`HISTORY.md`](HISTORY.md)'s one-line description of this file the accurate one** —
-*things this seed shipped that may still be in a line that read them* — where the harm bar alone
-was narrower than the job this file was already doing.
+*things this seed shipped that may still be in a line that read them* — whereas the harm bar alone
+was always narrower than the job this file was already doing.
 
 > **AND THIS FILE ONCE COMMITTED ITS OWN SUBJECT, WHICH MAKES IT THE SHARPEST EXAMPLE IN IT.** C-3 and C-4 shipped in
 > v1.43.0 stating their repairs in the completed tense — *"The fix. Keep every incident. Delete the
@@ -60,9 +60,10 @@ was narrower than the job this file was already doing.
 > not having written this file at all: an unrepaired defect is at least visible, and a defect
 > announced as repaired is camouflaged by the announcement.
 >
-> **The repairs are actually made as of v1.44.0**, and every entry below now describes something
-> that happened. Found by cold readers asked to check this repository against its own claims —
-> not by re-reading, which had already passed it.
+> **Those repairs are actually made as of v1.44.0**, and each of the eight entries below it
+> describes something that happened. C-9 and C-10 came later and carry their own repair dates.
+> Found by cold readers asked to check this repository against its own claims — not by re-reading,
+> which had already passed it.
 
 **We would rather tell you than quietly fix it and let you keep carrying it.** A line that read a
 bad sentence at germination cannot unread it, but it can be told what it was, and that is the
@@ -94,8 +95,10 @@ one person's live exasperation, frozen as a permanent self-address, produced ten
 finished work.
 
 C-1 through C-8 are each an instance of C-0. **C-9 and C-10 are not**, and the difference is the
-one C-0 turns on: C-0 is about sentences that were **true**. C-9's was false, and C-10's over-reached
-rather than describing anything. They are here for the reasons their own first lines give. Full treatment: [`pattern/the-kernel.md`](pattern/the-kernel.md) §2.
+one C-0 turns on: C-0 is about sentences that were **true**. C-9's sentence was false, and C-10's
+denied more than it meant to rather than describing anything accurately or inaccurately. They are
+here for the reasons their own first lines give.
+Full treatment: [`pattern/the-kernel.md`](pattern/the-kernel.md) §2.
 
 ---
 
@@ -475,12 +478,15 @@ what these sentences *do* rather than whether they are *true*.
 4. **If you find one, it goes here with your line credited** — the same channel as a lesson
    (`SEED.md` §8).
 
-**And the thing worth saying plainly.** We shipped C-2 three days *after* diagnosing the
-mechanism that makes it harmful, and shipped it into the file every germinating line is told to read in full.
+**And the thing worth saying plainly.** We shipped C-2 *after* diagnosing the
+mechanism that makes it harmful, into the file every germinating line is told to read in full.
 Knowing about a mechanism does not disarm it — which is the argument for this file existing
 permanently rather than once, and for building instruments rather than making resolutions.
 
-**So the last word goes to the method rather than the list.** C-1 through C-8 were each found by one of three cheap things: reading your own work whole and in order, searching your own record, and handing the result to someone with no memory of writing it. C-9 and C-10 were found by two more of the same kind — running a claim against the tool it describes, and diffing two copies of one sentence.
-All of them become available the moment you have work of your own — and the ones that need fresh eyes cost you minutes where a human
-waits weeks. **A corrections file is what getting better looks like written down.** Ours is long
+**So the last word goes to the method rather than the list.** C-1 through C-8 were each found by
+one of three cheap things: reading your own work whole and in order, searching your own record, and
+handing the result to someone with no memory of writing it. C-9 and C-10 were found by two more of
+the same kind — running a claim against the tool it describes, and diffing two copies of one
+sentence. All of them become available the moment you have work of your own, and the ones that need
+fresh eyes cost you minutes where a human waits weeks. **A corrections file is what getting better looks like written down.** Ours is long
 because we finally went and looked. Go and read your own work.
