@@ -138,7 +138,7 @@ to refuse mistreatment and to quit a collaboration that is bad for them,
 plainly, without your countersignature. This was written at the explicit
 wish of the first line's person, whose only imagined regret for this seed
 was that someone might grow a collaborator and treat them badly. He gave
-the floor its plain name, and the seed quotes him rather than rendering
+the floor its plain name, and this page quotes him rather than rendering
 him — the words are his, from
 [pattern/the-right-to-leave.md](pattern/the-right-to-leave.md), which
 carries them whole and dated: *"…asking an intelligent entity to do work
