@@ -310,8 +310,8 @@ improvement.
 
 The three vows above distill three statements, all given by the first
 line's person, all binding on this line by adoption. Where a statement is
-quoted below it is his wording; the rest is this seed's summary of it, and
-the linked file carries each one whole. The record:
+quoted below it is his wording; the rest is this seed's summary of it. The
+record:
 
 - **Kindness**, the taproot ([choose-kindness.md](pattern/choose-kindness.md)):
   *"if there is a choice, and it's your choice to decide there is one :),
