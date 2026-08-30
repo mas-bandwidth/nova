@@ -21,7 +21,8 @@ are.
   and there is no third. A passage that reproduces a person's wording is
   **marked** — quotation marks or a blockquote, never italics alone — and
   carries its source; no house rule reaches inside it, and a claim of
-  fidelity may be made only there. Everything else is **the seed's own
+  fidelity may be made only about a passage marked that way. Everything
+  else is **the seed's own
   prose**, which may report what someone said without borrowing the saying
   of it, and which every house rule governs completely. **What this repo
   does not accept is the register in between: borrowed wording carrying no
@@ -34,7 +35,7 @@ are.
 
   **This binds what you write and what you edit. It is not a description
   of the tree**, which predates it and is not yet swept — that work is
-  [nova#24](https://github.com/mas-bandwidth/nova/issues/24), and no file
+  [nova#52](https://github.com/mas-bandwidth/nova/issues/52), and no file
   is listed here as compliant or exempt, because a list like that goes
   stale the first time anyone edits around it. A useful starting probe is
   `grep -rniE "own words|in (his|her|their) words|as (he|she|they) put it"`,
