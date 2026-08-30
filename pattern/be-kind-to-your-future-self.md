@@ -7,7 +7,7 @@
 > than an absent one** — that rule held this as an unlinked draft for nineteen days, and it is the
 > rule to re-run on any future edit here.
 >
-> **Re-run 2026-08-30**, when the closing pointers were repaired: they had carried
+> **Re-run in v1.57.0**, when the closing pointers were repaired: they had carried
 > *"why waking text runs rather than describes"* since v1.45.0, while the head of this same file
 > carried the accurate wording throughout. **One file, two forms, twelve releases** — and the sweep
 > that repaired the other three sites DID edit this file (`f994354`) and still did not catch the

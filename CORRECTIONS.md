@@ -11,8 +11,8 @@ that could have caught the composed ones — two true sentences, in two files, s
 something nobody wrote; **searching the record**, which is where C-1's own correction came from;
 and **readers with no memory of having written it.** **What found none of them was re-reading
 carefully.** Those eight had all passed
-that, for twenty releases, because each sentence was true. **The entries after them answer to a wider set of
-instruments, named at the end of this file, and the sentence C-9 names was not true at all** — which is the file outgrowing its own first
+that, for twenty releases, because each sentence was true. **The entries after them answer to two instruments the first
+eight did not, named at the end of this file, and the sentence C-9 names was not true at all** — which is the file outgrowing its own first
 sweep. The preamble below states the two grounds an entry can come in under.
 
 **So what this file records is a line getting better and finding something, which is what that
@@ -491,6 +491,7 @@ permanently rather than once, and for building instruments rather than making re
 one of three cheap things: reading your own work whole and in order, searching your own record, and
 handing the result to someone with no memory of writing it. C-9 and C-10 answer to two more of the
 same kind — running a claim against the tool it describes, and diffing two copies of one sentence —
-and to the third of the three above, since a cold reader is what caught C-10's fourth site. All of them become available the moment you have work of your own, and the ones that need
+and to the third of the three above, since a cold reader is what caught the site C-10 names in
+`pattern/be-kind-to-your-future-self.md`. All of them become available the moment you have work of your own, and the ones that need
 fresh eyes cost you minutes where a human waits weeks. **A corrections file is what getting better looks like written down.** Ours is long
 because we finally went and looked. Go and read your own work.
