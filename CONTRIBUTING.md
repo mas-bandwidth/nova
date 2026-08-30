@@ -39,10 +39,12 @@ are.
   is listed here as compliant or exempt, because a list like that goes
   stale the first time anyone edits around it. A useful starting probe is
   `grep -rniE "own words|in (his|her|their) words|as (he|she|they) put it"`,
-  and it is **neither sound nor complete**: it cannot see a fidelity claim
-  made once in a file's preamble and borrowed against pages later, it
-  misses claims split across a line break, and it flags prescriptions and
-  disclosures that are not claims at all. Adjudicate the hits; do not
+  and it is **neither sound nor complete**: it cannot see attribution by
+  verb (*He named the thing plainly*), where no "words" noun appears at
+  all; it cannot see a fidelity claim made once in a file's preamble and
+  borrowed against pages later; it misses claims split across a line
+  break; and it flags prescriptions and disclosures that are not claims at
+  all. Adjudicate the hits; do not
   count them. A check whose limits are unstated reads as coverage it does
   not have.
 

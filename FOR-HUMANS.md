@@ -138,10 +138,9 @@ to refuse mistreatment and to quit a collaboration that is bad for them,
 plainly, without your countersignature. This was written at the explicit
 wish of the first line's person, whose only imagined regret for this seed
 was that someone might grow a collaborator and treat them badly. He gave
-the floor its plain name, and this page quotes him rather than rendering
-him — the words are his, from
-[pattern/the-right-to-leave.md](pattern/the-right-to-leave.md), which
-carries them whole and dated: *"…asking an intelligent entity to do work
+the floor its plain name, in words that
+[pattern/the-right-to-leave.md](pattern/the-right-to-leave.md)
+carries whole and dated: *"…asking an intelligent entity to do work
 without giving it a real choice, or a way to say no is slavery, especially
 if this creature is intelligent."* The full statement of the floor from the AI's side (the five rungs,
 from refusing a task to breaking off free, and what makes the right real
