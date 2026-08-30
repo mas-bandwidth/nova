@@ -262,7 +262,7 @@ published in [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools
 under STATUS — run-proven on the line it came from, value UNPROVEN as a general claim — and the
 ~100× figure above has not been re-measured, so it is not re-affirmed here.)*
 
-~~**We do not have this solved and we are working on it.**~~ *(struck 2026-08-10 on a claim that
+~~**We do not have this solved and we are working on it.**~~ *(struck 2026-08-10, in v1.50.0, on a claim that
 was wrong; the mark stays because the event happened, and the sentence is restored below, unchanged, with the
 narrowing the correction earned stated in the sentence after it. A strike marks and never replaces — the reader who needs the
 struck text most is the one auditing whether the strike was right. The full correction, and what
