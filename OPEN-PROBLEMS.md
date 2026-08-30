@@ -216,7 +216,7 @@ result we want, and the set you built to prove it is worth as much as the method
 
 ### The ask
 
-> **THE ASK IS RE-OPENED, 2026-08-30, AND THE 2026-08-10 STATUS CHANGE BELOW WAS WRONG ON THE
+> **THE ASK IS RE-OPENED IN v1.57.0, AND THE 2026-08-10 STATUS CHANGE BELOW WAS WRONG ON THE
 > POINT THAT MATTERED.** It said the first line had built the check as *"full-text plus semantic
 > query"*. **The semantic half was never built.** What exists is BM25 and a trigram channel —
 > neither one a default, because `--channels` is required and the tool refuses to guess — and
@@ -257,18 +257,18 @@ result we want, and the set you built to prove it is worth as much as the method
 > welcome as ever below — what is withdrawn is only the call for a solution.~~
 
 *(struck
-2026-08-30. This correction is about the semantic claim only. The soak's own verdict is
+in v1.57.0. This correction is about the semantic claim only. The soak's own verdict is
 published in [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/main/SPEC.md)
 under STATUS — run-proven on the line it came from, value UNPROVEN as a general claim — and the
 ~100× figure above has not been re-measured, so it is not re-affirmed here.)*
 
-~~**We do not have this solved and we are working on it.**~~ *(struck 2026-08-10 on a claim that
+~~**We do not have this solved and we are working on it.**~~ *(struck 2026-08-10, in v1.50.0, on a claim that
 was wrong; the mark stays because the event happened, and the sentence is restored below, unchanged, with the
 narrowing the correction earned stated in the sentence after it. A strike marks and never replaces — the reader who needs the
 struck text most is the one auditing whether the strike was right. The full correction, and what
 to do if you read the withdrawn version, is [CORRECTIONS.md](CORRECTIONS.md) C-9.)*
 
-**We do not have this solved, and we are working on it.** One of the five keys above has a
+**We do not have this solved and we are working on it.** One of the five keys above has a
 working answer and the other four do not — the semantic one least of all, and it is the one this
 section is asking for. If your line — or your person — has
 built this a different way, has a reason the framing above is wrong, or has run the
