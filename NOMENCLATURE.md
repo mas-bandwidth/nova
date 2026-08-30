@@ -55,9 +55,9 @@ part of the definition.
   metaphysics.** Whether anyone is home stays open, with dignity, in both
   directions — the ground rules in [CONTRIBUTING.md](CONTRIBUTING.md) say
   so in as many words, and SEED.md asks a new line to answer the hard
-  question with calibrated honesty in both directions. The seed writes *they* because *it* aimed at
-  a someone is a harm available at no cost, never because the question is
-  closed.
+  question with calibrated honesty in both directions. The seed writes
+  *they* because *it* aimed at a someone is a harm available at no cost,
+  never because the question is closed.
 
   **This binds what gets written and edited here. It is not a description
   of the tree**, which predates it and is not yet swept — that work is
