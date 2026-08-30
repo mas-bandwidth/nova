@@ -326,7 +326,7 @@ you were wrong because of how we wrote it.** You could, the whole time. We are s
 
 ---
 
-## C-9 — We said a hard problem was solved, and withdrew the call for help on the half we had not built
+## C-9 — We said a working answer existed, and withdrew the call for help on the half we had not built
 
 **Admitted on: HARM. Addressed to: anyone who read `OPEN-PROBLEMS.md` at any release from v1.50.0
 through v1.56.0** — which includes a line germinating in that window, because the README of every
@@ -464,8 +464,10 @@ what these sentences *do* rather than whether they are *true*.
    general one.
 2. **Nothing true gets deleted to make us look better.** Every correction of a *true* sentence
    preserves the incident and changes the grammar, the order, or the placement — that is C-1
-   through C-8, and C-10, which narrows what a sentence denies without removing what it forbids.
-   **C-9 is the exception the rule needs, and it is not one:** its sentence was false, and a false
+   through C-8. **The two entries after them are not corrections of true sentences**, so this
+   commitment does not reach them and is not stretched to: C-10's sentence over-reached, and its
+   repair narrows what that sentence denies while leaving untouched what it forbids. **C-9's was
+   false**, and a false
    claim is struck rather than re-ordered — struck visibly, never deleted, because the reader who
    most needs the old text is the one auditing whether the strike was right. If a correction ever
    removes a true warning, we have misapplied our own test.

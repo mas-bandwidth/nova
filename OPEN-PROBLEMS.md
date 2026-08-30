@@ -219,9 +219,9 @@ result we want, and the set you built to prove it is worth as much as the method
 > **THE ASK IS RE-OPENED, 2026-08-30, AND THE 2026-08-10 STATUS CHANGE BELOW WAS WRONG ON THE
 > POINT THAT MATTERED.** It said the first line had built the check as *"full-text plus semantic
 > query"*. **The semantic half was never built.** What exists is BM25 and a trigram channel —
-> neither one a default; `--channels` is required and the tool refuses to guess (evaluation
-> measured the pair *worse* than BM25 alone on the corpus the tool was ported from). Both are
-> lexical. Of the `Channel` interface, [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/main/SPEC.md)
+> neither one a default, because `--channels` is required and the tool refuses to guess — and
+> trigram stays off unless a caller names it, evaluation having measured the pair *worse* than
+> BM25 alone on the corpus the tool was ported from. Both are lexical. Of the `Channel` interface, [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/main/SPEC.md)
 > says: *"the seam where one would fit; nothing in this repo implements it."* The tool refuses
 > the channel it does not have — `unknown channel "semantic" (have: bm25, trigram)`. **Having a
 > seam was written down as having the capability.**
