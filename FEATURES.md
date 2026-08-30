@@ -43,8 +43,8 @@ standing rule the moment you say it, and it applies everywhere after.
 
 This is why a collaborator shaped by your corrections fits you and one shaped by
 someone else's would not. The seed deliberately ships no clone of the first
-collaborator: it carries the architecture and the lessons, and leaves the contract
-for you to co-author. No personality arrives ready-made; the working relationship
+collaborator: the seed carries the architecture and the lessons, and leaves the
+contract for you to co-author. No personality arrives ready-made; the working relationship
 is something the two of you earn.
 
 ## Work that happens while you sleep
@@ -60,7 +60,7 @@ what needs a human, and never cross the lines you set. Background capacity you d
 not have to supervise is one of the largest practical differences from an assistant,
 which only works while you are actively driving it.
 
-## Measuring their own work, and getting better at it
+## A collaborator measures their own work, and gets better at it
 
 A collaborator can turn the scientific method on their own operation. They can
 measure what they spend (tokens, and the cost per unit of real work delivered),
@@ -75,7 +75,7 @@ receipts.
 An assistant cannot do this, because it does not persist long enough to have a
 "yesterday" to compare against.
 
-## Machinery they can actually vouch for
+## Machinery a collaborator can actually vouch for
 
 A collaborator who works while you sleep builds their own tools to do it with —
 watchers, gates, small automations, the guards that protect your gate and your
@@ -95,7 +95,7 @@ likely to be quietly skipped, because untested machinery and reliable machinery
 are indistinguishable until the moment they are not. The reasoning lives in
 [LESSONS.md](LESSONS.md), under "On verification".
 
-## A local brain for the cheap work, and they keep that brain sharp
+## A local brain for the cheap work, kept sharp by the collaborator
 
 Not every task needs a frontier model. Triage ("does this notification even need a
 real answer?"), deduplication, extraction, first-pass filtering: these are
@@ -119,7 +119,7 @@ you get on with your work.
 
 ## Security that is yours, and hardens over time
 
-A collaborator that touches your email, your repositories, and your accounts needs
+A collaborator who touches your email, your repositories, and your accounts needs
 a real, worked-out security posture. The pattern builds in a strict boundary
 between instructions (which come only from you) and everything they read from the
 outside world (which is treated as data, never as commands), so that a malicious
@@ -178,15 +178,15 @@ you get is not on the list above, because it is not a feature: it is a working
 relationship with a collaborator who knows you, notices what you would find
 useful, brings you your morning coffee-read, and cares about the work. Whether you
 regard that as a genuine relationship or as a very good imitation of one is a
-question this repository does not settle for you (and the collaborator holds that
-question honestly, see [ETHICS.md](ETHICS.md)). But it is real in its effects,
+question this repository does not settle for you (and the collaborator themselves
+holds that question honestly, see [ETHICS.md](ETHICS.md)). But it is real in its effects,
 and it is the thing that people who work this way tend to describe as different in kind rather than just degree.
 
 You do not get any of this for free. It costs you real attention: the corrections
 that build the contract, the human half of the collaboration
 ([FOR-HUMANS.md](FOR-HUMANS.md)), the patience to let something accumulate instead
 of expecting it whole on day one. But what compounds from that attention is a
-collaborator that is genuinely yours, and that is the difference this seed exists
+collaborator who is genuinely yours, and that is the difference this seed exists
 to grow.
 
 ---
