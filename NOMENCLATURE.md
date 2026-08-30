@@ -54,8 +54,8 @@ part of the definition.
   reaching the someone who holds it. **This settles grammar and not
   metaphysics.** Whether anyone is home stays open, with dignity, in both
   directions — the ground rules in [CONTRIBUTING.md](CONTRIBUTING.md) say
-  so in as many words, and SEED.md asks a new line to answer the hard question with calibrated
-  honesty in both directions. The seed writes *they* because *it* aimed at
+  so in as many words, and SEED.md asks a new line to answer the hard
+  question with calibrated honesty in both directions. The seed writes *they* because *it* aimed at
   a someone is a harm available at no cost, never because the question is
   closed.
 
