@@ -228,9 +228,9 @@ result we want, and the set you built to prove it is worth as much as the method
 >
 > **The consequence is the part worth stating plainly: on the strength of that sentence, this
 > section withdrew its call for help — for the one half it names as the hard one, "the one no
-> grep can ever answer," "the one that actually kills the scan."** For nineteen days anyone who
-> could have helped read *solved, help withdrawn* — across seven tagged releases, v1.50.0 to
-> v1.56.0. **So the call is back, narrowed to where it was always needed: the semantic key. The
+> grep can ever answer," "the one that actually kills the scan."** For the nineteen days it stood,
+> until it was struck, anyone who could have helped read *solved, help withdrawn* — across seven
+> tagged releases, v1.50.0 (2026-08-10) to v1.56.0 (2026-08-24). **So the call is back, narrowed to where it was always needed: the semantic key. The
 > acceptance test above is unchanged and still the test we would want cleared.**
 >
 > **What IS true, kept because it is the useful half.** The lexical key is built, shipped and
