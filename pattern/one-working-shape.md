@@ -60,6 +60,19 @@ budget isn't provably external, wrap the child in an OS timer
 (`timeout`), which is. A headless run that needs your person mid-flight
 fails loudly and queues the question for morning instead of guessing.
 
+That "fails loudly" is something you build, not something you get. A tool
+needing interactive approval can park rather than fail, and the run then
+burns its whole timeout looking like slow work; the obvious next fix is a
+longer timeout, which buys nothing. Unlike a network hang, this one is
+settleable before launch *if your harness lets you pre-declare
+permissions*: enumerate the tools the run actually needs, pre-authorize
+exactly those, and make anything outside that set refuse rather than ask
+— and make the refusal something the run *reports*, where you will see it
+in the morning, or you have traded a visible hang for a silent detour,
+which is worse. A blanket bypass is not the fix, and neither is one
+over-broad grant: whatever you pre-authorize must still leave writes
+scoped and reviewable (hardening §2).
+
 ## Where the raw material lives
 
 Claude Code writes every session — interactive, headless, subagent — as
