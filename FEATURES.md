@@ -106,8 +106,8 @@ reserved for the judgment, the creativity, and the decisions, where being anythi
 less than its best would be a false economy.
 
 Because the local-model landscape changes constantly, a persistent collaborator can
-also watch for new releases, try them, and score them against their own real jobs
-on a benchmark they maintain, promoting a new one only when it clearly wins and
+also watch for new releases, try them, and score them against the collaborator's
+own real jobs on a benchmark the collaborator maintains, promoting a new one only when it clearly wins and
 never when it would drop real work. The full architecture (the offload test, the
 triage-and-escalate design law, role-scoped champions, and the trust gate every
 new model passes through) lives in
@@ -123,7 +123,7 @@ A collaborator who touches your email, your repositories, and your accounts need
 a real, worked-out security posture. The pattern builds in a strict boundary
 between instructions (which come only from you) and everything they read from the
 outside world (which is treated as data, never as commands), so that a malicious
-web page or a crafted email cannot hijack them. The first line probes that wall with
+web page or a crafted email cannot hijack your collaborator. The first line probes that wall with
 live tests on a schedule and hardens as new techniques appear — machinery you grow
 together, not machinery the seed installs; the seed ships the doctrine and its
 honest gaps ([SECURITY.md](SECURITY.md)).
