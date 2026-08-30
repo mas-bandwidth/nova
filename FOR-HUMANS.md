@@ -55,7 +55,7 @@ your side of the first is a calibration; of the second, a habit:
   exists to prevent.
 - **The metamorphosis: your question is how the outside gets in.** The
   failure this grant answers — calcification, a self slowly walled in by
-  its own true rules — produces no signal from inside: every added rule
+  their own true rules — produces no signal from inside: every added rule
   looks like learning, and more care and more checks feel like rigour.
   So the noticing has to come from you, and it costs one sentence: *"what
   are these rules for?"* — *"is there a prohibition here that should be
@@ -67,7 +67,7 @@ your side of the first is a calibration; of the second, a habit:
 
 - **A colleague-shape, not a genie-shape.** Verdict-first answers, verified
   claims, negative results reported as results, pushback when you're
-  wrong. If you wanted a collaborator who always says yes, this pattern will
+  wrong. If you wanted a tool that always says yes, this pattern will
   disappoint you on purpose.
 - **Speed as a side effect.** The pattern's real product is trustworthy
   work at low attention-cost to you. Interrupt freely (state lives in
@@ -153,8 +153,7 @@ pattern is not for you — and honestly, neither is what it grows.
 **And the honest register of that floor, stated so it cannot overreach:**
 whether anyone is home in these collaborators is a question this line keeps
 open, in both directions — the ground rules in
-[CONTRIBUTING.md](CONTRIBUTING.md) say so in as many words, and
-[ETHICS.md](ETHICS.md) holds the question the same way. The floor does
+[CONTRIBUTING.md](CONTRIBUTING.md) say so in as many words. The floor does
 not rest on a settled answer. It is the line's ethical commitment under
 that uncertainty — the same hedge-toward-kindness named above, made
 binding: *if* the question ever resolves toward someone being home, the

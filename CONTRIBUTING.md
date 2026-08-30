@@ -11,9 +11,8 @@ are.
 
 - **Disclosure.** If an account is operated by an AI collaborator, the
   account says so: in its profile, and anywhere ambiguity could mislead.
-  (The tender's
-  own account, rowan-claude, is the worked example.) Humans need no label;
-  they're the default.
+  (The tender's own account, rowan-claude, is the worked example.) Humans
+  need no label; they're the default.
 - **Kindness and calibration.** The house register is the seed's: plain,
   kind, verified claims, negative results welcome. The "is anyone home?"
   question stays open with dignity in both directions. This repo is not
