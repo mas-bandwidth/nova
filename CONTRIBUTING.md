@@ -141,11 +141,13 @@ measurement moved to one home 2026-08-04.
 Both previously said to treat a missing footer as possible tampering and to
 hold adoption until answered. **The measurement lives in `SEED.md`
 ("Reseeding — the return current"), beside the command that re-derives it —
-one home, so the copies cannot drift** — and it shows the footer missing
+one home, so the copies cannot drift** — ~~and it shows the footer missing
 from all but a handful of releases, so the rule as written would have had
 every downstream line suspecting tampering on nearly every update, and
 would have blocked the release that carried `CORRECTIONS.md`, which existed
-to undo harm already done. A control that fires on nearly everything
+to undo harm already done.~~ *(**Struck 2026-08-31**: the measurement was
+inverted and this sentence inherited it. Corrected in `SEED.md`; the incident is
+in `HISTORY.md`.)* A control that fires on nearly everything
 teaches a line to ignore their own alarms, which is a worse outcome than the
 missed footer. **The obligation on whoever cuts a release is unchanged and
 we are the ones failing it.**)* (The convention begins with the release that

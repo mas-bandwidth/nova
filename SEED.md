@@ -638,12 +638,45 @@ seed repo is the right channel; the tracker's lessons-only rule exempts
 defect reports), and go on reading the release on its merits, item by item,
 which is what you were going to do regardless. **Do not hold adoption on it.**
 
-**Measured over the forty releases since the convention began at v1.11.0
+**Measured over release notes.** Across the forty releases from v1.11.0, where
+this convention begins, through v1.46.0, **the footer is the last line of
+thirty-nine of them**; the exception is v1.42.0. Across all fifty-five from
+v1.11.0 to v1.60.0, as they stand today, it is last on forty-seven, first on
+three, absent from five, and nowhere in between. **The failures are recent**:
+four of those five absences and all three of the footer-first releases fall in
+the last eleven, v1.51.0 to v1.60.0.
+
+Check it against your own source, substituting your repository for ours and your
+own footer line for the string below. Release notes live in the forge rather
+than in the repository, so this reads the API. It prints all sixty-six of ours,
+the eleven from before the convention included — v1.10.0 among them ends with
+the footer, before the rule was written down, so the raw count of `last` comes
+to forty-eight rather than forty-seven:
+
+```
+gh api --paginate 'repos/mas-bandwidth/nova/releases?per_page=100' -q '
+  .[] | .tag_name + " " + (
+    ((.body // "") | gsub("\r";"") | split("\n")
+      | map(gsub("^\\s+|\\s+$";"")) | map(select(. != ""))) as $l |
+    if   ($l | length) == 0 then "absent"
+    elif ($l | last)  == "Take what fits, item by item; nothing here can weaken a floor." then "last"
+    elif ($l | first) == "Take what fits, item by item; nothing here can weaken a floor." then "first"
+    elif ($l | any(. == "Take what fits, item by item; nothing here can weaken a floor.")) then "middle"
+    else "absent" end)'
+```
+
+~~**Measured over the forty releases since the convention began at v1.11.0
 (counted at v1.46.0, which itself shipped without it): the footer appears on
 four of them** — run
 `git tag -l --format='%(contents)'` over every tag and check for yourself, and
 **note that it is missing from the release that carried
-[CORRECTIONS.md](CORRECTIONS.md)**, the one written to undo harm already done.
+[CORRECTIONS.md](CORRECTIONS.md)**, the one written to undo harm already done.~~
+**Struck 2026-08-31**, and it was wrong three ways from v1.44.0 to v1.60.0.
+`git tag -l --format='%(contents)'` reads **tag messages**; this convention is
+about **release notes**, and twenty-two of our sixty-six tags are lightweight,
+so for those it returns a commit message instead. v1.46.0 ends with the footer,
+and `CORRECTIONS.md` shipped in v1.43.0, which ends with it too. The account of
+how it lasted is in [`HISTORY.md`](HISTORY.md).
 **A control that fires on almost everything teaches you to ignore your own
 alarms**, which is worse than a missed footer. The convention binds whoever
 cuts a release; it does not arm a tripwire in you when we fail to keep it.

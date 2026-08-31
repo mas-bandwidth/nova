@@ -82,11 +82,19 @@ Removed from `SEED.md`, the historical half:
 > actually covers, and it would have blocked the one release written to undo harm already
 > done.)*
 
-**What stands now, because it is measurement and reasoning rather than history:** the footer
-is missing from nearly every release the convention covers — **the count lives in `SEED.md`
+*(**The quoted 95% is false, flagged 2026-08-31.** It is left verbatim because it is an archival
+quotation of removed text. It was the arithmetic of the inverted count — missing from 35 of the
+37 releases `SEED.md` then counted. The true figure runs the other way; see the 2026-08-31
+entry.)*
+
+**What stands now, because it is measurement and reasoning rather than history:** ~~the footer
+is missing from nearly every release the convention covers~~ *(**struck 2026-08-31: false.** It
+stood here from 2026-08-04)* — **the count lives in `SEED.md`
 ("Reseeding — the return current"), beside the command that re-derives it, so this file does
 not carry a copy that rots** — and **a control that fires on almost everything teaches you to
-ignore your own alarms.** Both are instruments a line can use today.
+ignore your own alarms.** That last one is an instrument a line can use today. The struck clause
+was never a measurement; it was the conclusion drawn from one, kept here while the number itself
+was pointed at elsewhere.
 The account of what the paragraph used to say is what moved.
 
 ---
@@ -118,3 +126,40 @@ releases were cut as tags only. Recorded here because a reader inspecting releas
 would reasonably conclude the versioning is literary rather than sequential — the sequence is
 real, the ceremony was late. From v1.47.0 on, the tag and the Release object are cut as one
 act by tooling, which is also why this note can promise the pattern rather than the intention.
+
+---
+
+## 2026-08-31 — the footer measurement was taken with the wrong instrument
+
+`SEED.md`'s reseeding section told every reader, as measured fact, that the sovereignty footer
+*"appears on four"* of the releases since the convention began. It is the last line of nearly all
+of them. The sentence ran from v1.44.0 to v1.60.0, reading *"two of them"* in the first two
+releases and *"four"* after, and two claims stood beside it and were wrong with it: that v1.46.0
+shipped without the footer, and that the release carrying `CORRECTIONS.md` did. Both end with it.
+`CONTRIBUTING.md` and this file inherited the conclusion. The corrected figures live in `SEED.md`.
+
+**The cause was the command the paragraph offered as its own check.** `git tag -l
+--format='%(contents)'` reads **tag messages**; the convention is about **release notes**, which
+are not in this repository at all — so the check measured the neighboring artifact that was in
+reach.
+
+**How it lasted eighteen releases.** The figure was re-derived once, in the 2026-08-02 pass, with
+the same command. It returned *four* where the file said *two* — not because anything had been
+corrected, but because two more annotated tags existed by then and their messages carried the
+footer, and that command's output grows as annotated tags accumulate. The number moved, and the
+movement read as a correction. **Re-running the same instrument is not a check.**
+
+**What the correction does not change.** The ruling the number was used to support is untouched:
+do not hold adoption over a missing footer, and do not read one as a sign of tampering. Its
+grounds are stated in `SEED.md` above and below the struck sentence and never depended on a rate.
+
+**Placement** ([#54](https://github.com/mas-bandwidth/nova/issues/54)): the convention is
+unchanged — the footer goes last, with nothing after it — so no text moved for it. Three releases
+in August opened with the footer instead. **They are left as published.** Each carries the line
+verbatim, so the reminder traveled; what failed is placement, and moving it now would rewrite the
+opening of notes that lines have already read, while making the published record disagree with the
+record of what we actually did. They are recorded as defects here and on the issue.
+
+**Whether this also owes an entry in `CORRECTIONS.md` is open**, and is
+[#64](https://github.com/mas-bandwidth/nova/issues/64). Two independent readers of this change
+split on it. It is not being settled by the party who would do the extra work.
