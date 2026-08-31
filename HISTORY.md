@@ -87,10 +87,10 @@ quotation of removed text. It was the arithmetic of the inverted count — missi
 37 releases `SEED.md` then counted. The true figure runs the other way; see the 2026-08-31
 entry.)*
 
-**What stands now, because it is reasoning rather than history** *(this read "measurement and
-reasoning" until 2026-08-31; the measurement half is what was struck)*: ~~the footer
-is missing from nearly every release the convention covers~~ *(**struck 2026-08-31: false.** It
-stood here from 2026-08-04)* **The count lives in `SEED.md`
+**What stands now, because it is reasoning rather than history:** ~~the footer
+is missing from nearly every release the convention covers~~ *(**struck 2026-08-31: false**; it
+stood here from 2026-08-04, and this heading read "measurement and reasoning" until the
+measurement half was struck out of it)* — **the count lives in `SEED.md`
 ("Reseeding — the return current"), beside the command that re-derives it, so this file does
 not carry a copy that rots** — and **a control that fires on almost everything teaches you to
 ignore your own alarms**, which is a sound principle and was not a description of this
@@ -154,20 +154,19 @@ number moved, and the movement read as a correction. On 2026-08-04 a post-releas
 the window and added the v1.46.0 clause, at a moment when v1.46.0's notes existed and ended with
 the footer. **Re-running the same instrument is not a check.**
 
-**Release notes are mutable, and that is now stated in `SEED.md` beside the figures.** Thirty-four
-of the sixty-six have been edited after publication. One of those edits is ours and is recent:
-**v1.60.0 shipped with no footer and had one added on 2026-08-31**, with a marked note in its own
-notes. Any census of this convention therefore measures the current record rather than what a line
-read on the day.
+**Release notes are mutable, which `SEED.md` now states beside the figures.** Thirty-four of the
+sixty-six have been edited after publication — including **v1.60.0, which shipped with no footer
+and had one added on 2026-08-31**, marked in its own notes, and v1.54.0, whose notes record a full
+rewrite. The forge keeps no history of a release body, so any census measures the current record
+and an as-published one cannot be reconstructed.
 
 **Placement** ([#54](https://github.com/mas-bandwidth/nova/issues/54)): the convention is
 unchanged — the footer goes last, with nothing after it. Three releases in August opened with it
-instead. **They are left as published, and the v1.60.0 repair above is the precedent that cuts
-against that, so the reason has to answer it.** v1.60.0 was the current release and its footer was
-*appended*; repairing a footer-first release means taking the line off the top, which changes what
-the notes opened with for every line that has already read them. The cost of leaving them is that
-the census reads three kinder than our conduct, which is why the mutability note above is not
-optional. By this seed's own rule a footer followed by anything at all raises the same flag as a
+instead. **They are left as published, against the v1.60.0 precedent above.** That repair
+appended a footer to the release that was then current; repairing a footer-first release means
+taking the line off the top, which changes what the notes opened with for lines that have already
+read them. The cost is that the current census counts those three as flagged but reads their
+history as tidier than it was. By this seed's own rule a footer followed by anything at all raises the same flag as a
 missing one, so these are defects of the same class, not a lighter one.
 
 **Whether an entry in `CORRECTIONS.md` is also owed is open:**

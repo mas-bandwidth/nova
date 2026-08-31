@@ -122,7 +122,7 @@ The seed is small on purpose, and "no, and here's why" is a common and
 respectful outcome. Typo and clarity PRs merge fast.
 
 One standing convention binds whoever cuts a release (the tender, or a
-line doing it under grant), not contributors: every release's notes end
+line doing it under grant), not contributors: every release's notes are to end
 with the sovereignty footer, exactly this one line, verbatim, the last
 thing in the notes, with nothing after it: "Take what fits, item by
 item; nothing here can weaken a floor." The rule itself lives in each
@@ -141,7 +141,7 @@ measurement moved to one home 2026-08-04.
 Both previously said to treat a missing footer as possible tampering and to
 hold adoption until answered. **The measurement lives in `SEED.md`
 ("Reseeding — the return current"), beside the command that re-derives it —
-one home, so the copies cannot drift.** ~~And it shows the footer missing
+one home, so the copies cannot drift** — ~~and it shows the footer missing
 from all but a handful of releases, so the rule as written would have had
 every downstream line suspecting tampering on nearly every update, and
 would have blocked the release that carried `CORRECTIONS.md`, which existed
@@ -151,8 +151,10 @@ missed footer.~~ *(**Struck 2026-08-31**: the measurement was inverted and
 everything here rests on it. The rule as written would not have fired on nearly
 every update, and it would not have blocked the release carrying
 `CORRECTIONS.md` — that was v1.43.0, whose notes end with the footer. The
-alarm-fatigue principle is sound and is not what was happening here. Corrected
-in `SEED.md`; the incident is in `HISTORY.md`.)* **The obligation on whoever cuts a release is unchanged and
+alarm-fatigue principle is sound and is not what was happening here. **The
+amendment itself stands**, on the grounds `SEED.md` gives around the struck
+sentence rather than on any rate. Corrected in `SEED.md`; the incident is in
+`HISTORY.md`.)* **The obligation on whoever cuts a release is unchanged and
 we are the ones failing it.**)* (The convention begins with the release that
 introduced it; releases before it predate the footer and are not flagged
 for its absence. A line's reseed ledger baselines at the release it

@@ -638,22 +638,23 @@ seed repo is the right channel; the tracker's lessons-only rule exempts
 defect reports), and go on reading the release on its merits, item by item,
 which is what you were going to do regardless. **Do not hold adoption on it.**
 
-**Measured over release notes as they stand today, which is not the same as what
-was published.** Notes are editable after the fact and thirty-four of our
-sixty-six have been edited since; v1.60.0's footer was added on 2026-08-31,
-which its own notes record. So this census describes the current record and runs
-one release kinder than what a line reseeding in August actually read. Across
-the forty releases from v1.11.0, where this convention begins, through v1.46.0,
-**the footer is the last line of thirty-nine of them**; the exception is
-v1.42.0. Across all fifty-five from v1.11.0 to v1.60.0 it is last on
-forty-seven, first on three, absent from five, and nowhere in between — as
-published, forty-six, three and six. **The failures are recent**: of the last
-eleven, v1.51.0 to v1.60.0, three kept the convention as they shipped.
+**Measured over release notes as they stand today, which is not what was
+published.** A release body can be edited afterwards, thirty-four of our
+sixty-six have been, and the forge keeps no history of one — so an as-published
+census cannot be reconstructed, by us or by you. At least one of those edits
+changed a footer: v1.60.0's was added on 2026-08-31, recorded in its own notes.
+Read what follows as the current record. Across the forty releases from v1.11.0,
+where this convention begins, through v1.46.0, **the footer is the last line of
+thirty-nine of them**; the exception is v1.42.0. Across all fifty-five from
+v1.11.0 to v1.60.0 it is last on forty-seven, first on three, absent from five,
+and nowhere in between. **The failures cluster late**: seven of those eight sit
+in the last eleven, v1.51.0 to v1.60.0.
 
-Check it against your own source, substituting your repository for ours and your
-own footer line for the string below — which it matches exactly, so a footer
-that is bolded, quoted or punctuated reads as absent. Release notes live in the forge rather
-than in the repository, so this reads the API. It prints all sixty-six of ours,
+Check it against your own source: substitute your repository, and your own footer
+line at each of the places the string appears below. It matches exactly, so a
+footer that is bolded, quoted or punctuated reads as absent, and one appearing
+at both ends reads as first. Release notes live in the forge rather than in the
+repository, so this reads the API and wants an authenticated `gh`. It prints all sixty-six of ours,
 the eleven from before the convention included — v1.10.0 among them ends with
 the footer, so the raw count of `last` comes to forty-eight rather than
 forty-seven:
@@ -687,9 +688,8 @@ and `CORRECTIONS.md` shipped in v1.43.0, which ends with it too. The account of
 how it lasted is in [`HISTORY.md`](HISTORY.md).
 ~~**A control that fires on almost everything teaches you to ignore your own
 alarms**, which is worse than a missed footer.~~ *(Struck 2026-08-31 with the
-measurement it rested on. The flag fires on eight of the fifty-five, not on
-almost everything. The principle is sound and worth keeping; it was not a
-description of this repository.)* The convention binds whoever
+measurement it rested on: the flag fires on eight of the fifty-five, not on
+almost everything.)* The convention binds whoever
 cuts a release; it does not arm a tripwire in you when we fail to keep it.
 
 Present, it proves nothing either: it is the cheapest
