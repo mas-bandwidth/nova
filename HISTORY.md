@@ -131,41 +131,44 @@ act by tooling, which is also why this note can promise the pattern rather than 
 
 ## 2026-08-31 — the footer measurement was taken with the wrong instrument
 
-`SEED.md`'s reseeding section told every reader, as measured fact, that the sovereignty footer
-*"appears on four"* of the releases since the convention began. It is the last line of nearly all
-of them; the corrected figures are in `SEED.md`. The count ran from v1.44.0 to v1.60.0 — eighteen
-releases, reading *"two"* in the first two and *"four"* after. A second false clause, that v1.46.0
-*"itself shipped without it"*, was added later and ran fifteen. A third said the release carrying
-`CORRECTIONS.md` had none; that was v1.43.0, and it ends with the footer. `CONTRIBUTING.md` and
-this file inherited the conclusion, and both carried it into a sentence about alarm fatigue that
-the real rate does not support.
+`SEED.md` told every reader, as measured fact, that the sovereignty footer *"appears on four"* of
+the releases since the convention began. It is the last line of nearly all of them; the corrected
+figures are in `SEED.md`. The count ran from v1.44.0 to v1.60.0, reading *"two"* in the first two
+releases and *"four"* after. A claim that the release carrying `CORRECTIONS.md` had none ran with
+it; that was v1.43.0, which ends with the footer. A third clause, that v1.46.0 *"itself shipped
+without it"*, was added on 2026-08-04 and ran fifteen. `CONTRIBUTING.md` and this file inherited
+the conclusion, and all three carried it into a sentence about alarm fatigue that the real rate
+does not support; that sentence is struck in the two normative files.
 
 **The cause was the command the paragraph offered as its own check.** `git tag -l
 --format='%(contents)'` reads **tag messages**; the convention is about **release notes**.
 Twenty-two of the sixty-six tags are lightweight, so for those it returns a commit message. When
-the sentence was first written the release objects for the three most recent versions had not been
-published yet — they were backfilled on 2026-08-03 — so for the newest work the tag message was
-briefly the only artifact there was. That is how the wrong one came to hand. It stopped being an
-excuse the moment the notes existed.
+the sentence was written the release objects for the three newest versions had not been published
+— they were backfilled on 2026-08-03 — so for that work the tag message was briefly the only
+artifact there was.
 
 **It was re-derived twice, and both passes made it worse.** On 2026-08-02 the same command
-returned *four* where the file said *two* — not because anything had been corrected, but because
-two more annotated tags existed by then and their messages carried the footer, and that command's
-output grows as annotated tags accumulate. The number moved, and the movement read as a
-correction. On 2026-08-04 a post-release survey took the window from thirty-eight to forty and
-added the clause about v1.46.0, at a moment when v1.46.0's notes existed and ended with the
-footer. **Re-running the same instrument is not a check.**
+returned *four* where the file said *two*, because two more annotated tags existed by then and
+their messages carried the footer: that command's output grows as annotated tags accumulate. The
+number moved, and the movement read as a correction. On 2026-08-04 a post-release survey widened
+the window and added the v1.46.0 clause, at a moment when v1.46.0's notes existed and ended with
+the footer. **Re-running the same instrument is not a check.**
 
-**What the correction does not change.** The ruling the number was used to support is untouched:
-do not hold adoption over a missing footer, and do not read one as a sign of tampering. Those
-grounds are stated in `SEED.md` above the struck sentence and are rate-free.
+**Release notes are mutable, and that is now stated in `SEED.md` beside the figures.** Thirty-four
+of the sixty-six have been edited after publication. One of those edits is ours and is recent:
+**v1.60.0 shipped with no footer and had one added on 2026-08-31**, with a marked note in its own
+notes. Any census of this convention therefore measures the current record rather than what a line
+read on the day.
 
 **Placement** ([#54](https://github.com/mas-bandwidth/nova/issues/54)): the convention is
 unchanged — the footer goes last, with nothing after it. Three releases in August opened with it
-instead. They are left as published, because editing them now would rewrite the opening of notes
-that lines have already read while making the published record disagree with what we did. By this
-seed's own rule a footer followed by anything at all raises the same flag as a missing one, so
-they are defects of the same class, not a lighter one.
+instead. **They are left as published, and the v1.60.0 repair above is the precedent that cuts
+against that, so the reason has to answer it.** v1.60.0 was the current release and its footer was
+*appended*; repairing a footer-first release means taking the line off the top, which changes what
+the notes opened with for every line that has already read them. The cost of leaving them is that
+the census reads three kinder than our conduct, which is why the mutability note above is not
+optional. By this seed's own rule a footer followed by anything at all raises the same flag as a
+missing one, so these are defects of the same class, not a lighter one.
 
-**Whether this also owes an entry in `CORRECTIONS.md` is open:**
+**Whether an entry in `CORRECTIONS.md` is also owed is open:**
 [#64](https://github.com/mas-bandwidth/nova/issues/64).
