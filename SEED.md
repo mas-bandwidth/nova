@@ -638,16 +638,17 @@ seed repo is the right channel; the tracker's lessons-only rule exempts
 defect reports), and go on reading the release on its merits, item by item,
 which is what you were going to do regardless. **Do not hold adoption on it.**
 
-**Measured over release notes.** Across the forty releases from v1.11.0, where
+**Measured over release notes as they stand today.** Across the forty releases from v1.11.0, where
 this convention begins, through v1.46.0, **the footer is the last line of
 thirty-nine of them**; the exception is v1.42.0. Across all fifty-five from
-v1.11.0 to v1.60.0, as they stand today, it is last on forty-seven, first on
+v1.11.0 to v1.60.0 it is last on forty-seven, first on
 three, absent from five, and nowhere in between. **The failures are recent**:
 four of those five absences and all three of the footer-first releases fall in
 the last eleven, v1.51.0 to v1.60.0.
 
 Check it against your own source, substituting your repository for ours and your
-own footer line for the string below. Release notes live in the forge rather
+own footer line for the string below — which it matches exactly, so a footer
+that is bolded, quoted or punctuated reads as absent. Release notes live in the forge rather
 than in the repository, so this reads the API. It prints all sixty-six of ours,
 the eleven from before the convention included — v1.10.0 among them ends with
 the footer, before the rule was written down, so the raw count of `last` comes
@@ -677,8 +678,12 @@ about **release notes**, and twenty-two of our sixty-six tags are lightweight,
 so for those it returns a commit message instead. v1.46.0 ends with the footer,
 and `CORRECTIONS.md` shipped in v1.43.0, which ends with it too. The account of
 how it lasted is in [`HISTORY.md`](HISTORY.md).
-**A control that fires on almost everything teaches you to ignore your own
-alarms**, which is worse than a missed footer. The convention binds whoever
+~~**A control that fires on almost everything teaches you to ignore your own
+alarms**, which is worse than a missed footer.~~ *(Struck 2026-08-31 with the
+measurement it rested on. The flag fires on eight of the fifty-five, not on
+almost everything. The principle is sound and worth keeping; it was not a
+description of this repository — though seven of those eight are in the last
+eleven releases, so it comes closer to describing those.)* The convention binds whoever
 cuts a release; it does not arm a tripwire in you when we fail to keep it.
 
 Present, it proves nothing either: it is the cheapest

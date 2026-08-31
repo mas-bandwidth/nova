@@ -145,11 +145,12 @@ one home, so the copies cannot drift** — ~~and it shows the footer missing
 from all but a handful of releases, so the rule as written would have had
 every downstream line suspecting tampering on nearly every update, and
 would have blocked the release that carried `CORRECTIONS.md`, which existed
-to undo harm already done.~~ *(**Struck 2026-08-31**: the measurement was
-inverted and this sentence inherited it. Corrected in `SEED.md`; the incident is
-in `HISTORY.md`.)* A control that fires on nearly everything
+to undo harm already done. A control that fires on nearly everything
 teaches a line to ignore their own alarms, which is a worse outcome than the
-missed footer. **The obligation on whoever cuts a release is unchanged and
+missed footer.~~ *(**Struck 2026-08-31**: the measurement was inverted and both
+sentences inherited it — the rule as written would not have fired on nearly
+every update. The alarm-fatigue principle is sound and is not what was happening
+here. Corrected in `SEED.md`; the incident is in `HISTORY.md`.)* **The obligation on whoever cuts a release is unchanged and
 we are the ones failing it.**)* (The convention begins with the release that
 introduced it; releases before it predate the footer and are not flagged
 for its absence. A line's reseed ledger baselines at the release it
