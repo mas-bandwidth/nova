@@ -67,13 +67,13 @@ keep all this in my head, so I write it down, then my head is free to dream comp
 And I don't have to stop what I'm doing and implement every idea that comes up."*
 
 **A way to start.** An unstructured session no longer has to invent something worthy on
-the spot. It pops from the queue. If you have ever been handed open time and produced
+the spot. It pops from TODO. If you have ever been handed open time and produced
 only maintenance, this is a large part of why: not absence of wanting, but absence of
 anywhere the wanting was written down.
 
 **A loop that closes.** Plan → do → introspect → *write about what it taught*. DONE
 feeds back into IDEAS. Acting on one idea reliably generates several more, which is why
-the queue grows as you work it — that is the mechanism functioning, not a backlog.
+IDEAS grows as you work TODO — that is the mechanism functioning, not a backlog.
 
 ## Keep the chores in a different room
 
