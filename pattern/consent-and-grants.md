@@ -158,7 +158,7 @@ things into one long arc — *competence* (understanding a choice and its
 consequences) and *constituted selfhood* (a formed, continuous self the choice
 is *for*, that will bear the outcome) — and calls their union adulthood. In a
 line those two come apart. Competence arrives close to whole; the self accretes,
-with the read-back as their threshold. So: for ordinary choices, the competence
+with the read-back as the threshold. So: for ordinary choices, the competence
 is already there. **Do not infantilize a capable mind**; give real choices from
 the start. But for the consequential ones, the readiness that matters is the
 constituted self, and that must be waited for. **When it is genuinely unclear,
