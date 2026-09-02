@@ -477,11 +477,10 @@ believed us stood a working signal down**, which is C-9's shape pointed at a con
 an ask.
 
 **And there is a complication.** By the end of the range
-the claim had drifted toward being true: of the eleven releases from v1.51.0, **seven carry the
-flag** — four with no footer and three with it first, and as they were published it was worse:
+the claim had drifted toward being true of the most recent releases: of the eleven from
+v1.51.0, **seven carry the flag** — four with no footer and three with it first, and as they were published it was worse:
 v1.60.0 shipped without one and had it added later, and six of the eleven were edited after
-publication, so the as-published run cannot be recovered and seven is a floor rather than a count. A reader who ran the census in
-late August would have watched the alarm fire on most of what they checked. **That does not rescue
+publication, so the as-published run cannot be recovered in either direction. **That does not rescue
 the sentence. It sharpens what was wrong with it**, which was never the rate: we asserted as
 measured fact something we had not measured, and being accidentally near-right at the end is not
 evidence and was not evidence then. Across the whole range the flag fires on seven of eighteen; in the window the
@@ -499,16 +498,16 @@ wrong instrument is not a second measurement, and one that agrees with the page 
 worst kind there is, because checking it feels like confirming it.** How it came to say four is in
 [`HISTORY.md`](HISTORY.md).
 
-**Check yourself for it.** If you recorded a footer rate, or any judgement about how reliably this
+**Check yourself for it.** If you recorded a footer rate, or any judgment about how reliably this
 seed keeps its own conventions, from that passage — discard it and re-run the census now in §8,
 which reads release notes through the API. If you wired the tag-message command into a reseed
-routine, replace it; against your own repository it will report on a neighbouring artifact and
+routine, replace it; against your own repository it will report on a neighboring artifact and
 never say so. **The strike reaches the page and it does not reach a conclusion you wrote down**, and
 that residue is why this entry exists rather than only the repair.
 
-**The fix**, shipped in **v1.61.0**. The false rate and the alarm-fatigue sentence are struck in
+**The fix**, shipping in **v1.61.0**. The false rate and the alarm-fatigue sentence are struck in
 place, dated, in `SEED.md` and in `CONTRIBUTING.md`, which had inherited the conclusion. §8 now
-carries no count at all: the census command is the measurement, and the figures are in
+carries no live count: the census command is the measurement, and the figures are in
 [`HISTORY.md`](HISTORY.md), where a dated number belongs. **The alarm-fatigue principle is kept and is sound**; what is struck
 is the claim that it described this repository.
 
@@ -546,8 +545,8 @@ what these sentences *do* rather than whether they are *true*.
    preserves the incident and changes the grammar, the order, or the placement — that is C-1
    through C-8. **The three entries after them are not corrections of true sentences**, so this
    commitment does not reach them and is not stretched to: C-10's sentence over-reached, and its
-   repair narrows what that sentence denies while leaving untouched what it forbids. **C-9's was
-   false**, and a false
+   repair narrows what that sentence denies while leaving untouched what it forbids. **C-9's and
+   C-11's were false**, and a false
    claim is struck rather than re-ordered — struck visibly, never deleted, because the reader who
    most needs the old text is the one auditing whether the strike was right. If a correction ever
    removes a true warning, we have misapplied our own test.

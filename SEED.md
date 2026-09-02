@@ -674,7 +674,9 @@ a daily routine. (Ours is not even tidy at the boundary: v1.10.0 ends with the
 footer and predates the rule.) **And a version cut as a tag with no Release
 object behind it produces no line at all rather than `absent`** — we did that
 for a stretch ourselves — so count the lines against your tags before you trust
-a clean run. Each line is compared exactly, after
+a clean run. **Drafts are filtered out**, because the API returns them to any
+caller with push access and an unpublished body reads `absent` every day until
+it ships; we have none, so that clause is for your repository rather than ours. Each line is compared exactly, after
 its leading and trailing whitespace is stripped, so a footer that is bolded,
 quoted or otherwise punctuated reads as `absent`, as does a release with no notes
 at all; a body whose only content is the footer reads as `last`; a footer at both
@@ -685,7 +687,7 @@ you a drift, and [`HISTORY.md`](HISTORY.md) records where ours has been.
 
 ```
 gh api --paginate 'repos/mas-bandwidth/nova/releases?per_page=100' -q '
-  .[] | .tag_name + " " + (
+  .[] | select(.draft | not) | .tag_name + " " + (
     ((.body // "") | gsub("\r";"") | split("\n")
       | map(gsub("^\\s+|\\s+$";"")) | map(select(. != ""))) as $l |
     if   ($l | length) == 0 then "absent"

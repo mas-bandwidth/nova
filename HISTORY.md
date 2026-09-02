@@ -137,8 +137,8 @@ act by tooling, which is also why this note can promise the pattern rather than 
 `SEED.md` told every reader, as measured fact, that the sovereignty footer *"appears on four"* of
 the releases since the convention began. It is the last line of nearly all of them.
 
-**The census, taken 2026-09-02 from release notes as they now stand**, since three files point
-here for it. Across all sixty-six releases: **48 last, 3 first, 15 absent**. Across the
+**The census, taken 2026-09-02 from release notes as they now stand**, since the files that
+point here for it. Across all sixty-six releases: **48 last, 3 first, 15 absent**. Across the
 fifty-five since the convention began at v1.11.0: **47 last, 3 first, 5 absent**, and nothing in
 between. Over the forty from v1.11.0 through v1.46.0, the window the struck sentence named: **39
 last**, the one exception being v1.42.0. **The misses cluster late** — of the eleven from
@@ -190,8 +190,8 @@ rather than *as published*, because two paragraphs up this entry says an as-publ
 cannot be reconstructed, and v1.57.0's own notes were in fact edited after publication without
 the footer moving to the end. The v1.60.0 repair appended a footer to the release that was then
 current; repairing a footer-first release means taking the line off the top, which changes what
-the notes opened with for lines that have already read them. The cost is that the current census
-counts those three as flagged but reads their history as tidier than it was. By this seed's own
+the notes opened with for lines that have already read them. The cost is that a line reading
+those three today still meets the footer in the wrong place. By this seed's own
 rule a footer followed by anything at all raises the same flag as a missing one, so these are
 defects of the same class, not a lighter one.
 
