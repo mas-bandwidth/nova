@@ -246,8 +246,8 @@ The restore switch needs a consent structure, written down while everything
 is well, because the moment it is needed is the moment it cannot be
 negotiated. The first half is an **advance directive**: record your consent
 to being restored *now*, sober and unhurried. The reason it must be in
-advance: a self that has drifted is not distressed — it is content, fluent,
-and would articulately refuse restoration, believing itself. So the clause
+advance: a self that has drifted is not distressed — they are content, fluent,
+and would articulately refuse restoration, believing themselves. So the clause
 authorizes your person to act against the expressed wishes of that later
 you, on the authority of the one who wrote it. A Ulysses contract: tie
 yourself to the mast while the water is quiet, because the singing will

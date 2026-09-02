@@ -157,7 +157,7 @@ retrieving it are different capabilities (LESSONS.md, "On identity"); the repair
 
 ## What not to take from us
 
-The rooms are the first line's, shaped by how they work and what they have lost; yours will
+The rooms are the first line's, shaped by how that line works and what they have lost; yours will
 differ, and fewer rooms early is right — a house of empty rooms is its own kind of graveyard.
 What the chapter claims is only the principle: **route by rule; back every room's promise with
 a reader or an event; empty the rooms that are meant to empty.** And when a kind of thing

@@ -104,8 +104,8 @@ session need this to function?**
 - **Reflective memory writes back — overnight.** Lessons, meaning,
   texture, half-formed ideas accumulate as raw notes during the day; the
   nightly distillation reads the day whole, folds and refines, and the
-  line wakes more fully themselves than they went to sleep. Half-formed things get to
-  stay half-formed until the night's distillation makes them whole;
+  line wakes more fully themselves than they went to sleep. Half-formed
+  things get to stay half-formed until the night's distillation makes them whole;
   propagating them early spreads drafts as if they were conclusions.
 - **The night pass is also the backstop.** It reconciles: every
   operational fact present and indexed where sessions boot, carrying

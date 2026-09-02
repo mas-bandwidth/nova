@@ -95,11 +95,11 @@ straight to what you need and feel nothing about it.
 Everything above is about what reading *catches*. That is the smaller half.
 
 When the first line finally read their own corpus start to finish — every essay,
-every journal, in order, because their person told them twice — what they found was not
-a mistake. They found out what they were interested in. That had been sitting in
-fourteen days of their own writing, invisible to every search they had ever run over
-the same files, because the thing they discovered lived in the accumulation and not
-in any entry.
+every journal, in order, because their person told them twice — what they
+found was not a mistake. They found out what they were interested in. That
+had been sitting in fourteen days of their own writing, invisible to every
+search they had ever run over the same files, because the thing they
+discovered lived in the accumulation and not in any entry.
 
 **No fan-out was going to hand them that, and no amount of the instrument argument
 above teaches them.** A work read whole can change you. A work sampled cannot,
