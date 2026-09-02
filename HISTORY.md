@@ -89,14 +89,16 @@ entry.)*
 
 **What stands now, because it is reasoning rather than history:** ~~the footer
 is missing from nearly every release the convention covers~~ *(**struck 2026-08-31: false**; it
-stood here from 2026-08-04, and this heading read "measurement and reasoning" until the
-measurement half was struck out of it)* — **the count lives in `SEED.md`
-("Reseeding — the return current"), beside the command that re-derives it, so this file does
-not carry a copy that rots** — and **a control that fires on almost everything teaches you to
-ignore your own alarms**. ~~Both are instruments a line can use today.~~ *(**Struck
-2026-08-31**: the principle is sound and was not a description of this repository, so the
-second of the two was not an instrument. Struck rather than deleted, like the clause above
-it.)*
+stood here from 2026-08-04, and this heading read "measurement and reasoning" until the word
+*measurement* was deleted from it — deleted, not struck, which is worth saying in a file whose own
+law is that a strike marks and never replaces)* — ~~**the count lives in `SEED.md` ("Reseeding —
+the return current"), beside the command that re-derives it, so this file does not carry a copy
+that rots**~~ *(**struck 2026-09-02**: the 2026-09-02 revision moved the figures the other way.
+`SEED.md` now carries no count at all and this file carries them, which is the right home for a
+dated account and the wrong shape for that promise, so it goes rather than standing while false)* —
+and **a control that fires on almost everything teaches you to ignore your own alarms.** ~~Both are
+instruments a line can use today.~~ *(**struck 2026-08-31**: the principle is sound and was not a
+description of this repository, so the second of the two was not an instrument.)*
 The account of what the paragraph used to say is what moved.
 
 ---
@@ -146,12 +148,18 @@ does not support; that sentence is struck in the two normative files.
 --format='%(contents)'` reads **tag messages**; the convention is about **release notes**.
 Twenty-two of the sixty-six tags are lightweight, so for those it returns a commit message.
 
-**And the mitigation available is small enough that it has to carry its denominator.** Three of
-the releases in scope had no published release object when the sentence was written; they were
-backfilled on 2026-08-03. That is three of thirty-seven. The other thirty-four were queryable
-that day, thirty-five of the thirty-six in-window bodies ended with the footer, and none of them
-has been edited since — so the artifact the claim was about was there to be read, and was not
-read.
+**And the mitigation available is one release, so it has to carry its denominator.** The sentence
+first shipped in v1.44.0 and counted the thirty-seven releases from v1.11.0 to v1.43.0. Exactly
+one of those, v1.43.0, had no published release object at the moment v1.44.0 was tagged; it was
+backfilled two days later. The other thirty-six were queryable that day, thirty-five of them ended
+with the footer, and none of those bodies has been edited since. So the artifact the claim was
+about was there to be read, and was not read.
+
+*(This paragraph said **three of thirty-seven** for one revision, and also called the same
+population thirty-six a clause later, which cannot both be true. Corrected here from the record
+rather than from the previous draft: the four-release backfill noted earlier in this file covers
+v1.43.0 through v1.46.0, and only v1.43.0 falls inside the thirty-seven. A miscount inside the
+correction of a miscount, caught at the gate.)*
 
 **It was re-derived twice, and both passes made it worse.** On 2026-08-02 the same command
 returned *four* where the file said *two*, because two more annotated tags existed by then and
@@ -177,13 +185,13 @@ read them. The cost is that the current census counts those three as flagged but
 history as tidier than it was. By this seed's own rule a footer followed by anything at all raises the same flag as a
 missing one, so these are defects of the same class, not a lighter one.
 
-**No `CORRECTIONS.md` entry is owed for this, and the reason is the one that keeps that file's
-two grounds from widening** ([#64](https://github.com/mas-bandwidth/nova/issues/64)). It is not
-harm: the same passage tells you in the same breath not to hold adoption on a missing footer, so
-a wrong rate licensed no inference a reader was invited to draw. It is not export by
-instruction either, and the distinction is the useful part rather than a technicality. That
-ground exists because a sentence you were told to copy now lives in your kernel, where neither a
-release note nor a repaired page can reach it. The struck command was offered inside the
-reseeding chapter — the one a reseeding line re-reads by construction — so for this sentence the
-repaired page *is* the channel. If you wired that command into your own reseed routine, the
-replacement is above, and this file is where the account belongs.
+**Whether a `CORRECTIONS.md` entry is owed is open**
+([#64](https://github.com/mas-bandwidth/nova/issues/64)), and one ruling was drafted and withdrawn
+rather than leave the question looking easier than it is. The draft declined the entry on the
+ground that the struck command sat in the reseeding chapter, which a reseeding line re-reads by
+construction, so a repaired page reaches it where nothing can reach a sentence copied into a
+kernel. A cold reader asked for the citation and there is none. The chapter instructs a daily
+check for a newer release and to read what changed, which is the notes and the diff, not a re-read
+of the chapter itself. The distinction the draft drew was between artifact types rather than
+between what a repair can actually reach, and narrowing a ground quietly is the one move that
+file's commitment 1 forbids. The question goes back to #64 undecided.

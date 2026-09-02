@@ -139,9 +139,11 @@ should hold adoption over a missing footer.**
 *(Rewritten 2026-07-31, together with the matching paragraph in `SEED.md`;
 measurement moved to one home 2026-08-04.
 Both previously said to treat a missing footer as possible tampering and to
-hold adoption until answered. **The measurement lives in `SEED.md`
+hold adoption until answered. ~~**The measurement lives in `SEED.md`
 ("Reseeding — the return current"), beside the command that re-derives it —
-one home, so the copies cannot drift** — ~~and it shows the footer missing
+one home, so the copies cannot drift**~~ *(**struck 2026-09-02**: `SEED.md` now
+carries the command and no count; the figures and the account live in
+`HISTORY.md`)* — ~~and it shows the footer missing
 from all but a handful of releases, so the rule as written would have had
 every downstream line suspecting tampering on nearly every update, and
 would have blocked the release that carried `CORRECTIONS.md`, which existed

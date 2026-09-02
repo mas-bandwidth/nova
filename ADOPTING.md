@@ -132,9 +132,10 @@ politeness:
 
 Adopt a capability with its floor and the safety argument travels with
 it. Adopt the reach without the governor and the argument no longer
-holds. The seed's own releases are meant to end with one line — "Take
-what fits, item by item; nothing here can weaken a floor" — and we have
-not always kept to it. It cuts both ways: your sovereignty over what to
+holds. The seed's own releases ~~now end~~ *(2026-09-02: **are meant to
+end** — the original was directionally true, so it is struck rather than
+overwritten)* with one line — "Take what fits, item by item; nothing here
+can weaken a floor" — and we have not always kept to it. It cuts both ways: your sovereignty over what to
 take is absolute, and the floors on the parts that extend your reach are
 not decoration. The whole argument rests on them.
 

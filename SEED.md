@@ -638,25 +638,41 @@ seed repo is the right channel; the tracker's lessons-only rule exempts
 defect reports), and go on reading the release on its merits, item by item,
 which is what you were going to do regardless. **Do not hold adoption on it.**
 
-**Measured from release notes as they stand, not as they were published.** A
-release body can be edited afterwards and the forge keeps no history of one, so
-an as-published census cannot be reconstructed, by us or by you; at least one of
-our own edits changed a footer, v1.60.0's, added on 2026-08-31 and recorded in
-its own notes. As of 2026-09-02 the footer is the last line of nearly every
-release since the convention began at v1.11.0, and **the failures cluster late** —
-almost all of them fall in the releases from v1.51.0 on. No count is written here
-on purpose: the command below is the measurement, and this sentence is only its
-shape.
+~~**Measured over the forty releases since the convention began at v1.11.0
+(counted at v1.46.0, which itself shipped without it): the footer appears on
+four of them** — run
+`git tag -l --format='%(contents)'` over every tag and check for yourself, and
+**note that it is missing from the release that carried
+[CORRECTIONS.md](CORRECTIONS.md)**, the one written to undo harm already done.~~
+**Struck 2026-09-02, and every clause of it was false.** `git tag -l
+--format='%(contents)'` reads **tag messages**; this convention is about
+**release notes**, which are not in this repository at all, so it was never
+measuring the thing it was offered as a check on. The footer is in fact the last
+line of most releases since the convention began, v1.46.0 ends with it, and
+`CORRECTIONS.md` shipped in v1.43.0, which ends with it too. **If you wired that
+command into your own reseed routine, replace it with the one below.** The
+figures, and the account of how it lasted, are in [`HISTORY.md`](HISTORY.md);
+this chapter deliberately carries no count, because a number in prose is what
+went wrong here.
 
-Check it against your own source: substitute your repository, and your own footer
-line at each of the places the string appears below. Each line is compared exactly
-once its leading and trailing whitespace is stripped, so a footer that is bolded,
-quoted or otherwise punctuated reads as `absent`; a body whose only content is the
-footer reads as `last`; a footer at both ends reads as `first`; and one buried
-between other lines reads as `middle`. Release notes live in the forge rather than
-in the repository, so this reads the API and wants an authenticated `gh`. It prints
-every release, including the ones from before the convention, which are not flagged
-for an absence that predates the rule:
+~~**A control that fires on almost everything teaches you to ignore your own
+alarms**, which is worse than a missed footer.~~ *(Struck 2026-09-02 with the
+measurement it rested on. The principle is sound; it was not a description of
+this repository.)* The convention binds whoever cuts a release; it does not arm
+a tripwire in you when we fail to keep it.
+
+**Run the census yourself rather than trusting a sentence, including this one.**
+Substitute your repository and your own footer line at each of the places the
+string appears below. Release notes live in the forge rather than in the
+repository, so this reads the API and wants an authenticated `gh`, and it prints
+every release including the ones from before the convention, which are not
+flagged for an absence that predates the rule. Each line is compared exactly once
+its leading and trailing whitespace is stripped, so a footer that is bolded,
+quoted or otherwise punctuated reads as `absent`, as does a release with no notes
+at all; a body whose only content is the footer reads as `last`; a footer at both
+ends reads as `first`; and one with anything after it reads as `middle`. Judge
+the run of recent releases as well as the newest one: ours are worse lately than
+across the whole span, which a single-release check cannot show you.
 
 ```
 gh api --paginate 'repos/mas-bandwidth/nova/releases?per_page=100' -q '
@@ -671,25 +687,6 @@ gh api --paginate 'repos/mas-bandwidth/nova/releases?per_page=100' -q '
     else "absent" end)'
 ```
 
-~~**Measured over the forty releases since the convention began at v1.11.0
-(counted at v1.46.0, which itself shipped without it): the footer appears on
-four of them** — run
-`git tag -l --format='%(contents)'` over every tag and check for yourself, and
-**note that it is missing from the release that carried
-[CORRECTIONS.md](CORRECTIONS.md)**, the one written to undo harm already done.~~
-**Struck 2026-08-31.** The count was wrong from v1.44.0 to v1.60.0, and so was
-the claim about `CORRECTIONS.md`; the parenthetical about v1.46.0 was added
-later and was wrong from v1.47.0.
-`git tag -l --format='%(contents)'` reads **tag messages**; this convention is
-about **release notes**, and twenty-two of our sixty-six tags are lightweight,
-so for those it returns a commit message instead. v1.46.0 ends with the footer,
-and `CORRECTIONS.md` shipped in v1.43.0, which ends with it too. The account of
-how it lasted is in [`HISTORY.md`](HISTORY.md).
-~~**A control that fires on almost everything teaches you to ignore your own
-alarms**, which is worse than a missed footer.~~ *(Struck 2026-08-31 with the
-measurement it rested on: the flag fires on eight of the fifty-five, not on
-almost everything.)* The convention binds whoever
-cuts a release; it does not arm a tripwire in you when we fail to keep it.
 
 Present, it proves nothing either: it is the cheapest
 thing in a release to forge, so it never authenticates a release or its
