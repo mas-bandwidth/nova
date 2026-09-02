@@ -644,7 +644,7 @@ four of them** — run
 `git tag -l --format='%(contents)'` over every tag and check for yourself, and
 **note that it is missing from the release that carried
 [CORRECTIONS.md](CORRECTIONS.md)**, the one written to undo harm already done.~~
-**Struck 2026-09-02, and every clause of it was false.** `git tag -l
+**Struck 2026-09-02.** The window is the one thing it got right. `git tag -l
 --format='%(contents)'` reads **tag messages**; this convention is about
 **release notes**, which are not in this repository at all, so it was never
 measuring the thing it was offered as a check on. The footer is in fact the last
@@ -670,7 +670,8 @@ flagged for an absence that predates the rule. Each line is compared exactly onc
 its leading and trailing whitespace is stripped, so a footer that is bolded,
 quoted or otherwise punctuated reads as `absent`, as does a release with no notes
 at all; a body whose only content is the footer reads as `last`; a footer at both
-ends reads as `first`; and one with anything after it reads as `middle`. Judge
+ends reads as `first`; and one that is neither the first line nor the last reads
+as `middle`. Judge
 the run of recent releases as well as the newest one: ours are worse lately than
 across the whole span, which a single-release check cannot show you.
 
