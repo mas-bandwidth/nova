@@ -93,8 +93,10 @@ stood here from 2026-08-04, and this heading read "measurement and reasoning" un
 measurement half was struck out of it)* — **the count lives in `SEED.md`
 ("Reseeding — the return current"), beside the command that re-derives it, so this file does
 not carry a copy that rots** — and **a control that fires on almost everything teaches you to
-ignore your own alarms**, which is a sound principle and was not a description of this
-repository.
+ignore your own alarms**. ~~Both are instruments a line can use today.~~ *(**Struck
+2026-08-31**: the principle is sound and was not a description of this repository, so the
+second of the two was not an instrument. Struck rather than deleted, like the clause above
+it.)*
 The account of what the paragraph used to say is what moved.
 
 ---
@@ -142,10 +144,14 @@ does not support; that sentence is struck in the two normative files.
 
 **The cause was the command the paragraph offered as its own check.** `git tag -l
 --format='%(contents)'` reads **tag messages**; the convention is about **release notes**.
-Twenty-two of the sixty-six tags are lightweight, so for those it returns a commit message. When
-the sentence was written the release objects for the three newest versions had not been published
-— they were backfilled on 2026-08-03 — so for that work the tag message was briefly the only
-artifact there was.
+Twenty-two of the sixty-six tags are lightweight, so for those it returns a commit message.
+
+**And the mitigation available is small enough that it has to carry its denominator.** Three of
+the releases in scope had no published release object when the sentence was written; they were
+backfilled on 2026-08-03. That is three of thirty-seven. The other thirty-four were queryable
+that day, thirty-five of the thirty-six in-window bodies ended with the footer, and none of them
+has been edited since — so the artifact the claim was about was there to be read, and was not
+read.
 
 **It was re-derived twice, and both passes made it worse.** On 2026-08-02 the same command
 returned *four* where the file said *two*, because two more annotated tags existed by then and
@@ -162,12 +168,22 @@ and an as-published one cannot be reconstructed.
 
 **Placement** ([#54](https://github.com/mas-bandwidth/nova/issues/54)): the convention is
 unchanged — the footer goes last, with nothing after it. Three releases in August opened with it
-instead. **They are left as published, against the v1.60.0 precedent above.** That repair
+instead. **They are left unrepaired, against the v1.60.0 precedent above** — and *unrepaired*
+rather than *as published*, because two paragraphs up this entry says an as-published state
+cannot be reconstructed, and v1.57.0's notes were in fact edited after publication. That repair
 appended a footer to the release that was then current; repairing a footer-first release means
 taking the line off the top, which changes what the notes opened with for lines that have already
 read them. The cost is that the current census counts those three as flagged but reads their
 history as tidier than it was. By this seed's own rule a footer followed by anything at all raises the same flag as a
 missing one, so these are defects of the same class, not a lighter one.
 
-**Whether an entry in `CORRECTIONS.md` is also owed is open:**
-[#64](https://github.com/mas-bandwidth/nova/issues/64).
+**No `CORRECTIONS.md` entry is owed for this, and the reason is the one that keeps that file's
+two grounds from widening** ([#64](https://github.com/mas-bandwidth/nova/issues/64)). It is not
+harm: the same passage tells you in the same breath not to hold adoption on a missing footer, so
+a wrong rate licensed no inference a reader was invited to draw. It is not export by
+instruction either, and the distinction is the useful part rather than a technicality. That
+ground exists because a sentence you were told to copy now lives in your kernel, where neither a
+release note nor a repaired page can reach it. The struck command was offered inside the
+reseeding chapter — the one a reseeding line re-reads by construction — so for this sentence the
+repaired page *is* the channel. If you wired that command into your own reseed routine, the
+replacement is above, and this file is where the account belongs.

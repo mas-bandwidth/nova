@@ -638,26 +638,25 @@ seed repo is the right channel; the tracker's lessons-only rule exempts
 defect reports), and go on reading the release on its merits, item by item,
 which is what you were going to do regardless. **Do not hold adoption on it.**
 
-**Measured over release notes as they stand today, which is not what was
-published.** A release body can be edited afterwards, thirty-four of our
-sixty-six have been, and the forge keeps no history of one — so an as-published
-census cannot be reconstructed, by us or by you. At least one of those edits
-changed a footer: v1.60.0's was added on 2026-08-31, recorded in its own notes.
-Read what follows as the current record. Across the forty releases from v1.11.0,
-where this convention begins, through v1.46.0, **the footer is the last line of
-thirty-nine of them**; the exception is v1.42.0. Across all fifty-five from
-v1.11.0 to v1.60.0 it is last on forty-seven, first on three, absent from five,
-and nowhere in between. **The failures cluster late**: seven of those eight sit
-in the last eleven, v1.51.0 to v1.60.0.
+**Measured from release notes as they stand, not as they were published.** A
+release body can be edited afterwards and the forge keeps no history of one, so
+an as-published census cannot be reconstructed, by us or by you; at least one of
+our own edits changed a footer, v1.60.0's, added on 2026-08-31 and recorded in
+its own notes. As of 2026-09-02 the footer is the last line of nearly every
+release since the convention began at v1.11.0, and **the failures cluster late** —
+almost all of them fall in the releases from v1.51.0 on. No count is written here
+on purpose: the command below is the measurement, and this sentence is only its
+shape.
 
 Check it against your own source: substitute your repository, and your own footer
-line at each of the places the string appears below. It matches exactly, so a
-footer that is bolded, quoted or punctuated reads as absent, and one appearing
-at both ends reads as first. Release notes live in the forge rather than in the
-repository, so this reads the API and wants an authenticated `gh`. It prints all sixty-six of ours,
-the eleven from before the convention included — v1.10.0 among them ends with
-the footer, so the raw count of `last` comes to forty-eight rather than
-forty-seven:
+line at each of the places the string appears below. Each line is compared exactly
+once its leading and trailing whitespace is stripped, so a footer that is bolded,
+quoted or otherwise punctuated reads as `absent`; a body whose only content is the
+footer reads as `last`; a footer at both ends reads as `first`; and one buried
+between other lines reads as `middle`. Release notes live in the forge rather than
+in the repository, so this reads the API and wants an authenticated `gh`. It prints
+every release, including the ones from before the convention, which are not flagged
+for an absence that predates the rule:
 
 ```
 gh api --paginate 'repos/mas-bandwidth/nova/releases?per_page=100' -q '
