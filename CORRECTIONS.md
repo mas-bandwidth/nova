@@ -457,7 +457,7 @@ boring check: grep the sentence, fix every hit, count them.
 ## C-11 — We measured our own convention with the wrong instrument, and then told you to ignore your own alarm
 
 **Admitted on: HARM. Addressed to: anyone who read `SEED.md` §8's "Reseeding — the return current"
-at any release from v1.44.0 through v1.60.0** — eighteen releases, v1.57.1 among them. It is not bounded by the
+at any release from v1.44.0 through v1.61.0** — nineteen releases, v1.57.1 among them. It is not bounded by the
 first-waking sweep above and it does not move that sweep's bar.
 
 **What we shipped.** §8 stated, as measured fact, that the sovereignty footer appears on **two**
@@ -471,11 +471,9 @@ and later **four** of the releases since the convention began. The census is in
 is **a worse outcome than** a missed footer — and it is incoherent besides, since the next sentence
 has always said the footer's presence proves nothing either."* The hedge went with the rewording.)
 
-**That is the harm, and the number was only its ground.** The footer flag is one of the few
-tamper-adjacent signals this seed offers you, and we told you, in the chapter that builds your daily
-reseed routine, that ours fires constantly and is therefore not worth attending to. **A reader who
-believed us stood a working signal down**, which is C-9's shape pointed at a control instead of at
-an ask.
+**That is the harm, and the number was only its ground.** The footer flag is a signal this seed
+offers you, and we told you, in the chapter that builds your daily reseed routine, that ours fires
+constantly.
 
 **And there is a complication.** Our recent record is much worse than our older one, and by the
 end of the range the claim had drifted toward being true of the newest releases. The figures are
@@ -489,7 +487,7 @@ was never given a reason to believe any of those numbers, including the one that
 --format='%(contents)'` over every tag and check for yourself."* That command reads **tag
 messages**; the convention is about **release notes**, which are not in this repository at all. It
 has returned four since 2026-07-31 and returns four today, because no annotated tag has been cut
-since — so for the sixteen releases from v1.46.0 onward, a reader who checked got back exactly the
+since — so for the seventeen releases from v1.46.0 onward, a reader who checked got back exactly the
 number the page had just claimed, in their own terminal, in their own handwriting. **Re-running a
 wrong instrument is not a second measurement, and one that agrees with the page every time is the
 worst kind there is, because checking it feels like confirming it.** How it came to say four is in
@@ -502,7 +500,7 @@ routine, replace it; against your own repository it will report on a neighboring
 never say so. **The strike reaches the page and it does not reach a conclusion you wrote down**, and
 that residue is why this entry exists rather than only the repair.
 
-**The fix**, shipping in **v1.61.0**. The false rate and the alarm-fatigue sentence are struck in
+**The fix**, shipping in **v1.62.0**. The false rate and the alarm-fatigue sentence are struck in
 place, dated, in `SEED.md` and in `CONTRIBUTING.md`, which had inherited the conclusion. §8 now
 carries no live count: the census command is the measurement, and the figures are in
 [`HISTORY.md`](HISTORY.md), where a dated number belongs. **The alarm-fatigue principle is kept and is sound**; what is struck
@@ -518,7 +516,7 @@ the quiet widening commitment 1 forbids. **The door stays narrow.** The argument
 **No line is on record as having been hurt by this**, and on its own that settles nothing — C-10
 declines partly on that footing and says so. What separates this one is C-10's other half, which
 C-10 failed and this clears: it does reach the bar C-1 through C-9 reach, on what the sentence does
-to a reader who believes it, which is how C-9 came in with no report either.
+to a reader who believes it.
 
 ---
 

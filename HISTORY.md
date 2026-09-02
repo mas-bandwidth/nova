@@ -137,7 +137,7 @@ act by tooling, which is also why this note can promise the pattern rather than 
 `SEED.md` told every reader, as measured fact, that the sovereignty footer *"appears on four"* of
 the releases since the convention began.
 
-**The census, taken 2026-09-02 from release notes as they now stand** — this is the figure the
+**The census, taken 2026-09-02 before v1.61.0 was cut, from release notes as they stood then** — this is the figure the
 other files point here for. Across all sixty-six releases: **48 last, 3 first, 15 absent**. Across the
 fifty-five since the convention began at v1.11.0: **47 last, 3 first, 5 absent**, and nothing in
 between. Over the forty from v1.11.0 through v1.46.0, the window the struck sentence named: **39
@@ -146,12 +146,12 @@ v1.51.0, seven carry the flag: v1.51.0, v1.54.0, v1.55.0 and v1.56.0 with no foo
 v1.53.0, v1.57.0 and v1.57.1 with it first. v1.60.0 shipped without one and had it added on
 2026-08-31, marked in its own notes, so as published that run was worse still. Re-derive rather
 than trust this: the command is in `SEED.md` §8 and these numbers are a dated snapshot of a
-mutable artifact. The count ran from v1.44.0 to v1.60.0, reading *"two"* in the first two
+mutable artifact. The count ran from v1.44.0 to v1.61.0, reading *"two"* in the first two
 releases and *"four"* after. A claim that the release carrying `CORRECTIONS.md` had none ran
 with it; that was v1.43.0, whose release object was not published until 2026-08-03, two days
 after the sentence shipped, so the clause was unmeasurable rather than false on the day. Its
 notes end with the footer today. A third clause, that v1.46.0 *"itself
-shipped without it"*, was added on 2026-08-04 and ran fifteen. `CONTRIBUTING.md` and this file
+shipped without it"*, was added on 2026-08-04 and ran sixteen. `CONTRIBUTING.md` and this file
 inherited the conclusion, and all three carried it into a sentence about alarm fatigue that the
 real rate does not support; that sentence is struck in the two normative files.
 
@@ -217,10 +217,9 @@ written for *a sentence we told you to copy into your kernel*, and reading every
 invites you to run as an export makes its population the whole operational surface — every routine,
 every checklist, every tool — which is exactly the quiet widening commitment 1 forbids. The same
 reader then named the honest home. **The harm is not the wrong number; it is the sentence built on
-it**, which told every reader that a working control fires on almost everything and is not worth
-attending to. That is C-9's shape, and C-9 came in under harm with no line on record as hurt.
+it**, which told every reader that a working control fires on almost everything.
 
 Also settled by that read, and it corrected a hold this repair had put on itself: the export door's
 own trigger is a change *already made*, so *"before or when it is repaired"* can only ever mean
 *when*, and C-10 shipped its entry and its repair in one release. Holding a false claim through its
-eighteenth release to await a contested ground was the worse of the two errors.
+nineteenth release to await a contested ground was the worse of the two errors.
