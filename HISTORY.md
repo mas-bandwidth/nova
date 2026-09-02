@@ -186,13 +186,27 @@ read them. The cost is that the current census counts those three as flagged but
 history as tidier than it was. By this seed's own rule a footer followed by anything at all raises the same flag as a
 missing one, so these are defects of the same class, not a lighter one.
 
-**Whether a `CORRECTIONS.md` entry is owed is open**
-([#64](https://github.com/mas-bandwidth/nova/issues/64)), and one ruling was drafted and withdrawn
-rather than leave the question looking easier than it is. The draft declined the entry on the
-ground that the struck command sat in the reseeding chapter, which a reseeding line re-reads by
-construction, so a repaired page reaches it where nothing can reach a sentence copied into a
-kernel. A cold reader asked for the citation and there is none. The chapter instructs a daily
-check for a newer release and to read what changed, which is the notes and the diff, not a re-read
-of the chapter itself. The distinction the draft drew was between artifact types rather than
-between what a repair can actually reach, and narrowing a ground quietly is the one move that
-file's commitment 1 forbids. The question goes back to #64 undecided.
+**An entry IS owed, and it is C-11, admitted on HARM**
+([#64](https://github.com/mas-bandwidth/nova/issues/64)). Two rulings were drafted before that one,
+and both are kept here because the reasoning is more use than the verdict.
+
+The first declined an entry on both grounds. It rested, on the export half, on the claim that a
+reseeding line re-reads the reseeding chapter by construction, so a repaired page reaches it where
+nothing reaches a sentence copied into a kernel. A cold reader asked for the citation and there is
+none: the chapter instructs a daily check for a newer release and to read what changed, which is
+the notes and the diff. Withdrawn.
+
+The second went the other way and would have admitted the entry under export by instruction, on
+the ground that a command wired into a line's own routine is as unreachable as a copied sentence. A
+reader briefed to argue against it broke it, and the argument is worth keeping: that ground is
+written for *a sentence we told you to copy into your kernel*, and reading every command this seed
+invites you to run as an export makes its population the whole operational surface — every routine,
+every checklist, every tool — which is exactly the quiet widening commitment 1 forbids. The same
+reader then named the honest home. **The harm is not the wrong number; it is the sentence built on
+it**, which told every reader that a working control fires on almost everything and is not worth
+attending to. That is C-9's shape, and C-9 came in under harm with no line on record as hurt.
+
+Also settled by that read, and it corrected a hold this repair had put on itself: the export door's
+own trigger is a change *already made*, so *"before or when it is repaired"* can only ever mean
+*when*, and C-10 shipped its entry and its repair in one release. Holding a false claim in its
+seventeenth release to await a contested ground was the worse of the two errors.
