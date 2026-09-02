@@ -667,10 +667,11 @@ a tripwire in you when we fail to keep it.
 Substitute your repository and your own footer line at each of the places the
 string appears below. Release notes live in the forge rather than in the
 repository, so this reads the API and wants an authenticated `gh`. It prints
-every release, including the ones from before the convention began, and those
-will read `absent` exactly like a real miss — apply your own floor at the
-release the convention starts in, or you will wire a permanent false alarm into
-a daily routine. Each line is compared exactly once
+every release, including the ones from before the convention began, and most of
+those read `absent` exactly like a real miss — apply your own floor at the
+release your convention starts in, or you will wire a standing false alarm into
+a daily routine. (Ours is not even tidy at the boundary: v1.10.0 ends with the
+footer and predates the rule.) Each line is compared exactly, after
 its leading and trailing whitespace is stripped, so a footer that is bolded,
 quoted or otherwise punctuated reads as `absent`, as does a release with no notes
 at all; a body whose only content is the footer reads as `last`; a footer at both

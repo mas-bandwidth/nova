@@ -466,18 +466,35 @@ them. And it did not stop at the number. The next sentence read:
 > *"**A control that fires on almost everything teaches you to ignore your own alarms**, which is
 > worse than a missed footer."*
 
+(In v1.44.0 and v1.45.0, the two releases where the number read *two*, the sentence ran on: *"which
+is **a worse outcome than** a missed footer — and it is incoherent besides, since the next sentence
+has always said the footer's presence proves nothing either."* The hedge went with the rewording.)
+
 **That is the harm, and the number was only its ground.** The footer flag is one of the few
 tamper-adjacent signals this seed offers you, and we told you, in the chapter that builds your daily
-reseed routine, that ours fires constantly and is therefore not worth attending to. On the real rate
-it fires rarely. **A reader who believed us stood a working signal down** — which is C-9's shape
-pointed at a control instead of at an ask, and the sentence was true of nothing.
+reseed routine, that ours fires constantly and is therefore not worth attending to. **A reader who
+believed us stood a working signal down**, which is C-9's shape pointed at a control instead of at
+an ask.
+
+**And the complication is worth more than a clean story, so here it is.** By the end of the range
+the claim had drifted toward being true: of the eleven releases from v1.51.0, **seven carry the
+flag** — five with no footer and, at the time, three with it first. A reader who ran the census in
+late August would have watched the alarm fire on most of what they checked. **That does not rescue
+the sentence. It sharpens what was wrong with it**, which was never the rate: we asserted as
+measured fact something we had not measured, and being accidentally near-right at the end is not
+evidence and was not evidence then. Across the whole range the flag fires on seven of eighteen, and
+across the convention it fires rarely — but the reader was never given a reason to believe any of
+those numbers, including the one that flattered us.
 
 **And the check we offered made it self-confirming.** §8 told you to *"run `git tag -l
 --format='%(contents)'` over every tag and check for yourself."* That command reads **tag messages**;
 the convention is about **release notes**, which are not in the repository at all. It returns four
-every time, so a reader who did check got the false number back, in their own terminal, in their own
-handwriting. We re-derived it twice ourselves and both passes returned four and read as
-confirmation. **A wrong instrument is stable, and re-running it is not a second measurement.**
+four today, so a reader who checked got a false number back in their own terminal, in their own
+handwriting. **And it does not even hold still.** Its output grows as annotated tags accumulate: it
+returned two when the page said two, and four once two more annotated tags existed — so our own
+re-derivation found a *different* number from the page and the movement read as a correction rather
+than as an alarm. **Re-running a wrong instrument is not a second measurement, and a wrong
+instrument that moves is worse than one that does not, because the movement looks like rigor.**
 
 **Check yourself for it.** If you recorded a footer rate, or any judgement about how reliably this
 seed keeps its own conventions, from that passage — discard it and re-run the census now in §8,
@@ -488,9 +505,8 @@ that residue is why this entry exists rather than only the repair.
 
 **The fix**, shipped in **v1.61.0**. The false rate and the alarm-fatigue sentence are struck in
 place, dated, in `SEED.md` and in `CONTRIBUTING.md`, which had inherited the conclusion. §8 now
-carries no count at all: the census command is the measurement and the figures live in
-[`HISTORY.md`](HISTORY.md), because four drafts of this correction each failed by putting a number
-back into a normative chapter. **The alarm-fatigue principle is kept and is sound**; what is struck
+carries no count at all: the census command is the measurement, and the figures are in
+[`HISTORY.md`](HISTORY.md), where a dated number belongs. **The alarm-fatigue principle is kept and is sound**; what is struck
 is the claim that it described this repository.
 
 **What this entry deliberately does NOT do.** It does not come in under export by instruction, and

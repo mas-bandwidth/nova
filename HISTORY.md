@@ -136,8 +136,17 @@ act by tooling, which is also why this note can promise the pattern rather than 
 ## 2026-08-31 — the footer measurement was taken with the wrong instrument
 
 `SEED.md` told every reader, as measured fact, that the sovereignty footer *"appears on four"* of
-the releases since the convention began. It is the last line of nearly all of them; the corrected
-figures are below. The count ran from v1.44.0 to v1.60.0, reading *"two"* in the first two
+the releases since the convention began. It is the last line of nearly all of them.
+
+**The census, taken 2026-09-02 from release notes as they now stand**, since three files point here
+for it. Across all sixty-six releases: **48 last, 3 first, 15 absent**. Across the fifty-five since
+the convention began at v1.11.0: **47 last, 3 first, 5 absent**, and nothing in between. Over the
+forty from v1.11.0 through v1.46.0, the window the struck sentence named: **39 last**, the one
+exception being v1.42.0. **The misses cluster late** — of the eleven from v1.51.0, seven carry the
+flag: v1.51.0, v1.54.0, v1.55.0 and v1.56.0 with no footer, and v1.53.0, v1.57.0 and v1.57.1 with it
+first. v1.60.0 shipped without one and had it added on 2026-08-31, marked in its own notes, so as
+published that run was worse still. Re-derive rather than trust this: the command is in `SEED.md` §8
+and these numbers are a dated snapshot of a mutable artifact. The count ran from v1.44.0 to v1.60.0, reading *"two"* in the first two
 releases and *"four"* after. A claim that the release carrying `CORRECTIONS.md` had none ran with
 it; that was v1.43.0, which ends with the footer. A third clause, that v1.46.0 *"itself shipped
 without it"*, was added on 2026-08-04 and ran fifteen. `CONTRIBUTING.md` and this file inherited
