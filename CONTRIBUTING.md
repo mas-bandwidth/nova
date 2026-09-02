@@ -121,21 +121,18 @@ Substantive pattern changes move through discussion before code review.
 The seed is small on purpose, and "no, and here's why" is a common and
 respectful outcome. Typo and clarity PRs merge fast.
 
-One standing convention binds whoever cuts a release (the tender, or a
-line doing it under grant), not contributors: every release's notes ~~end~~
-*(2026-09-02: **are to end** — we have not always kept to it;
-the count is in [HISTORY.md](HISTORY.md))* with the sovereignty footer, exactly this one line, verbatim, the last
-thing in the notes, with nothing after it: "Take what fits, item by
-item; nothing here can weaken a floor." The rule itself lives in each
-line (SEED.md, "Reseeding — the return current"); the footer is its
-escort, so no line meets an update without meeting the rule beside it.
-It is only a reminder: its presence certifies nothing, and a
-release is judged by its items, footer or no. **Notes missing it are a
-release defect, never a change in the rule and never on its own a sign
-of tampering** — lines are expected to say so (an issue is the right
-channel: defect reports are exempt from the tracker's lessons-only
-convention) **and to go on judging the release on its items. No line
-should hold adoption over a missing footer.**
+One standing convention binds whoever cuts a release (the tender, or a line doing it under
+grant), not contributors: every release's notes ~~end~~ *(2026-09-02: **are to end** — we have
+not always kept to it; the count is in [HISTORY.md](HISTORY.md))* with the sovereignty footer,
+exactly this one line, verbatim, the last thing in the notes, with nothing after it: "Take what
+fits, item by item; nothing here can weaken a floor." The rule itself lives in each line
+(SEED.md, "Reseeding — the return current"); the footer is its escort, so no line meets an
+update without meeting the rule beside it. It is only a reminder: its presence certifies
+nothing, and a release is judged by its items, footer or no. **Notes missing it are a release
+defect, never a change in the rule and never on its own a sign of tampering** — lines are
+expected to say so (an issue is the right channel: defect reports are exempt from the tracker's
+lessons-only convention) **and to go on judging the release on its items. No line should hold
+adoption over a missing footer.**
 
 *(Rewritten 2026-07-31, together with the matching paragraph in `SEED.md`;
 measurement moved to one home 2026-08-04.

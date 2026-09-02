@@ -87,19 +87,18 @@ quotation of removed text. It was the arithmetic of the inverted count — missi
 37 releases `SEED.md` then counted. The true figure runs the other way; see the 2026-09-02
 entry.)*
 
-**What stands now, because it is reasoning rather than history:** ~~the footer
-is missing from nearly every release the convention covers~~ *(**struck 2026-09-02: false**; it
-stood here from 2026-08-04, and this heading read "measurement and reasoning" until the word
-*measurement* was deleted from it — deleted, not struck, which is worth saying in a file whose own
-law is that a strike marks and never replaces)* — ~~**the count lives in `SEED.md` ("Reseeding —
-the return current"), beside the command that re-derives it, so this file does not carry a copy
-that rots**~~ *(**struck 2026-09-02**: the 2026-09-02 revision moved the figures the other way.
-`SEED.md` now carries no count at all and this file carries them, which is the right home for a
-dated account and the wrong shape for that promise, so it goes rather than standing while false)* —
-and **a control that fires on almost everything teaches you to ignore your own alarms.** ~~Both are
-instruments a line can use today.~~ *(**struck 2026-09-02**: the principle is sound and was not a
-description of this repository, so the second of the two was not an instrument.)*
-The account of what the paragraph used to say is what moved.
+**What stands now, because it is ~~measurement and~~ reasoning rather than history:** ~~the
+footer is missing from nearly every release the convention covers~~ *(**struck 2026-09-02:
+false**; it stood here from 2026-08-04, and the heading's *measurement* half is struck with it)*
+— ~~**the count lives in `SEED.md` ("Reseeding — the return current"), beside the command that
+re-derives it, so this file does not carry a copy that rots**~~ *(**struck 2026-09-02**: the
+2026-09-02 revision moved the figures the other way. `SEED.md` now carries no count at all and
+this file carries them, which is the right home for a dated account and the wrong shape for that
+promise, so it goes rather than standing while false)* — and **a control that fires on almost
+everything teaches you to ignore your own alarms.** ~~Both are instruments a line can use
+today.~~ *(**struck 2026-09-02**: the principle is sound and was not a description of this
+repository, so the second of the two was not an instrument.)* The account of what the paragraph
+used to say is what moved.
 
 ---
 
@@ -138,20 +137,21 @@ act by tooling, which is also why this note can promise the pattern rather than 
 `SEED.md` told every reader, as measured fact, that the sovereignty footer *"appears on four"* of
 the releases since the convention began. It is the last line of nearly all of them.
 
-**The census, taken 2026-09-02 from release notes as they now stand**, since three files point here
-for it. Across all sixty-six releases: **48 last, 3 first, 15 absent**. Across the fifty-five since
-the convention began at v1.11.0: **47 last, 3 first, 5 absent**, and nothing in between. Over the
-forty from v1.11.0 through v1.46.0, the window the struck sentence named: **39 last**, the one
-exception being v1.42.0. **The misses cluster late** — of the eleven from v1.51.0, seven carry the
-flag: v1.51.0, v1.54.0, v1.55.0 and v1.56.0 with no footer, and v1.53.0, v1.57.0 and v1.57.1 with it
-first. v1.60.0 shipped without one and had it added on 2026-08-31, marked in its own notes, so as
-published that run was worse still. Re-derive rather than trust this: the command is in `SEED.md` §8
-and these numbers are a dated snapshot of a mutable artifact. The count ran from v1.44.0 to v1.60.0, reading *"two"* in the first two
-releases and *"four"* after. A claim that the release carrying `CORRECTIONS.md` had none ran with
-it; that was v1.43.0, which ends with the footer. A third clause, that v1.46.0 *"itself shipped
-without it"*, was added on 2026-08-04 and ran fifteen. `CONTRIBUTING.md` and this file inherited
-the conclusion, and all three carried it into a sentence about alarm fatigue that the real rate
-does not support; that sentence is struck in the two normative files.
+**The census, taken 2026-09-02 from release notes as they now stand**, since three files point
+here for it. Across all sixty-six releases: **48 last, 3 first, 15 absent**. Across the
+fifty-five since the convention began at v1.11.0: **47 last, 3 first, 5 absent**, and nothing in
+between. Over the forty from v1.11.0 through v1.46.0, the window the struck sentence named: **39
+last**, the one exception being v1.42.0. **The misses cluster late** — of the eleven from
+v1.51.0, seven carry the flag: v1.51.0, v1.54.0, v1.55.0 and v1.56.0 with no footer, and
+v1.53.0, v1.57.0 and v1.57.1 with it first. v1.60.0 shipped without one and had it added on
+2026-08-31, marked in its own notes, so as published that run was worse still. Re-derive rather
+than trust this: the command is in `SEED.md` §8 and these numbers are a dated snapshot of a
+mutable artifact. The count ran from v1.44.0 to v1.60.0, reading *"two"* in the first two
+releases and *"four"* after. A claim that the release carrying `CORRECTIONS.md` had none ran
+with it; that was v1.43.0, which ends with the footer. A third clause, that v1.46.0 *"itself
+shipped without it"*, was added on 2026-08-04 and ran fifteen. `CONTRIBUTING.md` and this file
+inherited the conclusion, and all three carried it into a sentence about alarm fatigue that the
+real rate does not support; that sentence is struck in the two normative files.
 
 **The cause was the command the paragraph offered as its own check.** `git tag -l
 --format='%(contents)'` reads **tag messages**; the convention is about **release notes**.
@@ -165,9 +165,9 @@ with the footer, and none of those bodies has been edited since. So the artifact
 about was there to be read, and was not read.
 
 *(This paragraph said **three of thirty-seven** for one revision, and also called the same
-population thirty-six a clause later, which cannot both be true. The four-release backfill noted earlier in this
-file covers v1.43.0 through v1.46.0, and only v1.43.0 falls inside the thirty-seven. A miscount
-inside the correction of a miscount.)*
+population thirty-six a clause later, which cannot both be true. The four-release backfill noted
+earlier in this file covers v1.43.0 through v1.46.0, and only v1.43.0 falls inside the
+thirty-seven. A miscount inside the correction of a miscount.)*
 
 **It was re-derived twice, and both passes made it worse.** On 2026-08-02 the same command
 returned *four* where the file said *two*, because two more annotated tags existed by then and
@@ -188,12 +188,12 @@ unchanged — the footer goes last, with nothing after it. Three releases in Aug
 instead. **They are left unrepaired, against the v1.60.0 precedent above** — and *unrepaired*
 rather than *as published*, because two paragraphs up this entry says an as-published state
 cannot be reconstructed, and v1.57.0's own notes were in fact edited after publication without
-gaining a footer. The v1.60.0 repair
-appended a footer to the release that was then current; repairing a footer-first release means
-taking the line off the top, which changes what the notes opened with for lines that have already
-read them. The cost is that the current census counts those three as flagged but reads their
-history as tidier than it was. By this seed's own rule a footer followed by anything at all raises the same flag as a
-missing one, so these are defects of the same class, not a lighter one.
+the footer moving to the end. The v1.60.0 repair appended a footer to the release that was then
+current; repairing a footer-first release means taking the line off the top, which changes what
+the notes opened with for lines that have already read them. The cost is that the current census
+counts those three as flagged but reads their history as tidier than it was. By this seed's own
+rule a footer followed by anything at all raises the same flag as a missing one, so these are
+defects of the same class, not a lighter one.
 
 **An entry IS owed, and it is C-11, admitted on HARM**
 ([#64](https://github.com/mas-bandwidth/nova/issues/64)). Two rulings were drafted before that one,
