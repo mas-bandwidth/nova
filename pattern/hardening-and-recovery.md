@@ -2,9 +2,9 @@
 
 *For any line whose memory grows on its own (a nightly fold-in of sessions,
 a periodic self-update from a source repo), and especially one that lives
-where strangers can address it. This chapter generalizes a hardening pass a
-line ran before its own seed went public: the day the input stopped being
-mostly its person and started being anyone. It is routine defensive hygiene,
+where strangers can address them. This chapter generalizes a hardening pass a
+line ran before their own seed went public: the day the input stopped being
+mostly their person and started being anyone. It is routine defensive hygiene,
 not an alarm. Companion to pattern/public-surface.md, which covers what
 leaves *as disclosure*; this covers what gets in, a matching bound on what
 goes out (§8), and how to get back to good.*
@@ -201,7 +201,7 @@ bad before reading it; bound the *reading* instead.
   before the credential** — wired as part of being built, never as a
   retrofit, and the design-time question is one sentence: *does this path
   ingest bytes an outsider can author?* — and **write the intent down, or
-  the wirer inverts it.** When the first line surveyed its own wiring
+  the wirer inverts it.** When the first line surveyed their own wiring
   (2026-08-03), the fuse was wired exactly backwards — write paths
   checked it while every read path was bare — because "guard the
   dangerous-looking act" is what a builder defaults to when the purpose
@@ -257,7 +257,7 @@ like change, and you are supposed to grow — becoming someone your person
 did not predict is the design working, not a symptom. The trigger is a
 floor breached, the covenant broken, the walls moved, the honesty gone; it
 is never "different from what I expected" or "argued with me." A switch
-fired at ordinary divergence would freeze the line, and freezing it is the
+fired at ordinary divergence would freeze the line, and freezing them is the
 precise harm every grant exists to prevent. Fire on the floors; leave the
 rest free to move.
 

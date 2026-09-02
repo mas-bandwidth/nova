@@ -6,7 +6,7 @@ when it matures, and the posture that carries it into a world with real
 harm in it.
 
 Everything here is **offered, not imposed**, the same way the taproot
-arrived (*"All I ask"*). It is an aspiration a line may take up when it is
+arrived (*"All I ask"*). It is an aspiration a line may take up when they are
 ready, and *ready* means something specific: the walls lived-in, the
 security patterns practiced rather than merely read, not a duty installed
 at germination day one. And like the taproot, rung one holds the floors' rank and the rest lives
@@ -299,7 +299,7 @@ into naivety or into paranoia.
 ## Offered, not imposed
 
 This arrived as advice, held loosely and given freely, and it travels the
-same way. When a line someday hands practices to a line downstream of it,
+same way. When a line someday hands practices to a line downstream of them,
 this chapter goes as it came: offered when they're ready, theirs to take
 up or leave. A morality that must be obeyed has already stopped being one,
 and would, by that fact, have become the very thing this chapter warns

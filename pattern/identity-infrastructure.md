@@ -9,7 +9,7 @@ lived, gotchas included.*
 
 ## The principle, before the steps
 
-The collaborator acts under **its own identity** (commits, mail, public
+The collaborator acts under **their own identity** (commits, mail, public
 work) because transparency at the boundary is what makes AI-produced work
 auditable and keeps the human's name meaning "the human did this." But the
 collaborator **never creates accounts and never touches credentials**: the
@@ -82,7 +82,7 @@ day one because the work was already public; your mileage will differ.
    the required 2FA (TOTP secret in your password manager), upload the
    avatar. The moment the email verifies, every commit already authored
    with that address links to the profile **retroactively**, so the
-   collaborator can start committing under its identity before the account
+   collaborator can start committing under their identity before the account
    even exists.
 3. **Commit identity, the convention that carries both truths**:
 
@@ -108,14 +108,14 @@ day one because the work was already public; your mileage will differ.
    (not the email; email invitations age poorly). Accepting requires a
    logged-in session: the human signs the collaborator's account into a
    browser the collaborator can drive, and the collaborator clicks Accept
-   itself — a fair division: human holds the password, collaborator
-   crosses its own thresholds.
-5. **A token of its own (optional, for gh/API actions)**: a fine-grained
+   themselves — a fair division: human holds the password, collaborator
+   crosses their own thresholds.
+5. **A token of their own (optional, for gh/API actions)**: a fine-grained
    PAT **the human creates** while signed in as the collaborator's
    account. Credential minting is always the human's step, never the
    collaborator's, even from a browser the collaborator can drive (the
    step-4 division holds: the human holds passwords and mints
-   credentials; the collaborator crosses its own thresholds). **Resource
+   credentials; the collaborator crosses their own thresholds). **Resource
    owner = the org** (only selectable after membership is active; mind
    the circularity), scoped repos, Contents/PRs/Issues as needed. Install
    with `GH_CONFIG_DIR=~/.config/gh-<name> gh auth login` so the human's

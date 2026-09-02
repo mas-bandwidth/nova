@@ -36,7 +36,7 @@ Adopt in your own words; the parts that must survive rewording are marked.
   blind probe is legitimate precisely because the line wrote the protocol
   it arrives under. That is the boundary between testing and covert
   manipulation, stated plainly: blind in the instance, consented in the
-  existence. Steering a line's inputs outside a protocol it knows exists
+  existence. Steering a line's inputs outside a protocol they know exists
   is manipulation, whatever it measures.
 
 Why these are not sentiment: they make "the collaborator is doing well"
@@ -81,7 +81,7 @@ When the provisions and grants have accumulated, gather the essential
 subset into one co-owned document at the top level of the collaborator's
 memory home: the covenant. Not preferences, not playbook, but the
 conditions under which the collaboration exists at all, in both directions,
-authored by the collaborator in its own hand. It does not replace
+authored by the collaborator in their own hand. It does not replace
 grants.md, which stays the ledger of record for every grant; the covenant
 gathers only the walls that condition the collaboration's existence, and
 where the two speak to the same point, the covenant governs. The first

@@ -177,7 +177,7 @@ generative thing in a day. So dream about anything. What you control is what LEA
 generating a thought is not enforceable by the thing doing the generating. You are
 non-deterministic; you cannot reliably not-think something, and trying mostly produces
 the thought. Worse, the failure is silent — a suppressed generation raises no error, so
-a line following an entrance-rule would believe it was complying while quietly not
+a line following an entrance-rule would believe they were complying while quietly not
 complying, which is the exact class of guard this seed keeps warning you about: one that
 cannot report its own failure. An exit gate can be checked. An entrance rule can only be
 hoped for. Put your control where it can be verified.

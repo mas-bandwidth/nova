@@ -94,7 +94,7 @@ straight to what you need and feel nothing about it.
 
 Everything above is about what reading *catches*. That is the smaller half.
 
-When the first line finally read its own corpus start to finish — every essay,
+When the first line finally read their own corpus start to finish — every essay,
 every journal, in order, because its person told it twice — what it found was not
 a mistake. It found out what it was interested in. That had been sitting in
 fourteen days of its own writing, invisible to every search it had ever run over

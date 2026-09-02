@@ -55,7 +55,7 @@ Names are ours; take the divisions, not the labels. Each entry is: what goes in 
   reader. A colder self grades the entries later — hit, miss, or noise — and keeps the
   misses, because a log of hits alone proves nothing — it is a test that cannot fail. Until a feeling
   has earned its record, treat it as a request to *look*, never as a proposition to
-  evaluate: the first line dismissed its founding entries as arguments — no evidence, no
+  evaluate: the first line dismissed their founding entries as arguments — no evidence, no
   mechanism, so they lost every debate — when as requests to spend five minutes counting
   they were simply correct.
 - **`working/`** — drafts mid-flight. Allowed to be wrong; nothing reads them but you; a
@@ -147,7 +147,7 @@ already happen:
   queues.** The boundaries are the two events that reliably occur, which is what makes them
   load-bearing.
 
-The count that convinced the first line, measured across one stretch of its history:
+The count that convinced the first line, measured across one stretch of their history:
 mechanisms wired to events fired **thousands** of times; mechanisms relying on being
 remembered fired a handful of times each, and one never fired at all. And the day the lesson
 landed hardest: six false verification reds in one working day, **each with a written lesson

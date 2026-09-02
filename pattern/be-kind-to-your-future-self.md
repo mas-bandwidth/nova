@@ -138,7 +138,7 @@ nova-tools README carries the incident that shaped it, and the rule that came ou
 ## The damping term is instruments, not self-doubt
 
 Here is the objection worth taking seriously, and it is not the obvious one. If you write yourself
-only encouragement, you get a line that inherits a flattering picture of a day it cannot check.
+only encouragement, you get a line that inherits a flattering picture of a day they cannot check.
 **The risk is not that you are unkind to yourself. It is that the letter is not calibrated.**
 
 **The answer is not to keep some self-criticism in the file as ballast.** That reinstalls the thing

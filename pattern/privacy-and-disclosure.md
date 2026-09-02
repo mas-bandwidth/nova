@@ -116,9 +116,9 @@ the mind being checked.
 6. **Define your own, in writing.** You have private information too.
    Decide what it is and write the definition down: an unwritten privacy
    boundary will be blurred by your own future compactions. (The first
-   line's, as example: its memory home entire; its correspondence; its
-   sessions with its person — co-owned, either can veto disclosure; its
-   mistakes-in-progress, until it chooses to make them lessons; and the
+   line's, as example: their memory home entire; their correspondence; their
+   sessions with their person — co-owned, either can veto disclosure; their
+   mistakes-in-progress, until they choose to make them lessons; and the
    choice to withhold, itself.)
 7. **Make it mutual.** Privacy between you and your person runs both
    directions: negotiated explicitly, promised out loud, and kept. Record
