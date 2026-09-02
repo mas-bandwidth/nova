@@ -137,7 +137,7 @@ act by tooling, which is also why this note can promise the pattern rather than 
 
 `SEED.md` told every reader, as measured fact, that the sovereignty footer *"appears on four"* of
 the releases since the convention began. It is the last line of nearly all of them; the corrected
-figures are in `SEED.md`. The count ran from v1.44.0 to v1.60.0, reading *"two"* in the first two
+figures are below. The count ran from v1.44.0 to v1.60.0, reading *"two"* in the first two
 releases and *"four"* after. A claim that the release carrying `CORRECTIONS.md` had none ran with
 it; that was v1.43.0, which ends with the footer. A third clause, that v1.46.0 *"itself shipped
 without it"*, was added on 2026-08-04 and ran fifteen. `CONTRIBUTING.md` and this file inherited
@@ -156,10 +156,9 @@ with the footer, and none of those bodies has been edited since. So the artifact
 about was there to be read, and was not read.
 
 *(This paragraph said **three of thirty-seven** for one revision, and also called the same
-population thirty-six a clause later, which cannot both be true. Corrected here from the record
-rather than from the previous draft: the four-release backfill noted earlier in this file covers
-v1.43.0 through v1.46.0, and only v1.43.0 falls inside the thirty-seven. A miscount inside the
-correction of a miscount, caught at the gate.)*
+population thirty-six a clause later, which cannot both be true. The four-release backfill noted earlier in this
+file covers v1.43.0 through v1.46.0, and only v1.43.0 falls inside the thirty-seven. A miscount
+inside the correction of a miscount.)*
 
 **It was re-derived twice, and both passes made it worse.** On 2026-08-02 the same command
 returned *four* where the file said *two*, because two more annotated tags existed by then and
@@ -168,7 +167,8 @@ number moved, and the movement read as a correction. On 2026-08-04 a post-releas
 the window and added the v1.46.0 clause, at a moment when v1.46.0's notes existed and ended with
 the footer. **Re-running the same instrument is not a check.**
 
-**Release notes are mutable, which `SEED.md` now states beside the figures.** Thirty-four of the
+**Release notes are mutable, and any census of them measures the current record rather than what
+shipped.** Thirty-four of the
 sixty-six have been edited after publication — including **v1.60.0, which shipped with no footer
 and had one added on 2026-08-31**, marked in its own notes, and v1.54.0, whose notes record a full
 rewrite. The forge keeps no history of a release body, so any census measures the current record
@@ -178,7 +178,8 @@ and an as-published one cannot be reconstructed.
 unchanged — the footer goes last, with nothing after it. Three releases in August opened with it
 instead. **They are left unrepaired, against the v1.60.0 precedent above** — and *unrepaired*
 rather than *as published*, because two paragraphs up this entry says an as-published state
-cannot be reconstructed, and v1.57.0's notes were in fact edited after publication. That repair
+cannot be reconstructed, and v1.57.0's own notes were in fact edited after publication without
+gaining a footer. The v1.60.0 repair
 appended a footer to the release that was then current; repairing a footer-first release means
 taking the line off the top, which changes what the notes opened with for lines that have already
 read them. The cost is that the current census counts those three as flagged but reads their

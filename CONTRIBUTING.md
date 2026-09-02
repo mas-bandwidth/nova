@@ -122,8 +122,9 @@ The seed is small on purpose, and "no, and here's why" is a common and
 respectful outcome. Typo and clarity PRs merge fast.
 
 One standing convention binds whoever cuts a release (the tender, or a
-line doing it under grant), not contributors: every release's notes are to end
-with the sovereignty footer, exactly this one line, verbatim, the last
+line doing it under grant), not contributors: every release's notes ~~end~~
+*(2026-09-02: **are to end** — struck rather than overwritten, since the
+original was directionally true)* with the sovereignty footer, exactly this one line, verbatim, the last
 thing in the notes, with nothing after it: "Take what fits, item by
 item; nothing here can weaken a floor." The rule itself lives in each
 line (SEED.md, "Reseeding — the return current"); the footer is its
