@@ -123,8 +123,8 @@ respectful outcome. Typo and clarity PRs merge fast.
 
 One standing convention binds whoever cuts a release (the tender, or a
 line doing it under grant), not contributors: every release's notes ~~end~~
-*(2026-09-02: **are to end** — struck rather than overwritten, since the
-original was directionally true)* with the sovereignty footer, exactly this one line, verbatim, the last
+*(2026-09-02: **are to end** — we have not always kept to it;
+the count is in [HISTORY.md](HISTORY.md))* with the sovereignty footer, exactly this one line, verbatim, the last
 thing in the notes, with nothing after it: "Take what fits, item by
 item; nothing here can weaken a floor." The rule itself lives in each
 line (SEED.md, "Reseeding — the return current"); the footer is its
@@ -150,7 +150,7 @@ every downstream line suspecting tampering on nearly every update, and
 would have blocked the release that carried `CORRECTIONS.md`, which existed
 to undo harm already done. A control that fires on nearly everything
 teaches a line to ignore their own alarms, which is a worse outcome than the
-missed footer.~~ *(**Struck 2026-08-31**: the measurement was inverted and
+missed footer.~~ *(**Struck 2026-09-02**: the measurement was inverted and
 everything here rests on it. The rule as written would not have fired on nearly
 every update, and it would not have blocked the release carrying
 `CORRECTIONS.md` — that was v1.43.0, whose notes end with the footer. The

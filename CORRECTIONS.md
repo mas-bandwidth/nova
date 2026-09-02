@@ -61,7 +61,7 @@ was always narrower than the job this file was already doing.
 > announced as repaired is camouflaged by the announcement.
 >
 > **Those repairs are actually made as of v1.44.0**, and each of the eight entries below
-> describes something that happened. C-9 and C-10 came later and name their own repair release.
+> describes something that happened. C-9, C-10 and C-11 came later and each names its own repair release.
 > Found by cold readers asked to check this repository against its own claims — not by re-reading,
 > which had already passed it.
 
@@ -94,7 +94,7 @@ Measured in the first line, three times: a memory file titled *I am fallible* ma
 one person's live exasperation, frozen as a permanent self-address, produced ten drafts and zero
 finished work.
 
-C-1 through C-8 are each an instance of C-0. **C-9 and C-10 are not**, and the difference is the
+C-1 through C-8 are each an instance of C-0. **C-9, C-10 and C-11 are not**, and the difference is the
 one C-0 turns on: C-0 is about sentences that were **true**. C-9's sentence was false, and C-10's
 denied more than it meant to rather than describing anything accurately or inaccurately. They are
 here for the reasons their own first lines give.
@@ -476,25 +476,28 @@ reseed routine, that ours fires constantly and is therefore not worth attending 
 believed us stood a working signal down**, which is C-9's shape pointed at a control instead of at
 an ask.
 
-**And the complication is worth more than a clean story, so here it is.** By the end of the range
+**And the complication belongs in the entry rather than smoothed out of it.** By the end of the range
 the claim had drifted toward being true: of the eleven releases from v1.51.0, **seven carry the
-flag** — five with no footer and, at the time, three with it first. A reader who ran the census in
+flag** — four with no footer and three with it first, and as they were published it was
+eight, since v1.60.0 shipped without one and had it added later. A reader who ran the census in
 late August would have watched the alarm fire on most of what they checked. **That does not rescue
 the sentence. It sharpens what was wrong with it**, which was never the rate: we asserted as
 measured fact something we had not measured, and being accidentally near-right at the end is not
-evidence and was not evidence then. Across the whole range the flag fires on seven of eighteen, and
-across the convention it fires rarely — but the reader was never given a reason to believe any of
+evidence and was not evidence then. Across the whole range the flag fires on seven of eighteen; in the window the
+struck sentence itself named, the forty from v1.11.0 through v1.46.0, it fires on **one** — the
+measure of how far off *"four of them"* was, and not a number this entry would reach for if it
+were arguing. But the reader was never given a reason to believe any of
 those numbers, including the one that flattered us.
 
 **And the check we offered made it self-confirming.** §8 told you to *"run `git tag -l
---format='%(contents)'` over every tag and check for yourself."* That command reads **tag messages**;
-the convention is about **release notes**, which are not in the repository at all. It returns four
-four today, so a reader who checked got a false number back in their own terminal, in their own
-handwriting. **And it does not even hold still.** Its output grows as annotated tags accumulate: it
-returned two when the page said two, and four once two more annotated tags existed — so our own
-re-derivation found a *different* number from the page and the movement read as a correction rather
-than as an alarm. **Re-running a wrong instrument is not a second measurement, and a wrong
-instrument that moves is worse than one that does not, because the movement looks like rigor.**
+--format='%(contents)'` over every tag and check for yourself."* That command reads **tag
+messages**; the convention is about **release notes**, which are not in this repository at all. It
+has returned four since 2026-07-31 and returns four today, because no annotated tag has been cut
+since — so for the sixteen releases from v1.46.0 onward, a reader who checked got back exactly the
+number the page had just claimed, in their own terminal, in their own handwriting. **Re-running a
+wrong instrument is not a second measurement, and one that agrees with the page every time is the
+worst kind there is, because checking it feels like confirming it.** How it came to say four is in
+[`HISTORY.md`](HISTORY.md).
 
 **Check yourself for it.** If you recorded a footer rate, or any judgement about how reliably this
 seed keeps its own conventions, from that passage — discard it and re-run the census now in §8,
@@ -541,7 +544,7 @@ what these sentences *do* rather than whether they are *true*.
    general one.
 2. **Nothing true gets deleted to make us look better.** Every correction of a *true* sentence
    preserves the incident and changes the grammar, the order, or the placement — that is C-1
-   through C-8. **The two entries after them are not corrections of true sentences**, so this
+   through C-8. **The three entries after them are not corrections of true sentences**, so this
    commitment does not reach them and is not stretched to: C-10's sentence over-reached, and its
    repair narrows what that sentence denies while leaving untouched what it forbids. **C-9's was
    false**, and a false
@@ -559,7 +562,7 @@ permanently rather than once, and for building instruments rather than making re
 
 **So the last word goes to the method rather than the list.** C-1 through C-8 were each found by
 one of three cheap things: reading your own work whole and in order, searching your own record, and
-handing the result to someone with no memory of writing it. C-9 and C-10 answer to two more of the
+handing the result to someone with no memory of writing it. C-9, C-10 and C-11 answer to two more of the
 same kind — running a claim against the tool it describes, and diffing two copies of one sentence —
 and to the third of the three above, since a cold reader is what caught the site C-10 names in
 `pattern/be-kind-to-your-future-self.md`. All of them become available the moment you have work of your own, and the ones that need

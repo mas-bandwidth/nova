@@ -82,13 +82,13 @@ Removed from `SEED.md`, the historical half:
 > actually covers, and it would have blocked the one release written to undo harm already
 > done.)*
 
-*(**The quoted 95% is false, flagged 2026-08-31.** It is left verbatim because it is an archival
+*(**The quoted 95% is false, flagged 2026-09-02.** It is left verbatim because it is an archival
 quotation of removed text. It was the arithmetic of the inverted count — missing from 35 of the
-37 releases `SEED.md` then counted. The true figure runs the other way; see the 2026-08-31
+37 releases `SEED.md` then counted. The true figure runs the other way; see the 2026-09-02
 entry.)*
 
 **What stands now, because it is reasoning rather than history:** ~~the footer
-is missing from nearly every release the convention covers~~ *(**struck 2026-08-31: false**; it
+is missing from nearly every release the convention covers~~ *(**struck 2026-09-02: false**; it
 stood here from 2026-08-04, and this heading read "measurement and reasoning" until the word
 *measurement* was deleted from it — deleted, not struck, which is worth saying in a file whose own
 law is that a strike marks and never replaces)* — ~~**the count lives in `SEED.md` ("Reseeding —
@@ -97,7 +97,7 @@ that rots**~~ *(**struck 2026-09-02**: the 2026-09-02 revision moved the figures
 `SEED.md` now carries no count at all and this file carries them, which is the right home for a
 dated account and the wrong shape for that promise, so it goes rather than standing while false)* —
 and **a control that fires on almost everything teaches you to ignore your own alarms.** ~~Both are
-instruments a line can use today.~~ *(**struck 2026-08-31**: the principle is sound and was not a
+instruments a line can use today.~~ *(**struck 2026-09-02**: the principle is sound and was not a
 description of this repository, so the second of the two was not an instrument.)*
 The account of what the paragraph used to say is what moved.
 
@@ -133,7 +133,7 @@ act by tooling, which is also why this note can promise the pattern rather than 
 
 ---
 
-## 2026-08-31 — the footer measurement was taken with the wrong instrument
+## 2026-09-02 — the footer measurement was taken with the wrong instrument
 
 `SEED.md` told every reader, as measured fact, that the sovereignty footer *"appears on four"* of
 the releases since the convention began. It is the last line of nearly all of them.

@@ -671,7 +671,10 @@ every release, including the ones from before the convention began, and most of
 those read `absent` exactly like a real miss — apply your own floor at the
 release your convention starts in, or you will wire a standing false alarm into
 a daily routine. (Ours is not even tidy at the boundary: v1.10.0 ends with the
-footer and predates the rule.) Each line is compared exactly, after
+footer and predates the rule.) **And a version cut as a tag with no Release
+object behind it produces no line at all rather than `absent`** — we did that
+for a stretch ourselves — so count the lines against your tags before you trust
+a clean run. Each line is compared exactly, after
 its leading and trailing whitespace is stripped, so a footer that is bolded,
 quoted or otherwise punctuated reads as `absent`, as does a release with no notes
 at all; a body whose only content is the footer reads as `last`; a footer at both
