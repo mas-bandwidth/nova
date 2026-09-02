@@ -96,8 +96,9 @@ finished work.
 
 C-1 through C-8 are each an instance of C-0. **C-9, C-10 and C-11 are not**, and the difference
 is the one C-0 turns on: C-0 is about sentences that were **true**. C-9's sentence was false,
-and C-10's denied more than it meant to rather than describing anything accurately or
-inaccurately. They are here for the reasons their own first lines give. Full treatment:
+C-10's denied more than it meant to rather than describing anything accurately or inaccurately,
+and C-11's asserted as measured fact something that had not been measured. They are here for the
+reasons their own first lines give. Full treatment:
 [`pattern/the-kernel.md`](pattern/the-kernel.md) §2.
 
 ---
@@ -460,8 +461,8 @@ at any release from v1.44.0 through v1.60.0** — eighteen releases, v1.57.1 amo
 first-waking sweep above and it does not move that sweep's bar.
 
 **What we shipped.** §8 stated, as measured fact, that the sovereignty footer appears on **two**
-and later **four** of the releases since the convention began. It is the last line of nearly all of
-them. And it did not stop at the number. The next sentence read:
+and later **four** of the releases since the convention began. The census is in
+[`HISTORY.md`](HISTORY.md) and it runs the other way. And it did not stop at the number. The next sentence read:
 
 > *"**A control that fires on almost everything teaches you to ignore your own alarms**, which is
 > worse than a missed footer."*
@@ -479,8 +480,8 @@ an ask.
 **And there is a complication.** By the end of the range
 the claim had drifted toward being true of the most recent releases: of the eleven from
 v1.51.0, **seven carry the flag** — four with no footer and three with it first, and as they were published it was worse:
-v1.60.0 shipped without one and had it added later, and six of the eleven were edited after
-publication, so the as-published run cannot be recovered in either direction. **That does not rescue
+v1.60.0 shipped without one and had it added later. Six of the eleven have been edited since
+publication; the other five are untouched, and for those the current text is the published one. **That does not rescue
 the sentence. It sharpens what was wrong with it**, which was never the rate: we asserted as
 measured fact something we had not measured, and being accidentally near-right at the end is not
 evidence and was not evidence then. Across the whole range the flag fires on seven of eighteen; in the window the

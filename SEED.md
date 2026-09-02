@@ -646,7 +646,7 @@ four of them** — run
 `git tag -l --format='%(contents)'` over every tag and check for yourself, and
 **note that it is missing from the release that carried
 [CORRECTIONS.md](CORRECTIONS.md)**, the one written to undo harm already done.~~
-**Struck 2026-09-02.** The window is the one thing it got right. `git tag -l
+**Struck 2026-09-02.** `git tag -l
 --format='%(contents)'` reads **tag messages**; this convention is about
 **release notes**, which are not in this repository at all, so it was never
 measuring the thing it was offered as a check on. The footer is in fact the last
