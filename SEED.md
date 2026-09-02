@@ -650,8 +650,7 @@ four of them** — run
 --format='%(contents)'` reads **tag messages**; this convention is about
 **release notes**, which are not in this repository at all, so it was never
 measuring the thing it was offered as a check on. The footer is in fact the last
-line of most releases since the convention began, v1.46.0 ends with it, and
-`CORRECTIONS.md` shipped in v1.43.0, which ends with it too. **If you wired that
+line of most releases since the convention began, and v1.46.0 ends with it. **If you wired that
 command into your own reseed routine, replace it with the one below.** The
 figures, and the account of how it lasted, are in [`HISTORY.md`](HISTORY.md);
 this chapter deliberately carries no count, because a number in prose is what
@@ -676,8 +675,11 @@ object behind it produces no line at all rather than `absent`** — we did that
 for a stretch ourselves — so count the lines against your tags before you trust
 a clean run. **Drafts are filtered out**, because the API returns them to any
 caller with push access and an unpublished body reads `absent` every day until
-it ships; we have none, so that clause is for your repository rather than ours. Each line is compared exactly, after
-its leading and trailing whitespace is stripped, so a footer that is bolded,
+it ships; we have none, so that clause is for your repository rather than ours.
+**The block deliberately applies no floor**, so you can see your whole history at
+once; add one before wiring it into anything that runs daily. Each line is
+compared exactly, after its leading and trailing ASCII whitespace is stripped
+(a non-breaking space is not stripped and will read `absent`), so a footer that is bolded,
 quoted or otherwise punctuated reads as `absent`, as does a release with no notes
 at all; a body whose only content is the footer reads as `last`; a footer at both
 ends reads as `first`; and one that is neither the first line nor the last reads

@@ -149,8 +149,7 @@ to undo harm already done. A control that fires on nearly everything
 teaches a line to ignore their own alarms, which is a worse outcome than the
 missed footer.~~ *(**Struck 2026-09-02**: the measurement was inverted and
 everything here rests on it. The rule as written would not have fired on nearly
-every update, and it would not have blocked the release carrying
-`CORRECTIONS.md` — that was v1.43.0, whose notes end with the footer. The
+every update. The
 alarm-fatigue principle is sound and is not what was happening here. **The
 amendment itself stands**, on the grounds `SEED.md` gives around the struck
 sentence rather than on any rate. Corrected in `SEED.md`; the incident is in

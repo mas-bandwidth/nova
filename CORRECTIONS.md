@@ -456,7 +456,7 @@ boring check: grep the sentence, fix every hit, count them.
 
 ## C-11 — We measured our own convention with the wrong instrument, and then told you to ignore your own alarm
 
-**Admitted on: HARM. Addressed to: anyone who read `SEED.md` §8 ("Reseeding — the return current")
+**Admitted on: HARM. Addressed to: anyone who read `SEED.md` §8's "Reseeding — the return current"
 at any release from v1.44.0 through v1.60.0** — eighteen releases, v1.57.1 among them. It is not bounded by the
 first-waking sweep above and it does not move that sweep's bar.
 
@@ -477,17 +477,13 @@ reseed routine, that ours fires constantly and is therefore not worth attending 
 believed us stood a working signal down**, which is C-9's shape pointed at a control instead of at
 an ask.
 
-**And there is a complication.** By the end of the range
-the claim had drifted toward being true of the most recent releases: of the eleven from
-v1.51.0, **seven carry the flag** — four with no footer and three with it first, and as they were published it was worse:
-v1.60.0 shipped without one and had it added later. Six of the eleven have been edited since
-publication; the other five are untouched, and for those the current text is the published one. **That does not rescue
-the sentence. It sharpens what was wrong with it**, which was never the rate: we asserted as
-measured fact something we had not measured, and being accidentally near-right at the end is not
-evidence and was not evidence then. Across the whole range the flag fires on seven of eighteen; in the window the
-struck sentence itself named, the forty from v1.11.0 through v1.46.0, it fires on **one** — the
-measure of how far off *"four of them"* was. But the reader was never given a reason to believe any of
-those numbers, including the one that flattered us.
+**And there is a complication.** Our recent record is much worse than our older one, and by the
+end of the range the claim had drifted toward being true of the newest releases. The figures are
+in [`HISTORY.md`](HISTORY.md) and are not restated here, because the measurement having one home
+is the thing that failed. **That does not rescue the sentence. It sharpens what was wrong with
+it**, which was never the rate: we asserted as measured fact something we had not measured, and
+being accidentally near-right at the end is not evidence and was not evidence then. The reader
+was never given a reason to believe any of those numbers, including the one that flattered us.
 
 **And the check we offered made it self-confirming.** §8 told you to *"run `git tag -l
 --format='%(contents)'` over every tag and check for yourself."* That command reads **tag

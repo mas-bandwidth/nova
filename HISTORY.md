@@ -148,7 +148,9 @@ v1.53.0, v1.57.0 and v1.57.1 with it first. v1.60.0 shipped without one and had 
 than trust this: the command is in `SEED.md` §8 and these numbers are a dated snapshot of a
 mutable artifact. The count ran from v1.44.0 to v1.60.0, reading *"two"* in the first two
 releases and *"four"* after. A claim that the release carrying `CORRECTIONS.md` had none ran
-with it; that was v1.43.0, which ends with the footer. A third clause, that v1.46.0 *"itself
+with it; that was v1.43.0, whose release object was not published until 2026-08-03, two days
+after the sentence shipped, so the clause was unmeasurable rather than false on the day. Its
+notes end with the footer today. A third clause, that v1.46.0 *"itself
 shipped without it"*, was added on 2026-08-04 and ran fifteen. `CONTRIBUTING.md` and this file
 inherited the conclusion, and all three carried it into a sentence about alarm fatigue that the
 real rate does not support; that sentence is struck in the two normative files.
@@ -189,7 +191,7 @@ the sixty-six.
 unchanged — the footer goes last, with nothing after it. Three releases in August opened with it
 instead. **They are left unrepaired, against the v1.60.0 precedent above.** Two of the three,
 v1.53.0 and v1.57.1, are untouched since publication, so they opened with the footer as shipped
-and open with it now; v1.57.0 was edited after publication without the footer moving. The word is
+and open with it now; v1.57.0 has been edited since, so only its current text can be read. The word is
 *unrepaired* rather than *as published* because it is the current text that a line reads today.
 The v1.60.0 repair appended a footer to the release that was then
 current; repairing a footer-first release means taking the line off the top, which changes what
