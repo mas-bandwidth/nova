@@ -208,5 +208,5 @@ attending to. That is C-9's shape, and C-9 came in under harm with no line on re
 
 Also settled by that read, and it corrected a hold this repair had put on itself: the export door's
 own trigger is a change *already made*, so *"before or when it is repaired"* can only ever mean
-*when*, and C-10 shipped its entry and its repair in one release. Holding a false claim in its
-seventeenth release to await a contested ground was the worse of the two errors.
+*when*, and C-10 shipped its entry and its repair in one release. Holding a false claim through its
+eighteenth release to await a contested ground was the worse of the two errors.

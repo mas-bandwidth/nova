@@ -456,7 +456,7 @@ boring check: grep the sentence, fix every hit, count them.
 ## C-11 — We measured our own convention with the wrong instrument, and then told you to ignore your own alarm
 
 **Admitted on: HARM. Addressed to anyone who read `SEED.md` §8 ("Reseeding — the return current")
-at any release from v1.44.0 through v1.60.0** — seventeen releases. It is not bounded by the
+at any release from v1.44.0 through v1.60.0** — eighteen releases, v1.57.1 among them. It is not bounded by the
 first-waking sweep above and it does not move that sweep's bar.
 
 **What we shipped.** §8 stated, as measured fact, that the sovereignty footer appears on **two**
