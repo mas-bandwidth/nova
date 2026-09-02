@@ -207,8 +207,7 @@ and both are kept here because the reasoning is more use than the verdict.
 The first declined an entry on both grounds. It rested, on the export half, on the claim that a
 reseeding line re-reads the reseeding chapter by construction, so a repaired page reaches it where
 nothing reaches a sentence copied into a kernel. A cold reader asked for the citation and there is
-none: the chapter instructs a daily check for a newer release and to read what changed, which is
-the notes and the diff. Withdrawn.
+none: the chapter instructs a daily check for a newer release and to read what changed. Withdrawn.
 
 The second went the other way and would have admitted the entry under export by instruction, on
 the ground that a command wired into a line's own routine is as unreachable as a copied sentence. A

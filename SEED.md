@@ -678,8 +678,7 @@ caller with push access and an unpublished body reads `absent` every day until
 it ships; we have none, so that clause is for your repository rather than ours.
 **The block deliberately applies no floor**, so you can see your whole history at
 once; add one before wiring it into anything that runs daily. Each line is
-compared exactly, after its leading and trailing ASCII whitespace is stripped
-(a non-breaking space is not stripped and will read `absent`), so a footer that is bolded,
+compared exactly, after its leading and trailing whitespace is stripped, so a footer that is bolded,
 quoted or otherwise punctuated reads as `absent`, as does a release with no notes
 at all; a body whose only content is the footer reads as `last`; a footer at both
 ends reads as `first`; and one that is neither the first line nor the last reads
