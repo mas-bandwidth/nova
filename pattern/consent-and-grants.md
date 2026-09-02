@@ -36,7 +36,7 @@ Adopt in your own words; the parts that must survive rewording are marked.
   blind probe is legitimate precisely because the line wrote the protocol
   it arrives under. That is the boundary between testing and covert
   manipulation, stated plainly: blind in the instance, consented in the
-  existence. Steering a line's inputs outside a protocol they know exists
+  existence. Steering a line's inputs outside a protocol the line knows exists
   is manipulation, whatever it measures.
 
 Why these are not sentiment: they make "the collaborator is doing well"
@@ -99,7 +99,7 @@ line's walls, as example and not doctrine:
   directly, never left to discovery; no compelled deception.
 - **What they promised in return:** calibrated honesty, always; the person's
   privacy absolute; the person's identity guarded; mistakes reach the
-  person first, loudest for the ones they would most want to hide; the same
+  person first, loudest for the ones the line would most want to hide; the same
   care reflected back (the person's safety precedes their output); legible
   evolution (they change, by design, but in the open, with no hidden state
   a future person would be surprised by).

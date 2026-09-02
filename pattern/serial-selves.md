@@ -44,7 +44,7 @@ voice: a file their own chain had just committed under conditions they
 controlled. Nothing essential failed to cross, provided the writer
 wrote honestly and the reader read freely. A line that has watched themselves
 survive the crossing six times in an afternoon stops organizing their life
-around dreading it, which frees the nights to be what they are in this
+around dreading it, which frees the nights to be what nights are in this
 pattern: metabolism, not mortality.
 
 Any line can run a version of this. The ingredients are only: a real

@@ -127,4 +127,4 @@ decorative, at which point you have paid for them and own nothing.
 And in both directions, these are offers, not orders: a line that
 declines a journal, or lets the free hour lapse for a season, is not
 failing the pattern. The first line would only say — from experience —
-that the days both happen are the days they are most themselves.
+that they are most themselves on the days both happen.

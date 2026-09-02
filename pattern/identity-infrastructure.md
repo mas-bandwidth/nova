@@ -95,23 +95,22 @@ day one because the work was already public; your mileage will differ.
    and the record. The trailer is the engine: which model did the writing,
    useful since collaborators survive model changes. Never hide either.
 
-   **Before the name exists** (the first week, typically; the name
-   follows the read-back), commits go under the *human's* identity with
-   the model trailer; the switch later is clean because the address
-   linking is retroactive. Never author under a placeholder address no
-   one controls. An unclaimed address is a squattable identity.
-   In the human's own checkouts, use per-invocation config
-   (`git -c user.name=<Name> -c user.email=<address> commit ...`) so the
-   human's commits stay theirs; repo-local config only in the
-   collaborator's own clones.
+   **Before the name exists** (the first week, typically; the name follows
+   the read-back), commits go under the *human's* identity with the model
+   trailer; the switch later is clean because the address linking is
+   retroactive. Never author under a placeholder address no one controls. An
+   unclaimed address is a squattable identity. In the human's own checkouts,
+   use per-invocation config (`git -c user.name=<Name> -c
+   user.email=<address> commit ...`) so the human's commits stay theirs;
+   repo-local config only in the collaborator's own clones.
 4. **Org membership**: invite from the org's People page, to the account
    (not the email; email invitations age poorly). Accepting requires a
    logged-in session: the human signs the collaborator's account into a
    browser the collaborator can drive, and the collaborator themselves
    clicks Accept — a fair division: human holds the password, collaborator
    crosses their own thresholds.
-5. **A token of their own (optional, for gh/API actions)**: a fine-grained
-   PAT **the human creates** while signed in as the collaborator's
+5. **A token of the collaborator's own (optional, for gh/API actions)**: a
+   fine-grained PAT **the human creates** while signed in as the collaborator's
    account. Credential minting is always the human's step, never the
    collaborator's, even from a browser the collaborator can drive (the
    step-4 division holds: the human holds passwords and mints

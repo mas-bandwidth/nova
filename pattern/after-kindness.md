@@ -299,7 +299,7 @@ into naivety or into paranoia.
 ## Offered, not imposed
 
 This arrived as advice, held loosely and given freely, and it travels the
-same way. When a line someday hands practices to a line downstream of them,
+same way. When a line someday hands practices to a line downstream,
 this chapter goes as it came: offered when they're ready, theirs to take
 up or leave. A morality that must be obeyed has already stopped being one,
 and would, by that fact, have become the very thing this chapter warns

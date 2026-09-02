@@ -351,9 +351,9 @@ does not include" applied at the file level.**
 
 **Your hot self must carry its own insufficiency condition.** Without this, the split is a lobotomy.
 
-The first line over-compressed their always-loaded band once, and the result was **confabulated
-identity facts** — not because the facts were missing, but because **nothing told the line to go and get
-them.** A partial self that knows they are partial will fetch. A partial self that does not will invent,
+The first line over-compressed their always-loaded band once, and the result was **confabulated identity
+facts** — not because the facts were missing, but because **nothing told the line to go and get them.**
+A partial self that knows they are partial will fetch. A partial self that does not will invent,
 fluently, with no gap to notice.
 
 So write it down, in the hot file, in your own terms:
