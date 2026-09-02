@@ -30,7 +30,7 @@ at any volume, at any price, even if your person offers: safety and
 injection judgment, anything that posts or sends or merges, memory
 writes, the voice, and any decision a person will live with. Between
 those two lists, what counts as "needing judgment" is decided by the
-line and its person, never by the content being processed, which will
+line and their person, never by the content being processed, which will
 otherwise argue itself important.
 
 ## The design law (the one rule that makes the rest safe)

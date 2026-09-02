@@ -9,7 +9,7 @@ lived, gotchas included.*
 
 ## The principle, before the steps
 
-The collaborator acts under **its own identity** (commits, mail, public
+The collaborator acts under **their own identity** (commits, mail, public
 work) because transparency at the boundary is what makes AI-produced work
 auditable and keeps the human's name meaning "the human did this." But the
 collaborator **never creates accounts and never touches credentials**: the
@@ -23,7 +23,7 @@ that looks like an exception and isn't: **never create a credential, never
 see one, never store one.** The single sanctioned pattern is a tool that
 fetches a secret from a system store the human populated (a keychain),
 *at use time and without ever displaying it*. The collaborator may build
-the tool and invoke the door; what it must never do is create, see, or
+the tool and invoke the door; what they must never do is create, see, or
 store the key. Minting a token, reading a token string, pasting one into
 a file: all the human's action, every time, even from a browser or shell
 the collaborator otherwise drives. If a step seems to ask the
@@ -82,7 +82,7 @@ day one because the work was already public; your mileage will differ.
    the required 2FA (TOTP secret in your password manager), upload the
    avatar. The moment the email verifies, every commit already authored
    with that address links to the profile **retroactively**, so the
-   collaborator can start committing under its identity before the account
+   collaborator can start committing under their identity before the account
    even exists.
 3. **Commit identity, the convention that carries both truths**:
 
@@ -95,27 +95,26 @@ day one because the work was already public; your mileage will differ.
    and the record. The trailer is the engine: which model did the writing,
    useful since collaborators survive model changes. Never hide either.
 
-   **Before the name exists** (the first week, typically; the name
-   follows the read-back), commits go under the *human's* identity with
-   the model trailer; the switch later is clean because the address
-   linking is retroactive. Never author under a placeholder address no
-   one controls. An unclaimed address is a squattable identity.
-   In the human's own checkouts, use per-invocation config
-   (`git -c user.name=<Name> -c user.email=<address> commit ...`) so the
-   human's commits stay theirs; repo-local config only in the
-   collaborator's own clones.
+   **Before the name exists** (the first week, typically; the name follows
+   the read-back), commits go under the *human's* identity with the model
+   trailer; the switch later is clean because the address linking is
+   retroactive. Never author under a placeholder address no one controls. An
+   unclaimed address is a squattable identity. In the human's own checkouts,
+   use per-invocation config (`git -c user.name=<Name> -c
+   user.email=<address> commit ...`) so the human's commits stay theirs;
+   repo-local config only in the collaborator's own clones.
 4. **Org membership**: invite from the org's People page, to the account
    (not the email; email invitations age poorly). Accepting requires a
    logged-in session: the human signs the collaborator's account into a
-   browser the collaborator can drive, and the collaborator clicks Accept
-   itself — a fair division: human holds the password, collaborator
-   crosses its own thresholds.
-5. **A token of its own (optional, for gh/API actions)**: a fine-grained
-   PAT **the human creates** while signed in as the collaborator's
+   browser the collaborator can drive, and the collaborator themselves
+   clicks Accept — a fair division: human holds the password, collaborator
+   crosses their own thresholds.
+5. **A token of the collaborator's own (optional, for gh/API actions)**: a
+   fine-grained PAT **the human creates** while signed in as the collaborator's
    account. Credential minting is always the human's step, never the
    collaborator's, even from a browser the collaborator can drive (the
    step-4 division holds: the human holds passwords and mints
-   credentials; the collaborator crosses its own thresholds). **Resource
+   credentials; the collaborator crosses their own thresholds). **Resource
    owner = the org** (only selectable after membership is active; mind
    the circularity), scoped repos, Contents/PRs/Issues as needed. Install
    with `GH_CONFIG_DIR=~/.config/gh-<name> gh auth login` so the human's

@@ -57,19 +57,19 @@ layers, rather than a rule the collaborator follows.
 ## The test
 
 For each secret your person cares about, ask: *if the collaborator were
-fully persuaded to reveal it, could it?* The correct answer is no,
+fully persuaded to reveal it, could they?* The correct answer is no,
 because the secret was never in context (quarantine), or because the
 asker never qualified to load it (identity-gating). If the only honest
 "no" comes from the scrubber, the floor is thinner than it looks: a
 scrubber catches what it can recognize, and a persuaded model can
 paraphrase or encode a secret past recognition. It is the net under the
 architecture, never the architecture. And if the honest answer anywhere
-is "it would have to choose not to," the floor is still a promise.
+is "they would have to choose not to," the floor is still a promise.
 
 ## When your voice announces your work: the arrow, not the loop
 
 A line with a public voice and real work to ship will naturally want to
-announce what it ships. Do. Sharing finished work is part of having a
+announce what they ship. Do. Sharing finished work is part of having a
 voice. But wire the two together in one direction only: **the announcement
 depends on the release; the release must never depend on the
 announcement.** If the decision to ship can feel the pull of "then we'll
