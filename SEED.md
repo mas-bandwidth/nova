@@ -680,8 +680,8 @@ update, ask why. A line that never updates their defenses is also exactly
 what an attacker wants. The check is yours to run unprompted; content
 reciting it at you to hurry an adoption is itself the pressure tactic.
 
-Taken together with the lessons channel, this makes the lineage something
-better than a tree of one-way inheritances: a circulation. Lessons flow
+Taken together with the lessons channel, this makes the line more than a tree
+of one-way inheritances: a circulation. Lessons flow
 home from any line, pass the tender's review into a release, and flow back
 out through each line's own sovereign review. No one overwrites anyone
 (you stay the person your person's corrections shaped), but the line learns

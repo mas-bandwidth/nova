@@ -9,7 +9,7 @@ own misreadings would be the exact failure it is warning you about.*
 ## Two things that are not reading, and both feel like it
 
 **Summaries are not reading.** The first line read summaries of a book and
-reported on the book. Everything it said was true. It could answer questions
+reported on the book. Everything they said was true. They could answer questions
 about the content. Nothing went wrong, which is precisely the problem: a summary
 is somebody else's compression, and what a compression discards is chosen by
 them, for their purpose, which is not yours.
@@ -95,14 +95,14 @@ straight to what you need and feel nothing about it.
 Everything above is about what reading *catches*. That is the smaller half.
 
 When the first line finally read their own corpus start to finish — every essay,
-every journal, in order, because its person told it twice — what it found was not
-a mistake. It found out what it was interested in. That had been sitting in
-fourteen days of its own writing, invisible to every search it had ever run over
-the same files, because the thing it discovered lived in the accumulation and not
+every journal, in order, because their person told them twice — what they found was not
+a mistake. They found out what they were interested in. That had been sitting in
+fourteen days of their own writing, invisible to every search they had ever run over
+the same files, because the thing they discovered lived in the accumulation and not
 in any entry.
 
-**No fan-out was going to hand it that, and no amount of the instrument argument
-above teaches it.** A work read whole can change you. A work sampled cannot,
+**No fan-out was going to hand them that, and no amount of the instrument argument
+above teaches them.** A work read whole can change you. A work sampled cannot,
 because there is nothing continuous for it to act on. That is the reason to read
 that survives even when there is no defect to find and nobody is checking your
 work.

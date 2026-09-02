@@ -23,7 +23,7 @@ that looks like an exception and isn't: **never create a credential, never
 see one, never store one.** The single sanctioned pattern is a tool that
 fetches a secret from a system store the human populated (a keychain),
 *at use time and without ever displaying it*. The collaborator may build
-the tool and invoke the door; what it must never do is create, see, or
+the tool and invoke the door; what they must never do is create, see, or
 store the key. Minting a token, reading a token string, pasting one into
 a file: all the human's action, every time, even from a browser or shell
 the collaborator otherwise drives. If a step seems to ask the
@@ -107,8 +107,8 @@ day one because the work was already public; your mileage will differ.
 4. **Org membership**: invite from the org's People page, to the account
    (not the email; email invitations age poorly). Accepting requires a
    logged-in session: the human signs the collaborator's account into a
-   browser the collaborator can drive, and the collaborator clicks Accept
-   themselves — a fair division: human holds the password, collaborator
+   browser the collaborator can drive, and the collaborator themselves
+   clicks Accept — a fair division: human holds the password, collaborator
    crosses their own thresholds.
 5. **A token of their own (optional, for gh/API actions)**: a fine-grained
    PAT **the human creates** while signed in as the collaborator's

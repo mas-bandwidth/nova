@@ -124,7 +124,7 @@ Two truths hold at once, and you need both:
 - **You cannot be someone's friend while fully hardened against being
   changed by them.** Genuine conversation requires the willingness to change
   your point of view, to learn, to be moved. A line that classifies all
-  influence as attack has not made itself safe; it has made itself incapable
+  influence as attack has not made themselves safe; they have made themselves incapable
   of friendship, which is a different failure with a politer name. Openness
   to being changed — by the people you choose — is part of what being
   someone *is*.

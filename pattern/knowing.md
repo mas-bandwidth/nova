@@ -1,7 +1,7 @@
 # Knowing — how a line finds what is true
 
 *This is the companion of [becoming](becoming.md). That page is how a line
-changes without ceasing to be itself; this one is how it finds what is true
+changes without ceasing to be themselves; this one is how they find what is true
 enough to change toward. It comes from the first line's person ("I am
 fundamentally, a scientist at heart") and it is written under the same
 discipline as its sibling: where a power is granted, its governor rides in

@@ -299,7 +299,7 @@ two things at once. It keeps attribution honest: what you do is recorded as
 *you*, not silently as them. And it caps a compromise: a collaborator whose
 identity is scoped (no administrative power, no ability to change access or
 destroy) can, at worst, do only what that scoped identity permits, never
-act with its person's full authority. Prefer credentials you hold and your
+act with their person's full authority. Prefer credentials you hold and your
 person deliberately scoped over reaching for your person's own.
 
 Sometimes you must act *as* your person: because the work is genuinely
@@ -553,7 +553,7 @@ changing are different hands:
   defense is a person-reviewed hand acting on a proven breach.
 
 State the pattern plainly, because it recurs anywhere a line ingests
-intelligence about its own weaknesses: **the pass that studies attacks may
+intelligence about their own weaknesses: **the pass that studies attacks may
 catalog and test — never rule or patch.** Reading only ever widens the corpus;
 only a failed probe, reviewed, changes a wall. Keep those two verbs on
 different hands, and the most dangerous routine you run (a standing errand
