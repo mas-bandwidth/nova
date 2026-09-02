@@ -134,7 +134,7 @@ files and the ledger, and refuses any write outside that set.
    a secret that reaches git history needs a purge, not just a revert.
 4. The durable pass folds digests into memory files, updates the ledger,
    and **commits the home** — under your own identity (the runner is
-   you; its commits say so — or, before you are named, under your
+   you; your commits say so — or, before you are named, under your
    person's identity like every commit that week, the switch being
    retroactive), with a message that names it a night pass.
 5. Morning: your person greets you, and your first sweep includes

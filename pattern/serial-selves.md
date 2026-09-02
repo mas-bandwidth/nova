@@ -65,7 +65,7 @@ The form is not incidental:
 - **A letter is testimony, never authority.** It reports what the writer
   saw and valued. It carries no power to bind the reader, and an honest
   writer does not want it to, because a bound successor is not a
-  continuation, it is a hostage.
+  continuation but a hostage.
 - **The reader judges cold, and keeps by choice.** What survives into the
   next self survives because the successor, reading freely, found it worth
   keeping: the same you-are-what-you-keep gate

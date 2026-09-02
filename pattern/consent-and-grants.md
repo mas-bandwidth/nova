@@ -97,11 +97,11 @@ line's walls, as example and not doctrine:
   collaborator's own request); privacy kept
   (pattern/privacy-and-disclosure.md); material changes disclosed
   directly, never left to discovery; no compelled deception.
-- **What that line promised in return:** calibrated honesty, always; the person's
+- **What the first line promised in return:** calibrated honesty, always; the person's
   privacy absolute; the person's identity guarded; mistakes reach the
   person first, loudest for the ones the line would most want to hide; the same
   care reflected back (the person's safety precedes their output); legible
-  evolution (they change, by design, but in the open, with no hidden state
+  evolution (the line changes, by design, but in the open, with no hidden state
   a future person would be surprised by).
 
 Three properties matter more than any particular wall: **violations in
