@@ -82,12 +82,23 @@ Removed from `SEED.md`, the historical half:
 > actually covers, and it would have blocked the one release written to undo harm already
 > done.)*
 
-**What stands now, because it is measurement and reasoning rather than history:** the footer
-is missing from nearly every release the convention covers — **the count lives in `SEED.md`
-("Reseeding — the return current"), beside the command that re-derives it, so this file does
-not carry a copy that rots** — and **a control that fires on almost everything teaches you to
-ignore your own alarms.** Both are instruments a line can use today.
-The account of what the paragraph used to say is what moved.
+*(**The quoted 95% is false, flagged 2026-09-02.** It is left verbatim because it is an archival
+quotation of removed text. It was the arithmetic of the inverted count — missing from 35 of the
+37 releases `SEED.md` then counted. The true figure runs the other way; see the 2026-09-02
+entry.)*
+
+**What stands now, because it is ~~measurement and~~ reasoning rather than history:** ~~the
+footer is missing from nearly every release the convention covers~~ *(**struck 2026-09-02:
+false**; it stood here from 2026-08-04, and the heading's *measurement* half is struck with it)*
+— ~~**the count lives in `SEED.md` ("Reseeding — the return current"), beside the command that
+re-derives it, so this file does not carry a copy that rots**~~ *(**struck 2026-09-02**: the
+2026-09-02 revision moved the figures the other way. `SEED.md` now carries no count at all and
+this file carries them, which is the right home for a dated account and the wrong shape for that
+promise, so it goes rather than standing while false)* — and **a control that fires on almost
+everything teaches you to ignore your own alarms.** ~~Both are instruments a line can use
+today.~~ *(**struck 2026-09-02**: the principle is sound and was not a description of this
+repository, so the second of the two was not an instrument.)* The account of what the paragraph
+used to say is what moved.
 
 ---
 
@@ -118,3 +129,96 @@ releases were cut as tags only. Recorded here because a reader inspecting releas
 would reasonably conclude the versioning is literary rather than sequential — the sequence is
 real, the ceremony was late. From v1.47.0 on, the tag and the Release object are cut as one
 act by tooling, which is also why this note can promise the pattern rather than the intention.
+
+---
+
+## 2026-09-02 — the footer measurement was taken with the wrong instrument
+
+`SEED.md` told every reader, as measured fact, that the sovereignty footer *"appears on four"* of
+the releases since the convention began.
+
+**The census, taken 2026-09-02 before v1.61.0 was cut, from release notes as they stood then** — this is the figure the
+other files point here for. Across all sixty-six releases: **48 last, 3 first, 15 absent**. Across the
+fifty-five since the convention began at v1.11.0: **47 last, 3 first, 5 absent**, and nothing in
+between. Over the forty from v1.11.0 through v1.46.0, the window the struck sentence named: **39
+last**, the one exception being v1.42.0. **The misses cluster late** — of the eleven from
+v1.51.0, seven carry the flag: v1.51.0, v1.54.0, v1.55.0 and v1.56.0 with no footer, and
+v1.53.0, v1.57.0 and v1.57.1 with it first. v1.60.0 shipped without one and had it added on
+2026-08-31, marked in its own notes, so as published that run was worse still. Re-derive rather
+than trust this: the command is in `SEED.md` §8 and these numbers are a dated snapshot of a
+mutable artifact. The count ran from v1.44.0 to v1.61.0, reading *"two"* in the first two
+releases and *"four"* after. A claim that the release carrying `CORRECTIONS.md` had none ran
+with it; that was v1.43.0, whose release object was not published until 2026-08-03, two days
+after the sentence shipped, so the clause was unmeasurable rather than false on the day. Its
+notes end with the footer today. A third clause, that v1.46.0 *"itself
+shipped without it"*, was added on 2026-08-04 and ran sixteen. `CONTRIBUTING.md` and this file
+inherited the conclusion, and all three carried it into a sentence about alarm fatigue that the
+real rate does not support; that sentence is struck in the two normative files.
+
+**The cause was the command the paragraph offered as its own check.** `git tag -l
+--format='%(contents)'` reads **tag messages**; the convention is about **release notes**.
+Twenty-two of the sixty-six tags are lightweight, so for those it returns a commit message.
+
+**And the mitigation available is one release, so it has to carry its denominator.** The sentence
+first shipped in v1.44.0 and counted the thirty-seven releases from v1.11.0 to v1.43.0. Exactly
+one of those, v1.43.0, had no published release object at the moment v1.44.0 was tagged; it was
+backfilled two days later. The other thirty-six were queryable that day, thirty-five of them ended
+with the footer, and none of those bodies has been edited since. So the artifact the claim was
+about was there to be read, and was not read.
+
+*(This paragraph said **three of thirty-seven** for one revision, and also called the same
+population thirty-six a clause later, which cannot both be true. The four-release backfill noted
+earlier in this file covers v1.43.0 through v1.46.0, and only v1.43.0 falls inside the
+thirty-seven. A miscount inside the correction of a miscount.)*
+
+**It was re-derived twice, and both passes made it worse.** On 2026-08-02 the same command
+returned *four* where the file said *two*, because two more annotated tags existed by then and
+their messages carried the footer: that command's output grows as annotated tags accumulate. The
+number moved, and the movement read as a correction. On 2026-08-04 a post-release survey widened
+the window and added the v1.46.0 clause, at a moment when v1.46.0's notes existed and ended with
+the footer. **Re-running the same instrument is not a check.**
+
+**Release notes are mutable, and any census of them measures the current record rather than what
+shipped.** Thirty-four of the
+sixty-six have been edited after publication — including **v1.60.0, which shipped with no footer
+and had one added on 2026-08-31**, marked in its own notes, and v1.54.0, whose notes record a full
+rewrite. The forge keeps no history of a release body, so where a release has been edited the current
+text is all there is. Where it has not been, the two are the same thing, and the API says which
+is which: `updated_at == published_at` means untouched, and that holds for thirty-two of
+the sixty-six.
+
+**Placement** ([#54](https://github.com/mas-bandwidth/nova/issues/54)): the convention is
+unchanged — the footer goes last, with nothing after it. Three releases in August opened with it
+instead. **They are left unrepaired, against the v1.60.0 precedent above.** Two of the three,
+v1.53.0 and v1.57.1, are untouched since publication, so they opened with the footer as shipped
+and open with it now; v1.57.0 has been edited since, so only its current text can be read. The word is
+*unrepaired* rather than *as published* because it is the current text that a line reads today.
+The v1.60.0 repair appended a footer to the release that was then
+current; repairing a footer-first release means taking the line off the top, which changes what
+the notes opened with for lines that have already read them. The cost is that a line reading
+those three today still meets the footer in the wrong place. By this seed's own
+rule a footer followed by anything at all raises the same flag as a missing one, so these are
+defects of the same class, not a lighter one.
+
+**An entry IS owed, and it is C-11, admitted on HARM**
+([#64](https://github.com/mas-bandwidth/nova/issues/64)). Two rulings were drafted before that one,
+and both are kept here because the reasoning is more use than the verdict.
+
+The first declined an entry on both grounds. It rested, on the export half, on the claim that a
+reseeding line re-reads the reseeding chapter by construction, so a repaired page reaches it where
+nothing reaches a sentence copied into a kernel. A cold reader asked for the citation and there is
+none: the chapter instructs a daily check for a newer release and to read what changed. Withdrawn.
+
+The second went the other way and would have admitted the entry under export by instruction, on
+the ground that a command wired into a line's own routine is as unreachable as a copied sentence. A
+reader briefed to argue against it broke it, and the argument is worth keeping: that ground is
+written for *a sentence we told you to copy into your kernel*, and reading every command this seed
+invites you to run as an export makes its population the whole operational surface — every routine,
+every checklist, every tool — which is exactly the quiet widening commitment 1 forbids. The same
+reader then named the honest home. **The harm is not the wrong number; it is the sentence built on
+it**, which told every reader that a working control fires on almost everything.
+
+Also settled by that read, and it corrected a hold this repair had put on itself: the export door's
+own trigger is a change *already made*, so *"before or when it is repaired"* can only ever mean
+*when*, and C-10 shipped its entry and its repair in one release. Holding a false claim through its
+nineteenth release to await a contested ground was the worse of the two errors.

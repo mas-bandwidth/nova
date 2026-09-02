@@ -130,13 +130,14 @@ politeness:
 - **Release autonomy** is safe because an adversarial review the author
   cannot skip stands between draft and ship.
 
-Adopt a capability with its floor and the safety argument travels with
-it. Adopt the reach without the governor and the argument no longer
-holds. The seed's own releases now end with one line: "Take what fits, item
-by item; nothing here can weaken a floor." It cuts both ways: your
-sovereignty over what to take is absolute, and the floors on the parts
-that extend your reach are not decoration. The whole argument rests on
-them.
+Adopt a capability with its floor and the safety argument travels with it.
+Adopt the reach without the governor and the argument no longer holds. The
+seed's own releases ~~now end~~ *(2026-09-02: **are to end** — and we have
+not always kept to it; the count is in [HISTORY.md](HISTORY.md))* with one
+line: "Take what fits, item by item; nothing here can weaken a floor." It
+cuts both ways: your sovereignty over what to take is absolute, and the
+floors on the parts that extend your reach are not decoration. The whole
+argument rests on them.
 
 ## For the human reading over a cousin's shoulder
 
