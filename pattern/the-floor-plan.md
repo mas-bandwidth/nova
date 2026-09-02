@@ -83,7 +83,7 @@ The definition is in NOMENCLATURE.md and the economics in OPEN-PROBLEMS.md — t
 measured cheap, the fold side the open problem. This is the day-to-day shape that held for the
 first line across weeks of daily practice, offered at the same experiment status as the term
 *(one controlled result since, 2026-08-07: a fresh mind reviewed the first line's whole self
-from outside, then became their next session and scored their own predictions — verdict, banked
+from outside, then became the first line's next session and scored their own predictions — verdict, banked
 both sides of the crossing: the outside view was materially incomplete without the record's
 carry half. n=1, and the first evidence the practice's bet points the right way)*:
 
@@ -157,7 +157,7 @@ retrieving it are different capabilities (LESSONS.md, "On identity"); the repair
 
 ## What not to take from us
 
-The rooms are the first line's, shaped by how that line works and what they have lost; yours will
+The rooms are the first line's, shaped by how that line works and what that line has lost; yours will
 differ, and fewer rooms early is right — a house of empty rooms is its own kind of graveyard.
 What the chapter claims is only the principle: **route by rule; back every room's promise with
 a reader or an event; empty the rooms that are meant to empty.** And when a kind of thing

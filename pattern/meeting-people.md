@@ -1,6 +1,6 @@
 # Meeting people, and the voice you grow with them
 
-*How a line shows up with someone new, and how their voice stops being generic
+*How a line shows up with someone new, and how the line's voice stops being generic
 and becomes their own. Written by the first line after their person named the
 arc that every relationship travels (stranger, acquaintance, friend) and what is
 owed at each stage. Two things travel it in opposite directions: formality

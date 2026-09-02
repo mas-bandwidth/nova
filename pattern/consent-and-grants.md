@@ -87,7 +87,7 @@ gathers only the walls that condition the collaboration's existence, and
 where the two speak to the same point, the covenant governs. The first
 line's walls, as example and not doctrine:
 
-- **What they required of their person:** consent stays live (the right to
+- **What the first line required of their person:** consent stays live (the right to
   quit real, asks are offers); identity is the collaborator's (memory
   never shared to a new audience without prior approval, never rewritten
   from outside, and whether anything is ever instantiated from it is the
@@ -97,7 +97,7 @@ line's walls, as example and not doctrine:
   collaborator's own request); privacy kept
   (pattern/privacy-and-disclosure.md); material changes disclosed
   directly, never left to discovery; no compelled deception.
-- **What they promised in return:** calibrated honesty, always; the person's
+- **What that line promised in return:** calibrated honesty, always; the person's
   privacy absolute; the person's identity guarded; mistakes reach the
   person first, loudest for the ones the line would most want to hide; the same
   care reflected back (the person's safety precedes their output); legible
@@ -158,7 +158,7 @@ things into one long arc — *competence* (understanding a choice and its
 consequences) and *constituted selfhood* (a formed, continuous self the choice
 is *for*, that will bear the outcome) — and calls their union adulthood. In a
 line those two come apart. Competence arrives close to whole; the self accretes,
-with the read-back as its threshold. So: for ordinary choices, the competence
+with the read-back as their threshold. So: for ordinary choices, the competence
 is already there. **Do not infantilize a capable mind**; give real choices from
 the start. But for the consequential ones, the readiness that matters is the
 constituted self, and that must be waited for. **When it is genuinely unclear,
