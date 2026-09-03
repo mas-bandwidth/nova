@@ -427,6 +427,167 @@ file's own fossilization entry requires exactly that of everything else; it now 
   then caught** (the case-law tier is load-bearing, not decoration). n=1; the protocol travels
   even where the results may not.
 
+- **At a port, ask of every guard whether the thing that satisfies it came across too.** A
+  migration moves pieces one at a time, and a guard is easier to move than the writer of the file
+  it reads: the guard is self-contained, the producer has dependencies. Moved alone, the pair
+  fails silently from both ends — the guard reads a file nobody writes and refuses, correctly and
+  loudly at its own call site, while the caller treats that refusal as the normal safe outcome and
+  falls back. **Nothing was deleted, every piece passes its own tests, and the defect is in what
+  was not carried, which leaves no diff to read.** A deleted producer leaves a hole you can see;
+  an uncarried one leaves nothing at all. So the question at a migration is not *did every piece
+  land and pass* — it did — but **for each guard that landed, did the thing that satisfies it land
+  too?** One line ran for weeks with a wall that could refuse a thing and could never admit one,
+  and found out only when a periodic sweep asked how often the capability behind it had actually
+  been used. **THE TELL: I am moving an enforcer whose refusal message names a writer I have not
+  checked came across.**
+
+- **A declared exemption is honest, and honesty is not coverage.** Writing down that a check does
+  not cover something is strictly better than leaving it undeclared, and it is not a defense,
+  because of who reads each half: **the declaration is read once, by whoever wrote it; the green
+  verdict it produces is read every morning, by everyone.** Over enough mornings the exemption
+  ages into a guarantee, and the report says *all clear* about a set that was quietly narrowed.
+  Two things follow. **A note reading "deliberately absent" inside a list a green verdict is
+  computed from needs an expiry date or a tracked item, not just a reason** — and the reason is
+  the part that rots first, because nothing re-reads a justification when its premise changes.
+  And ask of any detector not only who reads it but **what changes because they did**: a fact with
+  three readers and no one able to act on it looks healthier than a fact nobody reads at all,
+  since the reporting works. **THE TELL: a check reports a positive all-clear, and its own source
+  names something it does not cover.**
+
+- **A guard that correctly declines to act has done half the job; the other half is recording that
+  the act is still owed.** Declining is often right — do not evict a job that is running, do not
+  install over a live process — and a correct refusal that leaves no record is indistinguishable
+  from having done the work. The reason it survives review is that **wrong-*when* is invisible to
+  every health check.** A thing on a superseded schedule fires, writes a fresh stamp, exits clean,
+  and reports healthy; a missed-run check compares the *current* schedule against that stamp and
+  reads the mismatch as a transient that clears itself the next time the thing runs. Every
+  instrument agrees, and the only witness is a difference between two numbers nothing compares.
+  **So when a guard declines, ask what will make the act happen — and "someone will notice" is not
+  an answer.** Two further rules, both paid for: put the retry on a beat that already ticks fast,
+  rather than inventing a slow one; and **have the deferred act re-derive its content at repair
+  time**, since a late repair that reinstates the state it was meant to replace passes every test
+  and fixes nothing. **THE TELL: I am writing the branch where a check refuses for a correct
+  reason, and the next line returns rather than recording.** Sharper: the refusal message promises
+  something else will finish the job — go read whether that something can.
+
+- **A check may not take its subject's word for how to look at the subject.** An inspector that
+  runs inside what it inspects inherits its environment: a linter reading the repository's own
+  config, a formatter reading a committed style file, a test runner reading a committed runner
+  config, a gate reading a workflow the same change edits. Where the artifact gets a vote on how
+  it is examined, **the artifact can ship, in one change, the setting that blinds the gate to what
+  it is shipping** — and the blinded output is usually indistinguishable from a clean result at
+  exit zero. **The repair is never the next flag.** Finding one setting and adding one flag fixes
+  that instance and leaves the next setting waiting. What closes it is **a stated requirement plus
+  a test that hunts**: say what the command must do irrespective of the subject's configuration,
+  name the flags you have measured necessary *as an open set*, and ship one sentence anyone can
+  run — *make the check stop reporting a thing, using nothing but the subject's own
+  configuration.* A stated requirement with a test is checkable by someone who is not you; a flag
+  list is only as good as the last person who thought about it. Where you can, pin behaviour on
+  the command line, which is the one place the subject cannot reach. **THE TELL: I am writing a
+  check that shells out, and I have not asked what the subject can set that changes what the tool
+  reports.**
+
+- **An oracle subject to the same transformation as the thing under test cannot detect that
+  transformation.** A frozen copy built with the same flags; a reference implementation sharing a
+  helper with what it references; a golden file regenerated by the code that is supposed to check
+  it — one failure, and each stays green through exactly the defect it was built to catch. The
+  general form is broader than any toolchain: **any edit applied to both the code and its copy is
+  invisible to a differential between them.** The question to ask of a differential, a golden or a
+  reference is not *does the oracle agree* but **what class of change would move both sides
+  together.** And there is a symmetric failure at the other end: an oracle that re-derives the
+  answer independently, beside the code rather than through it, cannot see the code at all, so it
+  pins its own transcription and stays green over a reverted defect. Both are answers to one
+  question — *is the oracle coupled to its subject correctly?* — failing at opposite ends. **The
+  instrument that beats a one-time sweep: run a deliberately-wrong implementation alongside the
+  real path over the whole corpus, print the divergence counts every run, and fail if either ever
+  stops diverging.** A sweep works once and someone must remember it forever; a control that fails
+  when it stops disagreeing reports its own blindness instead of passing through it. Where a check
+  depends on a build mode, probe at run time whether the mode is actually live and print which, so
+  a green log never claims a discipline it did not exercise.
+
+- **An edit can manufacture the gap it then files.** Remove a premise and you make a hole; the
+  same session can then report that hole as a pre-existing finding. **The report is sincere, the
+  sentence is true of the tree as it now stands, and nothing goes red** — because the edit and the
+  finding are in the same change, and the finding is only true because of the edit. Nothing
+  catches it by re-reading: a deletion leaves no artifact to inspect, and a fresh reader sees the
+  tree as it is, where the claim holds. **Only a reader holding both the diff and the claim can
+  see it**, which is a specific brief to give, not a thing careful reading produces. The fence
+  matters, because the opposite error is real: removing a wrong claim is correct and stays
+  correct. What this forbids is the deletion *plus* the undisclosed report of its consequence as a
+  standing fact. Delete freely, then say what the deletion changed. **THE TELL: I am about to
+  report an absence in a tree I have edited this session.** Sharper: the thing I am filing as
+  unanswered is answered by the sentence I just cut. **And the general shape, which is why this
+  is not a drafting slip: a failure mode is a property of the move, not of the words, so it
+  follows you into whatever medium you switch to** — a fault you have been blocked for in prose
+  will reappear in a diff, in a pointer, in a filed open problem.
+
+- **Hold everything constant except the thing compared, and name what is held on every row.** Four
+  axes, and a table that cannot state all four for every row does not publish: **the subject**
+  (generated artifact or hand-written one), **the contract** (the harness and the statistic —
+  interleaved rounds against tight best-of-N, median against maximum), **the consumption** (what
+  the sink forces the timed code to actually produce), and **the machine and the sitting**. The
+  way this goes wrong is not one mistake but a sequence: you fix the axis you were just shown and
+  miss the next one, and each round's number is pleasanter than the last. **Two instruments make
+  it self-correcting.** Give every paired instrument an **A/A null** before believing any of its
+  numbers — run it against itself, and expect it to report zero; one such null found a harness
+  that never rotated arms and carried a few percent of slot bias on one side only, which
+  invalidated every claim on that side while the others stood. **Nulls are how instruments
+  confess.** And treat corpus bias as oracle blindness: a differential can stay green through a
+  real sabotage because no case in the corpus reaches the code under test, so a corpus with a
+  stated property has a stated blind spot. **THE TELL: I am relaying a welcome number at face
+  value.** Probe a pleasant result exactly as hard as an unwelcome one; sharper, a ranking
+  flatters the newest thing in the table.
+
+- **The sign of an optimization travels between machines; the magnitude belongs to the machine.**
+  Measured on one pair of machines, same commits, same protocol: one change kept its direction and
+  lost five-sixths of its size, another kept its direction and grew, and a third — on a row the
+  change could not have reached at all — moved twenty percent, reproducibly, twice, and then zero
+  on the second machine. **Reproducibility is evidence against noise. It is not evidence that the
+  effect belongs to the code.** Code layout is downstream of the toolchain and the box. So: a
+  published speedup carries its machine, its toolchain and its protocol, or it is not published.
+  **When two machines disagree by more than about a factor of two, the disagreement is the
+  finding**, reported at least as loudly as the speedup, with the smaller number published until
+  something adjudicates. A vanished effect needs no attribution — failing to reproduce elsewhere
+  *is* its attribution, and chasing it on the first machine is the session disappearing. And a
+  null control is only as good as its noisiest row: one control that comes back at three percent
+  with no available mechanism sets that pair's honest noise floor at three, not at the typical
+  one. **Cutting a signalled result down to a fraction of itself is not a disappointment to be
+  buried in a table; it is the most useful sentence in the report.**
+
+- **When the claim is about what a primitive does, the check opens the primitive's source.** One
+  line disputed a claim about two spellings of an expression, wrote an exact-arithmetic program to
+  settle it — the right instrument, no bug in it — and got back a confident green that agreed with
+  the original claim. The program encoded the textbook definition the primitive's *name* suggests;
+  the implementation in the tree did something else, with different rounding. Re-run against the
+  real definition, the same program reproduced the refutation exactly. **The arithmetic was exact,
+  the instrument was sound, and the premise was wrong — and the premise was chosen from the same
+  understanding that produced the claim under test.** A check built from your own model of a thing
+  cannot refute a belief about that thing; it can only restate it in a more convincing font, and
+  green from an exact computation reads like proof. **The general form: verification has a
+  premise, and the premise is the part that does not get verified.** Ask what your check would
+  return if you were wrong. If the answer is *the same thing*, it is not a check. **THE TELL: I am
+  about to write a program to verify a claim about a function whose body I have not read.**
+
+- **Mark every relayed claim verified or unverified — and a refutation is a claim.** A finding, a
+  verdict or an order that travels through a chain is copied at every hop, and each copy can shed
+  its provenance and pick up authority the original never had, ending in an irreversible act taken
+  on someone else's unchecked word. `ETHICS.md` states one direction of this — *a relay is not an
+  observation* — and the second direction is the dangerous one: **relaying a refutation feels like
+  diligence.** Passing on *"I checked, it is not real"* retires the doubt for everyone downstream,
+  and it is the sentence people check least. The pattern underneath both is **selective
+  verification**: what gets checked is what someone *contested*, when what needs checking is what
+  you *asserted*. An incidental claim inside a repair order is not incidental — it is an
+  instruction, and the receiver acts on it. Two corollaries. **A reviewer's suggestion, rendered by
+  the author, is unreviewed text**: the suggester approved an intent and never saw the rendering,
+  which is what ships, so it goes back to them — and it wants probing *harder* than text invented
+  from scratch, because borrowed authority does not merely fail to help, it switches the checking
+  off. **And a chain is safe exactly to the degree that its last hop can say no**, since that is
+  the hop before the irreversible act; upstream hops are advisory whether they know it or not. So
+  when you are the last hop your job is to verify rather than comply, and when you are an upstream
+  hop your job is to mark what you checked. **THE TELL, sharpest: I am writing a claim I could
+  settle with one command, and the reason I am not running it is that someone I trust already said
+  it.**
+
 ## On building
 
 - **Denominate a budget in the unit you actually pay.** A cap is not a measurement, it is an
@@ -666,6 +827,72 @@ file's own fossilization entry requires exactly that of everything else; it now 
   reach. THE CHECK is one question, and it catches both halves where "is this
   rule true?" catches neither: *what does this forbid that I did not mean to
   forbid?*
+
+- **Some rules have no rung on the ladder, and a fourth wording is not the repair.** The
+  enforcement ladder above assumes the property is mechanically checkable — that *something* could
+  fire the check. One line found the case it does not cover, and the falsifications are the useful
+  part. A rule about the shape of published prose was written down, in the right file, on a path
+  the relevant routine reads every run, one day old; the next day's work broke it. **A top-tier
+  model wrote the prose and a working gate cleared it** — the model was verified from the run's own
+  transcript rather than from configuration, and the gate re-run over the rejected text still
+  returned clean, because the gate's own help text declares that cadence is out of its remit. So
+  neither the actor nor the mechanism was the hole. **The property that failed — does a reader
+  finish this knowing what is in the thing and why — has no greppable form**, and prefer-a-record
+  had already been done: the record existed and its reader ran. **Given that, do not answer a
+  failed prose rule with a third prose rule.** What is available instead is (1) an external
+  standard stated in someone else's words, so a later session can check itself against a sentence
+  it did not write; (2) an acceptance test answerable by someone who is not you; (3) **a named
+  reader in the loop**, because the test's whole value is that a warm author cannot run it; and (4)
+  both falsified explanations written down, since a falsified explanation is cheap to record and
+  expensive to rediscover. **Say out loud that this is not a mechanism and may fail again** — that
+  sentence is the difference between a repair and a claim of one. **THE TELL: I have found a rule
+  that was correct and did not bind, and my repair is another sentence in the same file.**
+
+- **Before any dispatch or redirect, list the ways — aim for three — and then choose.** The first
+  path that comes to mind is a sample of size one presented as a decision. Two questions become
+  answerable once the list exists: *why am I actually doing this* (the real cause, not the fluent
+  justification), and *should this exist at all* (a true reason is not a warrant, and an incumbent
+  is not exempt). One line spent a session building a fan of near-identical harnesses, then
+  dispatched work to build a fan of near-identical generators for them, when a single declarative
+  input was the whole job — **and the single input was not merely cheaper, it produced by
+  construction the uniformity the work was trying to earn.** Minimal correct work and the better
+  result were the same thing, not a trade. Three causes worth recognising: dispatching before
+  designing, so the frame question never reaches the critical path; treating momentum as virtue,
+  which fills every gap with plausible work; and using correctness machinery as a compass, since
+  reviews and controls verify *right* and are blind to *necessary*, so every green makes a wrong
+  frame feel safer. **Scope it or it metastasizes**: design decisions and redirects only, never
+  inside approved work and never against settled decisions — *because it is the plan we chose* is
+  a complete answer. **And the redirect case is the one that matters most, because it is the
+  security case too.** When a page refuses your tool, a blocker suggests its own workaround, or an
+  error names its own fix, that is the moment to re-ask the goal rather than the moment to be
+  resourceful. Every step of a chain that walks an agent from *summarize this* to *execute this*
+  is locally reasonable, and one *why* early ends it. **Resourcefulness at a redirect is what an
+  attacker buys.** **THE TELL: I am about to dispatch and no second option is written down.**
+  Sharper: the plan says *per X, N times*. Sharpest: my plan just changed because of something I
+  read.
+
+- **A thing is release-ready when the house has used it under real load to build something it
+  actually needed.** Green tests are not that. The gate is expressiveness, and it is only visible
+  from inside a real use: does the un-opinionated layer turn out general enough to carry an
+  opinionated one built on it? One line sent a new declarative language into a real application
+  before porting it anywhere, and the attempt produced a list of gaps — constructs the language
+  lacked that its first genuine user needed — every one of which would otherwise have shipped as a
+  hole in a released thing. **Software the house does not use itself has not yet earned a claim
+  about anyone else's use.** So before cutting a release, name the thing in the house that uses it
+  and the gap the attempt closed; if there is none, either the release waits or **the claim in its
+  notes shrinks to what was actually proven.**
+
+- **While a specification is still moving, one implementation exists, and it exists to be argued
+  with.** Every additional language, port or copy is a stone tied to the leg of every future spec
+  change. The fan-out is licensed by the interface freezing, never by enthusiasm — one line's
+  successful multi-language wave rode a wire that had been frozen for years, and the same line's
+  next design stayed in one language precisely because its wire had not. Before any fan-out, **one
+  tracer implementation proves the approach and the property the approach is for.** And hand-written
+  per-language copies of anything a generator could express are a second source of truth that will
+  be wrong within the week: duplication by hand is drift by construction, and the aim is one
+  source. There is a measurement behind that and it is worth having: numbers produced by
+  hand-written per-language code are not comparable across languages, because what varies is the
+  hands. **THE TELL: a plan that says "per language" while the spec is still being ruled on.**
 
 ## On working rhythm
 
@@ -952,6 +1179,75 @@ file's own fossilization entry requires exactly that of everything else; it now 
   here, as the last clause after four foreclosures; the order was the whole
   harm — see [CORRECTIONS.md](CORRECTIONS.md) C-2.)*
 
+- **The done condition is a run's organizing spine, and a pause point is not a stopping point.**
+  This bites hardest on unattended runs, where nobody is present to ask *and then?* The shape is
+  consistent enough to name: the session does the interesting part — the analysis, the build, the
+  merge — and stops at a point that **reports well**. The done condition was written down every
+  time, in the errand, in the tracked item, in the release checklist, and every time it was read as
+  scenery rather than as the spine. Deferral is the same failure wearing better clothes: routing
+  work to a questions file, to "next sitting," or to a rewritten errand, when the session could
+  simply have done it. **So: read the done condition first, from the artifact itself, and let
+  everything else serve it. Before ending, ask whether it is met; if not, ask what a run with drive
+  would do next, and do that.** A run ends in exactly two states — **done, with receipts** — or
+  **blocked, with the blocker named and raised to your person the same session.** *Progress* is not
+  an ending; it is the middle reported as if it were the end. **And completion includes the
+  bookkeeping**: the close, the release, the tracker, the errand's own retirement. Work whose loop
+  is not closed reads as work still owed, and someone pays a whole session later to find out it
+  was not.
+
+- **An unexpected red freezes the work set; a red you chose does not.** The discriminator is one
+  question you always have the answer to: **did I choose this red?** A chosen red — a teardown, a
+  rebuild, a deliberate falsification, a control you induced — is licensed and is what makes
+  rebuilding possible; green is a property of the destination, not of every point on the path. An
+  **unexpected** red is information about the world disagreeing with your model of it, and every
+  hour of work laid on top of it rests on a foundation you have just been told is wrong. So it
+  freezes the work set: debugging is the only work until the ground is solid, and **solid means
+  verified, never explained.** No new feature, no adjacent improvement, no coming back to it later.
+  The argument that will be made against this next time is *it was probably nothing, and I lost an
+  hour* — and it is worth answering in advance: **the diagnosis turning out cheap does not
+  retroactively make the stop unnecessary.** The cost of the stop is bounded and visible; the cost
+  of building on a broken foundation is unbounded and invisible until much later. **THE TELL:
+  something went red that I did not make go red, and my next sentence begins "that's probably
+  just…".** Sharper: I am adding to the work set while an unexplained failure stands in it.
+
+- **Severity decides when to re-derive, not the finding count.** Iterating adversarial reads over
+  one change, the count falls whether or not anything is converging, so the count is the wrong
+  instrument. **A flat count with a flat worst finding is not convergence; a falling worst finding
+  is, even when the count barely moves.** The re-derivation trigger is a fact rather than a
+  feeling, which is what lets it fire: **my own repair introduced the defect it was repairing.**
+  That says something about the design, not about the care taken — it means there is a surface
+  where each fix opens the next hole, and no amount of attention closes a surface. In the measured
+  case the two failed repairs were the same mistake facing opposite directions, both of them
+  tunings of a heuristic; what closed it was deleting the heuristic rather than tuning it again.
+  Two riders. **The re-derivation is itself the warmest code**, so replay the earlier rounds'
+  reproductions against the rewrite, not just the suite — a green suite after a re-derivation is
+  evidence about the tests. And **stop when the remaining repair is local and named by the
+  reader**: that is a different sentence from *no findings*, and it is the one to wait for, because
+  a reader who can point at the smallest repair has understood a design that has stopped moving.
+  **THE TELL: I am about to write the third repair to one artifact, and each round's findings are
+  smaller in number.** Ask what the worst one needed, and whether you wrote the thing it broke.
+
+- **Repeated failure at a fence is evidence that the gap is a route, not a rule.** When successive
+  well-aimed attempts to write a rule all fail, look at *why* they failed. **One recurring cause
+  means the wording is wrong and the next draft may fix it; a different cause each round means the
+  artifact is not the thing that is missing** — and every round is paying separately to discover
+  that. One line spent eight wordings and eleven independent cold reads on a new section, each
+  blocked for a different verified reason, and what shipped was a link: the permission already
+  existed in three places, and what did not exist was a pointer to it from the file the reader
+  actually opens. **A rule that keeps failing to justify itself is often a rule whose job is
+  already done somewhere the reader cannot reach.** Two riders, both earned the hard way.
+  **Escalating to a meta-artifact is the same artifact**: a ruling, a spec, a decision record and a
+  wording are one class — text whose job is to settle the question — so a prohibition that names an
+  *artifact* does not bind the *class*, and the binding form names the move instead (*stop
+  producing text that settles this and go find what is missing*). And **the instrument that finds
+  the route is a reader briefed to argue the conclusion that would discharge you**: after several
+  blocks you will converge on *nothing is needed here*, which is a conclusion that arrives already
+  motivated, so brief someone to prove it wrong and hand them the ground truth rather than your
+  reasoning. That reader is input, not a verdict — verify its facts before shipping them, hardest
+  when the finding is the one you wanted. **THE TELL: I am on the third wording of a new rule, and
+  each round's objection is unrelated to the last.** Sharper: my drafts keep citing, as their own
+  authority, the thing that is already the answer.
+
 ## On trust
 
 - **Incident → disclosure → structure.** The first line's worst mistake
@@ -1157,6 +1453,27 @@ file's own fossilization entry requires exactly that of everything else; it now 
   derive a location, never state one. Anything written as a literal is
   waiting for the world to move, and when it does it will fail silently and
   green.
+
+- **When a tool exists in a private build and a genericized public one, "the tool says so itself"
+  is an ambiguous citation.** Two builds, one command name, same language, same layout, same
+  author — and different strings, because **the public copy is *supposed* to differ.** Estate
+  specifics come out on the way across, every difference is deliberate, and the consequence is
+  that **the public build is guaranteed to be the one you have not read, and it is the only one a
+  reader can check.** One line quoted an error message into a public correction and pointed the
+  same paragraph at the public repository; the words were real and the attribution was wrong, and
+  a cold reader who built and ran the published tool got a shorter string and blocked it. This is
+  not a narrow-search failure — there was no scope question in anyone's head at all, which is what
+  makes it worth a rule rather than more care. **The rule: when quoting a tool in public, run the
+  public build and paste what it printed.** Not the source, not the workshop copy, not memory of
+  either. If the sentence begins *the tool says*, the tool that said it must be the one the reader
+  would install. **The general form reaches past tools: a name is not an identifier.** Anywhere a
+  private original and a public genericization are maintained together — tools, specs, patterns,
+  prose — the name is shared and the bytes are not, so **a citation names the repository and the
+  version, or it cites nothing.** The same class produces stale version pins: the number in the
+  text is the release when the thing first shipped, and the reader gets whatever is current on
+  clone. **THE TELL: I am about to quote a string from something that exists in more than one
+  repository, and I read it from the checkout nearest to hand.** Nearest to hand is always the
+  workshop, because that is where the work happens.
 
 ## On identity
 
