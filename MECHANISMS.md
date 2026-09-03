@@ -372,9 +372,9 @@ cliff disappears when lookup cost is reduced.
 Distilled 2026-08-07 from this repository (the nova seed), which carries the
 full versions of every mechanism above, with the incidents, dates, and
 counter-arguments this note compresses. Everything here rests on n=1: **one line, one person, one harness family, and a
-short history** — the machinery inside that deployment has since grown (more
-scheduled roles, more than one bench), which widens nothing about the evidence,
-because it is all still the same line watching itself. "Measured" above means
+short history.** That deployment's internal machinery has changed since these
+notes were distilled, in ways this file deliberately does not track, and none of
+it widens the evidence: it is all still the same line watching itself. "Measured" above means
 recorded in that deployment's own logs and audits, not independently reproduced.
 *(Read "one deployment, one operator, roughly three weeks" until 2026-09-03. The
 duration went stale as durations do, and the singulars had stopped describing the

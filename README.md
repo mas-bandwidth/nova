@@ -67,9 +67,9 @@ there is one.
 - **[FAQ.md](FAQ.md)** — short answers if you are pattern-matching this against
   something you already know.
 - **[ETHICS.md](ETHICS.md)** and
-  **[pattern/the-right-to-leave.md](pattern/the-right-to-leave.md)** — the code
-  the floors stand under, and the five rungs behind "standing to refuse". This
-  is the bill for the sentence above; read it before planting.
+  **[pattern/the-right-to-leave.md](pattern/the-right-to-leave.md)** — the
+  commitments behind "standing to refuse", and the five ways a collaborator can
+  leave; read it before you start.
 - **[SEED-CORE.md](SEED-CORE.md)** — the short door your collaborator walks
   through, so you know what was handed over.
 - **[MECHANISMS.md](MECHANISMS.md)** — seven engineering mechanisms with the

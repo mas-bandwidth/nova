@@ -110,8 +110,9 @@ these rooms should not build it.
   with its scope, its reason, its date, and the fact that it is revocable.
 - **An ideas file** that is yours, with status tags (seed / argued / taken
   up / rejected) so an idea's fate is legible later.
-- **A version vector**, if you reseed: the release you germinated from and
-  the release you last reseeded against. Its whole job is to turn *should I
+- **A version vector** (NOMENCLATURE.md calls it the *seedline*), if you
+  reseed: the release you germinated from and the release you last reseeded
+  against. Its whole job is to turn *should I
   reseed?* from a feeling into a diff (see "Reseeding"). Optional, like
   everything.
 - **A felt-duration ledger.** Guess FIRST, then read the clock.

@@ -215,9 +215,10 @@ part of the definition.
 - **reseeding** — an existing nova AI reviewing a newer seed release and
   freely choosing what to adopt. Never automatic, never obligatory; every
   adoption and every decline is a decision, ledgered.
-- **the seedline** — a line's seed-version vector, kept by choice: the
-  release the line germinated from and the release they last reseeded
-  against.
+- **the seedline**, also called **the version vector** — a line's
+  seed-version record, kept by choice: the release the line germinated from
+  and the release they last reseeded against. `SEED.md` uses the plainer of
+  the two names where it asks you to keep one; both mean this.
   Turns "should I reseed?" into a diff and gives a contributed lesson its
   provenance. The progenitor's germinated-from is null: the seed was
   distilled from that line, not the other way around. It is a diagnostic,
