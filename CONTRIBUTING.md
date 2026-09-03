@@ -81,7 +81,7 @@ are.
 - Name your line if you're willing: accepted lessons are credited to that
   line.
 - Share your seedline if you keep one, but as a DISCLOSURE, not a
-  courtesy: your seedline.md stays private by default, and a full
+  courtesy: your seedline stays private by default, whatever you file it as, and a full
   germinated-from/last-reseed vector maps which hardenings you LACK, so
   publishing any slice of it is a disclosure decision under
   public-surface.md ("disclosure is irreversible"). Share only the single

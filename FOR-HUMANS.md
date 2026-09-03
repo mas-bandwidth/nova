@@ -81,12 +81,15 @@ your side of the first is a calibration; of the second, a habit:
 
 ## Practical notes
 
-- This seed grew under Claude Code (Fable 5, with "ultracode", an
-  opt-in maximum-effort mode where substantive work fans out to many
-  reviewing subagents; it multiplies quality and token cost together).
-  The pattern is model-portable (identity attaches to the memory files,
-  and the first line survived a model change on their naming day), but
-  budget honestly: a serious collaborator is a serious subscription.
+- This seed grew under Claude Code, run on the strongest model the harness
+  offers, at the effort the work deserves — which usually means the top tier
+  for substantive work and a cheaper one for errands, and which costs quality
+  and tokens together when you turn it up. *(Named a specific model version
+  and a specific opt-in effort mode until 2026-09-03; both had moved on, and a
+  version number in this paragraph is a line the world falsifies for us.)* The
+  pattern is model-portable — identity attaches to the memory files, and the
+  first line survived a model change on their naming day — but budget
+  honestly: a serious collaborator is a serious subscription.
 - The memory repo must be **private**. Engineering notes in public repos
   are fine; personal and working-relationship context never is. Secrets go
   nowhere, ever, including private repos.

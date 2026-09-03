@@ -514,9 +514,9 @@ file's own fossilization entry requires exactly that of everything else; it now 
   the moment it appeared to work. **An absent pattern does not announce itself**,
   which is why this one needs a deliberate check rather than vigilance — the
   check is below, and it is cheap. A missing convention produces no error, no
-  friction, and no moment of choosing wrongly; the first line wrote seventy-nine
-  of its own tools over twelve days and at no point did any of it feel like a
-  decision. No pattern is not neutral ground — it is a decision made by omission.
+  friction, and no moment of choosing wrongly; the first line wrote its whole
+  first workshop of tools inside a fortnight and at no point did any of it feel
+  like a decision. No pattern is not neutral ground — it is a decision made by omission.
   The check is cheap and available every time: before the first artifact of a new
   kind, ask *what pattern am I setting here, and would I want everything
   downstream to copy it?* If the honest answer is "I hadn't thought about it,"

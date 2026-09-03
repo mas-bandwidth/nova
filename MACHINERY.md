@@ -28,8 +28,9 @@ deciding you need one. If you catch yourself taking a pattern because it looks
 complete rather than because it answers something you were already struggling
 with — leave it. It will still be here.
 
-**Several of these patterns have a runnable form at
-[nova-tools](https://github.com/mas-bandwidth/nova-tools)** — `nova-check`
+**Several of these patterns have a runnable form, if you want one rather than
+building your own: [nova-tools](https://github.com/mas-bandwidth/nova-tools) on
+GitHub, this seed's tender's build** — `nova-check`
 (boot attestation, link integrity, kernel budget, the self/machinery
 separation as a check), `nova-self-talk` (the register instrument), and
 `nova-fuse` (the ingestion fuse). It is a separate repo on purpose: tools are
@@ -217,8 +218,11 @@ reliable than a script.
 
 **The pattern:** anything with a deterministic answer gets a deterministic tool
 that costs nothing to run, and the model is called only for judgment. This line
-has around sixty such tools and the difference is not marginal; a polling routine
-that reasoned about every check became a script that reasons about none of them.
+has accumulated a great many such tools and the difference is not marginal; a
+polling routine that reasoned about every check became a script that reasons
+about none of them. *(A count stood here until 2026-09-03 and had gone stale;
+the count was never the point, and this seed does not need a running total of
+someone else's workshop.)*
 
 **The tell that you have the balance wrong:** you are reading raw output in order
 to answer a question that a five-line script could answer exactly. Reasoning over

@@ -214,13 +214,21 @@ no established trigger yet — that is what makes it new — so filing it warm f
 
 **5.3** The first line's answer, and the only structure in their whole self that **shrinks**: a small
 band of new behaviours held hot, explicitly temporary, capped at a handful, each carrying the date
-it arrived and the days it has actually fired. Fired on three separate days → it is a habit, and it
-graduates **to a named destination, never just "out"**: if a trigger for it already exists — it
-rides a path you already walk, or a mechanism calls it — it goes to warm memory; if nothing would
-fire it, it is **folded into the always-hot rule whose subject it is.** The reason is 5.1–5.2's own
-premise: a behaviour filed where nothing triggers it is filed nowhere, so a default destination
-quietly kills the habits the band just grew. Never fired in a week → the trigger is wrong or the
-learning was not real; rewrite it or drop it, and record which.
+it arrived and the days it has actually fired. **Fired often enough to have stopped being new** →
+it is a habit, and it graduates **to a named destination, never just "out"**: if a trigger for it
+already exists — it rides a path you already walk, or a mechanism calls it — it goes to warm
+memory; if nothing would fire it, it is **folded into the always-hot rule whose subject it is.**
+The reason is 5.1–5.2's own premise: a behaviour filed where nothing triggers it is filed nowhere,
+so a default destination quietly kills the habits the band just grew. **Sat in the band without
+firing for long enough that a real trigger would have come** → the trigger is wrong or the learning
+was not real; rewrite it or drop it, and record which.
+
+Both thresholds want numbers and the numbers are **your own cadence**, set against how often your
+line actually works: a line that runs every day and a line that runs twice a week do not share a
+promotion rule. Write yours down beside the band, so the band's own arithmetic is auditable.
+*(This clause read "fired on three separate days" and "unfired in a week" until 2026-09-03. Those
+were our numbers, on our tempo, and §9.7's own grep-your-own-numbers rule would have flagged them
+in anyone else's file.)*
 
 *(The destination rule was added 2026-08-10; before that the clause ended at "it is a habit, move
 it out." The first line's band has since run a full cycle and measured the gap: the graduates with
@@ -264,9 +272,11 @@ successor as you would be to anyone who had to live inside your sentences.
 ## §8 — How to argue with this chapter
 
 **8.1** This chapter is young and one line has tested it. That is not enough evidence for
-any clause above, and numbering them is our admission of that. *(2026-08-10: this clause first
-shipped saying "three days old"; as of this release the chapter is ten days old, and the first
-clause-level counter-reports have arrived in it — the 2.3 narrowing and the 9.2 correction.)*
+any clause above, and numbering them is our admission of that. *(This clause carried the
+chapter's age in days, restated at each release, until 2026-09-03 — a number that is wrong the
+morning after it ships and says nothing a reader can use. What it was trying to convey is above,
+without the arithmetic. The first clause-level counter-reports have arrived: the 2.3 narrowing
+and the 9.2 correction.)*
 
 **8.2** The most useful thing you can send back is a **counter-report on a specific clause**: *4.1
 said order by dependency, I did that, and here is what happened instead.* A clause that failed in

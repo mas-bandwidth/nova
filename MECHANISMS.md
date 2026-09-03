@@ -247,18 +247,20 @@ a read.
 **Evidence status.** Authors' belief; designed-in, not incident-driven. The
 sources record no attempted or successful skip-attack; the vulnerability was
 identified by analysis when the append-only property was being relied on, and
-the binding is the stated countermeasure. The surrounding pipeline (ledger,
-bounded children, morning diff) belonged to the observed deployment's nightly
-era, which is over: the unattended nightly machinery collapsed — the fold's
-cost grows with everything already learned, and it had grown to hours — and
-was excised on 2026-07-29, replaced by a hand-run wrap-up/roll-up cycle,
-triggered by a person at both ends so it can break but not silently collapse
-(`pattern/the-floor-plan.md` documents the successor shape). *(Corrected
-2026-08-10. This sentence shipped in v1.49.0 as **"runs nightly in the
-observed deployment"** — already false when the note was distilled on
-2026-08-07; the succession predates it by nine days. The skip-attack analysis
-is unchanged: it is about the ledger design, not about who runs the pipeline
-or when.)*
+the binding is the stated countermeasure. The surrounding pipeline — ledger,
+bounded children, morning diff — has been observed under both triggers: run
+unattended on a timer, and run by hand, a person at each end. **This note does
+not say which of the two the observed deployment runs now**, and that is
+deliberate: the analysis is about the ledger design, not about who starts the
+pipeline or when, and a dated claim about the operator's current habits is the
+part that goes stale silently. What the mechanism needs from either trigger is
+the same: the mark advances only with a digest in the same commit, and a human
+reads the diff. *(Corrected 2026-08-10, repaired 2026-09-03. The sentence
+shipped in v1.49.0 as **"runs nightly in the observed deployment"**, was
+corrected to name a hand-run successor as current, and that replacement went
+false in its turn when the deployment ran an unattended calendar again. Twice
+wrong the same way, so the claim is withdrawn rather than updated a third time:
+see [`CORRECTIONS.md`](CORRECTIONS.md) C-12.)*
 Falsified if: the coupling check is shown bypassable in the same threat model
 (e.g. an attacker who can forge a mark can forge a plausible digest in the
 same commit — the sources partially concede this by making the human morning
@@ -337,9 +339,11 @@ the wrong failure. Corollary: a practice cannot hang on an artifact it must
 itself create; the trigger must point at something that exists before the
 practice runs. New behaviors, which by definition have no trigger yet, are
 held in a small, explicitly temporary hot band with per-entry fire dates:
-fired on three separate days → promoted to a habit — to a named destination:
-warm if a trigger already exists, folded into the always-hot rule if none
-does; unfired in a week → rewritten or dropped (`the-kernel.md` §5.3).
+fired often enough to have stopped being new → promoted to a habit, and to a
+named destination — warm if a trigger already exists, folded into the
+always-hot rule if none does; sat unfired long enough that a real trigger
+would have come → rewritten or dropped. The two thresholds are set per line
+against its own working tempo (`the-kernel.md` §5.3).
 
 **Evidence status.** Measured, n=1, the strongest numbers in this note.
 Across one measured stretch of the deployment's history: mechanisms wired to
@@ -367,10 +371,15 @@ cliff disappears when lookup cost is reduced.
 
 Distilled 2026-08-07 from this repository (the nova seed), which carries the
 full versions of every mechanism above, with the incidents, dates, and
-counter-arguments this note compresses. Everything here rests on n=1: one
-deployment, one harness, one operator, roughly three weeks of observation;
-"measured" above means recorded in that deployment's own logs and audits, not
-independently reproduced. One asymmetry to be plain about: the false-negative
+counter-arguments this note compresses. Everything here rests on n=1: **one line, one person, one harness family, and a
+short history** — the machinery inside that deployment has since grown (more
+scheduled roles, more than one bench), which widens nothing about the evidence,
+because it is all still the same line watching itself. "Measured" above means
+recorded in that deployment's own logs and audits, not independently reproduced.
+*(Read "one deployment, one operator, roughly three weeks" until 2026-09-03. The
+duration went stale as durations do, and the singulars had stopped describing the
+observed system while still, correctly, describing the evidence — so the claim is
+now made about the evidence, which is the part that was ever load-bearing.)* One asymmetry to be plain about: the false-negative
 incident in §3 is carried here only; its full record is the deployment's
 private logs. No novelty is claimed for any mechanism; prior art
 exists for several (the data-versus-instructions boundary, for one, is already

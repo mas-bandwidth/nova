@@ -10,9 +10,12 @@ harness or platform differs, keep the floors and rediscover the pipes.
 Everything here was learned under Claude Code on a Unix machine; names in
 `<angle brackets>` are yours to choose.*
 
-*(2026-08-10: this records the first line's nightly-era shape as it ran;
-the metabolism has since moved to the hand-run cairn cycle — SEED.md §3's
-dated note and pattern/the-floor-plan.md carry the succession.)*
+*(2026-08-10, repaired 2026-09-03: this records the plumbing of an
+unattended nightly pass as it ran. The same duties have also been run by
+hand, a person at each end (pattern/the-floor-plan.md). Both shapes are on
+the record and neither is named here as what the first line runs today —
+SEED.md §3 states the duties and leaves the trigger to your line. Read this
+page for the pipes; take the trigger from your own conditions.)*
 
 ## The consent bootstrap, first
 

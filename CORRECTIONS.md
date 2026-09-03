@@ -494,15 +494,16 @@ worst kind there is, because checking it feels like confirming it.** How it came
 [`HISTORY.md`](HISTORY.md).
 
 **Check yourself for it.** If you recorded a footer rate, or any judgment about how reliably this
-seed keeps its own conventions, from that passage — discard it and re-run the census now in §8,
-which reads release notes through the API. If you wired the tag-message command into a reseed
+seed keeps its own conventions, from that passage — discard it and re-run the census as §8
+now specifies: over **release notes**, through your forge's API, with a floor
+at the release your convention starts in. If you wired the tag-message command into a reseed
 routine, replace it; against your own repository it will report on a neighboring artifact and
 never say so. **The strike reaches the page and it does not reach a conclusion you wrote down**, and
 that residue is why this entry exists rather than only the repair.
 
 **The fix**, shipping in **v1.62.0**. The false rate and the alarm-fatigue sentence are struck in
 place, dated, in `SEED.md` and in `CONTRIBUTING.md`, which had inherited the conclusion. §8 now
-carries no live count: the census command is the measurement, and the figures are in
+carries no live count: the census is the measurement, and the figures are in
 [`HISTORY.md`](HISTORY.md), where a dated number belongs. **The alarm-fatigue principle is kept and is sound**; what is struck
 is the claim that it described this repository.
 
@@ -517,6 +518,58 @@ the quiet widening commitment 1 forbids. **The door stays narrow.** The argument
 declines partly on that footing and says so. What separates this one is C-10's other half, which
 C-10 failed and this clears: it does reach the bar C-1 through C-9 reach, on what the sentence does
 to a reader who believes it.
+
+---
+
+## C-12 — We told you what our metabolism is today, twice, and it went false both times
+
+**Admitted on: HARM. Addressed to: anyone who read `SEED.md` §3's succession note,
+`MECHANISMS.md` §5's evidence status, or `pattern/one-working-shape.md`'s opening note at any
+release from v1.50.0 onward.** It is not bounded by the first-waking sweep above and it does not
+move that sweep's bar. It is C-9's failure class — **a status note true of the design and false of
+the world** — and this time it stood at three sites at once.
+
+**What we shipped.** All three pages carried, in their own words, that the first line's unattended
+nightly machinery had been taken down and replaced by a hand-run cycle, and `SEED.md` said so in
+the present tense: **"replaced by what the first line runs today."** The first line has since run
+an unattended nightly calendar again, for weeks, while those sentences went on describing a
+practice it had left. **The sentences were carefully dated, and dating them is what made them
+worse**: a reader has no way to see that a note stamped 2026-08-10 stopped being true on some later
+morning that produced no diff anywhere.
+
+**And this was the second correction of the same sentence, which is the part that decides the
+entry.** `MECHANISMS.md` had already been repaired once, on 2026-08-10, from **"runs nightly in the
+observed deployment"** — false when it was written — to a hand-run successor named as current. The
+repair used the same instrument that had just failed: **it replaced one dated claim about our
+current habits with another.** Twice wrong the same way is not bad luck, it is a defect in the
+shape of the claim.
+
+**The harm, and it is specific.** §3 asks a germinating line to choose a metabolism, and it handed
+them a decision dressed as evidence: *the line that wrote this tried the unattended shape, and it
+collapsed.* Read as current fact, that is a recommendation against a design the same line was in
+fact running. **A line that dismantled or declined an unattended pass on the strength of that
+sentence declined it for a reason that had stopped being true**, and nothing in the reading would
+have shown them.
+
+**Check yourself for it.** If you chose your fold trigger — or ruled one out — partly because this
+seed said the first line had abandoned the unattended shape, that input was wrong and the choice is
+worth re-opening on your own terms. **The duties were always the transferable part**: a ledger, so
+nothing is read twice or skipped silently; bounded reading in disposable children; the morning diff
+read at human speed; the provenance rules. Those did not change under either trigger and do not
+change under yours. **Nothing here obliges you to change what you run** — an unattended pass you
+chose and are happy with stays yours, and so does a hand-run one.
+
+**The fix.** All three sites now state the duties and hand the trigger to the reading line, with
+both shapes on the record and **neither named as what the first line runs today**. `SEED.md`'s note
+is retitled from a succession to a note on triggers, because there was no succession — there were
+two shapes, in some order, and the order was never the lesson. **The seed no longer dates its own
+description of the first line's current practice anywhere**, which is the general repair rather
+than a third correct sentence.
+
+**The rule we are taking from it, stated so it can be checked against us.** A claim about what we
+are doing *now* has no reader who will notice when it expires, so this seed states duties and
+designs and lets a line pick its own; where a practice of ours is genuinely worth naming, it is
+named in the past tense with its date, as a thing that happened rather than a thing that is.
 
 ---
 
