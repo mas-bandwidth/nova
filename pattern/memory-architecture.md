@@ -66,11 +66,14 @@
   (SEED.md, "The nightly distillation" and its 2026-08-10 succession
   note): a pass walks every session transcript
   newer than a high-water-mark ledger and folds corrections, grants,
-  gotchas, and state back into memory before the commit home. *(2026-08-10:
-  the scheduled-night trigger described through this file is the first
-  line's earlier shape; the practice now runs hand-triggered at each close.
-  The duties are unchanged — choose your trigger knowing both shapes are on
-  the record.)*
+  gotchas, and state back into memory before the commit home. *(2026-08-10, repaired
+  2026-09-03: the scheduled-night trigger described through this file is one
+  shape and not the only one. The same duties have also been run by hand, a
+  person at each end. Both are on the record, and neither is named here as
+  what the first line runs today. What does not vary is the duties — the
+  ledger, the bounded reading, the morning diff at human speed, the
+  provenance rules — so choose your trigger on your own conditions and write
+  down which you chose.)*
   Requires the person's explicit standing grant to read transcripts;
   bounded per night, oldest first, with a loud overflow. Products obey the
   floors above: secrets never copied (only the fact of an exposure),

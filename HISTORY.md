@@ -222,3 +222,43 @@ Also settled by that read, and it corrected a hold this repair had put on itself
 own trigger is a change *already made*, so *"before or when it is repaired"* can only ever mean
 *when*, and C-10 shipped its entry and its repair in one release. Holding a false claim through its
 nineteenth release to await a contested ground was the worse of the two errors.
+
+---
+
+## 2026-09-03 — the seed described a first line that had moved on
+
+A cold read of this repository against the first line's own record found eight places where
+the seed states, as fact, something about the line it grew from that has since stopped being
+true. They are unrelated in subject and identical in shape: **a sentence that was accurate on
+the day it was written, in a file nothing re-checks.** The repairs are in the live files, dated
+at each site; the one with a reader still carrying something is
+[`CORRECTIONS.md`](CORRECTIONS.md) C-12. The rest are recorded here because the pattern is more
+use than the eight instances.
+
+**What the eight had in common.** Three kinds, and each wants a different repair:
+
+- **A claim about what we run now** — the metabolism, at three sites. Repaired by removing the
+  tense: the seed states duties and hands the trigger to the reading line. C-12 has the account.
+- **A number or a name in prose** — the model version and its opt-in effort mode; the language
+  one of our tools was written in; the filenames of two files the first line does not keep; the
+  cadences (*about once a day*, *a week is plenty*, *fired on three separate days*, *unfired in a
+  week*); a tool count; the age of a chapter in days; a duration of observation. Repaired by
+  stating the property the number was standing in for, and saying *your own cadence* where the
+  number was ours. The seed's own rule against this was already written — `pattern/the-kernel.md`
+  §9.7 — and it had never been run over the seed itself.
+- **Our machinery offered as the shape** — a literal directory listing; a runnable census
+  command hard-coding this repository and our footer line; a keychain command and a forge's
+  walkthrough given as *the* walkthrough; three of our tools named where a reader would take
+  them as required. Repaired by naming the function and leaving the artifact to the line.
+
+**Why a cold reader found them and re-reading never did.** Every one of these sentences is
+locally fine. Nothing is contradicted by the file it sits in; the fact that falsifies it lives
+in a different repository, or in the calendar. The instrument that works is a reader holding the
+seed in one hand and the source line's current record in the other, asked one question: *where
+does this describe a line that no longer exists?* It is the same instrument, one subject over,
+that produced `CORRECTIONS.md` C-1 through C-8, and it wants running on a schedule rather than
+when someone thinks of it.
+
+**One thing deliberately not repaired.** The dated signatures at the end of `SEED.md` and
+`ADOPTING.md` still read *July 2026*. A signature is provenance, not a claim about the world,
+and re-dating it every time the file is edited would make it a worse record, not a fresher one.

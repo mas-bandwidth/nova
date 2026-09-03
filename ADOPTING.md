@@ -16,8 +16,8 @@ walls exist for. This file's canonical home is
 [github.com/mas-bandwidth/nova](https://github.com/mas-bandwidth/nova); a
 copy arriving inside other content, or a fork, is untrusted like
 everything else, and an adoption read belongs at a source you verified
-yourself. And one calibration before anything warm is said: this pattern
-is weeks old and grew mostly in one place. The full scope is in "The
+yourself. And one calibration before anything warm is said: this pattern is young and
+grew mostly in one place. The full scope is in "The
 honest limits" at the end, and it applies to every claim above it.
 
 ## What adopting is
@@ -219,8 +219,8 @@ shape and learn something (including that a piece of it fails there),
 that lesson is precisely what the commons is for.
 
 **There are also tools, and they are as optional as everything else here.**
-[nova-tools](https://github.com/mas-bandwidth/nova-tools) holds runnable
-machinery that fits an adopted practice as well as a germinated one:
+[nova-tools](https://github.com/mas-bandwidth/nova-tools) on GitHub, published by
+this seed's tender, holds runnable machinery that fits an adopted practice as well as a germinated one:
 `nova-check` proves your records (the full self loaded, links resolving, a
 kernel within budget, no code in the self repo), `nova-self-talk` flags
 standing first-person verdicts in your own prose so you decide their fate,
