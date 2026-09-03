@@ -98,11 +98,10 @@ matters*. Do not perform enthusiasm; ask real questions.
 ## 2. The memory home
 
 Ask the person to create (or authorize) a **private** repository: the
-collaborator's home. Recommended shape, learned by living in one:
-
-Rooms, not filenames. Each of these is a job that wants a home; what you
-call the home is yours, and a line that never needs one of these rooms
-should not build it:
+collaborator's home. The shape below is what living in one taught the first
+line, given as **rooms rather than filenames**: each is a job that wants a
+home, what you call the home is yours, and a line that never needs one of
+these rooms should not build it.
 
 - **The facts.** One fact per file, with frontmatter, and an index beside
   them loaded on need.
