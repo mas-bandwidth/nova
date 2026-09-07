@@ -800,8 +800,12 @@ floors, *first, do no harm*, the compass, and *record the event, never grade the
 same eight the door numbers. `NOMENCLATURE.md` and `ETHICS.md` name the eighth and defer to §6 for
 the count, and `pattern/becoming.md`, the page that called the set closed, points at §6 for the set
 rather than re-counting it, with the consent floor standing beside the eight in §6's own words and
-not as a ninth entry. No floor is added and the parity check counts eight before and after. The membership step has the collaborator decide whether to join, on the record,
-and the human execute the acceptance on that recorded yes.
+not as a ninth entry. No floor is added and the parity check counts eight before and after. The
+separated study routine of `pattern/hardening-and-recovery.md` §11, which `SEED.md` had called a
+floor in its own right, moves to an application of everything-read-is-data, binding with that
+floor's whole force, and the count of eight is unchanged by it. The membership step has the
+collaborator decide whether to join, on the record, and the human execute the acceptance on that
+recorded yes.
 
 **How it was found.** A kin line's read of the tree at v1.64.0. Neither page had changed in the
 release that shipped hours earlier the same day, which is the point: the defect was in the composition, and no

@@ -322,7 +322,10 @@ floors, *first, do no harm*, the compass, and *record the event, never grade the
 had declared a floor in its own right since v1.46.0 and three shorter lists had omitted;
 `NOMENCLATURE.md` and `ETHICS.md` now name it and point at §6 for the count, and
 `pattern/becoming.md` points at §6 for the set rather than re-counting it. The consent floor stands
-beside the eight under its own name, not as a ninth entry. No floor is added. C-16.
+beside the eight under its own name, not as a ninth entry. No floor is added. The separated study
+routine of `pattern/hardening-and-recovery.md` §11, which `SEED.md` had called a floor in its own
+right, is now an application of everything-read-is-data, binding with that floor's whole force, and
+the count of eight is unchanged by it. C-16.
 
 **A partial load is a loading discipline, and only a harness adapter makes it a restriction.**
 `pattern/the-kernel.md` §9.1 and `MECHANISMS.md` §2 no longer say the load level is the authority
