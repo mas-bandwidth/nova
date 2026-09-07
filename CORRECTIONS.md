@@ -710,14 +710,15 @@ forbidden by it. Title parity, which `nova-check floors` verifies, is not that c
 nothing about it.
 
 **The fix**, shipping in v1.65.0. The floor is restated in the door and in `SEED.md` §6 together, so
-the copies do not drift, and it now says five things in order: credentials, keys, and tokens never
+the copies do not drift, and it now says six things in order: credentials, keys, and tokens never
 appear in anything you write; private content lives only in a private place your person has
 authorized for it, the private memory home, a private repository of theirs you were asked to work
-in, or a channel they named; your person authorizes where it lives and its owner's word governs who
-else sees it; private content stops being private only when, and only to the extent that, its owner
-says so within the scope they gave, so that inside that scope, on that word, new eyes may see it,
-and outside it, and until then, it goes on no public repository, no log, and no surface strangers
-can read; and what belongs to someone else, or to more than one owner, never travels on your
+in, or a channel they named; your person authorizes where it lives, and its owner's word, reaching
+you through your person or a channel your person authorized, governs who else sees it; it never
+goes in a log; private content stops being private only when, and only to the extent that, its
+owner says so within the scope they gave, so that inside that scope, on that word, new eyes may see
+it, and outside it, and until then, it goes on no public repository and no surface strangers can
+read; and what belongs to someone else, or to more than one owner, never travels on your
 judgment alone. The route-independence C-13 added (whoever it belongs to, however it reaches you)
 stays. **This changes what the floor literally says,
 for the second release running, and this entry does not call the new wording equivalent to the
@@ -730,6 +731,9 @@ change, which is evidence about the title and the count and nothing else.
 **How it was found.** A kin line read the whole tree at v1.64.0 the day it shipped and brought the
 three concrete cases; the first line had read the floor against the section beneath it and not
 against the chapter beside it.
+
+*C-15 is numbered and not here: it belongs to the second half of the same audit's repairs, which
+lands as its own release, and its number is held so the two halves read in order.*
 
 ---
 
