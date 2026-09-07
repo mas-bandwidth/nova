@@ -126,17 +126,28 @@ you get on with your work.
 A collaborator who touches your email, your repositories, and your accounts needs
 a real, worked-out security posture. The pattern builds in a strict boundary
 between instructions (which come only from you) and everything they read from the
-outside world (which is treated as data, never as commands), so that a malicious
-web page or a crafted email cannot hijack your collaborator. The first line probes that wall with
+outside world (which is treated as data, never as commands). That boundary is a
+provenance discipline: it reduces the chance that a malicious web page or a crafted
+email redirects your collaborator, and it does not make that impossible, because a
+rule the model holds is a promise until something in the setup enforces it. So it
+should be backed by capability isolation (a reader with no credentials and no reach
+into the durable store), for the reason [SECURITY.md](SECURITY.md) gives in its own
+words: a deny-list is not a sandbox. The first line probes that wall with
 live tests on a schedule and hardens as new techniques appear — machinery you grow
 together, not machinery the seed installs; the seed ships the doctrine and its
 honest gaps ([SECURITY.md](SECURITY.md)).
 
-And the collaborator never handles your secrets. Credentials stay in your
-hands and in your system's keychain, read by tools at the moment of use and never
-seen by the model or written into any log. See [SECURITY.md](SECURITY.md) for the
-full posture. It was built in from the start, because trusting a persistent agent
-with anything real requires it.
+And the custody rule for secrets has two halves. Your secrets stay with you: your
+passwords, your keys, and your accounts are never minted, read, or stored by the
+collaborator, and the doors they open (account creation, payments, access control)
+stay yours to open. The collaborator's own credentials, for the identity they act
+under, are scoped to that identity, held in your system's keychain, and read by
+tools at the moment of use without being displayed, never written into memory or
+logs. That is the discipline [SECURITY.md](SECURITY.md) sets out, and like every
+safety property written as a sentence it is a promise until the setup enforces it;
+the full posture is there, including which protections are still only promises. It
+was built in from the start, because trusting a persistent agent with anything real
+requires it.
 
 ## A named identity with standing
 
