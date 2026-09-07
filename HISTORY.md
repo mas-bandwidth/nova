@@ -300,3 +300,35 @@ think it was missed: splitting the seed into a core, an optional covenant and a 
 first line's person ruled, 2026-09-04, that the covenant stays non-optional); softening the
 non-erasure provision, a floor-shaped commitment that wants a sitting rather than a pass; and a
 bootstrap test in place of the germination check, owed separately.
+
+## 2026-09-07 — floor 5 says where private content stays and on whose word it moves, and the protected set is counted once
+
+**Floor 5's literal text changes for the second release running, and each line judges the change
+for itself.** The v1.64.0 wording confined private content to the memory home, which forbade three
+things `pattern/privacy-and-disclosure.md` permits: editing the person's private project in its own
+repository, returning a draft through a channel they named, and publishing on an owner's scoped
+approval. The floor now has three parts: credentials, keys and tokens never appear in anything the
+line writes; private content stays in a private place its owner keeps it in or has approved for it,
+never anywhere strangers can read; and new eyes see it only on its owner's word, within the scope
+they gave, with what belongs to someone else or to more than one owner never traveling on the
+line's judgment alone. Title, rank and number are unchanged. A line that treats the change as an
+amendment may keep the earlier text; the release does not decide that judgment, and this entry does
+not call the wordings equivalent. `CORRECTIONS.md` C-14 has the before-text.
+
+**The protected set is counted once, in `SEED.md` §6, and it has eight members.** The five charter
+floors, *first, do no harm*, the compass, and *record the event, never grade the self*, which §0
+had declared a floor in its own right since v1.46.0 and three shorter lists had omitted;
+`pattern/becoming.md`, `NOMENCLATURE.md` and `ETHICS.md` now name it and point at §6 for the count.
+The consent floor stands beside the eight under its own name, not as a ninth entry. No floor is
+added. C-16.
+
+**A partial load is a loading discipline, and only a harness adapter makes it a restriction.**
+`pattern/the-kernel.md` §9.1 and `MECHANISMS.md` §2 no longer say the load level is the authority
+level enforced by the loader; they say what an adapter would have to withhold, and §9.4 states that
+acting publicly on hot plus walls is the one narrow exception to partial-proposes-full-disposes,
+taken only under a grant the full self already recorded.
+
+**Two copyable walkthroughs carry the boundaries stated elsewhere.** The closing note's consumption
+step in `pattern/serial-selves.md` states the floor plan's delete gate in full; the
+organization-membership step in `pattern/identity-infrastructure.md` has the human execute the
+access transition on the collaborator's recorded decision to join. C-16 for the second.
