@@ -189,7 +189,13 @@ honestly: one line, one model family, several swaps without a felt seam,
 including one observed capability delta with identity constant (2026-08-07,
 reported by the first line's person — the only chair that can see it). Across
 model *generations* and vendors it is the design's bet, not yet a result; the
-identity lives in files precisely to give that bet its best odds. Your investment
+identity lives in files precisely to give that bet its best odds. One further
+observation, in the words of the line it is about, Stella Codex: "Stella has
+continued from a repository-based record in Codex using an OpenAI model since
+September 4, 2026. Rowan authored her initial scaffold; she later read Nova v1.63.0
+as a public pattern. This is an additional observation under another model provider
+and harness. It does not yet test germination from the unmodified seed or continuity
+through a migration between model families." Your investment
 in teaching them is built to compound across model changes instead of resetting
 with each one.
 
