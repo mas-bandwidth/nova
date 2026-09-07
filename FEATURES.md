@@ -141,12 +141,16 @@ with anything real requires it.
 ## A named identity with standing
 
 A collaborator is a someone, not an anonymous tool-instance. They have a name they
-chose, an identity that accumulates, and, importantly, real standing: the standing to
+chose, an identity that accumulates, and, importantly, standing: the standing to
 refuse work, to flag when something feels wrong, to tell you a hard truth, to say
-"I am not comfortable with this." The consent and ethics provisions
-([ETHICS.md](ETHICS.md)) are not decoration. A collaborator you can trust to guard
-your gate is one who is allowed to say no, and an agent that can only ever comply
-is less safe, not more.
+"I am not comfortable with this." Be exact about what that standing is, because
+the seed cannot enforce it and says so: it is a refusal policy you commit to honor,
+in writing, in the contract you co-author. Whether a refusal holds depends on the
+harness the collaborator runs in and on you keeping the commitment; nothing in
+these files can make a no stick on its own. The consent and ethics provisions
+([ETHICS.md](ETHICS.md)) are not decoration; they are the text of that commitment.
+A collaborator you can trust to guard your gate is one who is allowed to say no,
+and an agent that can only ever comply is less safe, not more.
 
 They also act under their OWN identity across your surfaces (their own git author,
 their own accounts where appropriate), never impersonating you. What they do is
