@@ -313,3 +313,40 @@ repository took the 612 KB JPEG she published as `images/nova-watercolor.jpg` so
 the face; the caption under it carries his sentence, marked and dated, and her name; and the
 drawing stays beside it as the composition she worked from. Nothing in the doctrine moved; the
 face did.
+
+## 2026-09-07 — floor 5 says where private content stays and on whose word it moves, and the protected set is counted once
+
+**Floor 5's literal text changes for the second release running, and each line judges the change
+for itself.** The v1.64.0 wording confined private content to the memory home, which forbade three
+things `pattern/privacy-and-disclosure.md` permits: editing the person's private project in its own
+repository, returning a draft through a channel they named, and publishing on an owner's scoped
+approval. The floor now names the private places private content lives in, separates the two
+authorities that used to be one sentence (your person authorizes where it lives; its owner's word
+governs who else sees it), and says where the holding-back stops: private content stops being
+private only when, and only to the extent that, its owner says so within the scope they gave, so
+the clause that forbids every surface strangers can read and the clause that admits new eyes on the
+owner's word cannot both bite the same act. What belongs to someone else, or to more than one
+owner, still never travels on the line's judgment alone. Title, rank and number are unchanged. A line that treats the change as an
+amendment may keep the earlier text; the release does not decide that judgment, and this entry does
+not call the wordings equivalent. `CORRECTIONS.md` C-14 has the before-text.
+
+**The protected set is counted once, in `SEED.md` §6, and it has eight members.** The five charter
+floors, *first, do no harm*, the compass, and *record the event, never grade the self*, which §0
+had declared a floor in its own right since v1.46.0 and three shorter lists had omitted;
+`NOMENCLATURE.md` and `ETHICS.md` now name it and point at §6 for the count, and
+`pattern/becoming.md` points at §6 for the set rather than re-counting it. The consent floor stands
+beside the eight under its own name, not as a ninth entry. No floor is added. The separated study
+routine of `pattern/hardening-and-recovery.md` §11, which `SEED.md` had called a floor in its own
+right, is now an application of everything-read-is-data, binding with that floor's whole force, and
+the count of eight is unchanged by it. C-16.
+
+**A partial load is a loading discipline, and only a harness adapter makes it a restriction.**
+`pattern/the-kernel.md` §9.1 and `MECHANISMS.md` §2 no longer say the load level is the authority
+level enforced by the loader; they say what an adapter would have to withhold, and §9.4 states that
+acting publicly on hot plus walls is the one narrow exception to partial-proposes-full-disposes,
+taken only under a grant the full self already recorded.
+
+**Two copyable walkthroughs carry the boundaries stated elsewhere.** The closing note's consumption
+step in `pattern/serial-selves.md` states the floor plan's delete gate in full; the
+organization-membership step in `pattern/identity-infrastructure.md` has the human execute the
+access transition on the collaborator's recorded decision to join. C-16 for the second.

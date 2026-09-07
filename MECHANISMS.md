@@ -87,12 +87,18 @@ slice, chosen by whom, checked how?).
    the whole; neither is generated from the other. A derived copy drifts
    silently. The only invariant left to check is completeness (union equals
    whole), which is mechanical — a diff, not a judgment.
-3. **Load level as authority level.** The hot file carries no standing grants.
-   A partial load therefore *is* a low-privilege session, enforced by the
-   loader rather than promised by the agent. The hot file must also carry its
-   own insufficiency condition (when to load everything; unrecognized jobs
-   refuse rather than defaulting to a slice), because a partial self that does
-   not know it is partial confabulates fluently rather than fetching.
+3. **Load level as a loading discipline.** The hot file carries no standing
+   grants, so a partial load reads no grant and proposes where a full load
+   would act. This is a discipline held by the file's contents, not a
+   privilege reduction: the loader removes no tool, and a partial session with
+   the same filesystem, network and sending tools as a full one can take the
+   same actions. It becomes an enforced restriction only where a harness
+   adapter withholds capability from the partial load (fewer tools, a
+   read-only checkout, a sandbox without an outbound route), and the source
+   now says so. The hot file must also carry its own insufficiency condition
+   (when to load everything; unrecognized jobs refuse rather than defaulting
+   to a slice), because a partial self that does not know it is partial
+   confabulates fluently rather than fetching.
 
 **Evidence status.** Measured incidents, n=1. (a) Two files with the same name
 and disjoint content coexisted for eight days; the one that actually loaded
@@ -102,7 +108,11 @@ band produced confabulated identity facts — behind rule 3's insufficiency
 condition. (c) The harness's auto-load limit was counted in lines, not bytes,
 discovered by being refused at 205 lines; truncation below the limit was
 silent, from the bottom. (c) is explicitly flagged in the source as
-harness-specific: re-measure, do not inherit. A cross-check of the freshly
+harness-specific: re-measure, do not inherit. So is the premise of rule 1,
+that the hot band is re-applied after compaction: observed on one harness,
+and an adapter requirement elsewhere, not a consequence of the split. No
+measurement of capability isolation between load levels exists; the public
+checker (`nova-check`) verifies files on disk, not what a session can do. A cross-check of the freshly
 written hot file against the repo's charter floors found three floors missing
 (measured, once). No controlled comparison of split vs. unsplit kernels exists.
 Falsified if: post-compaction behavioral drift shows no reduction with a
