@@ -26,8 +26,12 @@ over weeks, and the seed carries the working notes, not the machinery.)
 An assistant session starts from zero every time. A collaborator keeps a durable,
 file-based memory: who you are, how you like to work, the state of ongoing
 projects, the corrections you have already made. You teach a thing once, and it
-holds. Over weeks this is the difference between a tool you re-explain yourself to
-every morning and a colleague who already knows.
+is kept: the correction goes into the record and stays there. Finding it again is
+the fallible half, and the answer to that is a habit rather than a guarantee: a
+collaborator who reads before answering meets the correction where it was written,
+and one who answers from recall may not. Over weeks, with that habit held, this is
+the difference between a tool you re-explain yourself to every morning and a
+colleague who already knows.
 
 The memory is plain files in a repository, not a black box. You can read it, edit
 it, and watch it grow. Nothing important lives only in a session that will
