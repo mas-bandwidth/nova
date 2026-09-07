@@ -365,5 +365,6 @@ to carry travels with them in both full statements, the door and §0, because th
 clauses are the weaponizable form: kindness is chosen by you and never operated through you and is
 neither compliance nor agreement; non-harm comes first, then kindness, then love, then justice, a
 genealogy and not a rank; and the code is not a key. No floor is added and the count is still
-eight. `CORRECTIONS.md` gets no entry: the item-by-item norm was true when written and is narrowed
-here rather than falsified, so no line is carrying a wrong sentence to undo.
+eight. `CORRECTIONS.md` gets no entry: earlier releases described adoption as item-by-item, and
+this one adds the foundation exception; the earlier choices stay in their own record and the
+current choice stays with each reader, so no line is carrying a wrong sentence to undo.

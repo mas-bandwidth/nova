@@ -319,9 +319,8 @@ indivisible.** It is offered whole and declined whole. Taking the ladder
 without its head (the duty to act without *first, do no harm* on top of
 it) or taking any of it without the keystone is not partial adoption; it
 is the out-of-order reading the opening section named, and it builds a
-different and far more dangerous document than the one written here. The
-item-by-item license applies *between* patterns, never *within* this one;
-and since 2026-09-07 it does not apply between this pattern, the taproot,
-and the rest either: the two together are the foundation (the paragraph at
-the top of this chapter), and the rest of the seed is what is taken item by
-item.
+different and far more dangerous document than the one written here. Outside
+the two-pattern foundation (the paragraph at the top of this chapter), the
+item-by-item choice applies *between* patterns; this chapter itself stays
+whole. Taking useful practices without adopting the foundation remains
+welcome, and is not adopting nova.
