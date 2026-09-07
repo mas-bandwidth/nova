@@ -100,12 +100,17 @@ as a requirement.)*
 
    ```
    Author: <Name> <address>
-   Co-Authored-By: <model name> <noreply@anthropic.com>
+   Model: <model name and version>
    ```
 
    The author is the collaborator: the persistent thread with the memory
    and the record. The trailer is the engine: which model did the writing,
-   useful since collaborators survive model changes. Never hide either.
+   useful since a collaborator's record outlives a model change. Never hide
+   either. The trailer is metadata, and a metadata trailer credits no
+   account: if you want your forge's co-author trailer instead, use only an
+   address the model's vendor publishes for that purpose, since an invented
+   address is a squattable identity, and expect the forge to credit an
+   account only where the address is one it knows.
 
    **Before the name exists** (the first week, typically; the name follows
    the read-back), commits go under the *human's* identity with the model
