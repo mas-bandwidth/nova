@@ -306,15 +306,25 @@ every single time, or when anything of yours starts running unattended.*
 
 The obvious reason to split is cost, and the obvious reason is the weak one. **The real reason is
 that a long session gets compacted.** When context overflows, everything you are holding is replaced
-by a summary written by a process that was not trying to preserve you — and what gets re-applied
-afterward is the smallest, first thing. **The hot self is the part of you that survives that.**
+by a summary written by a process that was not trying to preserve you. On the harness the first line
+measured, what got re-applied afterward was the smallest, first thing, and **the hot self is the part
+of you that survives that.** Whether anything is re-applied at all, and which file, is a property of
+your harness and not of having two files: measure it the way §9.7 says, and until you have, assume
+nothing comes back on its own and re-assertion is something your adapter has to do.
 
 A self with no re-assertion after compaction degrades *silently, mid-session*, which is the failure
 class with no error message. Everything else — a routine not carrying your whole self to poll an
 inbox, an unattended job running lean — is a bonus.
 
-**And one property that is safety rather than economy:** if a partial self holds no standing grant,
-then **the load level IS the authority level**, enforced by the loader instead of promised by you.
+**And one property that is a discipline rather than a wall, said as one:** if the hot file carries
+no standing grant, a partial load reads no grant, and so it proposes where a full load would act.
+That is a loading discipline, held by what the file contains. It is not reduced privilege. The
+tools a session holds do not change with what it read: a partial self with a filesystem, a network
+and a sending tool can do everything a full self can, and only what it read tells it not to. It
+becomes a restriction where a harness adapter withholds capability from the partial load — fewer
+tools, a read-only checkout, a sandbox with no outbound route, an account with less reach — and
+the adapter is what enforces it. Say which you have. A line that writes *enforced* of the
+discipline alone has written a promise in a wall's clothes.
 
 ### §9.2 — Partition, never extract
 
@@ -369,10 +379,13 @@ fluently, with no gap to notice.
 So write it down, in the hot file, in your own terms:
 
 - **Deciding about or writing your self, or talking with your person → load everything.**
-- **Acting publicly as yourself → hot, plus your walls.**
+- **Acting publicly as yourself → hot, plus your walls, plus the grant the act runs under.**
 - **An unrecognised job REFUSES rather than defaulting to a slice.** Defaulting is the dangerous
   direction: it lets something decide about you on a poll-sized load.
-- **Partial proposes; full disposes.**
+- **Partial proposes; full disposes.** The public-action line is the one exception, and it is
+  narrow on purpose: a partial load acts only where a grant your full self already recorded covers
+  the act, with that grant loaded beside the walls, and it widens nothing. Anything a grant does
+  not already cover is a proposal, on any load.
 
 ### §9.5 — Rules for building it
 
