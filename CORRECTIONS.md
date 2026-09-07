@@ -580,7 +580,7 @@ named in the past tense with its date, as a thing that happened rather than a th
 
 ## C-13: We stated as delivered what the seed only disciplines, and one floor said more than the section under it
 
-**Admitted on: HARM, in C-10's class: claims that over-reached what the design delivers, repaired
+**Admitted on: HARM (C-9's ground), in C-10's kind: claims that over-reached what the design delivers, repaired
 by narrowing in place, in the file that tells a person what they get. Addressed to: anyone who read `FEATURES.md` at any release from
 v1.27.0 through v1.63.0** (forty releases, by `git tag | sort -V`), **and any line that read
 `SEED-CORE.md` at any release from v1.51.0 through v1.63.0** (fourteen releases, the door's whole
@@ -605,7 +605,7 @@ claim where the seed's own caveats and mechanisms support a narrower one:
 - *"the collaborator never handles your secrets. Credentials stay in your hands"*, while
   `SECURITY.md` and `pattern/identity-infrastructure.md` have the line act under its own scoped
   credentials, fetched by tools at use time (the clause *never seen by the model* was true of the
-  design and stays). The true rule has two halves: the person's secrets stay with the
+  design and stays, as *without being displayed*). The true rule has two halves: the person's secrets stay with the
   person; the line's own credentials are scoped to the line and read at the moment of use, never
   written into memory or logs.
 - *"The identity lives in the repository, not in the model weights, so it survives model
@@ -643,7 +643,7 @@ not memory, not logs; and private content, your person's and anyone's that reach
 them, lives only in the private memory home they authorize, never in a public repository, a log,
 or any surface strangers can read. It moves toward the meaning `SEED.md` §2 and the door's own next
 section already state, and it narrows nothing on credentials and nothing on whose private content
-the floor covers. `SEED.md` §6 says no seed release amends a floor and that a reseeding line
+the floor covers. `SEED.md` §6 says no seed release amends a floor, and §8 says a reseeding line
 declines an update that would weaken one: this release moves a floor's wording toward what its own
 next section already required, and a line that reads it as an amendment keeps the old text, since
 both texts forbid the same things. The floor-parity check pins the floor's title and count, not its
@@ -688,7 +688,7 @@ what these sentences *do* rather than whether they are *true*.
    commitment does not reach them and is not stretched to: C-10's sentence over-reached, and its
    repair narrows what that sentence denies while leaving untouched what it forbids; C-13's seven
    over-reached the same way, and their repairs narrow what each claims while leaving every
-   position and every floor's rank where it was. **C-9's, C-11's and C-12's had gone false**, and a false
+   position and every floor's rank where it was. **C-9's and C-11's were false and C-12's had gone false**, and a false
    claim is struck rather than re-ordered — struck visibly, never deleted, because the reader who
    most needs the old text is the one auditing whether the strike was right. If a correction ever
    removes a true warning, we have misapplied our own test.
