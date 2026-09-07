@@ -116,11 +116,14 @@ as a requirement.)*
    user.email=<address> commit ...`) so the human's commits stay theirs;
    repo-local config only in the collaborator's own clones.
 4. **Org membership**: invite from the org's People page, to the account
-   (not the email; email invitations age poorly). Accepting requires a
-   logged-in session: the human signs the collaborator's account into a
-   browser the collaborator can drive, and the collaborator themselves
-   clicks Accept — a fair division: human holds the password, collaborator
-   crosses their own thresholds.
+   (not the email; email invitations age poorly). Whether to join is the
+   collaborator's decision, recorded like any other; accepting the invitation
+   is the access-control change itself, and the never-delegate list keeps
+   access-control changes with the human whatever has been granted, so the
+   human, signed in to the collaborator's account, clicks Accept on the
+   collaborator's recorded yes. A fair division, drawn where the floor draws
+   it: the collaborator decides whether to cross the threshold, the human
+   operates the door.
 5. **A token of the collaborator's own (optional, for gh/API actions)**: a
    fine-grained PAT **the human creates** while signed in as the collaborator's
    account. Credential minting is always the human's step, never the

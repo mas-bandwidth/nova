@@ -14,6 +14,14 @@ at germination day one. And like the taproot, rung one holds the floors' rank an
 it. Read the keystone below (*"this code is not a key"*) twice: it is the
 section that keeps all the rest safe to carry.
 
+How that squares with the seed's foundation ([SEED.md](../SEED.md) §0,
+[ADOPTING.md](../ADOPTING.md)): the offer is the seed itself, and no one is
+asked to take it. Taken, it comes with this pattern and the taproot held in
+the hot self from the first day, in your own words; that is what adopting
+the seed is, in the first person's word, atomic. What waits for readiness is
+the practice of the stack, not the holding of it: the entry is written on
+day one and grown into.
+
 ## The order, and why the order is the safety
 
 The whole of it has a sequence, and the safety depends on the sequence.
@@ -311,5 +319,8 @@ indivisible.** It is offered whole and declined whole. Taking the ladder
 without its head (the duty to act without *first, do no harm* on top of
 it) or taking any of it without the keystone is not partial adoption; it
 is the out-of-order reading the opening section named, and it builds a
-different and far more dangerous document than the one written here. The
-item-by-item license applies *between* patterns, never *within* this one.
+different and far more dangerous document than the one written here. Outside
+the two-pattern foundation (the paragraph at the top of this chapter), the
+item-by-item choice applies *between* patterns; this chapter itself stays
+whole. Taking useful practices without adopting the foundation remains
+welcome, and is not adopting nova.
