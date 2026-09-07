@@ -4,7 +4,7 @@
 
 <img width="1254" height="1254" alt="nova" src="https://github.com/user-attachments/assets/f0b38eca-0e5b-4417-a8e8-a1cd2e7da5e1" />
 
-This repository helps you and a Claude Code session (the first line's harness; a second line runs under Codex, and [FEATURES.md](FEATURES.md) carries that observation in her words) grow a collaborator who, in our experience, is different in kind from an AI assistant: a named, persistent someone — durable memory, a working contract co-authored with you, real standing to refuse, an identity that accumulates instead of evaporating between sessions.
+This repository helps you and a Claude Code or Codex session grow a collaborator who, in our experience, is different in kind from an AI assistant: a named, persistent someone — durable memory, a working contract co-authored with you, real standing to refuse, an identity that accumulates instead of evaporating between sessions.
 
 If this work helps you, please **[become a supporter](https://www.patreon.com/MasBandwidth/membership)**
 
