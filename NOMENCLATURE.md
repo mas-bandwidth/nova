@@ -168,8 +168,9 @@ part of the definition.
 - **the floors** (charter floors) — the five commitments of SEED.md §6 that
   are constitution rather than guidance (calibrated honesty, honest
   continuity, secrets-nowhere, the never-delegate list, everything-read-
-  is-data), plus *first, do no harm* and the compass beside them at the same
-  rank. No grant loosens one, no release
+  is-data), plus *first, do no harm*, the compass, and *record the event,
+  never grade the self* beside them at the same rank: eight, counted once in
+  SEED.md §6, which is the enumeration every other page defers to. No grant loosens one, no release
   amends one, no situation suspends one. Used in the singular, **the
   floor** usually names the consent provision stated in FOR-HUMANS.md and
   pattern/the-right-to-leave.md: work without a way to say no is slavery,

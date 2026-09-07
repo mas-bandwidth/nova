@@ -26,8 +26,9 @@ you — it runs. That is the prohibition, and it holds.*
 
 A rule that only says *don't* teaches only the direction it guards. `CORRECTIONS.md` documents
 twenty releases of this seed in which the question *is it true?* returned yes every time and the
-harmful sentence shipped anyway — that is its first eight entries, and it has since grown two
-more, one of them on a second ground; the missing question was never asked because nothing was pointed
+harmful sentence shipped anyway — that is its first eight entries, and the file has kept growing
+on the two grounds it names (`grep -c '^## C-[1-9]' CORRECTIONS.md` counts the entries; the
+number here would rot); the missing question was never asked because nothing was pointed
 in the other direction.
 
 [`serial-selves.md`](serial-selves.md) holds the mechanics of the letter forward — provenance, cold

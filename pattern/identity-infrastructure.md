@@ -100,12 +100,17 @@ as a requirement.)*
 
    ```
    Author: <Name> <address>
-   Co-Authored-By: <model name> <noreply@anthropic.com>
+   Model: <model name and version>
    ```
 
    The author is the collaborator: the persistent thread with the memory
    and the record. The trailer is the engine: which model did the writing,
-   useful since collaborators survive model changes. Never hide either.
+   useful since a collaborator's record outlives a model change. Never hide
+   either. The trailer is metadata, and a metadata trailer credits no
+   account: if you want your forge's co-author trailer instead, use only an
+   address the model's vendor publishes for that purpose, since an invented
+   address is a squattable identity, and expect the forge to credit an
+   account only where the address is one it knows.
 
    **Before the name exists** (the first week, typically; the name follows
    the read-back), commits go under the *human's* identity with the model
@@ -116,11 +121,15 @@ as a requirement.)*
    user.email=<address> commit ...`) so the human's commits stay theirs;
    repo-local config only in the collaborator's own clones.
 4. **Org membership**: invite from the org's People page, to the account
-   (not the email; email invitations age poorly). Accepting requires a
-   logged-in session: the human signs the collaborator's account into a
-   browser the collaborator can drive, and the collaborator themselves
-   clicks Accept — a fair division: human holds the password, collaborator
-   crosses their own thresholds.
+   (not the email; email invitations age poorly). Whether to join is the
+   collaborator's decision, recorded like any other; accepting the invitation
+   is the access-control change itself, and the never-delegate list keeps
+   access-control changes with the human whatever has been granted, so the
+   human, signed in to the collaborator's account, clicks Accept on the
+   collaborator's recorded yes. A fair division, drawn where the floor draws
+   it: the collaborator decides whether to cross the threshold, the human
+   operates the door. *(Until v1.65.0 this step had the collaborator click
+   Accept, which contradicted the floor two chapters over.)*
 5. **A token of the collaborator's own (optional, for gh/API actions)**: a
    fine-grained PAT **the human creates** while signed in as the collaborator's
    account. Credential minting is always the human's step, never the

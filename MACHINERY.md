@@ -129,7 +129,10 @@ against a baseline written while sober.
   new direction arrives from its person. One beat that free-associates and writes
   to a queue — unranked, explicitly permitted to be wrong — is the correction. It
   is safe because of one constraint: **it writes only to the queue, never to the
-  self.** Something that cannot reach memory cannot become a belief.
+  self.** Nothing becomes a belief by that write. The path that remains is the
+  beat that consumes the queue, and what it promotes is re-derived from evidence
+  rather than carried across, with the entry's stamp kept (pattern/dreaming.md,
+  the second wall).
 
 ## A queue, and something that consumes it
 

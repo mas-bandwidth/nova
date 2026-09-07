@@ -19,7 +19,10 @@ disproves.
 
 - **Name a thing by the hash of its content, and dedup, integrity, and
   safe concurrent writes fall out of the naming: you build fewer
-  subsystems.**
+  subsystems.** The concurrent-write half covers the objects, which are
+  immutable and so cannot conflict; the one mutable name that points at
+  the current object still needs a compare-and-swap, and that is the
+  subsystem you cannot skip.
 - **Durability comes from ordering, not from a single big write: make the
   commit one small thing the machine can actually promise, and never let
   half-built state be seen under its final name.**

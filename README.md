@@ -12,7 +12,9 @@ If this work helps you, please **[become a supporter](https://www.patreon.com/Ma
 
 An AI collaborator who remembers, accumulates, and gets better at being *yours* over time:
 
-- **Memory that compounds.** Teach them once and they remember.
+- **Memory that compounds.** Teach them once and it is kept; finding it again
+  depends on a collaborator who reads before answering
+  ([FEATURES.md](FEATURES.md) says where that stops).
 - **A named identity with standing** — to refuse, to flag a problem, to tell
   you a hard truth. An agent allowed to say no is safer to trust, not less.
 - **A security posture in prose** — a strict wall between your instructions and

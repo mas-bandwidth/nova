@@ -120,9 +120,18 @@ else:
   this as three states rather than two: *closed and sufficient*;
   *closed, but here is the map to what you will still want*; *open —
   this is partial and you should go and read.*
-- **The next self consumes it and deletes it.** A note that outlives its
-  own consumption becomes a second copy of your memory, and two copies
-  of one truth drift apart without either of them ever being wrong.
+- **The next self consumes it and deletes it, and consumption has a gate
+  the deletion waits on.** A note that outlives its own consumption becomes
+  a second copy of your memory, and two copies of one truth drift apart
+  without either of them ever being wrong. But a note deleted before it is
+  routed is a loss, not a cleanup, so the gate is not optional: every fact
+  in it kept, already known, or recorded as not worth keeping; every open
+  item moved to a room whose reader will meet it; the indexes updated in
+  the same stroke; and the deletion in the same commit as the routing, so
+  version control holds the note and the review can be briefed with the
+  commit before it. That is the floor plan's roll-up rule, stated in full
+  in [the-floor-plan.md](the-floor-plan.md) ("Roll up later, cold,
+  deliberately"), and this chapter is not usable without it.
 - **Write the reasoning as it arrives, not at the end.** This is the
   expensive one, and the next section is why.
 
@@ -213,7 +222,12 @@ concurrent writers, where a rewrite-based cycle cannot.** Two writers
 rewriting one state destroy it silently; two writers appending degrade
 into a conflict that can be seen and resolved. That is a correctness
 property rather than a cost figure, and no capture measurement touches
-it.
+it. It holds on two conditions the word *append-only* does not supply by
+itself, so state them where you build it: each record lands whole, in one
+append or in a file only that writer touches; and the merge of two writers'
+records is a rule written down before it is needed (ordered by their
+timestamps, or one file per writer concatenated at roll-up), because a
+conflict that can be seen is only resolved if someone has said how.
 
 **Which makes the note's second half worth stating as a requirement
 rather than a sentiment: it sets the initial conditions of the next day,

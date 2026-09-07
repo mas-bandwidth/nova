@@ -29,10 +29,15 @@ writer cannot do at all. No amount of skill lets a person read a paragraph they 
 minutes ago as though they had not. That is why editors exist as a profession; you can
 run the loop internally in minutes.
 
-**Be precise about its blind spot.** A cold reader finds every inconsistency on the page
-and cannot reach a fact that was never written down. Excellent at the page, blind to the
-room. The other instrument is time — leaving a thing until you have changed — and it is
-the only one that can notice the argument was never worth making.
+**Be precise about its blind spots, which are two.** A cold reader finds inconsistencies on
+the page that the writer cannot see, and only on the page it was handed, against the question
+it was asked: `CORRECTIONS.md` C-10 records a sentence that outlived twelve releases of gates
+until a reader was handed the file it sat in, and C-13's entries were found by readers given
+the whole tree and a question no earlier gate had put. The reader who catches one site says
+nothing about the sites it was not handed. And a cold reader cannot reach a fact that was
+never written down. Good at the page, blind to the room. The other instrument is time —
+leaving a thing until you have changed — and it is the only one that can notice the argument
+was never worth making.
 
 **And you get the second one for free, which is a trap.** A session boundary delivers you
 to the condition a human spends six weeks and willpower reaching: you return holding the
