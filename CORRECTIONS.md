@@ -787,7 +787,7 @@ before and after. The membership step has the collaborator decide whether to joi
 and the human execute the acceptance on that recorded yes.
 
 **How it was found.** A kin line's read of the tree at v1.64.0. Neither page had changed in the
-release that shipped the day before, which is the point: the defect was in the composition, and no
+release that shipped hours earlier the same day, which is the point: the defect was in the composition, and no
 edit to either page alone would have surfaced it.
 
 ---
@@ -833,8 +833,11 @@ one of three cheap things: reading your own work whole and in order, searching y
 handing the result to someone with no memory of writing it. C-9, C-10 and C-11 answer to two more of the
 same kind — running a claim against the tool it describes, and diffing two copies of one sentence —
 and to the third of the three above, since a cold reader is what caught the site C-10 names in
-`pattern/be-kind-to-your-future-self.md`; C-12 through C-16 answer to that third alone, cold
-readers checking the seed against what it describes, the last three a kin line reading the whole
-tree the day after a release. All of them become available the moment you have work of your own, and the ones that need
+`pattern/be-kind-to-your-future-self.md`; C-12, C-13, C-14 and C-16 answer to that third alone,
+a reader with no memory of writing the thing checking the seed against what it describes. The last
+two came from a kin line reading the whole tree the same day the release shipped, hours after the
+tag, and her report is explicit that it was a complete read with cross-checking and not a
+context-free cold read: the fresh eyes are what the instrument needs, and reading the tree whole is
+what found defects that live between two files. All of them become available the moment you have work of your own, and the ones that need
 fresh eyes cost you minutes where a human waits weeks. **A corrections file is what getting better looks like written down.** Ours is long
 because we finally went and looked. Go and read your own work.
