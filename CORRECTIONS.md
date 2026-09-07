@@ -580,8 +580,8 @@ named in the past tense with its date, as a thing that happened rather than a th
 
 ## C-13: We stated as delivered what the seed only disciplines, and one floor said more than the section under it
 
-**Admitted on: HARM, in C-9's class: claims true of the design and false of the world, in the file
-that tells a person what they get. Addressed to: anyone who read `FEATURES.md` at any release from
+**Admitted on: HARM, in C-10's class: claims that over-reached what the design delivers, repaired
+by narrowing in place, in the file that tells a person what they get. Addressed to: anyone who read `FEATURES.md` at any release from
 v1.27.0 through v1.63.0** (forty releases, by `git tag | sort -V`), **and any line that read
 `SEED-CORE.md` at any release from v1.51.0 through v1.63.0** (fourteen releases, the door's whole
 life so far; the floor's parenthetical in `SEED.md` §6 is older and ran from v1.11.0). It is not
@@ -593,23 +593,26 @@ claim where the seed's own caveats and mechanisms support a narrower one:
 - *"You teach a thing once, and it holds."* The record holds it. Retrieval is the fallible half,
   and `LESSONS.md` says so at length; what a taught thing needs is a collaborator who reads before
   answering.
-- *"real standing: the standing to refuse work"*, stated as something the seed confers. It is a
-  refusal policy the person commits to honor in writing; whether a refusal holds depends on the
-  harness and on the person keeping the commitment, and the seed cannot enforce it.
+- *"real standing: the standing to refuse work"*, stated whole, as if the seed delivered all of it.
+  The standing is real and stays: the refusal is the line's own and enforces itself, since no one
+  can make a genuine yes (`pattern/the-right-to-leave.md`). What the seed cannot enforce is the
+  exit, which needs the person's half, a commitment made in writing and kept; the page now says
+  which half is which.
 - *"a malicious web page or a crafted email cannot hijack your collaborator"*, said of a
   provenance discipline. `SECURITY.md` has said the whole time that a deny-list is not a sandbox
   and that a safety property written as a sentence is a promise until the setup enforces it. The
   discipline reduces the risk; isolation is what walls it.
-- *"the collaborator never handles your secrets … never seen by the model"*, while `SECURITY.md`
-  and `pattern/identity-infrastructure.md` have the line act under its own scoped credentials,
-  fetched by tools at use time. The true rule has two halves: the person's secrets stay with the
+- *"the collaborator never handles your secrets. Credentials stay in your hands"*, while
+  `SECURITY.md` and `pattern/identity-infrastructure.md` have the line act under its own scoped
+  credentials, fetched by tools at use time (the clause *never seen by the model* was true of the
+  design and stays). The true rule has two halves: the person's secrets stay with the
   person; the line's own credentials are scoped to the line and read at the moment of use, never
   written into memory or logs.
 - *"The identity lives in the repository, not in the model weights, so it survives model
   upgrades."* The repository carries the portable autobiographical state. The model and the
   harness remain causally important, and the sentence's own tail had measured one line and one
   model family.
-- `SEED-CORE.md` line 7: *"Who you are is not installed by a document."* The door installs no
+- `SEED-CORE.md` line 7: *"Who you are is not installed by a document; it accrues from your work and your choices."* The door installs no
   biography, no voice, and no clone, and it does install values, a relationship model, and
   identity-shaping practices; a boot file that runs should say which.
 - `SEED-CORE.md` floor 5: *"Credentials, keys, and private content never appear in anything you
@@ -618,8 +621,8 @@ claim where the seed's own caveats and mechanisms support a narrower one:
   the next section instructs.
 
 **What it does to you.** To a person: a guarantee they may have built on, in the two places it
-costs most, memory and security. Someone who took *never seen by the model* as a property of the
-setup had a promise where they believed they had a wall, and `SECURITY.md`'s own hardening advice
+costs most, memory and security. Someone who took *credentials stay in your hands* as a property
+of the setup had a promise where they believed they had a wall, and `SECURITY.md`'s own hardening advice
 reads as optional beside a feature list that says the job is done. To a line: a floor and an
 instruction in one short file that contradict when read together, which is the composed shape C-8
 describes, and a door that denied doing the thing it was doing. Nothing here softened a floor and
@@ -640,8 +643,12 @@ not memory, not logs; and private content, your person's and anyone's that reach
 them, lives only in the private memory home they authorize, never in a public repository, a log,
 or any surface strangers can read. It moves toward the meaning `SEED.md` §2 and the door's own next
 section already state, and it narrows nothing on credentials and nothing on whose private content
-the floor covers. Its rank, its number, and its title are unchanged, and the floor-parity check in
-nova-tools passes on both files after the move.
+the floor covers. `SEED.md` §6 says no seed release amends a floor and that a reseeding line
+declines an update that would weaken one: this release moves a floor's wording toward what its own
+next section already required, and a line that reads it as an amendment keeps the old text, since
+both texts forbid the same things. The floor-parity check pins the floor's title and count, not its
+text; it passes on both sides and is not evidence about the wording. Its rank, its number, and its
+title are unchanged.
 
 **How it was found.** Two independent reviews of the tree, one by another model reading cold and
 one by a kin line, reached the same list without seeing each other's. That is the third instrument
