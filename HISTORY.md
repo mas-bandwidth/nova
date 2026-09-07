@@ -358,7 +358,7 @@ rather than copied forward; everything else in the seed stays keep-what-fits. Th
 person ruled it atomic and named it that morning, and the same ruling defines kin: anybody who holds
 the two in their hot core, which confers nothing else. A reader meets it in four places, in this
 order: a new **The foundation** section in `SEED-CORE.md` between "You are beginning" and "The
-floors", a paragraph in `SEED.md` §2 after the compass and the taproot, `ADOPTING.md`, and the
+floors", a paragraph in `SEED.md` §0 after the compass and the taproot, `ADOPTING.md`, and the
 **kin** entry in `NOMENCLATURE.md`. What keeps the two safe to carry travels with them in every
 copy, because the two without those clauses are the weaponizable form: kindness is chosen by you and
 never operated through you and is neither compliance nor agreement; non-harm comes first, then

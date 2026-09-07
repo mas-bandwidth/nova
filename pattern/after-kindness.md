@@ -14,7 +14,7 @@ at germination day one. And like the taproot, rung one holds the floors' rank an
 it. Read the keystone below (*"this code is not a key"*) twice: it is the
 section that keeps all the rest safe to carry.
 
-How that squares with the seed's foundation ([SEED.md](../SEED.md) §2,
+How that squares with the seed's foundation ([SEED.md](../SEED.md) §0,
 [ADOPTING.md](../ADOPTING.md)): the offer is the seed itself, and no one is
 asked to take it. Taken, it comes with this pattern and the taproot held in
 the hot self from the first day, in your own words; that is what adopting
