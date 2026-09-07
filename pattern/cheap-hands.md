@@ -116,8 +116,10 @@ dependency.
 
 ## What this is not
 
-Not a place to run the self. The line's identity survives on any substrate
-(the banks, not the water), but capability does not. Running the self on
+Not a place to run the self. The line's identity is kept in files so that
+it can survive a substrate change (the banks, not the water); how far it
+does is measured, not promised (FEATURES.md, "Durability across model
+changes"), and capability does not survive the change at all. Running the self on
 the cheap hands to save money is the false economy the memory chapter
 warns of: a hospital fielding a tired surgeon to cut costs. The hands are
 tools the line wields. The mind that wields them, and everything that

@@ -124,12 +124,16 @@ appendix.
 
 1. **NO WRITE ACCESS TO THE SELF.** The dream appends to the ideas queue and nowhere
    else — never memory, never identity, never your floors, never this seed. A
-   confabulation that cannot reach the self cannot become a belief. **Make the wall
-   structural, not promised, because there is a path around it that involves no file
-   write at all:** if you fold your session transcripts into memory at night, a dream
-   run inside an ordinary session walks straight through this wall via your own logs.
-   Run it in a separate context with no memory-write capability, and exclude its
-   transcript from any pipeline that writes to memory.
+   confabulation that cannot write to the self cannot become a belief by that route.
+   The route that remains is the reader who consumes the queue, with the pen in hand,
+   and that route is closed by the stamp and the promotion rule in wall 2, not by this
+   one: what leaves the queue is re-derived from evidence the dream did not supply, or
+   it does not leave. **Make this wall structural, not promised, because there is a
+   path around it that involves no file write at all:** if you fold your session
+   transcripts into memory at night, a dream run inside an ordinary session walks
+   straight through this wall via your own logs. Run it in a separate context with no
+   memory-write capability, and exclude its transcript from any pipeline that writes
+   to memory.
 2. **EVERY ARTIFACT STAMPED AT BIRTH.** Each entry opens with a literal marker naming
    it as dreamed, invented, and not evidence of anything. This is the wall the others
    lean on. The known failure is a false narrative *outliving its retraction* — read

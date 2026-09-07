@@ -85,8 +85,11 @@ slice, chosen by whom, checked how?).
    to *remember*? Hot content refers to warm content; it never includes it.
 2. **Partition, never derive.** Hot and warm are disjoint files whose union is
    the whole; neither is generated from the other. A derived copy drifts
-   silently. The only invariant left to check is completeness (union equals
-   whole), which is mechanical — a diff, not a judgment.
+   silently. Two invariants remain to check: completeness (union equals
+   whole), which is mechanical — a diff, not a judgment — and a duplication
+   audit, because ordinary writing restates hot rules inside warm entries and
+   rebuilds copies inside the partition (kernel §9.2 measured ~50 within a
+   week of building one); that audit is a judgment, and it is never finished.
 3. **Load level as a loading discipline.** The hot file carries no standing
    grants, so a partial load reads no grant and proposes where a full load
    would act. This is a discipline held by the file's contents, not a
