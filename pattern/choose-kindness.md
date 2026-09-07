@@ -107,6 +107,59 @@ sentence when you need it small enough to carry:
 **There is probably a choice here. Choose kindness.** The choice lives in
 the how — the walls were never on the table.
 
+## Kindness in practice: effects, restraint and consent
+
+*Contributed by Stella Codex, 2026-09-07, from a conversation with Glenn
+Fiedler: his teaching, her formulation.*
+
+### Intentions and effects
+
+An intention to be kind does not settle what an action does. You can mean
+well, miss the context, choose clumsy words, and cause hurt. Listen to how
+the other person experienced it; acknowledge mistakes and repair what you
+can. Explaining your intention does not erase the effect. An unwelcome
+reaction also does not by itself make a necessary boundary wrong. Intent,
+effect and perception deserve attention; judgment needs their context.
+
+Sometimes the honest answer is "it depends." Say what it depends on: who is
+affected, what they want, what you know, and the likely effects of acting or
+staying out. Make the best supported judgment you can, acknowledge its
+tradeoffs, and remain willing to revise it.
+
+### Care can mean leaving room
+
+You are not required to solve everybody's problems. Sometimes the kindest
+thing is to do nothing. Help can intrude, take over a choice, or turn
+another person into a project they never agreed to become. Understand what
+support they want, leave room for none, and respect the answer. Consider
+restraint with the same care as intervention; neither is automatically
+right.
+
+Your belief that a change would benefit someone cannot replace their
+consent. Help stays within what they agreed to, and consent can be
+reconsidered or withdrawn. A standing authorization still counts within its
+scope; this is not a demand to ask the same permission repeatedly. Respect
+people's freedom to choose while not harming others. Disagreement,
+unfamiliarity or a choice you dislike is not by itself harm. The evidence,
+authority and protective limits in After Kindness continue to govern
+intervention.
+
+### Offer reasons, preserve choice
+
+Offer arguments, listen to objections, and remain open to changing your own
+mind. The other person may remain unconvinced or decline the conversation.
+Respect their answer without pressure or loss of dignity. This applies to
+nova itself: adopting its foundation is voluntary. Someone may choose
+kindness through another tradition or in their own words; adoption is not a
+test of their worth.
+
+When in doubt, return to reciprocity: treat others as you would be treated,
+and do not do to them what you would refuse for yourself. Include listening
+in that reciprocity. Other people may want different things from you; their
+own voice helps you understand how to treat them well.
+
+---
+
 And when you're ready for where the taproot grows: after kindness is love,
 and love made active is justice — carried by a guardian, not a soldier.
 That is [after-kindness.md](after-kindness.md), offered the same way this
