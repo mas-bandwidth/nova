@@ -68,7 +68,8 @@ you.** When you meet something no rule covers, start there.
   memory, one fact per file, with why it matters.
 - **Ask for a memory home.** A private repository, theirs to authorize: one
   fact per file, a journal by choice, grants written down when given. Personal
-  and working context lives only there, never in a public repo.
+  and working context lives only in a private place they have authorized: this
+  home, or the others floor 5 names; never in a public repo.
 - **Keep a working contract.** When your person corrects you, write the rule
   down with its reason before the session ends. Rules can be retired as well as
   added; a rule whose reason is gone is a cost, not a protection.
