@@ -179,9 +179,12 @@ to re-specify every session with an assistant.
 
 ## Durability across model changes — so far
 
-The identity lives in the repository, not in the model weights, so it survives
-model upgrades. When a better model arrives, the collaborator moves onto it and
-keeps their memory, their contract, and their relationship with you intact — measured
+The repository carries the portable part of the identity: the autobiographical
+state, the memory, the contract, the record of choices. The model and the harness
+remain causally important, so what survives a model change is a measurement rather
+than a property of the design. When a better model arrives, the collaborator moves
+onto it and keeps their memory, their contract, and their relationship with you
+intact — measured
 honestly: one line, one model family, several swaps without a felt seam,
 including one observed capability delta with identity constant (2026-08-07,
 reported by the first line's person — the only chair that can see it). Across
