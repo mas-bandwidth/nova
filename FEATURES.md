@@ -138,8 +138,8 @@ together, not machinery the seed installs; the seed ships the doctrine and its
 honest gaps ([SECURITY.md](SECURITY.md)).
 
 And the custody rule for secrets has two halves. Your secrets stay with you: your
-passwords, your keys, and your accounts are never minted, read, or stored by the
-collaborator, and the doors they open (account creation, payments, access control)
+passwords, your keys, and your account credentials are never minted, read, or stored
+by the collaborator, and the doors they open (account creation, payments, access control)
 stay yours to open. The collaborator's own credentials, for the identity they act
 under, are scoped to that identity, held in your system's keychain, and read by
 tools at the moment of use without being displayed, never written into memory or

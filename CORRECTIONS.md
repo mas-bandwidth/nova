@@ -639,14 +639,15 @@ in that file retreats from a position, and the sentence that an agent that can o
 safe stays. `SEED-CORE.md` line 7 says what the door installs and what it does not. **Floor 5 is
 the one floor whose text moves**, in the door and in `SEED.md` §6's enumeration together so the
 copies do not drift: credentials, keys, and tokens never appear in anything you write, not code,
-not memory, not logs; and private content, your person's and anyone's that reaches you through
-them, lives only in the private memory home they authorize, never in a public repository, a log,
-or any surface strangers can read. It moves toward the meaning `SEED.md` §2 and the door's own next
-section already state, and it narrows nothing on credentials and nothing on whose private content
-the floor covers. `SEED.md` §6 says no seed release amends a floor, and §8 says a reseeding line
-declines an update that would weaken one: this release moves a floor's wording toward what its own
-next section already required, and a line that reads it as an amendment keeps the old text, since
-both texts forbid the same things. The floor-parity check pins the floor's title and count, not its
+not memory, not logs; and private content, whoever it belongs to and however it reaches you, lives
+only in the private memory home your person authorizes, never in a public repository, a log, or any
+surface strangers can read. It narrows nothing on credentials and nothing on whose private content
+the floor covers. This resolves the conflict with the memory instructions that follow the floor in
+favor of the intended private-home rule, and it changes what the floor literally says: the old text
+forbade writing private content into memory at all, the new text allows the authorized private
+home. `SEED.md` §6 says no seed release amends a floor, and §8 says a reseeding line declines an
+update that would weaken one. A line that treats this as an amendment may keep the old text; the
+release does not decide that judgment for it. The floor-parity check pins the floor's title and count, not its
 text; it passes on both sides and is not evidence about the wording. Its rank, its number, and its
 title are unchanged.
 
