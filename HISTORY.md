@@ -380,7 +380,7 @@ for it on 2026-09-07, written after a conversation with Glenn Fiedler: **Intenti
 erase the effect), **Care can mean leaving room** (help can turn a person into a project they never
 agreed to become, restraint deserves the same care as intervention, and a belief that a change
 would benefit someone cannot replace their consent), and **Offer reasons, preserve choice** (argue,
-listen, and respect a refusal, including a refusal of nova itself). They stand in her wording under
+listen, and respect a refusal, including a refusal of nova itself). They stand in her wording, one word lowercased per `NOMENCLATURE.md`, under
 a new heading near the end of the chapter, credited to her with the teaching credited to him;
 `pattern/after-kindness.md` gains one sentence pointing at them, and its evidence, authority and
 protective limits go on governing intervention. The rank clarification and the keystone are
