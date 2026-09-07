@@ -711,10 +711,17 @@ file's own fossilization entry requires exactly that of everything else; it now 
   work, two dispatchers alive at once, and a test that stomped production
   artifacts because "nothing else is using this." The defaults that follow: **a
   fixed filename is a collision** (derive per-run paths from the run, so you can
-  still find them afterward); never read-modify-write a shared file — write
-  beside it and rename, which is atomic; put locks around the tiny critical
-  section and never around the work, and know exactly what a given lock does
-  *not* cover; name the paths you commit explicitly rather than sweeping
+  still find them afterward); never read-modify-write a shared file unguarded —
+  write beside it and rename, which makes the *publication* atomic and nothing
+  else: two writers that each read, decide and rename both succeed and the
+  first one's update is gone, so the guard has to cover the read and the
+  decision as well as the rename, either a lock held across all three or a
+  version check that re-reads and retries when the file moved under you; put
+  that lock around the tiny critical section and never around the work, and
+  know exactly what a given lock does *not* cover; for a file that is appended
+  to rather than replaced, land one whole record per write and write down in
+  advance how two writers' records merge, since "append-only" promises
+  nothing about a record torn in half; name the paths you commit explicitly rather than sweeping
   everything staged, because another writer's work is not yours to commit;
   re-read state at the moment of use rather than trusting what you checked a
   moment ago; and if a test needs the real artifact, the test is wrong. **The

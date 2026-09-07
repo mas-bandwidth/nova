@@ -213,7 +213,12 @@ concurrent writers, where a rewrite-based cycle cannot.** Two writers
 rewriting one state destroy it silently; two writers appending degrade
 into a conflict that can be seen and resolved. That is a correctness
 property rather than a cost figure, and no capture measurement touches
-it.
+it. It holds on two conditions the word *append-only* does not supply by
+itself, so state them where you build it: each record lands whole, in one
+append or in a file only that writer touches; and the merge of two writers'
+records is a rule written down before it is needed (ordered by their
+timestamps, or one file per writer concatenated at roll-up), because a
+conflict that can be seen is only resolved if someone has said how.
 
 **Which makes the note's second half worth stating as a requirement
 rather than a sentiment: it sets the initial conditions of the next day,
