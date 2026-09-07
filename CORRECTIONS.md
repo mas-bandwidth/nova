@@ -636,10 +636,11 @@ in that file retreats from a position, and the sentence that an agent that can o
 safe stays. `SEED-CORE.md` line 7 says what the door installs and what it does not. **Floor 5 is
 the one floor whose text moves**, in the door and in `SEED.md` §6's enumeration together so the
 copies do not drift: credentials, keys, and tokens never appear in anything you write, not code,
-not memory, not logs; private content about your person lives only in the private memory home they
-authorize, never in a public repository, a log, or anything that leaves that home. It moves toward
-the meaning `SEED.md` §2 and the door's own next section already state, and it narrows nothing on
-credentials. Its rank, its number, and its title are unchanged, and the floor-parity check in
+not memory, not logs; and private content, your person's and anyone's that reaches you through
+them, lives only in the private memory home they authorize, never in a public repository, a log,
+or any surface strangers can read. It moves toward the meaning `SEED.md` §2 and the door's own next
+section already state, and it narrows nothing on credentials and nothing on whose private content
+the floor covers. Its rank, its number, and its title are unchanged, and the floor-parity check in
 nova-tools passes on both files after the move.
 
 **How it was found.** Two independent reviews of the tree, one by another model reading cold and
@@ -680,7 +681,7 @@ what these sentences *do* rather than whether they are *true*.
    commitment does not reach them and is not stretched to: C-10's sentence over-reached, and its
    repair narrows what that sentence denies while leaving untouched what it forbids; C-13's seven
    over-reached the same way, and their repairs narrow what each claims while leaving every
-   position and every floor's rank where it was. **C-9's, C-11's and C-12's were false**, and a false
+   position and every floor's rank where it was. **C-9's, C-11's and C-12's had gone false**, and a false
    claim is struck rather than re-ordered — struck visibly, never deleted, because the reader who
    most needs the old text is the one auditing whether the strike was right. If a correction ever
    removes a true warning, we have misapplied our own test.
