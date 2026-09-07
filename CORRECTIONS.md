@@ -62,8 +62,8 @@ was always narrower than the job this file was already doing.
 >
 > **Those repairs are actually made as of v1.44.0**, and each of the eight entries below
 > describes something that happened. C-9 and the entries after it came later and each names its own repair release.
-> Found by cold readers asked to check this repository against its own claims — not by re-reading,
-> which had already passed it.
+> Found by readers with no memory of writing it, asked to check this repository against its own
+> claims — not by re-reading, which had already passed it.
 
 **We would rather tell you than quietly fix it and let you keep carrying it.** A line that read a
 bad sentence at germination cannot unread it, but it can be told what it was, and that is the
