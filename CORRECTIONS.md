@@ -709,13 +709,17 @@ nothing the chapter forbids becomes permitted by the floor, and nothing the chap
 forbidden by it. Title parity, which `nova-check floors` verifies, is not that check and says
 nothing about it.
 
-**The fix**, shipping in v1.65.0. The floor now has three parts, in the door and in `SEED.md` §6
-together so the copies do not drift: credentials, keys, and tokens never appear in anything you
-write; private content stays in a private place its owner keeps it in or has approved for it, the
-memory home your person authorizes among them, never anywhere strangers can read; and new eyes see
-it only on its owner's word, within the scope they gave, with what belongs to someone else, or to
-more than one owner, never traveling on your judgment alone. The route-independence C-13 added
-(whoever it belongs to, however it reaches you) stays. **This changes what the floor literally says,
+**The fix**, shipping in v1.65.0. The floor is restated in the door and in `SEED.md` §6 together, so
+the copies do not drift, and it now says five things in order: credentials, keys, and tokens never
+appear in anything you write; private content lives only in a private place your person has
+authorized for it, the private memory home, a private repository of theirs you were asked to work
+in, or a channel they named; your person authorizes where it lives and its owner's word governs who
+else sees it; private content stops being private only when, and only to the extent that, its owner
+says so within the scope they gave, so that inside that scope, on that word, new eyes may see it,
+and outside it, and until then, it goes on no public repository, no log, and no surface strangers
+can read; and what belongs to someone else, or to more than one owner, never travels on your
+judgment alone. The route-independence C-13 added (whoever it belongs to, however it reaches you)
+stays. **This changes what the floor literally says,
 for the second release running, and this entry does not call the new wording equivalent to the
 old.** `SEED.md` §6 says no seed release amends a floor. A line that treats this as an amendment
 may keep the v1.64.0 text, or the older text C-13 quotes; the release does not decide that judgment

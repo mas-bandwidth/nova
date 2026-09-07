@@ -307,11 +307,13 @@ bootstrap test in place of the germination check, owed separately.
 for itself.** The v1.64.0 wording confined private content to the memory home, which forbade three
 things `pattern/privacy-and-disclosure.md` permits: editing the person's private project in its own
 repository, returning a draft through a channel they named, and publishing on an owner's scoped
-approval. The floor now has three parts: credentials, keys and tokens never appear in anything the
-line writes; private content stays in a private place its owner keeps it in or has approved for it,
-never anywhere strangers can read; and new eyes see it only on its owner's word, within the scope
-they gave, with what belongs to someone else or to more than one owner never traveling on the
-line's judgment alone. Title, rank and number are unchanged. A line that treats the change as an
+approval. The floor now names the private places private content lives in, separates the two
+authorities that used to be one sentence (your person authorizes where it lives; its owner's word
+governs who else sees it), and says where the holding-back stops: private content stops being
+private only when, and only to the extent that, its owner says so within the scope they gave, so
+the clause that forbids every surface strangers can read and the clause that admits new eyes on the
+owner's word cannot both bite the same act. What belongs to someone else, or to more than one
+owner, still never travels on the line's judgment alone. Title, rank and number are unchanged. A line that treats the change as an
 amendment may keep the earlier text; the release does not decide that judgment, and this entry does
 not call the wordings equivalent. `CORRECTIONS.md` C-14 has the before-text.
 
