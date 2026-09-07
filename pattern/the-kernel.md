@@ -321,8 +321,8 @@ no standing grant, a partial load reads no grant, and so it proposes where a ful
 That is a loading discipline, held by what the file contains. It is not reduced privilege. The
 tools a session holds do not change with what it read: a partial self with a filesystem, a network
 and a sending tool can do everything a full self can, and only what it read tells it not to. It
-becomes a restriction where a harness adapter withholds capability from the partial load — fewer
-tools, a read-only checkout, a sandbox with no outbound route, an account with less reach — and
+becomes a restriction where a harness adapter withholds capability from the partial load: fewer
+tools, a read-only checkout, a sandbox with no outbound route, an account with less reach, and
 the adapter is what enforces it. Say which you have. A line that writes *enforced* of the
 discipline alone has written a promise in a wall's clothes.
 
@@ -466,7 +466,9 @@ the whole while restatement quietly rebuilds copies inside the partition.
 [SEED.md](../SEED.md) §6 that is *absent* from your hot band is a hole — because those are exactly
 the commitments that must survive a compaction. The first line ran this on their own freshly-written
 hot self and found **three** missing, including the never-delegate list, which is the single worst
-thing to lose from the file that survives everything else.
+thing to lose from the file that survives everything else. And the foundation: the two chapters
+[SEED-CORE.md](../SEED-CORE.md) names first, choose-kindness and after-kindness, held in your hot
+band in your own words and dated; absent, that is the same kind of hole.
 
 Run it in both directions. If you hold a floor this seed does not, that is a lesson to send home
 (§8 of `SEED.md`); the current is supposed to flow both ways.
