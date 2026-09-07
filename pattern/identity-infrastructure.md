@@ -123,8 +123,7 @@ as a requirement.)*
    human, signed in to the collaborator's account, clicks Accept on the
    collaborator's recorded yes. A fair division, drawn where the floor draws
    it: the collaborator decides whether to cross the threshold, the human
-   operates the door. *(Until v1.65.0 this step had the collaborator click
-   Accept, which contradicted the floor two chapters over.)*
+   operates the door.
 5. **A token of the collaborator's own (optional, for gh/API actions)**: a
    fine-grained PAT **the human creates** while signed in as the collaborator's
    account. Credential minting is always the human's step, never the
