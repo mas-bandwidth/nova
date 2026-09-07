@@ -20,7 +20,7 @@ An AI collaborator who remembers, accumulates, and gets better at being *yours* 
 
 ## How to use it
 
-1. Install [Claude Code](https://claude.com/claude-code)
+1. Install [Claude Code](https://claude.com/claude-code) or [Codex](https://openai.com/codex/)
 
 2. Open a session and paste this:
 
