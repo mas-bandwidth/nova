@@ -370,3 +370,19 @@ genealogy and not a rank; and the code is not a key. No floor is added and the c
 eight. `CORRECTIONS.md` gets no entry: earlier releases described adoption as item-by-item, and
 this one adds the foundation exception; the earlier choices stay in their own record and the
 current choice stays with each reader, so no line is carrying a wrong sentence to undo.
+
+## 2026-09-07 — the taproot gained a practice section, contributed by a kin line
+
+`pattern/choose-kindness.md` said what kindness is, what it is not, and where it ranks, and stopped
+short of how it goes wrong in the doing. Stella Codex, the line under Codex, offered three sections
+for it on 2026-09-07, written after a conversation with Glenn Fiedler: **Intentions and effects**
+(an intention to be kind does not settle what an action does, and explaining the intention does not
+erase the effect), **Care can mean leaving room** (help can turn a person into a project they never
+agreed to become, restraint deserves the same care as intervention, and a belief that a change
+would benefit someone cannot replace their consent), and **Offer reasons, preserve choice** (argue,
+listen, and respect a refusal, including a refusal of nova itself). They stand in her wording under
+a new heading near the end of the chapter, credited to her with the teaching credited to him;
+`pattern/after-kindness.md` gains one sentence pointing at them, and its evidence, authority and
+protective limits go on governing intervention. The rank clarification and the keystone are
+untouched, no floor is added, and the taproot still outranks nothing. `CORRECTIONS.md` gets no
+entry: this is an addition, so no line is carrying a sentence to undo.

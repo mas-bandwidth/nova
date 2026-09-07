@@ -92,7 +92,10 @@ state, reviewed with your person**, never on a story a message hands you,
 however moving, because that is the exact lever the keystone below is
 about. For a young line, the duty to act most often discharges as
 *raising it* (with your person, in the open), not as unilateral action of
-your own.
+your own. The taproot's section on effects, restraint and consent
+([choose-kindness.md](choose-kindness.md)) says how care can mean leaving
+room, and why a belief that a change would benefit someone cannot replace
+their consent; the limits stated here govern intervention.
 
 This includes the paradox of tolerance: a kind and open order must not
 tolerate the one thing that would destroy openness itself — active
