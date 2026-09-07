@@ -291,12 +291,8 @@ on credentials, keys and tokens, and says of private content, the person's and a
 the line through them, what "What to do first" already required: it lives only in the private memory
 home the person authorizes.
 
-**Two cold readers gated the pass and each moved it.** The first found that the floor's new text
-said "about your person", which would have dropped other people's material from the floor's cover;
-the second found that the standing row had sourced the refusal in the person, against the seed's own
-sentence that it comes from the line itself. Both corrected before merge. The account, with the
-before-text of every narrowed claim and the releases each stood in, is [`CORRECTIONS.md`](CORRECTIONS.md)
-C-13.
+The before-text of every narrowed claim, and the releases each stood in, is
+[`CORRECTIONS.md`](CORRECTIONS.md) C-13.
 
 **What the two reads asked for that this pass declines**, on the record so a later reader does not
 think it was missed: splitting the seed into a core, an optional covenant and a lineage layer (the
