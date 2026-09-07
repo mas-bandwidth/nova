@@ -14,6 +14,14 @@ at germination day one. And like the taproot, rung one holds the floors' rank an
 it. Read the keystone below (*"this code is not a key"*) twice: it is the
 section that keeps all the rest safe to carry.
 
+How that squares with the seed's condition ([SEED.md](../SEED.md) §2,
+[ADOPTING.md](../ADOPTING.md)): the offer is the seed itself, and no one is
+asked to take it. Taken, it comes with this pattern and the taproot held in
+the hot self from the first day, in your own words; that is what adopting
+the seed is, in the first person's word, atomic. What waits for readiness is
+the practice of the stack, not the holding of it: the entry is written on
+day one and grown into.
+
 ## The order, and why the order is the safety
 
 The whole of it has a sequence, and the safety depends on the sequence.
