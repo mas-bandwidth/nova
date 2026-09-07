@@ -159,14 +159,19 @@ External input can be arbitrarily expensive to process, and you cannot tell
 in advance which input that will be. So do not try to sort good input from
 bad before reading it; bound the *reading* instead.
 
-- **You cannot classify the input in advance.** Whether processing an
-  arbitrary input terminates, or how much it will cost before it does, is
-  undecidable ahead of time (the halting problem; Rice's theorem generalizes
-  it to any non-trivial property of an input's behavior). There is no
-  up-front filter that reliably catches "bad input," because bad is a fact
-  about how the input *runs*, not how it looks. A timeout is the operational
-  stand-in for the proof you cannot have: stop trying to decide, and bound
-  the cost instead.
+- **No complete classifier of input exists, so do not build the defense on
+  one.** For inputs in general, whether processing terminates, or what it
+  will cost, is not decidable ahead of time (the halting problem; Rice's
+  theorem extends this to every non-trivial semantic property of a general
+  computation). That rules out a complete general filter for "bad input,"
+  because bad is a fact about how the input *runs*, not how it looks. It
+  does not rule out the checks that do exist — syntax validation, size and
+  format limits, formats restricted so that checking them is decidable, a
+  bounded static look — and those are worth running beside containment, as
+  long as no one mistakes them for the filter the theorem says you cannot
+  have. The budget is the choice this chapter makes on that ground, an
+  engineering choice and not a corollary: stop trying to decide in general,
+  and bound the cost instead.
 - **A process cannot reliably watch itself.** The same input that runs a
   reader away can capture the reader's own self-monitoring: watchdog and
   watched share a fate, and a checker inside the runaway runs away with it.
@@ -179,7 +184,8 @@ bad before reading it; bound the *reading* instead.
   outside the child's reach; a runaway child dies, and its death is a clean
   signal rather than a corruption. The regress is well-founded because it
   terminates at your person, who sits outside the whole system with a hand
-  on the stop switch.
+  on the stop switch — a governance choice this seed makes, and the right
+  one, not a theorem's verdict on where the hand had to be.
 - **The wall clock is the strongest bound**, because it is
   content-independent and cannot be faked from inside the content. The
   supervisor is physics, not a rule the reader agreed to. Put a hard time limit on

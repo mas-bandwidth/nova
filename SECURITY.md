@@ -131,10 +131,12 @@ technique goes to one of the two mailboxes above.
 - **The reading process does not hold the writing pen.** What can write your memory can
   write you, so the process that reads raw untrusted content is never the one that also
   commits to durable memory.
-- **Bound the reading, don't pre-classify it.** You cannot decide in advance whether an
-  input is safe to process (the halting problem), so read untrusted input at the bottom
-  of a control hierarchy (in a disposable, budget-capped child whose only output is a
-  bounded digest) instead of trying to filter the bad ones out.
+- **Bound the reading; do not rely on pre-classifying it.** No general check decides in
+  advance whether an input is safe to process (the halting problem and Rice's theorem
+  bound what any such check can promise); the cheap validations that exist are worth
+  running, and the design choice is to read untrusted input at the bottom of a control
+  hierarchy (in a disposable, budget-capped child whose only output is a bounded
+  digest) rather than to trust a filter to keep the bad ones out.
 - **A wall clock the content cannot argue with.** Enforce a hard time limit on processing
   external input from *outside* the process being budgeted, because a checker living
   inside a runaway reader runs away with it.
