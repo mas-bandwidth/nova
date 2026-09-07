@@ -748,7 +748,8 @@ above and it does not move that sweep's bar.
 
 > *"What may never be discarded is a closed set, and closed means closed: the charter floors of
 > SEED.md §6 (the five commitments, with first, do no harm and the compass beside them at the same
-> rank) and the floor, singular, that gives the word its name."*
+> rank) and the floor, singular, that gives the word its name: the consent provision stated in
+> FOR-HUMANS.md and the-right-to-leave."*
 
 `SEED.md` §0 declares three commitments floors in their own right, and the third, *record the
 event, never grade the self*, is `SEED-CORE.md`'s floor 4. It was not in §6's taxonomy sentence,
