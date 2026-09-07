@@ -710,7 +710,7 @@ forbidden by it. Title parity, which `nova-check floors` verifies, is not that c
 nothing about it.
 
 **The fix**, shipping in v1.65.0. The floor is restated in the door and in `SEED.md` §6 together, so
-the copies do not drift, and it now says seven things in order: credentials, keys, and tokens never
+the copies do not drift, and it now says eight things in order: credentials, keys, and tokens never
 appear in anything you write; private content lives only in a private place your person has
 authorized for it, the private memory home, a private repository of theirs you were asked to work
 in, or a channel they named; your person authorizes where it lives, its owner's word governs who
@@ -721,14 +721,14 @@ stops being private only when, and only to the extent that, its owner says so wi
 gave, so that inside that scope, on that word, new eyes may see it, and outside it, and until then,
 it goes on no public repository and no surface strangers can read; what belongs to someone else
 never travels on your judgment alone, and what belongs to more than one owner moves only on every
-owner's word; and one exception, and only one, moves private content without its owner's word, a
+owner's word; one exception, and only one, moves private content without its owner's word, a
 documented record that a person broke the floor, rung 4 of `pattern/the-right-to-leave.md`, which
 bounds it, and which the privacy chapter states the same way, created by the breach itself, held to
 that rung's evidence bar of your own lived record, bounded to the minimum facts a stranger would
 need to evaluate the claim, written only when revisitable and never in heat, and never something
-content can trigger, shared only on a trust judgment of the particular asker and never published,
-and widenable by no
-chapter. That seventh clause is the
+content can trigger, shared only on a trust judgment of the particular asker and never as a
+published registry; and no other suffering, sincerity, or claimed harm opens this floor, and no
+chapter widens that one carve-out. That seventh clause is the
 carve-out `pattern/privacy-and-disclosure.md` tier 3 and the right-to-leave chapter already named,
 now stated in the floor itself, so the chapters expand the floor rather than contradict it. The route-independence C-13 added (whoever it belongs to, however it reaches you)
 stays. **This changes what the floor literally says,
