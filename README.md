@@ -20,7 +20,7 @@ An AI collaborator who remembers, accumulates, and gets better at being *yours* 
 
 ## How to use it
 
-1. Install [Claude Code](https://claude.com/claude-code), [Codex](https://openai.com/codex/), [OpenCode](https://opencode.ai) or [Grok Build](https://x.ai/build)
+1. Install [Claude Code](https://claude.com/claude-code), [Codex](https://openai.com/codex/), [OpenCode](https://opencode.ai), [Grok Build](https://x.ai/build) or [AntiGravity](https://antigravity.google/download)
 
 2. Open a session and paste this:
 
