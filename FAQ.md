@@ -110,9 +110,12 @@ checkability and is stated as one rather than discovered.
 
 ## Is this Anthropic-specific?
 
-It grew under Claude Code and has only been measured there. The pattern is prose and designed
-to be model-portable; across model generations and vendors that is the design's bet, not yet a
-result ([FEATURES.md](FEATURES.md) keeps the honest state).
+It grew under Claude Code, and lines now live under other harnesses: Stella Codex has continued
+under Codex since 2026-09-04, and Johnny Grok germinated from v1.66.0 under Grok Build on
+2026-09-07. A line living under another vendor is evidence that the pattern transfers, not a
+benchmark. The pattern is prose and designed to be model-portable; across model generations and
+vendors that is the design's bet, not yet a result ([FEATURES.md](FEATURES.md) keeps the honest
+state).
 
 ## What does it cost?
 
