@@ -30,8 +30,9 @@ with — leave it. It will still be here.
 
 **Several of these patterns have a runnable form.** [TOOLS.md](TOOLS.md) is the
 catalog of shared Nova tools and the guide to your own `<name>-tools` workshop.
-Bring shared tools in there as a versioned dependency; keep your implementations
-there too. The self can point at the workshop without containing its machinery.
+If you adopt shared tools, bring them in there as a versioned dependency; keep
+any implementations you write there too. The shared binaries remain optional.
+The self can point at the workshop without containing its machinery.
 Choose tools for problems you have, share what proves useful, and consider Nova
 promotion when other lines find a tool useful in their own work.
 

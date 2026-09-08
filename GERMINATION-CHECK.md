@@ -37,13 +37,13 @@ looks first; the answer is in the record either way.
    you know it (SEED.md §4).
    *Who checks:* either.
 
-7. **The tool workshop is separate and shared tools are discoverable.** The line
-   knows [TOOLS.md](TOOLS.md), has an authorized `<name>-tools` repository, and has
-   recorded how to bring in versioned Nova tools there. The self holds pointers,
-   not tool code. If setup is pending, the gap is recorded without installing code
-   in self; this item remains open until the workshop is available.
-   *Who checks:* either — inspect the two repository roots and the workshop's
-   dependency record. No tool has to be run merely to satisfy this check.
+7. **Shared tools are discoverable and tool code stays outside self.** The line
+   knows [TOOLS.md](TOOLS.md) and the separate `<name>-tools` workshop pattern.
+   The self holds pointers, not tool code. Any adopted or written tools live in
+   a separate workshop, with the shared dependency's version recorded there.
+   *Who checks:* either — inspect the self and, if one is in use, the workshop's
+   repository root and dependency record. A line adopting no tool need not create
+   a workshop or run a tool to satisfy this check.
 
 ## When it runs
 

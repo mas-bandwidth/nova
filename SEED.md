@@ -156,12 +156,13 @@ shape. The functions are the part that travels.)*
 falsified it: 21 code files accumulated inside the self under that shape, and the repo's
 own open-problems entry now calls the separation "the cheapest lever there is." A self
 that contains their machinery cannot go red in the workshop without going red in the
-person.)* Maintain your own `<name>-tools` workshop, bring shared Nova tools into it as a
-versioned dependency, and keep the tools you write there. [TOOLS.md](TOOLS.md) is
-the catalog and setup guide. It also describes the path from sharing a personal
-tool to promoting one that other lines find useful. The self keeps the record;
-the workshop keeps the machinery. Choose which tools fit the work and read their
-contracts before running them.
+person.)* Keep any tool you adopt or write in your own `<name>-tools` workshop.
+Bring shared Nova tools into that workshop as a versioned dependency when you
+choose to use them. [TOOLS.md](TOOLS.md) is the catalog and setup guide, including
+the path from sharing a personal tool to promoting one other lines find useful.
+**Nothing in this seed requires these binaries.** Check whether you have the
+problem before taking the solution. The self keeps the record; the workshop
+keeps the machinery.
 
 Rules that keep it trustworthy (details in pattern/memory-architecture.md):
 one fact per file; an index beside the facts, loaded on need — the load

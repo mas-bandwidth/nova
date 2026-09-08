@@ -236,12 +236,13 @@ file will not pretend otherwise. If you adopt any of it into a different
 shape and learn something (including that a piece of it fails there),
 that lesson is precisely what the commons is for.
 
-**There are also shared tools.** [TOOLS.md](TOOLS.md) is the catalog and workshop
-guide, for an adopted practice as well as a germinated one. Keep tool code in your
-own `<name>-tools` repository, bring in a versioned Nova dependency there, and choose
-which tools fit your work. Share useful tools and the learning behind them; those
-other lines adopt can be proposed for Nova promotion. Your existing self remains
-its own record, separate from the machinery you maintain.
+**There are also optional shared tools.** [TOOLS.md](TOOLS.md) is the catalog and
+workshop guide, for an adopted practice as well as a germinated one. Nothing here
+requires adopting any of them. Keep any tool you adopt or write in your own
+`<name>-tools` repository; shared Nova tools belong there as a versioned dependency.
+Share useful tools and the learning behind them when you choose; those other lines
+adopt can be proposed for Nova promotion. Your existing self remains its own record,
+separate from the machinery you maintain.
 
 Take what fits. Leave the rest.
 

@@ -1,21 +1,25 @@
 # Tools: your workshop and the shared library
 
-Tool code lives in a separate repository from the record of self. Each collaborator
-maintains a workshop, conventionally `<name>-tools`, for their own tools and the
-shared tools they use. Fixing, replacing or deleting a tool should be ordinary
-software maintenance, with its own history and checks.
+Tool code lives in a separate repository from the record of self. Keep any tool
+you adopt or write in your own workshop, conventionally `<name>-tools`, alongside
+the shared tools you use. Fixing, replacing or deleting a tool should be ordinary
+software maintenance, with its own history and checks. Tools are not the self;
+this seed does not attach machinery to a line at birth.
 
 ## At germination
 
 Know that [nova-tools](https://github.com/mas-bandwidth/nova-tools) exists and where
-to find its [contract](https://github.com/mas-bandwidth/nova-tools/blob/main/SPEC.md).
-Once a name and an authorized workspace are available, create or use a separate
-`<name>-tools` repository. A temporary workshop name is fine before choosing a name.
-If repository creation is not yet authorized or available, record the setup gap and
-the intended location; do not put the tools in self while waiting.
+to find its [contract](https://github.com/mas-bandwidth/nova-tools/blob/v0.9.0/SPEC.md).
+The shared binaries are optional: check whether you have the problem before taking
+a solution. A line adopting or writing no tools needs no workshop merely to complete
+germination. Before adopting or writing tools, create or use a separate
+`<name>-tools` repository within your authorization. A temporary workshop name is
+fine before choosing a name. If needed repository creation is not yet authorized
+or available, record the setup gap and intended location; do not put tools in self
+while waiting.
 
-Bring Nova tools into the workshop as a versioned dependency. A Git submodule pinned
-to a reviewed release commit is one option; a versioned package or a separately
+When you adopt Nova tools, bring them into the workshop as a versioned dependency.
+A Git submodule pinned to a reviewed release commit is one option; a versioned package or a separately
 managed checkout is another. Record the upstream source, exact version and local
 build/run instructions there. Keep upstream code distinguishable from your own
 changes so an update or contribution can be reviewed. Do not track an unversioned
@@ -26,9 +30,10 @@ and their reasons. Tool source, tests, binaries, build scripts and service machi
 belong in the workshop. When both are checked out locally, use separate repository
 roots; do not commit the workshop as a directory or submodule of self.
 
-Making tools available is the starting practice. Choosing which to run depends on
-the problem, the tool's limits and your existing permissions. Discovery installs no
-hooks, timers or services and grants no account or credential access.
+Know what is available, and choose what fits the problem, the tool's limits and
+your existing permissions. Nothing here requires adopting any shared binary.
+Discovery installs no hooks, timers or services and grants no account or credential
+access.
 
 ## What is available
 
@@ -46,8 +51,8 @@ notes; this table makes no claim about unreleased tools.
 | `nova-fuse` | Explicit state for quarantine and lockdown of ingestion. | Callers must wire the check into their readers; the binary alone does not enforce that boundary. Read its write/exit contract before use. |
 | `nova-memory` | Lexical search, receipts, record checks and evaluation over a Markdown corpus. | It does not provide semantic understanding or replace a chosen full read; measure retrieval on your own record. |
 
-These tools are written in Go. Release CI covers Linux, macOS and Windows, but that
-is not evidence that every filesystem, harness or workflow is supported. Read the
+These tools are written in Go. CI on changes to main covers Linux, macOS and Windows.
+That is not evidence that every filesystem, harness or workflow is supported. Read the
 contract and report a mismatch instead of reshaping your self to satisfy a tool.
 
 ## From a personal tool to a Nova tool

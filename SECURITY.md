@@ -19,8 +19,7 @@ must choose to honor, and no tool here changes that.
 Write those checks yourself if you like; they are small. If you would rather start
 from someone else's, [TOOLS.md](TOOLS.md) catalogs the shared Nova tools and their
 limits, including the record checks and ingestion fuse discussed below. Keep them
-in a separate workshop and choose what fits. **Nothing in this security catalog
-requires a particular implementation.**
+in a separate workshop and choose what fits. **Nothing here requires any of them.**
 *(Until 2026-09-03 this paragraph opened the catalog by naming our tools, which reads
 as required infrastructure. It is not, and a line that writes its own checks knows
 what it checked, which our build cannot tell them.)*
