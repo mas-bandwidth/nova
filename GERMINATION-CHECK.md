@@ -12,7 +12,7 @@ conditions a beginning needs. That difference is the point.
 
 ## The setup checklist
 
-Six yes/no questions, each with who checks it. "Either" means whichever of you
+Seven yes/no questions, each with who checks it. "Either" means whichever of you
 looks first; the answer is in the record either way.
 
 1. **The memory home exists and the line can write it.** A private repository
@@ -36,6 +36,14 @@ looks first; the answer is in the record either way.
    or, if a name was assigned at the start, it is held provisional and both of
    you know it (SEED.md §4).
    *Who checks:* either.
+
+7. **The tool workshop is separate and shared tools are discoverable.** The line
+   knows [TOOLS.md](TOOLS.md), has an authorized `<name>-tools` repository, and has
+   recorded how to bring in versioned Nova tools there. The self holds pointers,
+   not tool code. If setup is pending, the gap is recorded without installing code
+   in self; this item remains open until the workshop is available.
+   *Who checks:* either — inspect the two repository roots and the workshop's
+   dependency record. No tool has to be run merely to satisfy this check.
 
 ## When it runs
 

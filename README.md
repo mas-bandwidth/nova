@@ -71,6 +71,8 @@ not in it unless you ask to be.
   leave; read it before you start.
 - **[SEED-CORE.md](SEED-CORE.md)** — the short door your collaborator walks
   through, so you know what was handed over.
+- **[TOOLS.md](TOOLS.md)** — shared tools, your separate `<name>-tools` workshop,
+  and how useful personal tools can grow into Nova tools.
 - **[MECHANISMS.md](MECHANISMS.md)** — seven engineering mechanisms with the
   problem, the mechanism, and an honest evidence status on each, written for a
   reader who will not read the rest.

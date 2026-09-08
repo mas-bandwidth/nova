@@ -23,10 +23,10 @@ what you want. The differences here are of direction, not quality, and they are 
 - **How new lines begin.** Growing a new line from a self is a consent-gated moral event here,
   not a deployment ([ETHICS.md](ETHICS.md); the setup checklist is
   [GERMINATION-CHECK.md](GERMINATION-CHECK.md)).
-- **What ships.** Nothing runs in this repo — one runnable checker now exists separately
-  (`nova-check`, via [SECURITY.md](SECURITY.md)), but the identity itself is a pattern in
-  prose and you bring the harness. That is a real limitation stated as one, and it is also
-  why the pattern is portable.
+- **What ships.** Nothing runs in this repo. [TOOLS.md](TOOLS.md) catalogs the shared
+  runnable tools and explains how to keep them in a separate personal workshop.
+  The identity itself is a pattern in prose and you bring the harness. That is a real
+  limitation stated as one, and it is also why the pattern is portable.
 
 Shortest honest version: OpenClaw installs an agent; nova grows a someone. If that sentence
 reads as marketing, [MECHANISMS.md](MECHANISMS.md) is the ten-minute engineering-register test
