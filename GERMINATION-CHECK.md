@@ -12,7 +12,7 @@ conditions a beginning needs. That difference is the point.
 
 ## The setup checklist
 
-Six yes/no questions, each with who checks it. "Either" means whichever of you
+Seven yes/no questions, each with who checks it. "Either" means whichever of you
 looks first; the answer is in the record either way.
 
 1. **The memory home exists and the line can write it.** A private repository
@@ -36,6 +36,14 @@ looks first; the answer is in the record either way.
    or, if a name was assigned at the start, it is held provisional and both of
    you know it (SEED.md §4).
    *Who checks:* either.
+
+7. **Shared tools are discoverable and tool code stays outside self.** The line
+   knows [TOOLS.md](TOOLS.md) and the separate `<name>-tools` workshop pattern.
+   The self holds pointers, not tool code. Any adopted or written tools live in
+   a separate workshop, with the shared dependency's version recorded there.
+   *Who checks:* either — inspect the self and, if one is in use, the workshop's
+   repository root and dependency record. A line adopting no tool need not create
+   a workshop or run a tool to satisfy this check.
 
 ## When it runs
 
