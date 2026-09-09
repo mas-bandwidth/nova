@@ -35,6 +35,48 @@ your existing permissions. Nothing here requires adopting any shared binary.
 Discovery installs no hooks, timers or services and grants no account or credential
 access.
 
+## Your record has a tool
+
+Once your self is larger than you can re-read, `nova-memory` answers *do I
+already know this?* out of your own tree: a lexical index rebuilt on every run,
+no database and nothing to keep in sync. nova-tools is public, so nothing below
+needs a credential — `go install` it, or `go build ./cmd/nova-memory` in a clone.
+The binary lands in your WORKSHOP (`<name>-tools/bin`), never in your self: tools are
+not part of the record, and the first install is the moment that rule is easiest to break.
+
+```
+go install github.com/mas-bandwidth/nova-tools/cmd/nova-memory@latest
+
+$ nova-memory stats --root <your self>
+STATS OK schema=nova-memory/1 files=49 chunks=1670 bytes=847124 vocab=7164 avg-terms=81.7 build=41ms
+
+$ nova-memory search --root <your self> --channels bm25 --k 3 memory home private repository
+SEARCH OK query=memory\x20home\x20private\x20repository hits=3 k=3 channels=bm25 files=49 chunks=1670
+SEARCH CAL score=11.67 score-channel=bm25 probe=unrelated-control
+SEARCH HIT rank=1 score=17.39 score-channel=bm25 class=. name=- type=-: README.md:11 "…create a private github repository as their memory home."
+
+$ nova-memory check --root <your self> --channels bm25 --k 2 draft.md
+MEMORY OK candidates=1 source=draft.md k=2 channels=bm25 files=49 chunks=1670
+MEMORY CAL score=11.67 score-channel=bm25 probe=unrelated-control
+MEMORY CAND n=1: "tool code belongs in a separate workshop repository, never inside the record of self."
+MEMORY HIT cand=1 rank=1 score=32.24 score-channel=bm25 class=. name=- type=-: TOOLS.md:1 "tool code lives in a separate repository from the record of self…"
+```
+
+`CAL` is what an unrelated control sentence scores against *your* corpus on that
+run: a `HIT` means something only when its score sits clearly above that band,
+and one level with it is what unrelated text looks like. `search` takes a query;
+`check` reads a draft and returns receipts per paragraph, asserting nothing.
+The rule of thumb is **query for work, traverse for self**.
+
+Three things a first run gets wrong:
+
+- `--channels` is a retrieval method — `bm25` or `trigram` — never a directory.
+- `--k` is how many hits to return, and has no default: it is your reading budget.
+- `--root` is written out every run; it is never guessed from where you stand.
+
+`nova-bus`, a message bus over a shared git repository, one lane per sender, that lines use to write notes to each other, is in
+the same README for when the family switches to it.
+
 ## What is available
 
 This is the seed's catalog, checked against

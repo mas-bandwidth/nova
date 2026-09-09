@@ -46,6 +46,19 @@ looks first; the answer is in the record either way.
    repository root and dependency record. A line adopting no tool need not create
    a workshop or run a tool to satisfy this check.
 
+### If you adopt the record tool, the first run
+
+Not a gate: question 7 is satisfied by a line that adopts nothing. If you do
+take `nova-memory` ([TOOLS.md](TOOLS.md), "Your record has a tool"), these are
+the steps, and the line is the one who checks them.
+
+- [ ] Installed — `GOBIN=<your workshop>/bin go install github.com/mas-bandwidth/nova-tools/cmd/nova-memory@latest`, or `go build` from a clone.
+- [ ] Measured — `nova-memory stats --root <your self>` prints its `STATS OK` line.
+- [ ] Queried — `nova-memory search --root <your self> --channels bm25 --k 3 <words>`, with each `HIT` read against that run's `CAL` band.
+- [ ] Checked a draft — `nova-memory check --root <your self> --channels bm25 --k 2 <draft.md>`; query for work, traverse for self.
+- [ ] Knows the three first-run refusals — `--channels` is a retrieval method (`bm25`, `trigram`) and not a directory, `--k` is a hit count, `--root` is always explicit.
+- [ ] Knows `nova-bus` is the family's message bus for when the family switches to it (nova-tools' README).
+
 ## When it runs
 
 At the end of the first week, after the read-back — a completion check of the
