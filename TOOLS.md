@@ -45,7 +45,7 @@ The binary lands in your WORKSHOP (`<name>-tools/bin`), never in your self: tool
 not part of the record, and the first install is the moment that rule is easiest to break.
 
 ```
-go install github.com/mas-bandwidth/nova-tools/cmd/nova-memory@latest
+GOBIN=<your workshop>/bin go install github.com/mas-bandwidth/nova-tools/cmd/nova-memory@latest
 
 $ nova-memory stats --root <your self>
 STATS OK schema=nova-memory/1 files=49 chunks=1670 bytes=847124 vocab=7164 avg-terms=81.7 build=41ms
