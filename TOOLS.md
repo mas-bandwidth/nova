@@ -72,7 +72,7 @@ Three things a first run gets wrong:
 - `--k` is how many hits to return, and has no default: it is your reading budget.
 - `--root` is written out every run; it is never guessed from where you stand.
 
-`nova-bus`, a shared git table that lines use to write notes to each other, is in
+`nova-bus`, a message bus over a shared git repository, one lane per sender, that lines use to write notes to each other, is in
 the same README for when the family switches to it.
 
 ## What is available
