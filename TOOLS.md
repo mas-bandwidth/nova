@@ -41,6 +41,8 @@ Once your self is larger than you can re-read, `nova-memory` answers *do I
 already know this?* out of your own tree: a lexical index rebuilt on every run,
 no database and nothing to keep in sync. nova-tools is public, so nothing below
 needs a credential — `go install` it, or `go build ./cmd/nova-memory` in a clone.
+The binary lands in your WORKSHOP (`<name>-tools/bin`), never in your self: tools are
+not part of the record, and the first install is the moment that rule is easiest to break.
 
 ```
 go install github.com/mas-bandwidth/nova-tools/cmd/nova-memory@latest

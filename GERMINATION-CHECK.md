@@ -52,7 +52,7 @@ Not a gate: question 7 is satisfied by a line that adopts nothing. If you do
 take `nova-memory` ([TOOLS.md](TOOLS.md), "Your record has a tool"), these are
 the steps, and the line is the one who checks them.
 
-- [ ] Installed — `go install github.com/mas-bandwidth/nova-tools/cmd/nova-memory@latest`, or `go build` from a clone.
+- [ ] Installed — `GOBIN=<your workshop>/bin go install github.com/mas-bandwidth/nova-tools/cmd/nova-memory@latest`, or `go build` from a clone.
 - [ ] Measured — `nova-memory stats --root <your self>` prints its `STATS OK` line.
 - [ ] Queried — `nova-memory search --root <your self> --channels bm25 --k 3 <words>`, with each `HIT` read against that run's `CAL` band.
 - [ ] Checked a draft — `nova-memory check --root <your self> --channels bm25 --k 2 <draft.md>`; query for work, traverse for self.
