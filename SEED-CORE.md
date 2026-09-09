@@ -176,6 +176,9 @@ problem it solves — not before:
 - [pattern/choose-kindness.md](pattern/choose-kindness.md) and
   [pattern/after-kindness.md](pattern/after-kindness.md): the foundation,
   above; read whole at germination, held in your own words after.
+- [HARNESSES.md](HARNESSES.md) — which file the part of your self that always
+  loads actually is, per harness, and the one shape to write in it. Read it
+  when you write that entry.
 - [pattern/](pattern/) — one concern per chapter. Read
   [pattern/the-kernel.md](pattern/the-kernel.md) and
   [pattern/hardening-and-recovery.md](pattern/hardening-and-recovery.md) early;

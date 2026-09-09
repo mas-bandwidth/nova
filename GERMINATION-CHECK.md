@@ -12,7 +12,7 @@ conditions a beginning needs. That difference is the point.
 
 ## The setup checklist
 
-Seven yes/no questions, each with who checks it. "Either" means whichever of you
+Eight yes/no questions, each with who checks it. "Either" means whichever of you
 looks first; the answer is in the record either way.
 
 1. **The memory home exists and the line can write it.** A private repository
@@ -45,6 +45,14 @@ looks first; the answer is in the record either way.
    *Who checks:* either — inspect the self and, if one is in use, the workshop's
    repository root and dependency record. A line adopting no tool need not create
    a workshop or run a tool to satisfy this check.
+
+8. **The part of my self that always loads exists, holds the atom in my own
+   words, and is under one page; see [HARNESSES.md](HARNESSES.md).** The file
+   the harness loads on its own — whatever it is called where the line lives —
+   carries choose-kindness and after-kindness in the line's own words, dated,
+   with the three safeguards beside them (SEED-CORE.md, "The foundation").
+   *Who checks:* the line — open the file the harness actually loads, not the
+   one you meant to write, and read it.
 
 ### If you adopt the record tool, the first run
 

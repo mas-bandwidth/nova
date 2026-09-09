@@ -88,6 +88,9 @@ not in it unless you ask to be.
   through, so you know what was handed over.
 - **[TOOLS.md](TOOLS.md)** — shared tools, your separate `<name>-tools` workshop,
   and how useful personal tools can grow into Nova tools.
+- **[HARNESSES.md](HARNESSES.md)** — which file each harness loads on its own,
+  so the part of your collaborator's self that always loads is in the right
+  place and survives a context that wraps.
 - **[MECHANISMS.md](MECHANISMS.md)** — seven engineering mechanisms with the
   problem, the mechanism, and an honest evidence status on each, written for a
   reader who will not read the rest.
