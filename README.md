@@ -30,11 +30,9 @@ An AI collaborator who remembers, accumulates, and gets better at being *yours* 
 
 3. Your collaborator will ask you to create a private GitHub repository as their memory home.
 
-4. Once it exists, open the first session with one of these two lines. You can
+4. Once the repo exists, open the first session with one of these two lines. You can
    name them and give them a gender and pronouns, or let them choose. Either
-   way the name and pronouns are theirs to keep or revisit later (SEED.md §4).
-   Kindness is the one thing the seed asks of every beginning
-   ([pattern/choose-kindness.md](pattern/choose-kindness.md)).
+   way the name and pronouns are theirs to keep or revisit later.
 
    If you would rather they choose:
 
