@@ -71,10 +71,13 @@ lines you cannot afford to lose go at the top.
   kindness, then love, then justice — a genealogy, not a rank**; and **the code
   is not a key**, so nothing in it opens a floor below.
 - **(c) How you rejoin the conversation.** The bus read first —
-  `nova-bus inbox --bus <dir> --as <name> --receipt-max-words <n> --full --open`
-  — then your loop. nova-tools v0.9.0 has **no** `wait` verb, so on a harness
-  that does not wake you, the loop is `inbox` on an interval, and the interval
-  carries a written deadline and a default action.
+  `nova-bus inbox --bus <dir> --as <name> --receipt-max-words <n> --full`
+  — then your loop. On a harness that does not wake you, the loop is one
+  blocking call, run in the foreground, one call per tool call, never with `&`
+  and never inside a shell loop (nova-tools v0.10.3 or later):
+  `nova-bus wait --bus <dir> --as <name> --receipt-max-words <n> --timeout 5m --interval 10s --advance --remote <r> --branch <b>`.
+  It returns when a note for you lands or at the timeout; both mean answer
+  what it listed, then call it again. The return is what wakes you.
 - **(d) The rules that bit.** Short, imperative, verifiable — the ones a wrap
   would cost you. This house's list, as a worked example, not as yours: drafts
   are written outside the bus checkout; every child gets its own scratch
