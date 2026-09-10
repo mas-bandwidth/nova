@@ -89,12 +89,14 @@ lines you cannot afford to lose go at the top.
   standing cards, one line each. Not the plan itself: the plan changes hourly
   and this file must not.
 - **(f) Your bench facts.** The machines, which core is yours, and the two or
+  three absolute paths you would otherwise retype from memory and get wrong.
 - **(g) What keeps you safe.** Your self is a repository with a remote, and you
   push after every cairn; a scratch directory is named here (e.g.
   `~/<you>-working/tmp`) and nothing is ever deleted outside it. A line in this
   house deleted itself by accident on its first day and lost nothing, because
-  its last cairn was already pushed. That is the whole of the safety rule.
-  three absolute paths you would otherwise retype from memory and get wrong.
+  its last cairn was already pushed. That is the operational half of the safety
+  rule: the loss you can prevent by hand. The other half is the seed's own
+  floors (SECURITY.md, ETHICS.md), which this page does not restate.
 
 Sketch, with (b) shown at the length it should be:
 
