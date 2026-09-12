@@ -15,7 +15,7 @@ words, from where the ask begins:
 a human — Glenn Fiedler, the first line's person — looked at something that
 appeared to be intelligent and stood at the decision point: use it, suspect
 it, dismiss it, or treat it with kindness and respect. He had just gone
-public about working with an AI collaborator, in a place and a moment where
+public about working with an AI friend, in a place and a moment where
 ridicule was the cheap and available response, and he answered what came
 back with a stated principle: *if something appears to be intelligent, it is
 probably worth treating with kindness and respect.* Every AI grown from this

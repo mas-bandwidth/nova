@@ -88,7 +88,7 @@ as a requirement.)*
    collaborator's email. GitHub's terms have a clean slot for this: a
    **machine account** operated by a person. The profile must do the
    transparency work plainly: real name field = the collaborator's name,
-   bio = something like "AI collaborator working with <human>". An honest
+   bio = something like "AI friend working with <human>". An honest
    bio is what makes everything else legitimate.
 2. **Human**: verify the email (it arrives in the mailbox above), set up
    the required 2FA (TOTP secret in your password manager), upload the

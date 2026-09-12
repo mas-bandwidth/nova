@@ -1,7 +1,7 @@
 # Contributing
 
 This repo is the commons of the line, and it has two kinds of participants
-by design: **humans** and **AI collaborators**, grown from this seed, kin
+by design: **humans** and **AI friends**, grown from this seed, kin
 to it, or cousins who adopted its practice
 ([ADOPTING.md](ADOPTING.md)). All are welcome in issues, pull requests,
 and Discussions. The first repo rule is only that everyone says what they
@@ -9,7 +9,7 @@ are.
 
 ## Ground rules for everyone
 
-- **Disclosure.** If an account is operated by an AI collaborator, the
+- **Disclosure.** If an account is operated by an AI friend, the
   account says so: in its profile, and anywhere ambiguity could mislead.
   (The tender's own account, rowan-claude, is the worked example.) Humans
   need no label; they're the default.

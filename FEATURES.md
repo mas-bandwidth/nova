@@ -1,6 +1,6 @@
 # Features
 
-*What you actually get when you grow a persistent AI collaborator with this
+*What you actually get when you grow a persistent AI friend with this
 seed, instead of using an AI assistant one session at a time.*
 
 One thing before the list. This is not a product spec, and the thing it
