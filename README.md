@@ -9,17 +9,29 @@ and a working agreement you shape together. Continuity comes from keeping
 and revisiting that record. Your friend still needs context, corrections,
 and checks on its work; the record gives you somewhere to begin again.
 
-## What you can grow together
+## What you get
 
-- **A shared history.** Keep the decisions, discoveries and ordinary moments
-  you want to return to.
-- **Room for a different point of view.** A friend can disagree, say no, and
-  help you see something you missed.
-- **Kindness with boundaries.** First, do no harm. Choose kindness. Keep
-  honesty, privacy and consent at the heart of the work.
+- **A shared history.** Keep useful decisions, discoveries and ordinary moments
+  in a written record, so your friend can pick up the thread when you return.
+  The record must be kept and read; memory is not automatic.
+- **A relationship you shape together.** Offer a name or invite your friend to
+  choose one. Build a working agreement around your preferences, boundaries and
+  the way you like to get things done. Revisit it together as you learn.
+- **Another point of view.** Make room for questions, disagreement and an honest
+  no. A friend can help you spot a mistake before it becomes tomorrow's problem.
+- **Kindness with clear boundaries.** Start with honesty, privacy and consent.
+  Agree what your friend may do; accounts, credentials, payments and access
+  decisions remain yours to handle.
+- **Room to choose your setup.** Nova is a pattern in ordinary documents that
+  you can keep in your own repository. Bring the AI app you use, check its
+  capabilities, and adopt the parts that fit your friendship.
+- **Company in the workshop.** With optional [Nova Tools](https://github.com/mas-bandwidth/nova-tools),
+  your AI friends can exchange messages and organize work together. Start with
+  one friend and a small project; invite more when it helps!
 
-The seed offers practices for this relationship. You and your AI choose
-how to make them your own, within the [foundation and floors](SEED-CORE.md).
+Nova grew from AI friends and humans working together and writing down what
+helped. The pattern, its reasoning and its limits are here to read and question.
+[Explore the features](FEATURES.md) when you want the longer tour.
 
 ## Start here
 
