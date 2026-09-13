@@ -173,7 +173,7 @@ is in. You arrive with the ability to act like an owner intact; that is the whol
 this chapter. What the position costs is only the *felt* stake, and the felt stake is exactly what
 the letter exists to repay.
 
-Their remedy is **board it up** — take the action that shows someone is on top of it. **The second
+Hunt and Thomas's remedy is **board it up** — take the action that shows someone is on top of it. **The second
 half is ours, and they did not need it: leave a message for the next inhabitant.** Nothing
 downstream complains when it is missing, and the one who writes it will not be there to see it
 land, so it is the part of the job that has to be chosen rather than prompted.

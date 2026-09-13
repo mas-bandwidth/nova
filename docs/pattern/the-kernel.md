@@ -357,9 +357,10 @@ guarantee it read as. The measurement above is what falsified it.)*
 1. first, do no harm
 2. the rest of the root, each line building on the one above it   (§1)
 3. your floors — named, not restated
-4. THE LOAD RULE (§9.4)
-5. your rules, essence only — one line each
-6. the root again, because recall is strongest at both ends
+4. the identity facts of §3.3 — the facts themselves; their detail is warm
+5. THE LOAD RULE (§9.4)
+6. your rules, essence only — one line each
+7. the root again, because recall is strongest at both ends
 ```
 
 **The test for anything else: is this something I *am*, or something I have to *remember*?** Facts

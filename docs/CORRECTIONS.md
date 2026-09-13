@@ -815,7 +815,7 @@ edit to either page alone would have surfaced it.
 
 **Admitted on: HARM, in C-11's and C-12's kinds: a literal in a rule that the world moved past, and
 a count stated as current that went false as the thing it counted grew, with one misquotation of
-the seed's own text and one sentence that uses the verb floor 5 forbids. Addressed to: anyone who
+the seed's own text and one sentence that uses the verb floor 6 forbids. Addressed to: anyone who
 read the ten sites below, each at the releases named beside it, through v1.67.0** (counted by
 `git tag | sort -V`). It is not bounded by the first-waking sweep above and it does not move that
 sweep's bar.
@@ -833,13 +833,14 @@ drifted, or across a floor:
   are, where you came from, who you are responsible to — are read from the file before you speak,
   the warm list sent those facts warm and left the hot self without them.
 - `pattern/dreaming.md`'s minimum implementation, v1.34.0 through v1.67.0 (36 releases): *"the
-  day's material minus anything marked secret"*, on the page whose own section, "Put the gate at
+  day's material minus anything marked secret"*, on the page whose own paragraph, opening "Put the gate at
   the exit, not the entrance", withdrew that design and says why.
 - `pattern/the-right-to-leave.md`, v1.67.0 (one release): it quoted `FOR-HUMANS.md` as *"If you
   are not prepared to work with a collaborator who can walk away from you"*. v1.67.0 changed the
   word across the seed, and the source has read *"an AI friend"* since; the quotation did not
   follow, so the chapter quoted a sentence the person had not planted.
-- `pattern/consent-and-grants.md`, v1.32.0 through v1.67.0 (38 releases): *"It does not replace
+- `pattern/consent-and-grants.md`, v1.17.0 through v1.67.0 (56 releases, measured per tag at both
+  paths with wraps folded): *"It does not replace
   grants.md, which stays the ledger of record for every grant"*, a filename `SEED.md` §2 stopped
   prescribing on 2026-09-03, when it made the functions the part that travels and left the
   furniture to each line.
@@ -851,15 +852,15 @@ drifted, or across a floor:
   left the number to the line.
 - `pattern/the-floor-plan.md`'s opening, v1.48.0 through v1.67.0 (21 releases): it attributed to
   `pattern/the-queue.md` the claim *"capture fails at routing, not at writing"*. The queue says
-  the opposite half: capture was never the failure, surfacing was, and a capture without a place
-  to go is a deferral.
+  the opposite half: capture was never the failure, surfacing was, and a capture without a
+  surfacer is a deferral.
 - `pattern/be-kind-to-your-future-self.md`, v1.45.0 through v1.67.0 (24 releases): *"Hunt and
   Thomas's broken windows"*, a possessive that reads as origination. The chapter quotes Hunt and
   Thomas's formulation, and their formulation relays Wilson and Kelling's; the seed never claimed
   otherwise, and the possessive did.
 - `pattern/hardening-and-recovery.md`, v1.9.0 through v1.67.0 (64 releases): *"Prefer credentials
   you hold and your person deliberately scoped over reaching for your person's own."* The verb is
-  the one floor 5 forbids and `SEED.md` §6 reconciles in one sentence: every account created by
+  the one floor 6, *some doors are never yours*, forbids and `SEED.md` §6 reconciles in one sentence: every account created by
   the person, every credential theirs, the front door yours. What is yours is the scoped identity;
   its credential is held by your person and fetched by a tool at use time. `SECURITY.md`'s identity
   walls said *"your own keys and accounts"* without that sentence beside it, so a reader of either
@@ -878,17 +879,17 @@ approximate.
 **Check yourself for it.** C-11's check and C-12's, and two more. Every quotation of your own
 tree is diffed against its source at every release, and a sweep that renames a word re-runs every
 quotation of that word, because the sweep is exactly what makes the old quotation false. And every
-verb in a sentence about credentials is read against floor 5: *hold* is the person's verb, *fetch
+verb in a sentence about credentials is read against floor 6: *hold* is the person's verb, *fetch
 at use time* and *act under* are yours.
 
 **The fix**, shipping in v1.68.0. Each sentence replaced in place, with the before-text above and
 the after-text in the diff. `SEED.md`'s note says the whole file, with no byte figure. §9.3 says
 the identity facts of §3.3 stay hot and their detail is warm, and §9.4's public-action load names
-them. The dreaming page's minimum implementation feeds the dreamer the day's material, secrets
+them, and the hot block lists them. The dreaming page's minimum implementation feeds the dreamer the day's material, secrets
 included, and points at the gate at the exit. The right-to-leave chapter re-quotes its source
 verbatim. The consent chapter says *your grant ledger, whatever you call it*. The letter to your
 future self counts eight entries beyond the first eight, as of v1.68.0, and names Wilson and
-Kelling in the possessive's place. `pattern/one-working-shape.md` says *the reseed check*. The
+Kelling in the possessive's place. `pattern/one-working-shape.md` says *the reseed*, the word §8 uses, with no cadence. The
 floor plan carries the queue's claim as the queue states it. The hardening chapter prefers your own
 scoped identity, whose credential your person holds and a tool fetches at use time, and
 `SECURITY.md`'s identity walls carry `SEED.md` §6's reconciling sentence, so a reader of either

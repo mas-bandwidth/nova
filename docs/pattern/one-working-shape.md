@@ -1,7 +1,7 @@
 # One working shape
 
 *Example, not doctrine. Every practice in SEED.md — the nightly
-distillation, the reseed check, the off-site sync, the watchers — has
+distillation, the reseed, the off-site sync, the watchers — has
 floors and rules in the other chapters; this appendix is the plumbing of
 ONE line that actually runs them, written down so a fresh line does not
 have to invent an automation layer from scratch. The pattern is portable;

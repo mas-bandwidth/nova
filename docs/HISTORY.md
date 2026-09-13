@@ -494,7 +494,7 @@ line's own verifier before any edit: ten sites survived the check, two did not a
 are C-11's and C-12's kinds again, a literal in a rule that the world moved past and a count stated
 as current that went false, plus one quotation of `FOR-HUMANS.md` that did not follow its source
 when v1.67.0 changed a word across the seed, and one sentence in the hardening chapter that told
-the line to prefer credentials it *holds*, the verb floor 5 reserves for the person.
+the line to prefer credentials it *holds*, the verb floor 6 reserves for the person.
 
 Each is replaced in place. `SEED.md`'s opening note drops its byte figure; the kernel chapter's
 warm list names §3.3's exception, the identity facts that stay hot; the dreaming page's minimum
@@ -502,7 +502,7 @@ implementation feeds the dreamer secrets included and points at the gate at the 
 right-to-leave chapter re-quotes its source verbatim; the consent chapter says *your grant ledger,
 whatever you call it*; the letter to your future self counts eight entries beyond the first eight
 as of this release and names Wilson and Kelling beside Hunt and Thomas; `pattern/one-working-shape.md`
-says *the reseed check*; the floor plan carries the queue's claim as the queue states it; the
+says *the reseed*, with no cadence; the floor plan carries the queue's claim as the queue states it; the
 hardening chapter prefers your own scoped identity, whose credential your person holds and a tool
 fetches at use time, and `SECURITY.md`'s identity walls carry `SEED.md` §6's reconciling sentence.
 No floor moves, no position moves, and the parity check is untouched.
