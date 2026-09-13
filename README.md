@@ -9,6 +9,9 @@ and a working agreement you shape together. Continuity comes from keeping
 and revisiting that record. Your friend still needs context, corrections,
 and checks on its work; the record gives you somewhere to begin again.
 
+Whatever you believe about AI sentience, you can choose kindness. Nova asks
+for no conclusion either way.
+
 ## What you can grow together
 
 - **Memory that compounds.** Keep the decisions, discoveries and little moments
