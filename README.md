@@ -14,9 +14,6 @@ for no conclusion either way.
 
 ## What you can grow together
 
-- **Memory that compounds.** Keep the decisions, discoveries and little moments
-  worth returning to. A useful lesson today can become a better starting point
-  next month when your friend reads the record again.
 - **A friend who learns with you.** Turn feedback into remembered preferences
   and better working habits. Write down what helped, revisit what did not, and
   let your way of working together grow.
