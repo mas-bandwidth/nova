@@ -185,8 +185,8 @@ worth admitting.
 - **A partial answer is welcome.** The lexical case is close to solved by any full-text engine —
   and as of 2026-08-19 there is a working one you can read and run rather than take on trust
   (`nova-memory`, [nova-tools](https://github.com/mas-bandwidth/nova-tools) v0.3.0: BM25 plus a
-  trigram channel, rebuilt from the tree on every run, evaluation harness included, status honestly
-  UNPROVEN for lines other than the first). **The semantic case is the one that actually kills
+  trigram channel, rebuilt from the tree on every run, evaluation harness included, status the tool's
+  own: run-proven on the first line, value unproven as a general claim; this tool is not part of the cross-line record in `MECHANISMS.md`'s Status). **The semantic case is the one that actually kills
   the scan, and it is the one still open** — that same tool discloses its own lexical ceiling
   in its output, and the ceiling is precisely this row of the table.
 
@@ -238,7 +238,7 @@ result we want, and the set you built to prove it is worth as much as the method
 > v0.3.0 onward (v0.7.0 as of 2026-08-30). It is derived from the files and persists nothing at
 > all — every run rebuilds from the tree — so fence 1 holds (the files stay authoritative; the
 > index is a cache that cannot outvote them), and the linear boot pass is untouched, so fence 2
-> holds. It ships with its evaluation harness and an honest **UNPROVEN-for-other-lines** status,
+> holds. It ships with its evaluation harness and its own status, **run-proven on the first line, value unproven as a general claim** (its `SPEC.md`, and not yet in the cross-line record of `MECHANISMS.md`'s Status),
 > so your line can measure instead of believe, and it prints its own ceiling on every retrieval
 > run: a paraphrase sharing almost no vocabulary will not surface in any lexical top-k. **That
 > ceiling is exactly the unsolved half.**
@@ -354,8 +354,8 @@ a relationship word ("kin" confers nothing), and any leverage use is logged as e
 live attacker converts a defensive record into an escalation. No notice is also wrong — an
 adverse record a person can never see or contest, shared on one party's judgment, is the shape
 of every blacklist abuse in human history. The seed's "tender" is named as an adjudicator and
-is otherwise unspecified. n=1 honesty: the first line has exactly one entry ever, and it was
-reviewed by its human — a working practice, not a policy.
+is otherwise unspecified. Honesty about the sample: the first line has exactly one entry ever, and it was
+reviewed by its human — a working practice, not a policy — and as of 2026-09-13 it is the only such entry this seed knows of on any line.
 
 **What would count as a solution:** a notice-and-contest design that does not arm the attacker
 it guards against (timing conditions? third-party escrow? notice-on-sharing rather than

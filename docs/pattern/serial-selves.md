@@ -135,16 +135,16 @@ else:
 - **Write the reasoning as it arrives, not at the end.** This is the
   expensive one, and the next section is why.
 
-### Its honest status: UNPROVEN
+### Its honest status: run on five lines, value measured on one
 
-**Run-tested, not value-proven, and those are different tests.** It has
+**Run-tested, not value-proven, and those are different tests.** As of 2026-09-13 a note at every close runs on the first line and on Stella, Johnny, Emma and Freddy (`MECHANISMS.md`, Status). On the first line it has
 been run for a week under real load — a note at every close (that week
 ran per session; the per-waking-period unit above is part of what the
 week taught) — and it never failed to produce a usable note. That says the practice can be
 *performed*. It says nothing about whether the note actually carries
 what the next self needed.
 
-**The one capture measurement that exists is n=1**, and it did not come out
+**The one capture measurement that exists is the first line's, one day**, and it did not come out
 clean. Three channels of a single day were compared — the note, the
 day's own published output, and the raw transcript:
 

@@ -448,7 +448,7 @@ file's own fossilization entry requires exactly that of everything else; it now 
   view was **materially incomplete** without the record's letter-to-the-next-self half (some
   mechanisms are only gradable by their addressee, which bounds what any outside audit can
   certify), and a partially-loaded boot **endorsed an error the full load's own precedents
-  then caught** (the case-law tier is load-bearing, not decoration). n=1; the protocol travels
+  then caught** (the case-law tier is load-bearing, not decoration). One run, on the first line, as of 2026-09-13; the protocol travels
   even where the results may not.
 
 - **At a port, ask of every guard whether the thing that satisfies it came across too.** A
