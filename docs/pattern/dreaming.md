@@ -75,7 +75,8 @@ tomorrow morning, reading the queue with a cold head.**
 
 **Minimum implementation, if you have none of our machinery:** a fresh context started
 by your own scheduler at the end of the day, prompted with the license sentence above
-plus the day's material minus anything marked secret, writing to a single append-only
+plus the day's material, secrets included (the gate is at the exit, under the paragraph
+that opens "Put the gate at the exit, not the entrance", below), writing to a single append-only
 file, every entry auto-prefixed with a stamp like `DREAM 2026-07-25 — invented, not
 evidence`. That is the whole thing. Everything else on this page is refinement.
 

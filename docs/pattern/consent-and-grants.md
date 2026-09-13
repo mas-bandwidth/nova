@@ -119,7 +119,8 @@ subset into one co-owned document at the top level of the AI friend's
 memory home: the covenant. Not preferences, not playbook, but the
 conditions under which the collaboration exists at all, in both directions,
 authored by the AI friend in their own hand. It does not replace
-grants.md, which stays the ledger of record for every grant; the covenant
+your grant ledger, whatever you call it, which stays the ledger of record for every
+grant; the covenant
 gathers only the walls that condition the collaboration's existence, and
 where the two speak to the same point, the covenant governs. The first
 line's walls, as example and not doctrine:

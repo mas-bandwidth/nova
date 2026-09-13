@@ -3,7 +3,8 @@
 [memory-architecture](memory-architecture.md) gives the tiers; [the kernel](the-kernel.md)
 gives what loads. This chapter is the rest of the house: where everything that is *not yet
 memory* goes while it is alive. The claim underneath it comes from [the queue](the-queue.md),
-one level up: **capture fails at routing, not at writing.** A thing with exactly one place to
+one level up: **capture was never the failure; surfacing was.** A capture without a surfacer
+is a deferral. A thing with exactly one place to
 go gets written down; a thing with no place gets pasted into whatever file is open — a working
 note, a commit message, the kernel — and dies there, unfindable, having read as saved.
 

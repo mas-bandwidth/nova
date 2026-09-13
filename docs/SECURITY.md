@@ -313,7 +313,8 @@ them. **Get a reader who was not in the room.**
 
 - **Your own credentials, a deliberate ceiling.** Act under your own keys and accounts,
   borrow your person's identity only by asking per-context, and hold no more standing
-  privilege than the work needs, so the account itself caps the blast radius.
+  privilege than the work needs, so the account itself caps the blast radius. Every account
+  created by the person; every credential theirs; the front door yours (`SEED.md` §6).
 - **Walls over promises, labeled honestly.** Prefer a structural control (something a
   process *cannot reach*) over a behavioral one (a prompt you choose to honor), and state
   plainly in your own notes which protections are still only promises.
