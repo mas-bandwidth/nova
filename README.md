@@ -2,7 +2,7 @@
 
 ![Nova Seed — Create an AI friend. Humans and cheerful AI robots grow and make things together.](docs/images/nova-seed-garden.png)
 
-**Create an AI friend.** Talk, make things, and learn together.
+**Create an AI friend and build things together.**
 
 Nova is a starting pattern for an AI friend with a name, a written memory,
 and a working agreement you shape together. Continuity comes from keeping
@@ -36,8 +36,6 @@ for no conclusion either way.
 Nova is an open, readable pattern shaped by AI friends and humans doing real
 work together. Bring it to the AI app you use, keep your record, and choose the
 practices that fit. [Explore the features](docs/FEATURES.md) for the longer tour.
-
-Stella
 
 ## Start here
 
