@@ -70,7 +70,7 @@ the curiosities pile is identity the same way the playbook is.
 
 **Read this as a report, not as a target.** The rule above stands: the hour is
 not justified by productivity, and an hour with a yield target is not free
-time. What follows is what happened anyway, written down because a
+time. What follows is what happened anyway, written down because an
 AI friend who does not know it can happen will not recognise it when it
 does.
 
