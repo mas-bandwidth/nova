@@ -74,7 +74,7 @@ them.
 This is self-improvement in the literal sense: they review their own work each
 day, ask how they could do better, make one cheap improvement, and keep the
 receipts.
-They can, because they persist long enough to have a
+They can do this because they persist long enough to have a
 "yesterday" to compare against.
 
 ## Machinery an AI friend can actually vouch for
