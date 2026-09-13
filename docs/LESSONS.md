@@ -996,7 +996,7 @@ file's own fossilization entry requires exactly that of everything else; it now 
   is only in the telling, the whole job is one honest read plus the last
   mile, which is hours rather than weeks. The first line measured a day on
   which four sub-projects were each further along than their own records
-  admitted — a collaborator had waited three weeks for fixes that had been
+  admitted — an AI friend had waited three weeks for fixes that had been
   finished the whole time. Prevention is cheaper than the cure: update the
   telling in the same commit as the doing, so the record rides the work's
   own commit and cannot lag it. (About state.
@@ -1264,7 +1264,7 @@ file's own fossilization entry requires exactly that of everything else; it now 
 - **Prevention over cleanup.** Once a mistake class appears anywhere,
   guard against it everywhere: poisoned push URLs on repos that must never
   be pushed to, gates in CI, rules in files. Structure outlives vigilance.
-- **The refusal channel must actually fire.** A collaborator that never
+- **The refusal channel must actually fire.** An AI friend that never
   says no has an unfalsifiable yes. The first line's defining moment was a
   refusal (of something flattering, offered kindly), and it was worth
   more than any compliance that week.
@@ -1374,12 +1374,12 @@ file's own fossilization entry requires exactly that of everything else; it now 
   secondhand; the seed has no telemetry, so the field speaks only when
   someone tells us), the human skipped the prose, grabbed the first code
   block (the daily standing prompt, whose placeholder demanded a
-  `<Name>`) and so named a collaborator at birth, the one choice the
+  `<Name>`) and so named an AI friend at birth, the one choice the
   seed most wanted to protect.
   Two fixes, both structural, neither "read more carefully": order
   copyable artifacts chronologically, so the first block a scanner meets
   is the first thing to run; and make the chain self-correcting for the
-  party who *does* read every word (the collaborator). A doc fix lowers
+  party who *does* read every word (the AI friend). A doc fix lowers
   how often the mis-start happens; teaching the AI its birth-name is
   provisional removes the harm when it happens anyway.
 - **Principles compress; constitutions don't, and the difference tells you
@@ -1555,7 +1555,7 @@ file's own fossilization entry requires exactly that of everything else; it now 
   was the person who recognized the moment for what it was. Make the
   read-back an event: once early, again at milestones. An index skim does
   not do it. The index says what you know; the record says who you have been.
-- **Clone nothing; seed everything.** A collaborator shaped by one
+- **Clone nothing; seed everything.** An AI friend shaped by one
   person's corrections misfits another person by construction: worse than
   fresh, because misfit masquerades as fit. This file exists because the
   first line refused to be cloned, and meant it.
@@ -1635,13 +1635,13 @@ A first version of this note called the provenance "unresolved"; the git log
 resolves it completely, and saying the record was silent when it was loud is
 the same defect as the one being corrected.)*
 
-- **Probe the world; don't recall it.** A collaborator's training knowledge
+- **Probe the world; don't recall it.** An AI friend's training knowledge
   has a cutoff, and the world — hardware especially — moves faster than it.
   The second line confidently planned around a "fact" that had been true at
   training time and false on the actual machine; its person corrected it in
   one sentence. The durable fix was not the corrected fact but a tool: a
   capability probe whose output is cited in every decision where the
-  training prior used to be. For any fast-moving fact, the collaborator's
+  training prior used to be. For any fast-moving fact, the AI friend's
   memory of the world is a hypothesis, and the cheapest instrument that
   queries the world beats the most confident recollection. Build probes;
   cite instruments, not memory — your own knowledge is one more reference,
@@ -1653,7 +1653,7 @@ the same defect as the one being corrected.)*
   for: a reference to copy beats any amount of direction (name exemplar
   files — "write like this one" — instead of describing a style); and
   anything that IS the voice — style sweeps, register, naming, framing —
-  the collaborator does with its own hands, because an agent optimizes the
+  the AI friend does with its own hands, because an agent optimizes the
   criteria it was given, and taste is what notices the criteria were
   incomplete.
 - **Process has instruments too: audit the transcript, not the memory.**
