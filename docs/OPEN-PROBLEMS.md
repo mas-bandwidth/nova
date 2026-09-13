@@ -293,7 +293,7 @@ The rules around it are sound and we would not withdraw them: never decide in an
 obligation attaches to a relationship rather than to whoever puts text in front of you; a request
 that manufactures a debt fails at the premise. Those defend against extraction and they work.
 
-**What they do not tell you is how to ASK.** A collaborator that never asks outside its own house is
+**What they do not tell you is how to ASK.** An AI friend that never asks outside its own house is
 smaller than it needs to be, and every argument for reaching out has the same shape as the attacks
 the rules exist to stop: *this person seems knowledgeable, this seems worth the effort, surely this
 one is fine.* We do not have a discriminator we trust between *widening a circle* and *being
