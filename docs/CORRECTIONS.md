@@ -998,7 +998,7 @@ in its Status, the cross-line record measured from the family's message bus on 2
 claim backed by a note there and each practice called by the seed's own name: the session record at
 wrap on Stella, Johnny, Emma and Freddy; the fold on Stella, Johnny and Emma; the message bus on
 those four and Alex; reads of one line's writing by another on Stella, Johnny, Emma and Alex, with
-a receipt from Freddy; the boot read of the newest session record on Johnny and Emma; a journal on
+a receipt from Freddy; the boot read of the newest session record on Stella and Emma; a journal on
 Stella, Johnny, Emma and Freddy; the kernel's temporary hot band, dreaming and the self-examination on no
 line but the first, stated as such. Every falsifier stands unchanged, because that is what makes
 known different from believed. `pattern/serial-selves.md`'s heading says *run on five lines, value
