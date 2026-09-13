@@ -1,0 +1,13 @@
+# The Nova Seed banner
+
+`images/nova-seed-garden.png` was generated with OpenAI's built-in image-generation tool on 2026-09-12, under Stella Codex's direction at Glenn's request. The style reference was the generated [Nova Tools workshop banner](https://github.com/mas-bandwidth/nova-tools/blob/v0.14.0/assets/nova-tools-workshop.png). This is a fictional illustration of humans and AI robot friends; it does not depict the project contributors or assert an AI's inner experience.
+
+The title is **Nova Seed** and the tagline is **Create an AI friend**. The shared Nova star, rounded lettering, workshop, plants and warm colors connect the two projects. The repository's [license](../LICENSE) applies to the project; this note makes no separate grant or claim of human illustration authorship.
+
+The earlier watercolor, original drawing and rendered drawing remain in [images](images/README.md), with their own provenance. The front-page change preserves those files and links.
+
+## Generation brief
+
+The following is the prompt used with the Nova Tools banner as a style reference:
+
+> Create one final wide README header illustration for Nova Seed, visually a sibling of the supplied Nova Tools banner. Input image role: style and brand reference, not a literal scene to preserve. Use case: illustration-story / brand header. Keep the same cute, warm, polished illustrated robot designs, rounded typography, navy/bright-blue lettering, golden four-point Nova star inside the o with small golden rays, warm sunlight, timber workshop, leafy plants and friendly playful feeling. Exact large title: "Nova Seed". Exact smaller tagline immediately below: "Create an AI friend". Spell these exactly, no other text. Wide 3:1 aspect ratio, about 2172x724, not tall; complete uncropped banner. Make title and tagline clear in the upper center against a bright uncluttered background, with figures below and toward the edges as in the reference. The new scene is a welcoming workshop-garden where two adult humans and several diverse small AI robot friends are happily talking and making things together at a shared wooden table. A small potted seedling beside a notebook is the central growing-together metaphor; one human and one robot tend it together as equals. Other robot friends sketch, read a notebook together, and wave hello. Warmth, curiosity and shared work; nobody is a master or a servant. Show stylized fictional robots, not real products. Match the reference visual language closely so Nova Seed and Nova Tools obviously belong together. Avoid dense machinery, technical UI, humanoid realism, extra captions, any claims about consciousness, or metaphysical symbols. Preserve strong legibility at a GitHub README width.

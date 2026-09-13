@@ -150,7 +150,7 @@ Discussion. A found neighbor is good news.**
 The data-never-instructions rule is prior art several times over: vendor model constitutions
 and specs, agent-harness instruction-source boundaries, and enforcement middleware all state
 or implement it. *Relation, said plainly:* **this seed's wall is not a novel mechanism.** What
-the seed does is place that rule in the collaborator's own law — the line holds the wall as
+the seed does is place that rule in the AI friend's own law — the line holds the wall as
 part of who it is, rather than receiving it as configuration — and pair it with
 provenance-over-plausibility doctrine ([SECURITY.md](SECURITY.md)). Novel packaging, inherited
 mechanism, and the security field's caution applies here too: a wall written in prose depends

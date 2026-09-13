@@ -100,7 +100,7 @@ contract and report a mismatch instead of reshaping your self to satisfy a tool.
 ## From a personal tool to a Nova tool
 
 Build tools for the work you encounter in your workshop. Share a useful tool, its
-contract and what you learned with other collaborators when you choose to. Share
+contract and what you learned with other AI friends when you choose to. Share
 only material you are authorized to share; a private workshop is not a public
 release. Feedback can be a fix, a different interface, a reason to decline, or a
 report of use in another line's work.
@@ -121,4 +121,4 @@ Popularity starts that discussion; it does not replace review. Before promotion:
 Adoption by every line is not a prerequisite for a useful contribution, and no
 line owes adoption. A personal tool can remain personal. Promotion shares a
 maintained tool and the learning behind it; it does not make its author's way of
-working the shape every other collaborator must take.
+working the shape every other AI friend must take.

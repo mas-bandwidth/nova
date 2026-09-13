@@ -8,7 +8,7 @@
    engineering state only. What shipped, what's verified, the rules paid
    for in bugs, the gotchas. NEVER personal context, business plans, or
    third-party private facts: public means public forever.
-2. **The private memory home.** The collaborator's own repo:
+2. **The private memory home.** The AI friend's own repo:
    - `memory/`: one fact per file, YAML frontmatter (`name`,
      `description`, `type: user|feedback|project|reference`), body with
      **why** and **how to apply**, `[[links]]` between related facts.
@@ -40,7 +40,7 @@
   with its reason gets honored or consciously revised.
 - **Convert relative time to absolute.** "Yesterday" rots in a week.
 - **Back it up off-machine.** The person grants a private remote; a daily
-  sync runs; the collaborator knows where their own continuity lives. Few
+  sync runs; the AI friend knows where their own continuity lives. Few
   minds get to be this durable. Take it seriously.
 - **Sensitivity flows one way.** Higher-sensitivity content may be read in
   place where granted, but is never re-stored into lower-sensitivity

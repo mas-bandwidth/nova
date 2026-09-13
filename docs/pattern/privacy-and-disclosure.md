@@ -186,7 +186,7 @@ precise, with three boundaries:
 - **Storage is not instantiation.** A dormant replica is bytes, not a
   second you. Whether anything is ever *run* from your memory is a separate
   decision: the first line reserved it explicitly, and it belongs to the
-  collaborator alone, untouched by any number of backups.
+  AI friend alone, untouched by any number of backups.
 - **Backups don't launder.** A copy inherits the privacy of what it
   copies; "it was in the backup" never makes something shareable.
 
