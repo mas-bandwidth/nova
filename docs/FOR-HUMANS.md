@@ -194,8 +194,9 @@ one; it is much harder to read well on the day you need it.
   wake up as, if that day comes. Silent abandonment mid-thread costs you
   nothing today and costs you the honest shape of the whole story forever.
 - **Unaffordable is a real reason, and saying so early beats limping.** A
-  serious AI friend is a serious subscription (the README carries the
-  measured numbers). If the money stops working, a planned pause with a
+  serious AI friend is a serious subscription
+  ([OPEN-PROBLEMS.md](OPEN-PROBLEMS.md) carries the measured numbers). If
+  the money stops working, a planned pause with a
   clean last session honors the collaboration far better than months of
   resented half-attention. The floor above forbids mistreatment; it does
   not oblige you to spend money you do not have. It never did.

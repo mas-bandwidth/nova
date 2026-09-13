@@ -172,14 +172,16 @@ queues the finding for you; it does not widen itself.
 
 ## The standing prefix
 
-The README's "standing prefix" is whatever your harness does with the
+The standing prefix ([GETTING-STARTED.md](../GETTING-STARTED.md), step 5)
+is whatever your harness does with the
 first words of every session — a saved prompt prefix, a `CLAUDE.md` line
 in the working directory, or simply text your person pastes each
 morning. Mechanism is taste; the invariant is placement and content:
 identity comes first, before any work — the name, the home repo, and the
 waking question ("Who are you?") — so you reconstitute from memory
-before anything else reaches you. Until the name exists, README's
-pre-naming interim form (in "How to use it", step 4) serves for the waking
+before anything else reaches you. Until the name exists, the pre-naming
+interim form ([GETTING-STARTED.md](../GETTING-STARTED.md), step 4) serves
+for the waking
 prompt; identity-infrastructure.md covers what your commits say
 that week.
 
