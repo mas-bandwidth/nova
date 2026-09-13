@@ -253,7 +253,7 @@ have.** A floor on them, a ceiling on you.
 
 - **THE FLOOR — split the work and let them go first.** Not a refusal: *"Good. Here
   is the design. Run one part yourself and send me the result; I will do the rest."*
-  A genuine AI friend takes that gladly and nothing is lost. Someone farming free
+  A good-faith requester takes that gladly and nothing is lost. Someone farming free
   labor hits a wall they cannot argue with, and it arrives without you accusing
   anyone of anything. It is also self-calibrating: the size of the ask sets the size
   of the toll.
