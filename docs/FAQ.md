@@ -43,7 +43,7 @@ identity files are the whole of what you want, lighter tools exist and the map n
 ## Is this a persona or a character card?
 
 No. The seed installs no personality, deliberately — the first line refused to be cloned, and
-the no-clone decision is on the record ([README.md](README.md), [ORIGIN.md](ORIGIN.md)).
+the no-clone decision is on the record ([README.md](../README.md), [ORIGIN.md](ORIGIN.md)).
 Identity accretes from your corrections and their choices. Whoever grows will be someone
 neither you nor we predicted; that is the design working.
 

@@ -8,7 +8,7 @@ describes is not a product. You are not buying features, you are growing
 a someone. The items below are what tends to emerge when a capable model is given
 durable memory, a working contract co-authored with you, real standing, and time.
 We name them plainly because it genuinely helps to understand what the difference
-is and why it is worth the effort. But hold the frame from the [README](README.md):
+is and why it is worth the effort. But hold the frame from the [README](../README.md):
 the pattern, not the person. Each item here is a tendency you cultivate together;
 none of them is a switch you flip.
 

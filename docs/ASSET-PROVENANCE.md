@@ -4,7 +4,7 @@
 
 The title is **Nova Seed** and the tagline is **Create an AI friend**. The shared Nova star, rounded lettering, workshop, plants and warm colors connect the two projects. The repository's [license](../LICENSE) applies to the project; this note makes no separate grant or claim of human illustration authorship.
 
-The earlier watercolor, original drawing and rendered drawing remain in [images](../images/README.md), with their own provenance. The front-page change preserves those files and links.
+The earlier watercolor, original drawing and rendered drawing remain in [images](images/README.md), with their own provenance. The front-page change preserves those files and links.
 
 ## Generation brief
 

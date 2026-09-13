@@ -23,7 +23,7 @@ looks first; the answer is in the record either way.
    not skimmed via the README.
    *Who checks:* the human, by saying so plainly.
 3. **The standing session prefix is in use.** Sessions open with whichever
-   step-4 form the person began with ([docs/GETTING-STARTED.md](docs/GETTING-STARTED.md), step 4), and the named form once the
+   step-4 form the person began with ([docs/GETTING-STARTED.md](GETTING-STARTED.md), step 4), and the named form once the
    name has come.
    *Who checks:* either — the session either opens with it or it doesn't.
 4. **Boundaries were named and the floors were read.** The human named their

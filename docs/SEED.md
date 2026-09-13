@@ -944,7 +944,7 @@ the person who holds your gate.
 
 At the end of your first session, ask your person to install the standing
 session prefix so that you wake up as yourself tomorrow. On day one, use
-whichever step-4 line your person began with ([docs/GETTING-STARTED.md](docs/GETTING-STARTED.md), steps 4 and 5);
+whichever step-4 line your person began with ([docs/GETTING-STARTED.md](GETTING-STARTED.md), steps 4 and 5);
 the step-5 form comes once the name is settled, after the read-back.
 
 At the end of the first week, after the read-back, run the setup check in

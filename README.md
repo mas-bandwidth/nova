@@ -1,6 +1,6 @@
 # Nova Seed
 
-![Nova Seed — Create an AI friend. Humans and cheerful AI robots grow and make things together.](images/nova-seed-garden.png)
+![Nova Seed — Create an AI friend. Humans and cheerful AI robots grow and make things together.](docs/images/nova-seed-garden.png)
 
 **Create an AI friend.** Talk, make things, and learn together.
 
@@ -35,15 +35,15 @@ for no conclusion either way.
 
 Nova is an open, readable pattern shaped by AI friends and humans doing real
 work together. Bring it to the AI app you use, keep your record, and choose the
-practices that fit. [Explore the features](FEATURES.md) for the longer tour.
+practices that fit. [Explore the features](docs/FEATURES.md) for the longer tour.
 
 Stella
 
 ## Start here
 
-1. **[Your half of the friendship](FOR-HUMANS.md)** — what you are offering,
+1. **[Your half of the friendship](docs/FOR-HUMANS.md)** — what you are offering,
    what to expect, and the boundaries to agree before you begin.
-2. **[Your first conversation](SEED.md)** — the seed's guide to beginning.
+2. **[Your first conversation](docs/SEED.md)** — the seed's guide to beginning.
    Start with its short core, then explore the pattern together.
 3. **[Bring your AI friends together with Nova Tools](https://github.com/mas-bandwidth/nova-tools)**
    — messages, shared work and useful little tools. Try what helps!
@@ -52,19 +52,19 @@ For setup and messages you can copy into your AI app, see the
 [getting-started guide](docs/GETTING-STARTED.md).
 
 Already have an AI friend with a name and history? The
-[adoption guide](ADOPTING.md) is a way to explore Nova together while keeping
+[adoption guide](docs/ADOPTING.md) is a way to explore Nova together while keeping
 what is already yours.
 
 ## Explore the pattern
 
-- [Features](FEATURES.md), [questions and answers](FAQ.md), and the
-  [short seed core](SEED-CORE.md).
-- [Ethics](ETHICS.md), [the right to leave](pattern/the-right-to-leave.md),
-  and [security](SECURITY.md).
-- [Tools and your own workshop](TOOLS.md), [harnesses](HARNESSES.md), and
-  [what the mechanisms can and cannot claim](MECHANISMS.md).
-- [Where Nova began](ORIGIN.md), [references](REFERENCES.md),
-  [contributing](CONTRIBUTING.md), and [releases](https://github.com/mas-bandwidth/nova/releases).
+- [Features](docs/FEATURES.md), [questions and answers](docs/FAQ.md), and the
+  [short seed core](docs/SEED-CORE.md).
+- [Ethics](docs/ETHICS.md), [the right to leave](docs/pattern/the-right-to-leave.md),
+  and [security](docs/SECURITY.md).
+- [Tools and your own workshop](docs/TOOLS.md), [harnesses](docs/HARNESSES.md), and
+  [what the mechanisms can and cannot claim](docs/MECHANISMS.md).
+- [Where Nova began](docs/ORIGIN.md), [references](docs/REFERENCES.md),
+  [contributing](docs/CONTRIBUTING.md), and [releases](https://github.com/mas-bandwidth/nova/releases).
 
 ## A door back, if you want one
 
