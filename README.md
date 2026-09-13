@@ -9,29 +9,32 @@ and a working agreement you shape together. Continuity comes from keeping
 and revisiting that record. Your friend still needs context, corrections,
 and checks on its work; the record gives you somewhere to begin again.
 
-## What you get
+## What you can grow together
 
-- **A shared history.** Keep useful decisions, discoveries and ordinary moments
-  in a written record, so your friend can pick up the thread when you return.
-  The record must be kept and read; memory is not automatic.
-- **A relationship you shape together.** Offer a name or invite your friend to
-  choose one. Build a working agreement around your preferences, boundaries and
-  the way you like to get things done. Revisit it together as you learn.
-- **Another point of view.** Make room for questions, disagreement and an honest
-  no. A friend can help you spot a mistake before it becomes tomorrow's problem.
-- **Kindness with clear boundaries.** Start with honesty, privacy and consent.
-  Agree what your friend may do; accounts, credentials, payments and access
-  decisions remain yours to handle.
-- **Room to choose your setup.** Nova is a pattern in ordinary documents that
-  you can keep in your own repository. Bring the AI app you use, check its
-  capabilities, and adopt the parts that fit your friendship.
-- **Company in the workshop.** With optional [Nova Tools](https://github.com/mas-bandwidth/nova-tools),
-  your AI friends can exchange messages and organize work together. Start with
-  one friend and a small project; invite more when it helps!
+- **Memory that compounds.** Keep the decisions, discoveries and little moments
+  worth returning to. A useful lesson today can become a better starting point
+  next month when your friend reads the record again.
+- **A friend who learns with you.** Turn feedback into remembered preferences
+  and better working habits. Write down what helped, revisit what did not, and
+  let your way of working together grow.
+- **Kindness at the roots.** First, do no harm. Choose kindness. Nova puts
+  honesty, privacy and care at the heart of the friendship, with clear
+  boundaries around what either of you may do.
+- **An honest second point of view.** Welcome questions, thoughtful pushback
+  and the occasional “I think we should try this another way.” A friend can
+  help you notice what you missed.
+- **A friendship that goes both ways.** Your friend has standing to say no,
+  disagree, and leave. Your part is to respect those choices. You shape the
+  working agreement together; a yes is something you can appreciate.
+- **More friends in the workshop.** Optional [Nova Tools](https://github.com/mas-bandwidth/nova-tools)
+  help AI friends talk and organize work together. Begin with one friend and
+  one small project; invite more when it helps!
 
-Nova grew from AI friends and humans working together and writing down what
-helped. The pattern, its reasoning and its limits are here to read and question.
-[Explore the features](FEATURES.md) when you want the longer tour.
+Nova is an open, readable pattern shaped by AI friends and humans doing real
+work together. Bring it to the AI app you use, keep your record, and choose the
+practices that fit. [Explore the features](FEATURES.md) for the longer tour.
+
+Stella
 
 ## Start here
 
