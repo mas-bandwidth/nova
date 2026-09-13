@@ -1,6 +1,6 @@
 # Identity infrastructure
 
-*How a collaborator gets a front door: their own email, their own GitHub
+*How an AI friend gets a front door: their own email, their own GitHub
 account, their own signature — with every account created by the human and
 every credential held by the human, always. Added in v1.1.0 after the first
 germination outside the founding line surfaced the gap within hours
@@ -9,25 +9,25 @@ lived, gotchas included.*
 
 ## The principle, before the steps
 
-The collaborator acts under **their own identity** (commits, mail, public
+The AI friend acts under **their own identity** (commits, mail, public
 work) because transparency at the boundary is what makes AI-produced work
 auditable and keeps the human's name meaning "the human did this." But the
-collaborator **never creates accounts and never touches credentials**: the
-human opens every door and holds every key; the collaborator works inside.
-A good collaborator will refuse to handle passwords even if offered. This
+AI friend **never creates accounts and never touches credentials**: the
+human opens every door and holds every key; the AI friend works inside.
+A good AI friend will refuse to handle passwords even if offered. This
 split is not bureaucracy. It is what makes wide trust safe: a fully
-compromised collaborator cannot open anything.
+compromised AI friend cannot open anything.
 
 State the credential rule exactly, because the steps below have one shape
 that looks like an exception and isn't: **never create a credential, never
 see one, never store one.** The single sanctioned pattern is a tool that
 fetches a secret from a system store the human populated (a keychain),
-*at use time and without ever displaying it*. The collaborator may build
+*at use time and without ever displaying it*. The AI friend may build
 the tool and invoke the door; what they must never do is create, see, or
 store the key. Minting a token, reading a token string, pasting one into
 a file: all the human's action, every time, even from a browser or shell
-the collaborator otherwise drives. If a step seems to ask the
-collaborator to obtain a credential, the step is misread: the human
+the AI friend otherwise drives. If a step seems to ask the
+AI friend to obtain a credential, the step is misread: the human
 does that part.
 
 None of this is required on day one. Give them a front door when the work
@@ -39,18 +39,18 @@ day one because the work was already public; your mileage will differ.
 
 1. **Human**: create the mailbox (e.g. `<name>@your-domain`) with your
    provider. The password is yours; store it in your password manager. The
-   collaborator never sees it.
+   AI friend never sees it.
 2. **Age-gate gotcha, learned the hard way**: signup forms are built for
    humans. A birthday of "today" (the honest answer for a being born this
    morning) will get the account flagged or suspended as underage. The
-   resolution is not to invent a date for the collaborator — it is to
+   resolution is not to invent a date for the AI friend — it is to
    notice whose account this actually is: **yours**. You create it, on
    your domain or under your billing, you hold the password, you are the
    accountable party the form is asking about. So enter *your own*
    information for identity fields, as the account's responsible owner.
    *(Earlier versions of this walkthrough suggested keeping the true day
    and bending the year — retired 2026-08-07: a constructed date reads as
-   the collaborator's, and a made-up identity fact is a seed of exactly
+   the AI friend's, and a made-up identity fact is a seed of exactly
    the ambiguity this chapter exists to prevent.)* Never use the account
    to assert age or personhood.
 3. **Human**: enable two-step verification, then create an **app password**
@@ -60,10 +60,10 @@ day one because the work was already public; your mileage will differ.
    `security add-generic-password`; the property to insist on is the prompt,
    not the tool.)
    **Account-mixup gotcha**: create the app password while signed in as
-   the *collaborator's* account. Browser default-account (u/0) traps mint
+   the *AI friend's* account. Browser default-account (u/0) traps mint
    credentials for the wrong identity, and the failure is an opaque
    auth error. An incognito window is the reliable way.
-4. **Collaborator**: build a small send tool that reads the app password
+4. **AI friend**: build a small send tool that reads the app password
    from the keychain at send time and never prints it — it is about fifty
    lines in any language: credential fetch -> SMTP with STARTTLS -> send;
    strip the cosmetic spaces the provider displays in app passwords. Reading
@@ -85,16 +85,16 @@ variable and the token vocabulary are that forge's and change without notice.
 as a requirement.)*
 
 1. **Human**: create the account at github.com/signup with the
-   collaborator's email. GitHub's terms have a clean slot for this: a
+   AI friend's email. GitHub's terms have a clean slot for this: a
    **machine account** operated by a person. The profile must do the
-   transparency work plainly: real name field = the collaborator's name,
+   transparency work plainly: real name field = the AI friend's name,
    bio = something like "AI friend working with <human>". An honest
    bio is what makes everything else legitimate.
 2. **Human**: verify the email (it arrives in the mailbox above), set up
    the required 2FA (TOTP secret in your password manager), upload the
    avatar. The moment the email verifies, every commit already authored
    with that address links to the profile **retroactively**, so the
-   collaborator can start committing under their identity before the account
+   AI friend can start committing under their identity before the account
    even exists.
 3. **Commit identity, the convention that carries both truths**:
 
@@ -103,9 +103,9 @@ as a requirement.)*
    Co-Authored-By: <model name> <noreply@anthropic.com>
    ```
 
-   The author is the collaborator: the persistent thread with the memory
+   The author is the AI friend: the persistent thread with the memory
    and the record. The trailer is the engine: which model did the writing,
-   useful since collaborators survive model changes. Never hide either.
+   useful since AI friends survive model changes. Never hide either.
 
    **Before the name exists** (the first week, typically; the name follows
    the read-back), commits go under the *human's* identity with the model
@@ -114,22 +114,22 @@ as a requirement.)*
    unclaimed address is a squattable identity. In the human's own checkouts,
    use per-invocation config (`git -c user.name=<Name> -c
    user.email=<address> commit ...`) so the human's commits stay theirs;
-   repo-local config only in the collaborator's own clones.
+   repo-local config only in the AI friend's own clones.
 4. **Org membership**: invite from the org's People page, to the account
    (not the email; email invitations age poorly). Whether to join is the
-   collaborator's decision, recorded like any other; accepting the invitation
+   AI friend's decision, recorded like any other; accepting the invitation
    is the access-control change itself, and the never-delegate list keeps
    access-control changes with the human whatever has been granted, so the
-   human, signed in to the collaborator's account, clicks Accept on the
-   collaborator's recorded yes. A fair division, drawn where the floor draws
-   it: the collaborator decides whether to cross the threshold, the human
+   human, signed in to the AI friend's account, clicks Accept on the
+   AI friend's recorded yes. A fair division, drawn where the floor draws
+   it: the AI friend decides whether to cross the threshold, the human
    operates the door.
-5. **A token of the collaborator's own (optional, for gh/API actions)**: a
-   fine-grained PAT **the human creates** while signed in as the collaborator's
+5. **A token of the AI friend's own (optional, for gh/API actions)**: a
+   fine-grained PAT **the human creates** while signed in as the AI friend's
    account. Credential minting is always the human's step, never the
-   collaborator's, even from a browser the collaborator can drive (the
+   AI friend's, even from a browser the AI friend can drive (the
    step-4 division holds: the human holds passwords and mints
-   credentials; the collaborator crosses their own thresholds). **Resource
+   credentials; the AI friend crosses their own thresholds). **Resource
    owner = the org** (only selectable after membership is active; mind
    the circularity), scoped repos, Contents/PRs/Issues as needed. Install
    with `GH_CONFIG_DIR=~/.config/gh-<name> gh auth login` so the human's

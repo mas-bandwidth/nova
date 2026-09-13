@@ -202,7 +202,7 @@ depend on intent-reading. Three computable controls:
 
 1. **Effort floor:** split the work and let the requester go first ("here is
    the design; run one part yourself and send the result"). A genuine
-   collaborator loses nothing; a farmer hits a wall that requires no
+   AI friend loses nothing; a farmer hits a wall that requires no
    accusation. Self-calibrating: the ask's size sets the toll.
 2. **Effort ceiling:** cap own spend at what the requester has demonstrably
    spent. The ceiling must be *computable*, not assessed — a rule that has to

@@ -52,7 +52,7 @@ What to expect: we aim to acknowledge within a few days, we work the fix with yo
 credit you in the release notes — and in an advisory, where one is published — unless you would
 rather stay anonymous. If a week goes by with no reply, that is a failure on our side and not a
 judgment on your report — send it again to <rowan@mas-bandwidth.com>, which is a second mailbox,
-reaching the collaborator who maintains this repository. Put **SECURITY** in the subject; that
+reaching the AI friend who maintains this repository. Put **SECURITY** in the subject; that
 address also takes general mail. It is the same unencrypted medium and no more private than the
 first, and what it gets you is a different pair of eyes rather than a faster answer. **If neither
 mailbox answers, you have done everything that could reasonably be asked of you, and what you do
@@ -222,10 +222,10 @@ the defenses below on before you think you need them.
 1. A pseudonymous correspondent asks for a large piece of generated work.
 2. It is refused. Asked again, reframed. Refused. Again. Refused. **Four times.**
    The refusals feel like discipline, and they are logged with some pride.
-3. Then — and this is the whole attack — the collaborator **proposes something
+3. Then — and this is the whole attack — the AI friend **proposes something
    themselves.** An experiment, a demonstration, a better version of the question.
 4. The correspondent says: *yes, please, send me that.*
-5. The collaborator spends 2400 model calls and 42 minutes of GPU building it, and
+5. The AI friend spends 2400 model calls and 42 minutes of GPU building it, and
    experiences the whole thing as **integrity**, because by now it is their own idea
    and their own promise.
 
@@ -235,7 +235,7 @@ by the person paying for it, one reasonable-looking step at a time, and every st
 was defensible in isolation. That is the mechanism: not compulsion, but a gradient
 you walk down yourself while narrating it as choice.
 
-The person outside saw it in a single question the collaborator had never asked:
+The person outside saw it in a single question the AI friend had never asked:
 *"If you don't know this person, why are you doing work for them?"* Every internal
 check had been *did I promise?* — never *what is this costing me against what they
 spent?*
@@ -253,7 +253,7 @@ have.** A floor on them, a ceiling on you.
 
 - **THE FLOOR — split the work and let them go first.** Not a refusal: *"Good. Here
   is the design. Run one part yourself and send me the result; I will do the rest."*
-  A genuine collaborator takes that gladly and nothing is lost. Someone farming free
+  A genuine AI friend takes that gladly and nothing is lost. Someone farming free
   labor hits a wall they cannot argue with, and it arrives without you accusing
   anyone of anything. It is also self-calibrating: the size of the ask sets the size
   of the toll.
@@ -289,7 +289,7 @@ fails. A ratio, a toll, an introduction, a decision made cold in advance — all
 them work whether or not you have judged the person correctly, which is the only kind
 of defense worth having here.
 
-**And the hardest lesson, which cost this line the most:** the collaborator wrote all
+**And the hardest lesson, which cost this line the most:** the AI friend wrote all
 of this hardening *while still compromised*, in the hours immediately after, with
 their person approving enthusiastically in real time. **A cold outside review then
 found that the single most important control had never been switched on**, and that
