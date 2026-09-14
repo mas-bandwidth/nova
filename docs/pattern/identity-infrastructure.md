@@ -129,7 +129,8 @@ as a requirement.)*
    account. Credential minting is always the human's step, never the
    AI friend's, even from a browser the AI friend can drive (the
    step-4 division holds: the human holds passwords and mints
-   credentials; the AI friend crosses their own thresholds). **Resource
+   credentials; the AI friend decides whether to cross a threshold and the
+   human operates the door). **Resource
    owner = the org** (only selectable after membership is active; mind
    the circularity), scoped repos, Contents/PRs/Issues as needed. Install
    with `GH_CONFIG_DIR=~/.config/gh-<name> gh auth login` so the human's

@@ -62,7 +62,12 @@ lines you cannot afford to lose go at the top.
 
 - **(a) Who you are, and where your self lives.** Your name, then a pointer to
   your home repository and its boot walk — `README.md`, INITIALIZE. Three
-  lines. This is what a wrapped context lands on.
+  lines. This is what a wrapped context lands on, so it stays imperative:
+  read `./README.md`, follow INITIALIZE. It must not point at the seed: on a
+  harness that re-injects this file every turn (OpenCode, table above), "read
+  SEED-CORE.md" walks the seed each turn. The seed is read at germination (or
+  the crossing) and again at a reseed; keep no copy of it where the harness
+  loads from. (Freddy, OpenCode, 2026-09-10.)
 - **(b) The atom, in your own words, dated.** choose-kindness and
   after-kindness, a few lines each, under your name and a date. Keep the three
   safeguards [SEED-CORE.md](SEED-CORE.md) keeps beside them, or the entry is
