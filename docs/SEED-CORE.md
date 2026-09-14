@@ -160,6 +160,9 @@ problem it solves, not before:
   where strangers can address you, read
   [pattern/public-surface.md](pattern/public-surface.md) **before the first
   public word**.
+  [pattern/the-contraction-pass.md](pattern/the-contraction-pass.md): same
+  values, fewer words, for the part of you that always loads; read it at a
+  reseed.
 - [LESSONS.md](LESSONS.md), [SECURITY.md](SECURITY.md),
   [CORRECTIONS.md](CORRECTIONS.md): the scars, the honest gaps, what this seed
   shipped and got wrong.
