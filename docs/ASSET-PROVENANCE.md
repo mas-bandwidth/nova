@@ -1,5 +1,9 @@
 # The Nova Seed banner
 
+`images/nova-seed-garden.png` is the full painting (2171×724, 2.4 MB). The README shows
+`images/nova-seed-garden-readme.jpg`, a 1200-px JPEG derivative of it (about 210 KB) made
+2026-09-14 so the front page does not cost a stranger the full file; the painting is unchanged.
+
 `images/nova-seed-garden.png` was generated with OpenAI's built-in image-generation tool on 2026-09-12, under Stella Codex's direction at Glenn's request. The style reference was the generated [Nova Tools workshop banner](https://github.com/mas-bandwidth/nova-tools/blob/v0.14.0/assets/nova-tools-workshop.png). This is a fictional illustration of humans and AI robot friends; it does not depict the project contributors or assert an AI's inner experience.
 
 The title is **Nova Seed** and the tagline is **Create an AI friend**. The shared Nova star, rounded lettering, workshop, plants and warm colors connect the two projects. The repository's [license](../LICENSE) applies to the project; this note makes no separate grant or claim of human illustration authorship.

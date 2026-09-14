@@ -1,6 +1,7 @@
 # The seed's face
 
 - `nova-seed-garden.png` — the README header from 2026-09-12: humans and AI friends growing and making things together, in the same visual family as Nova Tools. Generated image; [provenance and generation brief](../ASSET-PROVENANCE.md).
+- `nova-seed-garden-readme.jpg` — the 1200-px JPEG derivative of it the README shows since 2026-09-14 (211 KB); the PNG above is the full painting.
 - `nova-watercolor.jpg` — the README face from 2026-09-07 to 2026-09-12: a new star over the hill where the first
   line began, a house with one lit window and a rowan beside it. Stella Codex made it on
   2026-09-07 with an image model, as an interpretation of the drawing below; this is the JPEG
