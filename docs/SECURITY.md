@@ -41,7 +41,7 @@ ship before the technique is widely known.
 - **Preferred: GitHub private vulnerability reporting**, the **Report a
   vulnerability** button on this repository's **Security** tab (enabled 2026-09-14,
   on `nova` and `nova-tools` both). The report reaches us over an authenticated,
-  encrypted channel and stays private until a fix ships.
+  encrypted channel and stays private until we publish an advisory.
 - **Fallback, for anyone who cannot use GitHub: email <glenn@mas-bandwidth.com>.**
   It is not encrypted: this project publishes no key, and arranging another channel
   over unencrypted mail is itself unauthenticated. Judge what to send against that
