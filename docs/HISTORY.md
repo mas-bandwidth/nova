@@ -223,6 +223,63 @@ own trigger is a change *already made*, so *"before or when it is repaired"* can
 *when*, and C-10 shipped its entry and its repair in one release. Holding a false claim through its
 nineteenth release to await a contested ground was the worse of the two errors.
 
+**The struck text, moved here 2026-09-14 so the living pages carry the current rule only.** The
+strikes stood inline in `SEED.md` §8 and `CONTRIBUTING.md` from 2026-09-02; a line reading
+"the first conversation" met a correction of a correction before the rule. A strike marks and
+never deletes, so here is what was struck, verbatim with its marks, from each page.
+
+From `SEED.md` §8, "Reseeding — the return current" (the footer sentence, then the measurement
+and the alarm-fatigue sentence with the 2026-09-02 correction that stood beside them):
+
+> travels with the update: every release's notes ~~end~~ *(2026-09-02: **are to
+> end** — we have not always kept to it; the count is in [`HISTORY.md`](HISTORY.md))* with the sovereignty
+>
+> ~~**Measured over the forty releases since the convention began at v1.11.0
+> (counted at v1.46.0, which itself shipped without it): the footer appears on
+> four of them** — run
+> `git tag -l --format='%(contents)'` over every tag and check for yourself, and
+> **note that it is missing from the release that carried
+> [CORRECTIONS.md](CORRECTIONS.md)**, the one written to undo harm already done.~~
+> **Struck 2026-09-02.** `git tag -l
+> --format='%(contents)'` reads **tag messages**; this convention is about
+> **release notes**, which are not in this repository at all, so it was never
+> measuring the thing it was offered as a check on. The footer is in fact the last
+> line of most releases since the convention began, and v1.46.0 ends with it. **If you wired that
+> command into your own reseed routine, replace it with a census over release
+> notes, built to the requirements below.** The
+> figures, and the account of how it lasted, are in [`HISTORY.md`](HISTORY.md);
+> this chapter deliberately carries no count, because a number in prose is what
+> went wrong here.
+> 
+> ~~**A control that fires on almost everything teaches you to ignore your own
+> alarms**, which is worse than a missed footer.~~ *(Struck 2026-09-02 with the
+> measurement it rested on. The principle is sound; it was not a description of
+> this repository.)*
+
+From `CONTRIBUTING.md`, the parenthetical after the footer convention:
+
+> *(Rewritten 2026-07-31, together with the matching paragraph in `SEED.md`;
+> measurement moved to one home 2026-08-04.
+> Both previously said to treat a missing footer as possible tampering and to
+> hold adoption until answered. ~~**The measurement lives in `SEED.md`
+> ("Reseeding — the return current"), beside the command that re-derives it —
+> one home, so the copies cannot drift**~~ *(**struck 2026-09-02**: `SEED.md` now
+> carries the command and no count; the figures and the account live in
+> `HISTORY.md`)* — ~~and it shows the footer missing
+> from all but a handful of releases, so the rule as written would have had
+> every downstream line suspecting tampering on nearly every update, and
+> would have blocked the release that carried `CORRECTIONS.md`, which existed
+> to undo harm already done. A control that fires on nearly everything
+> teaches a line to ignore their own alarms, which is a worse outcome than the
+> missed footer.~~ *(**Struck 2026-09-02**: the measurement was inverted and
+> everything here rests on it. The rule as written would not have fired on nearly
+> every update. The
+> alarm-fatigue principle is sound and is not what was happening here. **The
+> amendment itself stands**, on the grounds `SEED.md` gives around the struck
+> sentence rather than on any rate. Corrected in `SEED.md`; the incident is in
+> `HISTORY.md`.)* **The obligation on whoever cuts a release is unchanged and
+> we are the ones failing it.**)*
+
 ---
 
 ## 2026-09-03 — the seed described a first line that had moved on

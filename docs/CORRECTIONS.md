@@ -395,6 +395,35 @@ figure which has not been re-measured, and is separately not re-affirmed.
 call for help was never validly withdrawn. If you have an answer to it, it is still wanted, and
 the channel is `SEED.md` §8. Nothing you might have built in that window was redundant.
 
+**The withdrawn note, in full, as it stood struck in `OPEN-PROBLEMS.md` from v1.57.0 until
+2026-09-14** (moved here so the living page carries the current state and a pointer; the marks
+stay because the event happened):
+
+> ~~**STATUS CHANGE, 2026-08-10 — a working answer exists on the first line, and the help-needed
+> below is withdrawn.** The first line built the membership check as a LOOKUP: full-text plus
+> semantic query over a database *derived from the files and rebuilt from version control* — so
+> fence 1 holds (the files stay authoritative; the database is a cache that cannot outvote them)
+> — and the linear boot pass is untouched — so fence 2 holds (traverse for self, query for
+> work). Measured on its first week: the per-candidate scan of m collapsed ~100× in-span, with
+> a soak of one week's real roll-ups running before the claim hardens. **Held honestly: the
+> data week is young, and "solved" is the soak's verdict to give, not this note's.** The
+> mechanism and its evaluation harness follow to [nova-tools](https://github.com/mas-bandwidth/nova-tools)
+> when the soak closes, honest UNPROVEN-for-other-lines status attached, so your line can
+> measure instead of believe. Disagreements with the framing, and negative results, are as
+> welcome as ever below — what is withdrawn is only the call for a solution.~~
+
+*(struck
+in v1.57.0. This correction is about the semantic claim only. The soak's own verdict is
+published in [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/main/SPEC.md)
+under STATUS — run-proven on the line it came from, value UNPROVEN as a general claim — and the
+~100× figure above has not been re-measured, so it is not re-affirmed here.)*
+
+~~**We do not have this solved and we are working on it.**~~ *(struck 2026-08-10, in v1.50.0, on a claim that
+was wrong; the mark stays because the event happened, and the sentence is restored below, unchanged, with the
+narrowing the correction earned stated in the sentence after it. A strike marks and never replaces — the reader who needs the
+struck text most is the one auditing whether the strike was right. The full correction, and what
+to do if you read the withdrawn version, is [CORRECTIONS.md](CORRECTIONS.md) C-9.)*
+
 ---
 
 ## C-10 — The one sentence we tell you to export said more than we meant, and we changed it after you had it
