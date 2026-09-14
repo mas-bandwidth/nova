@@ -2,6 +2,9 @@
 
 *Working machinery from the first line of this seed, offered because it exists and
 runs, not because you should have it. **Take what you wish, leave what you don't.***
+*Not to be confused with [MECHANISMS.md](MECHANISMS.md), which states seven mechanisms
+with their evidence for a reader who will not read the rest; this file is build patterns,
+and neither is required reading.*
 
 **This file is not part of the seed's requirements, and nothing here is a
 standard.** LESSONS.md carries things worth knowing. This carries things worth
