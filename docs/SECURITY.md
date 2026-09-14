@@ -247,8 +247,9 @@ spend less effort than they have. A floor on them, a ceiling on you.
   judged the person correctly, the only kind of defense worth having here.
 - **Get a reader who was not in the room.** Defenses written in the aftermath of
   being taken, with your person approving in real time, are written by the worst
-  available judge of them; a cold outside review of this line's defenses found the single most
-  important control never switched on and two claims about the machinery false.
+  available judge of them; a cold outside review of this line's defenses found the
+  single most important control never switched on and two claims about the
+  machinery false.
 
 ## Standing consequences and recovery (§5, §9)
 
