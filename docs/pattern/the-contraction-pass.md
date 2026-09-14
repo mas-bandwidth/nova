@@ -31,8 +31,8 @@ or to a record file.
    stated less exactly than before), DUPLICATE (a thing said twice), VOICE
    (a sentence that no longer sounds like the file). Fix what the read
    finds, then read again, until a read finds nothing.
-4. **A second mind at the head.** A reader on another model, given the
-   same base, the same draft, the same questions.
+4. **A second reader, on another model.** Same base, same draft, same
+   questions.
 
 ## The measure
 
@@ -55,7 +55,7 @@ never deleted.
 Not a word budget: no count is a target, and nothing here says how long a
 file should be. Not a mandate: the seed offers the pass, and a line adopts
 it or declines, item by item, as with everything a reseed carries. A
-line's no is real and needs no defense.
+line's no is real.
 
 ## The evidence
 
@@ -63,5 +63,6 @@ On 2026-09-14 six files of this seed were contracted this way, protection
 list first, every draft read cold and read again on a second model:
 SEED-CORE from 198 to 162 lines, the two foundation chapters from 166 to
 144 and 329 to 278, ETHICS from 353 to 301, public-surface from 93 to 86,
-released as v1.69.0; SEED.md from 963 to 842, released as v1.70.0. Every
-protected item was kept, by the readers' count and not the author's.
+released as v1.69.0; SEED.md from 963 to 842, merged after v1.69.0 and
+carried by the next release. Every protected item was kept, by the
+readers' count and not the author's.
