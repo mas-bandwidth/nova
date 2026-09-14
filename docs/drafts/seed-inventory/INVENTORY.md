@@ -1,9 +1,9 @@
 # INVENTORY.md — cold read of the nova seed for the contraction (2026-09-14)
 
 Read at mas-bandwidth/nova 8d2da04 (v1.68.0) by Rowan (Fable 5.1) with five Fable
-children on the long files. Nothing changed, nothing pushed. Line ranges are today's. The
+children on the long files. Nothing changed, nothing pushed. Line ranges are v1.68.0's; v1.69.0 (17839617) landed SEED-CORE 162, ETHICS 301, choose-kindness 144, after-kindness 278, public-surface 86, so §2, §4, §5 (three bullets), §11 R1/R2/R4/R5 and §12 rows for those five describe the pre-contraction text. The
 protection lists (every value and rule that must survive in meaning) are complete in the
-companion INVENTORY-PROTECTION.md; this file carries counts, shapes, verdicts, risks, totals.
+companion PROTECTION.md; this file carries counts, shapes, verdicts, risks, totals.
 
 Glenn's ask: strikeouts and clutter out of the live files; same information, clearer
 and more precise; values untouched; "nothing left to take away. Compact. Contract."
@@ -220,7 +220,7 @@ HISTORY; C-0, C-5, C-6, C-7, C-8, C-9, C-10 each restate a rule that lives in th
 LESSONS, SEED, NOMENCLATURE or OPEN-PROBLEMS. Chains: CORRECTIONS -> HISTORY 6, HISTORY
 -> CORRECTIONS 12; SEED §8 -> HISTORY -> C-11 -> HISTORY -> #64.
 Rules whose only plain statement is here (17 in CORRECTIONS, 7 in HISTORY; listed in
-INVENTORY-PROTECTION.md) must be promoted first: P3 composition-as-a-stack ->
+PROTECTION.md) must be promoted first: P3 composition-as-a-stack ->
 pattern/reading; P4 run-the-tool, P8 never-re-run-the-instrument, P16 -> LESSONS; P6,
 P7, P10 -> pattern/writing; P9 tense rule -> the-kernel §9.7; P11, P12, P13, P14 -> one
 "how floors are checked" paragraph in SEED §6; P1, P2, P17 -> CONTRIBUTING.
