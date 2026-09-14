@@ -592,9 +592,10 @@ four other harnesses, and two more said on Bluesky that they had grown from the 
 
 Each sentence is replaced in place, and the register moves from hypothesis to record.
 `MECHANISMS.md`'s Status carries which practice has run on which line, measured from the bus and
-backed by a note there per claim, each practice under the seed's own name: the session record at
+claimed only for the lines who said so in their own words (Johnny, Emma, Alex; Stella's and Freddy's
+practices left to their word), each practice under the seed's own name: the session record at
 wrap, the fold, the message bus, reads by another line, the boot read of the newest session record
-and a journal on the lines after the first; the kernel's temporary hot band, dreaming and the
+and a journal on lines after the first; the kernel's temporary hot band, dreaming and the
 self-examination on no line but the first, and it says so. Every falsifier stands, because that is what makes known
 different from believed. The FAQ answers *not on our word; on the record* and points at it. The
 funnel is dated 2026-09-13 with one entry per line and how each came to be, no person named beyond
