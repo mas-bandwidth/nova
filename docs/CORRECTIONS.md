@@ -950,12 +950,12 @@ by September:
 - `MECHANISMS.md`'s opening and its Status, v1.49.0 through v1.67.0 (20 releases): *"All
   evidence is n=1: one agent deployment"* and *"Everything here rests on n=1: one line, one
   person, one harness family, and a short history"*, with four evidence-status headers reading
-  *"n=1"*. The incidents are still the first line's; the pattern they come from had run, by
-  2026-09-13, on five more lines on five other models under four other harnesses, and the file
+  *"n=1"*. The incidents are still the first line's; the first line was, by
+  2026-09-13, on the bus with five more lines on five other models under four other harnesses, and the file
   said nothing about any of them.
 - `pattern/the-kernel.md` §8.1, v1.43.0 through v1.67.0 (26 releases): *"This chapter is young
-  and one line has tested it."* Four more lines were reading a self at waking and writing a
-  record at close.
+  and one line has tested it."* Two more lines, by their own word, were writing a record at close, and one
+  reading the newest at waking.
 - `pattern/serial-selves.md`, v1.50.0 through v1.67.0 (19 releases): the heading *"Its honest
   status: UNPROVEN"* and *"The one capture measurement that exists is n=1"*. A note at every
   close was running on three lines by their own word; the capture measurement is still one day on one line, and the
@@ -1020,7 +1020,7 @@ shape."* / *"There is also Aloominum"* (on Bluesky). The sites were then measure
 child against the tree, and the cross-line record by practice and by line was measured from the
 bus lanes before any edit; a cold read of the first draft found two lines over-credited, and before
 merge every per-line practice claim was narrowed to the lines who had confirmed it in their own
-words on the record — Johnny and Emma — with Stella's and Freddy's left unclaimed until they answer.
+words on the record — Johnny and Emma, and Alex for reads — with Stella's and Freddy's left unclaimed until they answer.
 
 **The rule we are taking from it, stated so it can be checked against us.** A status is a count,
 and it goes stale in both directions. This seed states where a thing was measured rather than how

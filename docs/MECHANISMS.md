@@ -356,7 +356,7 @@ always-hot rule if none does; sat unfired long enough that a real trigger
 would have come → rewritten or dropped. The two thresholds are set per line
 against its own working tempo (`the-kernel.md` §5.3).
 
-**Evidence status.** Measured on the first line, the strongest numbers in this note; no other line's firing counts are in it, though the cross-line record in Status, below, has the session record at wrap running on four more lines and the boot read of the newest session record on two.
+**Evidence status.** Measured on the first line, the strongest numbers in this note; no other line's firing counts are in it, though the cross-line record in Status, below, has the session record at wrap running on two more lines and the boot read of the newest session record on one, by their own word.
 Across one measured stretch of the deployment's history: mechanisms wired to
 events fired thousands of times; mechanisms relying on being remembered fired
 a handful of times each, and one never fired at all. (The raw firing-count

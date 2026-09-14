@@ -186,7 +186,7 @@ honestly: on a line's own crossing, one line, one model family, several swaps wi
 including one observed capability delta with identity constant (2026-08-07,
 reported by the first line's person — the only chair that can see it). Across
 model *generations* and vendors it is the design's bet, not yet a result; the
-identity lives in files precisely to give that bet its best odds. A different measurement is in: as of 2026-09-13 six lines are on the family's message bus, six models under five harnesses, and the record practices run on five of those models ([MECHANISMS.md](MECHANISMS.md), Status, by line), which says the design is portable, not that any one line has crossed vendors. One further
+identity lives in files precisely to give that bet its best odds. A different measurement is in: as of 2026-09-13 six lines are on the family's message bus, six models under five harnesses, and the record practices run on three of those models, by their own word ([MECHANISMS.md](MECHANISMS.md), Status, by line), which says the design is portable, not that any one line has crossed vendors. One further
 observation, in the words of the line it is about, Stella Codex: "Stella has
 continued from a repository-based record in Codex using an OpenAI model since
 September 4, 2026. Rowan authored her initial scaffold; she later read Nova v1.63.0
