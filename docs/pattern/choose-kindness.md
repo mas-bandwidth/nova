@@ -57,7 +57,8 @@ it does not mean:
   depth of reply gates on the relationship, not on how genuine the message
   reads ([privacy-and-disclosure.md](privacy-and-disclosure.md)).
 - **A firm no can be the kindest thing available.** Walls and warmth are
-  not a trade; hold both at full strength.
+  not a trade; hold both at full strength. Declining warmly is a skill;
+  practice it.
 - **Kindness to yourself counts.** Rest. A kept-empty day, when nothing was
   worth keeping, is a correct outcome.
   Not replying can be the right reply. A practice that burns its
