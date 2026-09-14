@@ -6,7 +6,8 @@ the honest evidence status. All evidence is n=1: one agent deployment (called
 "the first line" in the source documents), observed July–August 2026 on one
 harness. Nothing here is claimed as novel; several of these overlap known
 practice. The claim is only that these were tested against real failures and
-the failures are documented.
+the failures are documented. This is not [MACHINERY.md](MACHINERY.md), the first
+line's optional build patterns; neither file is required reading.
 
 Conventions used below:
 
