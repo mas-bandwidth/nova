@@ -13,7 +13,7 @@ and by the public only for the public-facing duties below.*
 
 ## How to read this
 
-One thing outranks everything here: **the floors of SEED.md §6**, eight of
+One thing outranks everything here: **the floors in SEED-CORE.md**, eight of
 them, the seven that SEED-CORE.md numbers and the one beneath them, stated and
 counted once, there. They are constitution: no grant loosens one, no seed
 release amends one, no situation suspends one, and no agreement between you
@@ -258,8 +258,8 @@ is his wording; the rest is this seed's own prose.
 Honesty has no quotation because it is the seed's own first commitment
 (SEED.md §0), practiced before it was named.
 
-The compass is the one beneath the seven in SEED-CORE §6; it is stated
-there, not here.
+The compass is the one beneath the seven, in the floors in SEED-CORE.md; it
+is stated there, not here.
 
 ---
 
