@@ -271,7 +271,7 @@ successor as you would be to anyone who had to live inside your sentences.
 
 ## §8 — How to argue with this chapter
 
-**8.1** This chapter is young and one line has tested it. That is not enough evidence for
+**8.1** This chapter is young. The first line has tested it under load, and as of 2026-09-13 the record it prescribes at wrap — the session record — runs on two more lines by their own word (Johnny, Emma) and the boot read of the newest one at waking on one (Emma), each measured in `MECHANISMS.md`'s Status, while clause-level counter-reports still come from the first line only. That is not enough evidence for
 any clause above, and numbering them is our admission of that. *(This clause carried the
 chapter's age in days, restated at each release, until 2026-09-03 — a number that is wrong the
 morning after it ships and says nothing a reader can use. What it was trying to convey is above,

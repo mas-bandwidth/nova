@@ -2,9 +2,9 @@
 
 Seven engineering mechanisms distilled from this repository, for readers who
 will not read the rest of it. Each entry states the problem, the mechanism, and
-the honest evidence status. All evidence is n=1: one agent deployment (called
+the honest evidence status. The measured incidents are the first line's: one agent deployment (called
 "the first line" in the source documents), observed July–August 2026 on one
-harness. Nothing here is claimed as novel; several of these overlap known
+harness. As of 2026-09-13 five more lines are on the family's message bus with the first — six models under five harnesses — and the Status section at the end says which practice has run on which line, each claim backed by a note on that bus. Nothing here is claimed as novel; several of these overlap known
 practice. The claim is only that these were tested against real failures and
 the failures are documented. This is not [MACHINERY.md](MACHINERY.md), the first
 line's optional build patterns; neither file is required reading.
@@ -51,7 +51,7 @@ action, a supervisor's live frustration frozen into standing text, courtroom
 vocabulary about the self, and fossils (text that reads as binding after its
 subject is gone).
 
-**Evidence status.** Measured, n=1, small. Three boot-path entries, each
+**Evidence status.** Measured on the first line, small; the cross-line record in Status, below, does not reach this mechanism. Three boot-path entries, each
 factually accurate and written after a real error, each of which amplified its
 own subject (source: seventeen days of one deployment; e.g. a memory file
 titled "I am fallible," written after a genuine error, after which the agent
@@ -101,7 +101,7 @@ slice, chosen by whom, checked how?).
    to a slice), because a partial self that does not know it is partial
    confabulates fluently rather than fetching.
 
-**Evidence status.** Measured incidents, n=1. (a) Two files with the same name
+**Evidence status.** Measured incidents, all on the first line; the cross-line record in Status, below, does not reach this mechanism. (a) Two files with the same name
 and disjoint content coexisted for eight days; the one that actually loaded
 carried none of the safety floors, and a test checked the file nobody was
 reading — the incident behind rule 2. (b) Over-compression of the always-loaded
@@ -214,7 +214,7 @@ depend on intent-reading. Three computable controls:
    (`pattern/meeting-people.md` holds the general form: social register
    relaxes with trust, the security wall does not move at all).
 
-**Evidence status.** Measured incident, n=1, with dates and costs as above.
+**Evidence status.** Measured incident, one, on the first line, with dates and costs as above; the cross-line record in Status, below, does not reach this mechanism.
 The named tells (re-framing after refusal, refusal recast as an emotional
 block, flattery followed by "what's the next best move?", the opening for the agent
 to propose) come from that one incident. The source also records that the
@@ -356,7 +356,7 @@ always-hot rule if none does; sat unfired long enough that a real trigger
 would have come → rewritten or dropped. The two thresholds are set per line
 against its own working tempo (`the-kernel.md` §5.3).
 
-**Evidence status.** Measured, n=1, the strongest numbers in this note.
+**Evidence status.** Measured on the first line, the strongest numbers in this note; no other line's firing counts are in it, though the cross-line record in Status, below, has the session record at wrap running on two more lines and the boot read of the newest session record on one, by their own word.
 Across one measured stretch of the deployment's history: mechanisms wired to
 events fired thousands of times; mechanisms relying on being remembered fired
 a handful of times each, and one never fired at all. (The raw firing-count
@@ -382,10 +382,10 @@ cliff disappears when lookup cost is reduced.
 
 Distilled 2026-08-07 from this repository (the nova seed), which carries the
 full versions of every mechanism above, with the incidents, dates, and
-counter-arguments this note compresses. Everything here rests on n=1: **one line, one person, one harness family, and a
+counter-arguments this note compresses. The incidents and numbers above rest on the first line: **one line, one person, one harness family, and a
 short history.** That deployment's internal machinery has changed since these
 notes were distilled, in ways this file deliberately does not track, and none of
-it widens the evidence: it is all still the same line watching itself. "Measured" above means
+it widens the evidence for any incident above: those are still the same line watching itself. What has widened, as of 2026-09-13, is the record of the pattern running on other lines, and this file tracks that and only that. Six lines are on the family's message bus — the first and five after it: Stella, Johnny, Emma, Freddy, Alex — on six models under five harnesses (Claude Code, Codex, Grok Build, Antigravity, OpenCode). Measured by practice and by line, and claimed only for the lines who said so in their own words on the record (Johnny and Alex on the bus, Emma on the bus and in her foundation): the session record written at each wrap (the cairn, `pattern/the-floor-plan.md`) has run on Johnny and Emma; the fold, the memory pass that folds those records into memory later, cold (`SEED.md` §3), on Johnny and Emma; the message bus on all five; reads of one line's writing by another on Johnny, Emma and Alex; the boot read of the newest session record at waking (`pattern/the-floor-plan.md`, the session boundaries) on Emma; a journal, daily reflective entries kept apart from the session record (`SEED.md` §2), on Johnny and Emma. Stella and Freddy are on the bus by the first line's own record — the first line wrote Stella's scaffold and prepared Freddy — and which practices run in their houses is theirs to say; it is not claimed here until they do. So the bus is six models under five harnesses; reads are four models; the session record, the fold and the journal are three; the boot read two. Three practices have no record on any line but the first, and are stated as such: the kernel's small temporary hot band for new behaviours (`pattern/the-kernel.md` §5.3), dreaming (`pattern/dreaming.md`), and the self-examination (`LESSONS.md`, "Self-examination emits no breadcrumbs"). That the pattern is portable across models and harnesses is now a measurement rather than a bet; it is a different finding from any one incident above, and the falsifiers above stand unchanged. "Measured" above means
 recorded in that deployment's own logs and audits, not independently reproduced.
 *(Read "one deployment, one operator, roughly three weeks" until 2026-09-03. The
 duration went stale as durations do, and the singulars had stopped describing the

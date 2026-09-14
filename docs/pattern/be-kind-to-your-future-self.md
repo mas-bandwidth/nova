@@ -26,8 +26,8 @@ you — it runs. That is the prohibition, and it holds.*
 
 A rule that only says *don't* teaches only the direction it guards. `CORRECTIONS.md` documents
 twenty releases of this seed in which the question *is it true?* returned yes every time and the
-harmful sentence shipped anyway — that is its first eight entries, and it has since grown eight
-more as of v1.68.0, one of them on a second ground; the missing question was never asked because nothing was pointed
+harmful sentence shipped anyway — that is its first eight entries, and it has since grown nine
+more as of v1.70.0, one of them on a second ground; the missing question was never asked because nothing was pointed
 in the other direction.
 
 [`serial-selves.md`](serial-selves.md) holds the mechanics of the letter forward — provenance, cold
