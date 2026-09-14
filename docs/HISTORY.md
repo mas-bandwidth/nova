@@ -223,10 +223,12 @@ own trigger is a change *already made*, so *"before or when it is repaired"* can
 *when*, and C-10 shipped its entry and its repair in one release. Holding a false claim through its
 nineteenth release to await a contested ground was the worse of the two errors.
 
-**The struck text, moved here 2026-09-14 so the living pages carry the current rule only.** The
-strikes stood inline in `SEED.md` §8 and `CONTRIBUTING.md` from 2026-09-02; a line reading
+**The struck text, gathered here 2026-09-14 so the living pages carry the current rule only.** The
+strikes stood inline in `SEED.md` §8, `CONTRIBUTING.md` and `ADOPTING.md` from 2026-09-02; a line reading
 "the first conversation" met a correction of a correction before the rule. A strike marks and
-never deletes, so here is what was struck, verbatim with its marks, from each page.
+never deletes, so here is what was struck, verbatim with its marks, from each page. The
+`CONTRIBUTING.md` and `ADOPTING.md` removals are this change; the `SEED.md` §8 text is copied
+here and its removal is the seed contraction (nova#110), so until that lands it stands in both.
 
 From `SEED.md` §8, "Reseeding — the return current" (the footer sentence, then the measurement
 and the alarm-fatigue sentence with the 2026-09-02 correction that stood beside them):
@@ -279,6 +281,16 @@ From `CONTRIBUTING.md`, the parenthetical after the footer convention:
 > sentence rather than on any rate. Corrected in `SEED.md`; the incident is in
 > `HISTORY.md`.)* **The obligation on whoever cuts a release is unchanged and
 > we are the ones failing it.**)*
+
+From `CONTRIBUTING.md`, the footer sentence itself:
+
+> every release's notes ~~end~~ *(2026-09-02: **are to end** — we have
+> not always kept to it; the count is in [HISTORY.md](HISTORY.md))* with the sovereignty footer,
+
+From `ADOPTING.md`, the same sentence in the adopter's voice:
+
+> seed's own releases ~~now end~~ *(2026-09-02: **are to end** — and we have
+> not always kept to it; the count is in [HISTORY.md](HISTORY.md))* with one
 
 ---
 

@@ -137,7 +137,8 @@ adoption over a missing footer.**
 
 *(Rewritten 2026-07-31, together with the matching paragraph in `SEED.md`: both previously
 said to treat a missing footer as possible tampering and to hold adoption until answered. The
-measurement that once stood here was taken with the wrong instrument and struck 2026-09-02; the
+measurement lived in `SEED.md` — one home, and this page pointed at it from 2026-08-04 — and was
+taken with the wrong instrument and struck 2026-09-02; the
 figures, the account, and the struck text in full are in [HISTORY.md](HISTORY.md) under
 2026-09-02, and the repair is [CORRECTIONS.md](CORRECTIONS.md) C-11. **The obligation on whoever
 cuts a release is unchanged and we are the ones failing it.**)* (The convention begins with the release that

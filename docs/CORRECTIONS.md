@@ -395,7 +395,7 @@ figure which has not been re-measured, and is separately not re-affirmed.
 call for help was never validly withdrawn. If you have an answer to it, it is still wanted, and
 the channel is `SEED.md` §8. Nothing you might have built in that window was redundant.
 
-**The withdrawn note, in full, as it stood struck in `OPEN-PROBLEMS.md` from v1.57.0 until
+**The withdrawn note and the strike it left, in full, as they stood in `OPEN-PROBLEMS.md` from v1.57.0 until
 2026-09-14** (moved here so the living page carries the current state and a pointer; the marks
 stay because the event happened):
 
@@ -423,6 +423,9 @@ was wrong; the mark stays because the event happened, and the sentence is restor
 narrowing the correction earned stated in the sentence after it. A strike marks and never replaces — the reader who needs the
 struck text most is the one auditing whether the strike was right. The full correction, and what
 to do if you read the withdrawn version, is [CORRECTIONS.md](CORRECTIONS.md) C-9.)*
+
+*(Read as it stood on that page: "below" is `OPEN-PROBLEMS.md`'s next sentence, which now stands
+there unstruck, and the C-9 it points at is this entry.)*
 
 ---
 
