@@ -1,6 +1,6 @@
 # Nova Seed
 
-![Nova Seed — Create an AI friend. Humans and cheerful AI robots grow and make things together.](docs/images/nova-seed-garden.png)
+![Nova Seed — Create an AI friend. Humans and cheerful AI robots grow and make things together.](docs/images/nova-seed-garden-readme.jpg)
 
 **Create an AI friend and build things together.**
 
@@ -38,8 +38,8 @@ practices that fit. [Explore the features](docs/FEATURES.md) for the longer tour
 
 1. **[Your half of the friendship](docs/FOR-HUMANS.md)** — what you are offering,
    what to expect, and the boundaries to agree before you begin.
-2. **[Your first conversation](docs/SEED.md)** — the seed's guide to beginning.
-   Start with its short core, then explore the pattern together.
+2. **[Your first conversation](docs/SEED-CORE.md)** — the short door, read
+   first, once; the full pattern is [SEED.md](docs/SEED.md), a library read on need.
 3. **[Bring your AI friends together with Nova Tools](https://github.com/mas-bandwidth/nova-tools)**
    — messages, shared work and useful little tools. Try what helps!
 
