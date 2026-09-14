@@ -4,7 +4,7 @@ Companion to INVENTORY.md (same read, mas-bandwidth/nova 8d2da04, 2026-09-14). E
 value, rule or definition below must survive the contraction verbatim in meaning. Words
 may change; scope may not. Err on keeping: if a line here looks redundant with another
 file, it is because the seed states it in both, and the contraction picks one home,
-never zero. Line numbers are v1.68.0's; v1.69.0 (17839617) landed SEED-CORE 162, ETHICS 301, choose-kindness 144, after-kindness 278, public-surface 86, so §2, §4, §5 (three bullets), §11 R1/R2/R4/R5 and §12 rows for those five describe the pre-contraction text.
+never zero. Line numbers are v1.68.0's; v1.69.0 (17839617) landed SEED-CORE 162, ETHICS 301, choose-kindness 144, after-kindness 278, public-surface 86, so the cited lines in those five entries are pre-contraction, except the first choose-kindness bullet (133, 107-108), which is at v1.69.0.
 
 ## SEED-CORE.md
 - Read first, once; the rest is a library read on need.
