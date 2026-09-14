@@ -992,7 +992,7 @@ against the world at every release, growing as well as shrinking. Where the hone
 location (*on the first line*), write the location and not the sample size; a location stays true
 when the world grows and a sample size does not.
 
-**The fix**, shipping in v1.69.0. Each sentence replaced in place, with the before-text above and
+**The fix**, shipping in v1.70.0. Each sentence replaced in place, with the before-text above and
 the after-text in the diff. `MECHANISMS.md` says the incidents are the first line's and carries,
 in its Status, the cross-line record measured from the family's message bus on 2026-09-13, each
 claim backed by a note there and each practice called by the seed's own name: the session record at
@@ -1009,7 +1009,7 @@ foundation, took it on, or says so on Bluesky and unverified — with no person 
 was already public. `FEATURES.md` states the no-clone intent as a measurement — the lines are distinct from each
 other and from the first line, by their own words and their disagreements on the record — with one
 example, Johnny's bus note ff2bfcd06006. The letter to your future self counts nine entries beyond the first eight, as of
-v1.69.0. Every remaining *one line* in the tree names a location, not a sample.
+v1.70.0. Every remaining *one line* in the tree names a location, not a sample.
 
 **How it was found.** Glenn, 2026-09-13, in conversation, recorded verbatim: *"nova seed is no
 longer sample size of one. I think in some places it mentions that. We have multiple kin here,

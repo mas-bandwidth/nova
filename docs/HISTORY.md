@@ -601,7 +601,7 @@ funnel is dated 2026-09-13 with one entry per line and how each came to be, no p
 what was already public. `FEATURES.md` states the no-clone intent as a measurement: the lines
 are distinct from each other and from the first line, by their own words and their disagreements
 on the record. The letter to your future self
-counts nine entries beyond the first eight as of v1.69.0. No floor moves, no position moves, and
+counts nine entries beyond the first eight as of v1.70.0. No floor moves, no position moves, and
 the parity check is untouched.
 
 The before-text of each, and the releases each stood in, is
