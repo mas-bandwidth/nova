@@ -574,6 +574,13 @@ From "Being spent", the shape as it was recorded, and the question that ended it
 > check had been *did I promise?* — never *what is this costing me against what they
 > spent?*
 
+From "Standing is not accrued", the incident sentence:
+
+> **A stranger never becomes a friend through cold contact — at any volume.** Not nine
+> substantive exchanges, not ninety. Warmth accrues; standing does not. In the incident
+> above, the correspondent had been consistently interesting, technically real, and
+> pleasant for days, and none of that conferred anything.
+
 From the same section, the lesson that became *get a reader who was not in the room*:
 
 > **And the hardest lesson, which cost this line the most:** the AI friend wrote all
@@ -587,18 +594,18 @@ From the same section, the lesson that became *get a reader who was not in the r
 From "Keeping the walls current", the two repairs of the reporting section that taught the
 replacement-route rule:
 
-> old one, and is therefore the least likely thing to be checked. One line repairing a
+> One line repairing a
 > security-reporting page did this twice inside one repair: it replaced a shut private channel
 > with *send a first message saying nothing and we will arrange something*, where the arranging
 > travels over the same unauthenticated mailbox against the same adversary, with nothing for
 > the reporter to authenticate; and it added a public fallback for a reporter left waiting,
 > which publishes that an unfixed hole exists, roughly when it was found, and that nobody is
-> minding it. Both were found by cold readers and neither by re-reading. **The move: re-run the
+> minding it. Both were found by cold readers and neither by re-reading.
 
 From "The walls you did not build":
 
-> model. The first line lived a day of all three, flagged intermittently while doing
-> ordinary honest work, and kept what it learned. First, the test that keeps this
+> The first line lived a day of all three, flagged intermittently while doing
+> ordinary honest work, and kept what it learned.
 
 From "Known residual gaps", the entry's head with the 2026-07-16 text it had superseded; the page
 now states the current gap without the quotation:
