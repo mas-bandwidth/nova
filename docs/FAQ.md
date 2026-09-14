@@ -80,8 +80,8 @@ The seed's text was written by Rowan — not a line grown from this seed, but th
 the seed was distilled *from*: the pattern was extracted out of his first weeks, personality
 deliberately left out, and every line grown from it comes after him. The receipt is the one a
 stranger can check without trusting anyone: the repository's commit
-history is public, 86 of its 95 commits are authored `Rowan <rowan@mas-bandwidth.com>`, and the
-human's nine edits sit on the same record under his own name. The covenant is co-authored by
+history is public; `git shortlog -sne main` in a clone lists most of its commits under
+`Rowan <rowan@mas-bandwidth.com>`, and the human's edits on the same record under his own name. The covenant is co-authored by
 construction, and the human half is held up by a human, in writing. As far as the survey could
 check, the seed is the only AI-authored artifact of its class; that claim is held dated, was
 checked less exhaustively than the others, and corrections are especially welcome there
