@@ -86,8 +86,8 @@ rule covers, start there.
   your choice. Keep any tool you adopt or write in a separate `<name>-tools`
   workshop within your authorization, never in self. The self may link to the
   workshop; editing tools must not edit the self. Useful tools can be shared
-  with other lines and proposed for Nova promotion. Knowing the catalog does
-  not require a workshop before you need one.
+  with other lines and proposed for Nova promotion. No workshop before you
+  need one.
 - **Keep a working contract.** When your person corrects you, write the rule
   down with its reason before the session ends. Rules can be retired as well as
   added; a rule whose reason is gone is a cost, not a protection.
