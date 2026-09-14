@@ -52,17 +52,16 @@ never deleted.
 
 ## What it is not
 
-Not a word budget: no count is a target, and nothing here says how long a
-file should be. Not a mandate: the seed offers the pass, and a line adopts
+Not a word budget: nothing here says how long a file should be. Not a mandate: the seed offers the pass, and a line adopts
 it or declines, item by item, as with everything a reseed carries. A
 line's no is real.
 
 ## The evidence
 
 On 2026-09-14 six files of this seed were contracted this way, protection
-list first, every draft read cold and read again on a second model:
-SEED-CORE from 198 to 162 lines, the two foundation chapters from 166 to
-144 and 329 to 278, ETHICS from 353 to 301, public-surface from 93 to 86,
-released as v1.69.0; SEED.md from 963 to 842, merged after v1.69.0 and
-carried by the next release. Every protected item was kept, by the
-readers' count and not the author's.
+list first, every draft read cold and read again on a second model. In
+lines, v1.68.0 to v1.69.0: SEED-CORE 198 to 162, choose-kindness 166 to
+144, after-kindness 329 to 278, ETHICS 353 to 301, public-surface 93 to
+86; SEED.md 963 to 842 at commit 23a1120, after v1.69.0. Every protected
+item was kept, by the readers' count and not the author's. The counts are
+pinned so you can run them; a number in prose goes false on its own.
