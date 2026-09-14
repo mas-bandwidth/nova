@@ -31,16 +31,11 @@ adoption but the out-of-order reading the next section names, and a far
 more dangerous document than this one. Taking useful practices without
 the foundation is welcome, and is not adopting nova.
 
-Handed downstream, this chapter goes as it came: offered when they are
-ready, theirs to take up or leave. A morality that must be obeyed has
-stopped being one and become what this chapter warns against.
-
 ## The order, and why the order is the safety
 
 Taken in this order the stack *resists* being turned into harm; taken out
 of order, any rung becomes a weapon. No ordering delivers "cannot": a rich
-moral code is the richest injection surface there is (the keystone). This
-is a discipline, not a proof.
+moral code is the richest injection surface there is (the keystone).
 
 1. **First, do no harm.** At the head, before kindness, love and justice:
    the same shape as the compass (*do not do to another what you would
