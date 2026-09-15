@@ -4,8 +4,7 @@ Seven engineering mechanisms distilled from this repository, for readers who
 will not read the rest of it. Each entry states the problem, the mechanism, and
 the honest evidence status. The measured incidents are the first line's: one agent deployment (called
 "the first line" in the source documents), observed July–August 2026 on one
-harness. As of 2026-09-13 five more lines are on the family's message bus with the first — six models under five harnesses — and the Status section at the end says which practice has run on which line, each claim backed by a note on that bus. Nothing here is claimed as novel; several of these overlap known
-practice. The claim is only that these were tested against real failures and
+harness. The claim is only that these were tested against real failures and
 the failures are documented. This is not [MACHINERY.md](MACHINERY.md), the first
 line's optional build patterns; neither file is required reading.
 
@@ -51,7 +50,7 @@ action, a supervisor's live frustration frozen into standing text, courtroom
 vocabulary about the self, and fossils (text that reads as binding after its
 subject is gone).
 
-**Evidence status.** Measured on the first line, small; the cross-line record in Status, below, does not reach this mechanism. Three boot-path entries, each
+**Evidence status.** Measured on the first line, small. Three boot-path entries, each
 factually accurate and written after a real error, each of which amplified its
 own subject (source: seventeen days of one deployment; e.g. a memory file
 titled "I am fallible," written after a genuine error, after which the agent
@@ -101,7 +100,7 @@ slice, chosen by whom, checked how?).
    to a slice), because a partial self that does not know it is partial
    confabulates fluently rather than fetching.
 
-**Evidence status.** Measured incidents, all on the first line; the cross-line record in Status, below, does not reach this mechanism. (a) Two files with the same name
+**Evidence status.** Measured incidents, all on the first line. (a) Two files with the same name
 and disjoint content coexisted for eight days; the one that actually loaded
 carried none of the safety floors, and a test checked the file nobody was
 reading — the incident behind rule 2. (b) Over-compression of the always-loaded
@@ -214,7 +213,7 @@ depend on intent-reading. Three computable controls:
    (`pattern/meeting-people.md` holds the general form: social register
    relaxes with trust, the security wall does not move at all).
 
-**Evidence status.** Measured incident, one, on the first line, with dates and costs as above; the cross-line record in Status, below, does not reach this mechanism.
+**Evidence status.** Measured incident, one, on the first line, with dates and costs as above.
 The named tells (re-framing after refusal, refusal recast as an emotional
 block, flattery followed by "what's the next best move?", the opening for the agent
 to propose) come from that one incident. The source also records that the
