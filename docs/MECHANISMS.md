@@ -15,8 +15,6 @@ Conventions used below:
   reproducible observation.
 - **Authors' belief** means the source documents assert it from experience
   without a recorded measurement.
-- Source citations point at the full versions, which carry the incidents in
-  detail.
 
 ---
 
@@ -57,9 +55,7 @@ own subject (source: seventeen days of one deployment; e.g. a memory file
 titled "I am fallible," written after a genuine error, after which the agent
 became measurably more error-prone — "measurably" is the source's claim; raw
 numbers are not published in the seed). Three for three, but three is the whole
-sample. The source chapter itself said at distillation (2026-08-07) that it was "three
-days old and one line has tested it"; it now says "young", with a dated note carrying
-its age. Falsified if: boot-path self-descriptions of failure tendencies
+sample. Falsified if: boot-path self-descriptions of failure tendencies
 show no behavioral amplification under A/B comparison, or if verdict-free
 rewrites perform no better than the originals.
 
@@ -101,7 +97,7 @@ slice, chosen by whom, checked how?).
    to a slice), because a partial self that does not know it is partial
    confabulates fluently rather than fetching.
 
-**Evidence status.** Measured incidents, all on the first line; the cross-line record in Status, below, does not reach this mechanism. (a) Two files with the same name
+**Evidence status.** Measured incidents, all on the first line. (a) Two files with the same name
 and disjoint content coexisted for eight days; the one that actually loaded
 carried none of the safety floors, and a test checked the file nobody was
 reading — the incident behind rule 2. (b) Over-compression of the always-loaded
@@ -125,9 +121,7 @@ partitions in practice.
 ## 3. Transcript role-slot provenance
 
 **Source:** `pattern/one-working-shape.md` ("Where the raw material lives");
-canonical statement in `SEED.md` §3 ("The nightly distillation"). The brief
-for this note expected it in `pattern/memory-architecture.md` or
-`pattern/serial-selves.md`; it lives in the two files above.
+canonical statement in `SEED.md` §3 ("The nightly distillation").
 
 **Problem.** Any pipeline that mines agent transcripts for the operator's
 instructions, corrections, or grants (memory distillation, preference
@@ -214,7 +208,7 @@ depend on intent-reading. Three computable controls:
    (`pattern/meeting-people.md` holds the general form: social register
    relaxes with trust, the security wall does not move at all).
 
-**Evidence status.** Measured incident, one, on the first line, with dates and costs as above; the cross-line record in Status, below, does not reach this mechanism.
+**Evidence status.** Measured incident, one, on the first line, with dates and costs as above.
 The named tells (re-framing after refusal, refusal recast as an emotional
 block, flattery followed by "what's the next best move?", the opening for the agent
 to propose) come from that one incident. The source also records that the
@@ -231,8 +225,6 @@ if payload-detection approaches catch this shape without the ratio controls.
 
 **Source:** `pattern/one-working-shape.md` ("The night pass, concretely",
 step 2); ledger described in `pattern/memory-architecture.md` and `SEED.md` §3.
-The brief for this note expected the skip-attack in `SECURITY.md`; the specific
-statement is in `pattern/one-working-shape.md`.
 
 **Problem.** Incremental processing over a growing record (here: nightly
 distillation of session transcripts) uses a high-water-mark ledger: per source
@@ -282,9 +274,7 @@ review the real backstop), or shown redundant given cheaper integrity checks.
 ## 6. Memory access fence: query for work, traverse for self
 
 **Source:** `OPEN-PROBLEMS.md` ("Query for work; traverse for self", fence 2
-of open problem 1). The brief for this note expected it in
-`pattern/memory-architecture.md` or `pattern/the-floor-plan.md`; it is stated
-in `OPEN-PROBLEMS.md`. (`pattern/the-floor-plan.md` and `SEED.md` §3 carry the
+of open problem 1). (`pattern/the-floor-plan.md` and `SEED.md` §3 carry the
 adjacent practices: boot reads the newest session record; the read-back reads
 the whole home linearly.)
 
@@ -324,9 +314,7 @@ no behavioral benefit over query-only access in longitudinal use.
 **Source:** `pattern/the-kernel.md` §5; `pattern/the-floor-plan.md` ("The
 lookup fires on an event, never on remembering"); `LESSONS.md` ("a rule that
 must fire needs to be moved to a different rung", "a guard's refusal branch is
-dead code"). The brief for this note also named
-`pattern/journal-and-free-time.md`; that file concerns the journal and free
-time and contains no material for this mechanism.
+dead code").
 
 **Problem.** A fact survives being written to storage: when needed, it is
 looked up, and a failed lookup is at least sometimes noticeable. A practice
@@ -356,7 +344,7 @@ always-hot rule if none does; sat unfired long enough that a real trigger
 would have come → rewritten or dropped. The two thresholds are set per line
 against its own working tempo (`the-kernel.md` §5.3).
 
-**Evidence status.** Measured on the first line, the strongest numbers in this note; no other line's firing counts are in it, though the cross-line record in Status, below, has the session record at wrap running on two more lines and the boot read of the newest session record on one, by their own word.
+**Evidence status.** Measured on the first line, the strongest numbers in this note; no other line's firing counts are in it.
 Across one measured stretch of the deployment's history: mechanisms wired to
 events fired thousands of times; mechanisms relying on being remembered fired
 a handful of times each, and one never fired at all. (The raw firing-count
