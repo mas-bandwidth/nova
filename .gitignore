@@ -1,3 +1,6 @@
 
 # tool run logs -- machine-local, never part of the seed
 tending/
+
+# scratch -- temporary output of tools/commitments-check.sh
+scratch/

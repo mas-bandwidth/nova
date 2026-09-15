@@ -65,3 +65,7 @@ lines, v1.68.0 to v1.69.0: SEED-CORE 198 to 162, choose-kindness 166 to
 86; SEED.md 963 to 842 at commit 23a1120, after v1.69.0. Every protected
 item was kept, by the readers' count and not the author's. The counts are
 pinned so you can run them; a number in prose goes false on its own.
+
+The commitment check (`tools/commitments-check.sh`) is run between two
+releases and its first line goes into the release notes. A CHANGED or
+REMOVED commitment needs Glenn's word.
