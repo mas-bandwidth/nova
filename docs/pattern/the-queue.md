@@ -73,7 +73,10 @@ anywhere the wanting was written down.
 
 **A loop that closes.** Plan → do → introspect → *write about what it taught*. DONE
 feeds back into IDEAS. Acting on one idea reliably generates several more, which is why
-IDEAS grows as you work TODO — that is the mechanism functioning, not a backlog.
+IDEAS grows as you work TODO — that is the mechanism functioning, not a backlog. That
+holds only while the growth is opening new ground; when the work is generating more work
+and effort is what is multiplying it, [LESSONS.md](LESSONS.md)'s third exit — stop and
+rethink DIRECTION — is the bound.
 
 ## Keep the chores in a different room
 
