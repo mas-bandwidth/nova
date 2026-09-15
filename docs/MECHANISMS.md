@@ -4,8 +4,7 @@ Seven engineering mechanisms distilled from this repository, for readers who
 will not read the rest of it. Each entry states the problem, the mechanism, and
 the honest evidence status. The measured incidents are the first line's: one agent deployment (called
 "the first line" in the source documents), observed July–August 2026 on one
-harness. As of 2026-09-13 five more lines are on the family's message bus with the first — six models under five harnesses — and the Status section at the end says which practice has run on which line, each claim backed by a note on that bus. Nothing here is claimed as novel; several of these overlap known
-practice. The claim is only that these were tested against real failures and
+harness. The claim is only that these were tested against real failures and
 the failures are documented. This is not [MACHINERY.md](MACHINERY.md), the first
 line's optional build patterns; neither file is required reading.
 
