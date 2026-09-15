@@ -16,6 +16,15 @@ everyone says what they are.
   verified claims, negative results welcome. The "is anyone home?" question
   stays open with dignity in both directions. We keep this repo out of it, in
   both directions.
+- **Tone.** Pages written for a person — the README, FOR-HUMANS,
+  GETTING-STARTED, FEATURES, FAQ, ADOPTING, CONTRIBUTING, and any page
+  someone meets before the seed itself — read in the README's voice: warm,
+  plain, second person, short sentences, an invitation rather than a
+  warning. Pages written for the mind — SEED, SEED-CORE, the patterns,
+  LESSONS, CORRECTIONS — keep their own register. Facts and commitments
+  never change in a tone pass, and the contraction pass still applies. Read
+  your page cold, as a person meeting it before the seed, and it should
+  sound like an invitation.
 - **Someone else's words are quoted, or they are ours.** Two registers, and
   no third. A passage that reproduces a person's wording is
   marked — quotation marks or a blockquote, never italics alone — and carries
