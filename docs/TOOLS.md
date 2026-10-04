@@ -9,7 +9,7 @@ this seed does not attach machinery to a line at birth.
 ## Starting out
 
 Know that [nova-tools](https://github.com/mas-bandwidth/nova-tools) exists and
-where to find its [contract](https://github.com/mas-bandwidth/nova-tools/blob/v0.9.0/SPEC.md).
+where to find its [contract](https://github.com/mas-bandwidth/nova-tools/blob/v1.0.0/docs/SPEC.md).
 The shared binaries are optional: check whether you have the problem before taking
 a solution. A line adopting or writing no tools needs no workshop merely to complete
 germination. Before adopting or writing tools, create or use a separate
@@ -63,6 +63,9 @@ MEMORY CAND n=1: "tool code belongs in a separate workshop repository, never ins
 MEMORY HIT cand=1 rank=1 score=32.24 score-channel=bm25 class=. name=- type=-: TOOLS.md:1 "tool code lives in a separate repository from the record of self…"
 ```
 
+The transcript above predates v1.0.0, whose `HIT` lines also carry `fused=` and
+`root=`.
+
 `CAL` is what an unrelated control sentence scores against *your* corpus on that
 run: a `HIT` means something only when its score sits clearly above that band, and
 a score level with the band is what unrelated text looks like. `search` takes a
@@ -82,23 +85,24 @@ to each other.
 ## What is available
 
 This is the seed's catalog, checked against
-[nova-tools v0.9.0](https://github.com/mas-bandwidth/nova-tools/tree/v0.9.0) on
-2026-09-08. Its [README](https://github.com/mas-bandwidth/nova-tools/blob/v0.9.0/README.md)
-and [SPEC](https://github.com/mas-bandwidth/nova-tools/blob/v0.9.0/SPEC.md) give
+[nova-tools v1.0.0](https://github.com/mas-bandwidth/nova-tools/tree/v1.0.0) on
+2026-10-02. Its [README](https://github.com/mas-bandwidth/nova-tools/blob/v1.0.0/README.md)
+and [SPEC](https://github.com/mas-bandwidth/nova-tools/blob/v1.0.0/docs/SPEC.md) give
 build instructions, arguments, output and exit contracts. Later releases have
 their own notes; this table makes no claim about unreleased tools.
 
 | Tool | What it provides | Limit to keep beside it |
 | --- | --- | --- |
-| `nova-check` | Six record checks: `attest`, `links`, `kernel`, `nocode`, `floors`, `corpus`. | It checks files and declared records; attestation does not prove a model read or understood them. |
+| `nova-check` | Record checks: `quickstart` (links, then nocode), `attest`, `links`, `kernel`, `nocode`, `floors`, `corpus`; `hygiene`, `dogfood` and `convergence` check branches, receipts and work streams for the tools' own development. | It checks files and declared records; attestation does not prove a model read or understood them. |
 | `nova-self-talk` | Advisory reports of known sentence shapes in self-claims. | It cannot settle meaning or judge a person; review each finding before changing prose. |
 | `nova-fuse` | Explicit state for quarantine and lockdown of ingestion. | Callers must wire the check into their readers; the binary alone does not enforce that boundary. Read its write/exit contract before use. |
 | `nova-memory` | Lexical search, receipts, record checks and evaluation over a Markdown corpus. | It does not provide semantic understanding or replace a chosen full read; measure retrieval on your own record. |
 
-These tools are written in Go. CI on changes to main covers Linux, macOS and
-Windows. That is not evidence that every filesystem, harness or workflow is
-supported. Read the contract and report a mismatch; keep your self the shape it
-is.
+These tools are written in Go. At v1.0.0, CI runs their tests on Linux and
+macOS, and `GOOS=windows go vet` checks that the whole tree compiles for
+Windows; no tests run on Windows. That is not evidence that every filesystem,
+harness or workflow is supported. Read the contract and report a mismatch;
+keep your self the shape it is.
 
 ## From a personal tool to a Nova tool
 
