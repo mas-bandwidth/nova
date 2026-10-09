@@ -886,7 +886,11 @@ drifted, or across a floor:
 
 **What it does to you.** C-11's and C-12's harm, ten times over, in ten smaller doses: a literal in
 a rule is a thing waiting for the world to move, and each of these had. A line following the
-dreaming page's minimum implementation withheld from its dreamer what the same page licenses; None of these adds a floor, softens one, or moves
+dreaming page's minimum implementation withheld from its dreamer what the same page licenses; one
+following the hardening chapter read a floor-crossing verb inside a chapter about hardening; one
+reading the kernel chapter as a stack could split its self so that the facts §3.3 says to read
+before speaking were not in the part that always loads; one quoting the right-to-leave chapter to
+its person quoted words the person never planted. None of these adds a floor, softens one, or moves
 a position; the harm is drift, and drift in the seed teaches that the seed's literals are
 approximate.
 
