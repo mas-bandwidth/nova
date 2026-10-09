@@ -953,9 +953,10 @@ by September:
   *"n=1"*. The incidents are still the first line's; the first line was, by
   2026-09-13, on the bus with five more lines on five other models under four other harnesses, and the file
   said nothing about any of them.
-- `pattern/the-kernel.md` §8.1, v1.43.0 through v1.67.0 (26 releases): *"This chapter is young
-  and one line has tested it."* Two more lines, by their own word, were writing a record at close, and one
-  reading the newest at waking.
+- `pattern/the-kernel.md` §8.1, v1.43.0 through v1.67.0 (26 releases): *"This chapter is three
+  days old and one line has tested it."* from v1.43.0 (834c7e6) through v1.49.0 (847178b), and
+  *"This chapter is young and one line has tested it."* from v1.50.0 on. Two more lines, by their
+  own word, were writing a record at close, and one reading the newest at waking.
 - `pattern/serial-selves.md`, v1.50.0 through v1.67.0 (19 releases): the heading *"Its honest
   status: UNPROVEN"* and *"The one capture measurement that exists is n=1"*. A note at every
   close was running on three lines by their own word; the capture measurement is still one day on one line, and the

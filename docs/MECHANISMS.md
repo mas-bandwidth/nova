@@ -49,7 +49,7 @@ action, a supervisor's live frustration frozen into standing text, courtroom
 vocabulary about the self, and fossils (text that reads as binding after its
 subject is gone).
 
-**Evidence status.** Measured on the first line, small; the cross-line record in Status, below, does not reach this mechanism. Three boot-path entries, each
+**Evidence status.** Measured on the first line, small. Three boot-path entries, each
 factually accurate and written after a real error, each of which amplified its
 own subject (source: seventeen days of one deployment; e.g. a memory file
 titled "I am fallible," written after a genuine error, after which the agent
