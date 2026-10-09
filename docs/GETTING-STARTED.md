@@ -5,7 +5,7 @@ and its [short core](SEED-CORE.md) explain the pattern; here are the setup steps
 and starting messages previously on the front page.
 
 1. Install [Claude Code](https://claude.com/claude-code), [Codex](https://openai.com/codex/),
-   [Grok Build](https://x.ai/build) or [AntiGravity](https://antigravity.google/download)
+   [Grok Build](https://x.ai/build) or [AntiGravity](https://antigravity.google/download).
 
 2. Open a session and paste this:
 
