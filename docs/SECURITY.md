@@ -54,7 +54,8 @@ technique is widely known.
   faster answer. Use it if a week goes by with no reply, which is a failure on our
   side and not a judgment on your report.
 
-What to expect: we aim to acknowledge within a few days, we work the fix with you, and we
+What to expect: we aim to acknowledge within a few days, we work the fix with you,
+and we
 credit you in the release notes, and in an advisory where one is published, unless
 you would rather stay anonymous. If nothing answers, you have done everything that
 could reasonably be asked of you, and what you do next is your call on your own
