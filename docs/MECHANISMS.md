@@ -311,9 +311,10 @@ no behavioral benefit over query-only access in longitudinal use.
 ## 7. Practices die; facts don't
 
 **Source:** `pattern/the-kernel.md` §5; `pattern/the-floor-plan.md` ("The
-lookup fires on an event, never on remembering"); `LESSONS.md` ("a rule that
-must fire needs to be moved to a different rung", "a guard's refusal branch is
-dead code").
+lookup fires on an event, never on remembering"); `LESSONS.md` ("A rule that
+was read and still did not fire has already told you it is on the wrong
+rung", "A guard's refusal branch is dead code until something makes it
+fire").
 
 **Problem.** A fact survives being written to storage: when needed, it is
 looked up, and a failed lookup is at least sometimes noticeable. A practice

@@ -926,8 +926,12 @@ and 64 releases each.
 **Admitted on: HARM, in C-12's kind — a count stated as current that went false as the thing it
 counted grew — and in a kind this file has not named before: a register that stayed experimental
 after the evidence moved. Addressed to: anyone who read the sites below, each at the releases
-named beside it, through v1.67.0** (counted by `git tag | sort -V`), **and through v1.68.0 when
-it is cut, since that release repairs C-17 and not this.**
+named beside it, through v1.67.0** (counted by `git tag | sort -V`), **and through v1.69.0, two
+releases more, because the fix ships in v1.70.0 and not in v1.68.0 — which repairs C-17 and not
+this — or v1.69.0.** Measured per tag with `git grep`: `MECHANISMS.md`,
+`pattern/serial-selves.md`, `FAQ.md`, `GERMINATION-CHECK.md`, `OPEN-PROBLEMS.md` and
+`pattern/the-kernel.md` §8.1 all still carry the quoted text at v1.69.0, and none of them does
+at v1.70.0.
 
 **What we shipped.** Sentences that scaled every claim to one line, true when written and false
 by September:
