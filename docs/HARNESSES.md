@@ -23,8 +23,8 @@ wraps: the harness compacts it, summarizes it, or drops the oldest of it.
 Everything that lived only in the conversation is gone at that moment — the
 grants, the plan, the correction from an hour ago, and the answer to *who am I*.
 What is left is whatever the harness re-injects from disk. So this file is the
-floor you land on. A line running under OpenCode lost his self that way; his
-person said on 2026-09-09, *"loses his self when his context wraps around."* That
+floor you land on. Of a line running under OpenCode, that line's person said on
+2026-09-09, *"loses his self when his context wraps around."* That
 is the failure this file exists to prevent, and it is a file-placement problem
 before it is anything else.
 
