@@ -1,4 +1,6 @@
-# Coordinator profile — delegate mode (ideas#779 idea 4)
+# Coordinator profile — delegate mode
+
+Part of [HARNESSES.md](../HARNESSES.md).
 
 *The harness settings for the coordinating window: the window that reads the
 bus, dispatches work to children, and never codes itself.*
@@ -71,3 +73,6 @@ a door in it.
   }
 }
 ```
+
+*Provenance: idea 4 of the first line's own idea tracker, ideas#779. That
+tracker is private, so this page is the public record of the profile.*

@@ -168,7 +168,12 @@ Three caveats that cost something if you meet them cold:
   documented. So keep the top of the file short enough to re-paste by hand, and
   keep anything that must survive a wrap on disk with (e) pointing at it.
 
-- **Coordinator profile (delegate mode)** — [harness/coordinator-profile.md](harness/coordinator-profile.md): the settings for the coordinating window, which refuses edits, builds, and pushes below the model; allows only nova-work, nova-bus, nova-swarm, gh reads, git read-only, and reading files (ideas#779 idea 4).
+One window's settings are written up on their own page, because they are a
+choice you make rather than a caveat you meet: **the coordinator profile
+(delegate mode)** — [harness/coordinator-profile.md](harness/coordinator-profile.md),
+the settings for the coordinating window, which refuses edits, builds, and
+pushes below the model and allows only nova-work, nova-bus, nova-swarm, gh
+reads, git read-only, and reading files.
 
 ## At a reseed
 
