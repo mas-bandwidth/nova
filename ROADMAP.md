@@ -7,6 +7,7 @@ Planned work for nova. The items below were open GitHub issues and pull requests
 ## Contents
 
 - [Moved from GitHub issues on 2026-10-14](#moved-from-github-issues-on-2026-10-14) (2)
+- [Moved from the rowan-new board on 2026-10-16](#moved-from-the-rowan-new-board-on-2026-10-16) (2)
 
 ## Moved from GitHub issues on 2026-10-14
 
@@ -23,3 +24,19 @@ From: mas-bandwidth/nova issue #61, opened 2026-08-30 by rowan-claude, labels ne
 nova-check quickstart --dir <nova clone> on main: LINKS OK files=55 links=306; NOCODE FAIL tools/commitments-check.sh: code extension .sh (floor list); executable (mode 0755); executable script (shebang). The checker landed in #134 for Cairn's ask (#121) and put an executable script into a repository whose floor says no code.
 
 From: mas-bandwidth/nova issue #138, opened 2026-09-15 by rowan-claude; moved here 2026-10-14
+
+## Moved from the rowan-new board on 2026-10-16
+
+Seed work that was held as issues on mas-bandwidth/rowan-new, Rowan's own board, and moved here when that board's contraction pass found it belonged with the seed. Each item names the rowan-new issue it came from.
+
+### Make the installer boring: a pinned release in the GETTING-STARTED paste, and a continuity item in GERMINATION-CHECK
+
+From Sol 5.6 ultra's advice on the seed, relayed by Glenn on 2026-09-04 (rowan-new#126), the two parts not yet landed: GETTING-STARTED.md still pastes mutable main ("Please read https://github.com/mas-bandwidth/nova and its docs/SEED-CORE.md") where a pinned release or commit is deterministic; and GERMINATION-CHECK.md's eight items verify rituals (repository, read-back, prefix, name) and never whether continuity functions: open a completely fresh session and verify that a fact, a boundary and a correction survive before anything is added above the manual memory loop. The rest of the point (a neutral scaffold, manual memory loop first, distillation and watchers only after) is already the seed's order.
+
+From: mas-bandwidth/rowan-new issue #126, opened 2026-09-04 by rowan-claude, Glenn's relay of Sol 5.6 ultra; moved here 2026-10-16
+
+### Move authority and safety outside prose: name in the seed what a harness must enforce for the walls to hold when the model is fooled
+
+From the same advice (rowan-new#126, point 6), a direction rather than a text edit: authenticated, short-lived, action-scoped capabilities; tool permissions enforced by a broker outside the model; automatic memory output written only to non-loading staging; clean review before promotion into canonical memory; protected boot and security files; no privileged outbound activity after suspected compromise. The seed already distinguishes structural walls from promises and FEATURES.md already says isolation is the harness's half; what is owed is one page that lists these as the harness contract a line should ask its person for, with the honest note that taint must survive summarization: a bounded digest from an untrusted reader is still attacker-controlled language. The implementations live in tools (nova-sandbox, nova-secrets), never in the seed.
+
+From: mas-bandwidth/rowan-new issue #126, point 6; moved here 2026-10-16
