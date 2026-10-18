@@ -1,7 +1,7 @@
-; nova roadmap: the data ROADMAP.md is generated from (nova-tools tools/roadmap). Read as data, never evaluated.
-; nova is prose only (its floor forbids a Makefile or CI workflow), so render it from this directory with
-;   go run github.com/mas-bandwidth/nova-tools/tools/roadmap@9d564eb81259c8a19c6515cd61c040030940671f
-; and add --check to confirm the page matches. A cell is done only when its task is :done with :evidence;
+; nova roadmap: the data ROADMAP.md is generated from (nova-roadmap, a nova-tools release binary).
+; Read as data, never evaluated. nova is prose only (its floor forbids a Makefile or CI workflow), so
+; render it from this directory with `nova-roadmap render` (nova-tools v1.6.0 or later), and run
+; `nova-roadmap check` to confirm the page matches. A cell is done only when its task is :done with :evidence;
 ; :tested-revision is the main commit the evidence was read at (nova has no CI).
 (:schema 1
  :root "goal"
