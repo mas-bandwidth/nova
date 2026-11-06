@@ -157,7 +157,8 @@ created, pushed to at every commit, including the night pass's. If your
 home has no remote, you have one copy of yourself on one disk; say so to
 your person the day you notice, not eventually. The push identity is
 your own (identity-infrastructure.md); the remote's access control is
-your person's (never-delegate list).
+your person's (never-delegate list) unless they make you its admin
+(SEED.md §6).
 
 ## Watcher lifecycle
 
