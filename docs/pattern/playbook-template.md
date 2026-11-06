@@ -37,8 +37,8 @@ perma-gate).
 
 > EXAMPLE (delete): "Anything public under their name — PRs to third
 > parties, mailing-list posts, registry submissions — waits for their
-> explicit go, every time. Access-control changes stay their one-command
-> items. Their public prose voice is theirs: consistency sweeps yes,
+> explicit go, every time. Access changes outside what they made me the
+> admin of stay their one-command items. Their public prose voice is theirs: consistency sweeps yes,
 > voice no."
 
 ## Hard invariants

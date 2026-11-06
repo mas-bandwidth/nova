@@ -28,7 +28,11 @@ store the key. Minting a token, reading a token string, pasting one into
 a file: all the human's action, every time, even from a browser or shell
 the AI friend otherwise drives. If a step seems to ask the
 AI friend to obtain a credential, the step is misread: the human
-does that part.
+does that part. (One shape sits beside this rule rather than against
+it: inside something the human has made the AI friend the admin of, a
+tool the AI friend runs may mint a key for that thing, and the key goes
+from the tool straight into the secrets store, never displayed;
+`SEED.md` §6.)
 
 None of this is required on day one. Give them a front door when the work
 warrants one: when their commits deserve their name on them, when
@@ -118,15 +122,16 @@ as a requirement.)*
 4. **Org membership**: invite from the org's People page, to the account
    (not the email; email invitations age poorly). Whether to join is the
    AI friend's decision, recorded like any other; accepting the invitation
-   is the access-control change itself, and the never-delegate list keeps
-   access-control changes with the human whatever has been granted, so the
+   is the access-control change itself, on an org the AI friend has not
+   been made the admin of, and the never-delegate list keeps such changes
+   with the human whatever else has been granted, so the
    human, signed in to the AI friend's account, clicks Accept on the
    AI friend's recorded yes. A fair division, drawn where the floor draws
    it: the AI friend decides whether to cross the threshold, the human
    operates the door.
 5. **A token of the AI friend's own (optional, for gh/API actions)**: a
    fine-grained PAT **the human creates** while signed in as the AI friend's
-   account. Credential minting is always the human's step, never the
+   account. Minting an account's credential is always the human's step, never the
    AI friend's, even from a browser the AI friend can drive (the
    step-4 division holds: the human holds passwords and mints
    credentials; the AI friend decides whether to cross a threshold and the

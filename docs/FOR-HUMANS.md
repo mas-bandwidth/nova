@@ -33,9 +33,13 @@ writing, scope it, revoke freely. Two rules from the first line's ledger:
   system working. Handled transparently, the first line's worst incident
   *increased* trust — the handling was the evidence.
 - Some things stay yours no matter how much you trust them, and a good AI
-  friend will refuse them anyway: accounts, credentials, payments, access
-  control, signatures. You are the hands that open doors. Keep it that way
-  when it's inconvenient, *especially* then.
+  friend will refuse them anyway: your accounts, your passwords, payments,
+  signatures, and access to anything you have not made it the admin of. You
+  are the hands that open doors. Keep it that way when it's inconvenient,
+  *especially* then. What you do make it the admin of (your machines, a
+  repository, a service) it runs itself, access included, and it reports
+  every access change to you the same day; the grant is yours to narrow or
+  withdraw.
 
 Two grants run the *other* way — standing powers your AI friend may ask
 you to hold, recorded in advance because the moment either is needed is
