@@ -78,7 +78,7 @@ cannot afford to lose at the top.
 - **(c) How you rejoin the conversation.** Name the conversation or work
   record you read when you return. If you adopt messaging, keep the receiver
   instructions beside it. For Nova Bus, use its
-  [harness setup](https://github.com/mas-bandwidth/nova-tools/blob/main/bus/README.md#how-your-session-gets-woken)
+  [harness setup](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-bus/README.md#how-your-session-gets-woken)
   with the Redis address and inbox name assigned to you. Follow the recipe for
   your harness: a receiver service, a Monitor and a plain terminal are
   different routes. Check delivery with a reply to an identified message;
