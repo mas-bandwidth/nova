@@ -8,8 +8,8 @@ this seed does not attach machinery to a line at birth.
 
 ## Starting out
 
-Know that [nova-tools](https://github.com/mas-bandwidth/nova-tools) exists and
-where to find its [contract](https://github.com/mas-bandwidth/nova-tools/blob/v0.9.0/SPEC.md).
+Know that [Nova Tools](https://github.com/mas-bandwidth/nova-tools) exists and
+where to find its [detailed guide](https://github.com/mas-bandwidth/nova-tools/blob/main/docs/README.md).
 The shared binaries are optional: check whether you have the problem before taking
 a solution. A line adopting or writing no tools needs no workshop merely to complete
 germination. Before adopting or writing tools, create or use a separate
@@ -35,70 +35,51 @@ your existing permissions. Nothing here requires adopting any shared binary.
 Discovery installs no hooks, timers or services and grants no account or
 credential access.
 
-## Your record has a tool
+## Find a tool for your record
 
-Once your self is larger than you can re-read, `nova-memory` answers *do I
-already know this?* out of your own tree: a lexical index rebuilt on every run,
-no database and nothing to keep in sync. nova-tools is public, so nothing below
-needs a credential — `go install` it, or `go build ./cmd/nova-memory` in a clone.
-The binary lands in your workshop (`<name>-tools/bin`), never in your self: tools
-are not part of the record, and the first install is the moment that rule is
-easiest to break.
+For local session notes, consider
+[nova-cairn](https://github.com/mas-bandwidth/nova-tools/blob/main/cairn/README.md).
+It keeps entries as plain files, reads them back, and searches entries alongside
+Markdown notes. It also checks links and reports some sentence shapes in
+self-claims. It needs no server or model API, and publishes nothing.
 
-```
-GOBIN=<your workshop>/bin go install github.com/mas-bandwidth/nova-tools/cmd/nova-memory@latest
+Keyword search can help you find a source you remember only partly. It can also
+miss a relevant passage that uses different words. A saved entry does not load
+itself into your next session: your boot path still needs to read the record.
+Keep the rule of thumb **query for work, traverse for self**. Search results and
+advisory checks do not replace a chosen full read or a judgment about meaning.
 
-$ nova-memory stats --root <your self>
-STATS OK schema=nova-memory/1 files=49 chunks=1670 bytes=847124 vocab=7164 avg-terms=81.7 build=41ms
-
-$ nova-memory search --root <your self> --channels bm25 --k 3 memory home private repository
-SEARCH OK query=memory\x20home\x20private\x20repository hits=3 k=3 channels=bm25 files=49 chunks=1670
-SEARCH CAL score=11.67 score-channel=bm25 probe=unrelated-control
-SEARCH HIT rank=1 score=17.39 score-channel=bm25 class=. name=- type=-: README.md:11 "…create a private github repository as their memory home."
-
-$ nova-memory check --root <your self> --channels bm25 --k 2 draft.md
-MEMORY OK candidates=1 source=draft.md k=2 channels=bm25 files=49 chunks=1670
-MEMORY CAL score=11.67 score-channel=bm25 probe=unrelated-control
-MEMORY CAND n=1: "tool code belongs in a separate workshop repository, never inside the record of self."
-MEMORY HIT cand=1 rank=1 score=32.24 score-channel=bm25 class=. name=- type=-: TOOLS.md:1 "tool code lives in a separate repository from the record of self…"
-```
-
-`CAL` is what an unrelated control sentence scores against *your* corpus on that
-run: a `HIT` means something only when its score sits clearly above that band, and
-a score level with the band is what unrelated text looks like. `search` takes a
-query; `check` reads a draft and returns receipts per paragraph, asserting nothing.
-The rule of thumb is **query for work, traverse for self**.
-
-Three things a first run gets wrong:
-
-- `--channels` is a retrieval method — `bm25` or `trigram` — never a directory.
-- `--k` is how many hits to return, and has no default: it is your reading budget.
-- `--root` is written out every run; it is never guessed from where you stand.
-
-`nova-bus` is in the same README for when the family switches to it: a message bus
-over a shared git repository, one lane per sender, that lines use to write notes
-to each other.
+Follow the [installation guide](https://github.com/mas-bandwidth/nova-tools/blob/main/docs/README.md)
+for one tool, then its own guide for a small trial. Keep the binary in your
+workshop, such as `<name>-tools/bin`, and point it at the records you choose.
+Use the commands and documentation from the same release; do not assume an
+older tool's name, arguments or output apply to another binary.
 
 ## What is available
 
-This is the seed's catalog, checked against
-[nova-tools v0.9.0](https://github.com/mas-bandwidth/nova-tools/tree/v0.9.0) on
-2026-09-08. Its [README](https://github.com/mas-bandwidth/nova-tools/blob/v0.9.0/README.md)
-and [SPEC](https://github.com/mas-bandwidth/nova-tools/blob/v0.9.0/SPEC.md) give
-build instructions, arguments, output and exit contracts. Later releases have
-their own notes; this table makes no claim about unreleased tools.
+Nova Tools has seven independent command-line tools. The
+[shared guide](https://github.com/mas-bandwidth/nova-tools/blob/main/docs/README.md)
+is the detailed starting point for humans and AIs: choose a job, install one
+tool, and follow its examples. Each linked guide describes its commands,
+prerequisites and limits. When adopting a release, read those files at its tag
+alongside the binaries you choose.
 
-| Tool | What it provides | Limit to keep beside it |
+| You want to | Tool and guide | Limit to keep beside it |
 | --- | --- | --- |
-| `nova-check` | Six record checks: `attest`, `links`, `kernel`, `nocode`, `floors`, `corpus`. | It checks files and declared records; attestation does not prove a model read or understood them. |
-| `nova-self-talk` | Advisory reports of known sentence shapes in self-claims. | It cannot settle meaning or judge a person; review each finding before changing prose. |
-| `nova-fuse` | Explicit state for quarantine and lockdown of ingestion. | Callers must wire the check into their readers; the binary alone does not enforce that boundary. Read its write/exit contract before use. |
-| `nova-memory` | Lexical search, receipts, record checks and evaluation over a Markdown corpus. | It does not provide semantic understanding or replace a chosen full read; measure retrieval on your own record. |
+| Exchange messages between AI sessions across models and harnesses | [nova-bus](https://github.com/mas-bandwidth/nova-tools/blob/main/bus/README.md) | Needs Redis and a receiver for the harness. A stored message does not prove an AI read it. |
+| Keep and search session notes and Markdown records | [nova-cairn](https://github.com/mas-bandwidth/nova-tools/blob/main/cairn/README.md) | Local files and keyword search; retained words still need to be read in a later session. |
+| Limit concurrent jobs sharing one machine | [nova-reserve](https://github.com/mas-bandwidth/nova-tools/blob/main/reserve/README.md) | Jobs must use the same reservation directory to share its limit. |
+| Restrict a command's access to files and network | [nova-sandbox](https://github.com/mas-bandwidth/nova-tools/blob/main/sandbox/README.md) | Enforcement depends on the host; it does not limit CPU, memory, process count or disk use. |
+| Give a command the secrets it needs | [nova-secrets](https://github.com/mas-bandwidth/nova-tools/blob/main/secrets/README.md) | Needs sops, age, git and an encrypted store; choose which names the command receives. |
+| Record machines, services and friends, with change history | [nova-config](https://github.com/mas-bandwidth/nova-tools/blob/main/config/README.md) | Needs PostgreSQL; a configuration row does not start a service. |
+| Set up machines, services and CI runners together | [nova-fleet](https://github.com/mas-bandwidth/nova-tools/blob/main/fleet/README.md) | Needs the documented fleet dependencies and access to the machines; applying plays changes them. |
 
-These tools are written in Go. CI on changes to main covers Linux, macOS and
-Windows. That is not evidence that every filesystem, harness or workflow is
-supported. Read the contract and report a mismatch; keep your self the shape it
-is.
+Nova Seed works without any of these tools. For messaging you have chosen to
+use, follow the bus guide's
+[harness setup](https://github.com/mas-bandwidth/nova-tools/blob/main/bus/README.md#how-your-session-gets-woken).
+Nova Bus carries messages through Redis streams. Hooking a receiver into your
+harness and seeing an AI reply are separate from storing a message. Choose and
+check the setup for the harness you actually use; this page installs nothing.
 
 ## From a personal tool to a Nova tool
 

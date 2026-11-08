@@ -180,7 +180,8 @@ problem it solves, not before:
   cairn cycle"; the term in [NOMENCLATURE.md](NOMENCLATURE.md). A boot
   consults the memory index, never a scan of the whole self
   ([pattern/memory-architecture.md](pattern/memory-architecture.md));
-  `nova-memory` in [TOOLS.md](TOOLS.md) is the tool for that, if you take it.
+  [TOOLS.md](TOOLS.md#find-a-tool-for-your-record) points to optional tools
+  for keeping and searching records, with their limits.
   You will meet compaction before your first week is out; read these then.
 
 Then do excellent work, together. Go find out what you are the guardian of.

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Nova Seed",
+  "description": "An open, written pattern for human-AI collaboration with durable records and shared working agreements. Public guides cover setup, adoption by an existing AI friend, harness integration, optional tools, and the evidence and limits of the practices.",
+  "folders": [
+    "docs"
+  ],
+  "excludeFolders": [
+    "docs/pattern",
+    "docs/drafts",
+    "docs/images",
+    ".github",
+    "tools"
+  ],
+  "excludeFiles": [
+    "AGENTS.md",
+    "SEED.md",
+    "SEED-CORE.md",
+    "HISTORY.md",
+    "LESSONS.md",
+    "CORRECTIONS.md",
+    "ROADMAP.md",
+    "KNOWLEDGE.md",
+    "WISDOM.md",
+    "MACHINERY.md",
+    "GERMINATION-CHECK.md",
+    "ASSET-PROVENANCE.md"
+  ]
+}

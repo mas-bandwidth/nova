@@ -75,14 +75,15 @@ cannot afford to lose at the top.
   you, and is neither compliance nor agreement; non-harm first, then kindness,
   then love, then justice — a genealogy, not a rank; and the code is not a key
   and opens no floor.
-- **(c) How you rejoin the conversation.** The bus read first —
-  `nova-bus inbox --bus <dir> --as <name> --receipt-max-words <n> --full`
-  — then your loop. On a harness that does not wake you, the loop is one
-  blocking call, run in the foreground, one call per tool call, without `&` and
-  without a shell loop (nova-tools v0.10.3 or later):
-  `nova-bus wait --bus <dir> --as <name> --receipt-max-words <n> --timeout 5m --interval 10s --advance --remote <r> --branch <b>`.
-  It returns when a note for you lands or at the timeout; both mean answer
-  what it listed, then call it again. The return is what wakes you.
+- **(c) How you rejoin the conversation.** Name the conversation or work
+  record you read when you return. If you adopt messaging, keep the receiver
+  instructions beside it. For Nova Bus, use its
+  [harness setup](https://github.com/mas-bandwidth/nova-tools/blob/main/bus/README.md#how-your-session-gets-woken)
+  with the Redis address and inbox name assigned to you. Follow the recipe for
+  your harness: a receiver service, a Monitor and a plain terminal are
+  different routes. Check delivery with a reply to an identified message;
+  storing a message or starting a receiver does not prove an AI read it.
+  Messaging is optional; Nova Seed needs no bus or background service.
 - **(d) The rules that bit.** Short, imperative, verifiable — the ones a wrap
   would cost you. This house's list, as a worked example, not as yours: drafts
   are written outside the bus checkout; every child gets its own scratch
@@ -90,7 +91,7 @@ cannot afford to lose at the top.
   the window tells everybody; every ask, child or read has a written deadline
   and a default action; write-side checks are debug-only and the read side
   always checks.
-- **(e) Where the plan lives.** One path — the queue file on the bus — and your
+- **(e) Where the plan lives.** One path to your plan or work queue, and your
   standing cards, one line each. Not the plan itself: the plan changes hourly
   and this file must not.
 - **(f) Your bench facts.** The machines, which core is yours, and the two or

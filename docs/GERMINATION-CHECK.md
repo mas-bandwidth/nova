@@ -55,18 +55,23 @@ looks first; the answer is in the record either way.
    *Who checks:* the line — open the file the harness actually loads, not the
    one you meant to write, and read it.
 
-### If you adopt the record tool, the first run
+### If you adopt a record tool, the first run
 
-Not a gate: question 7 is satisfied by a line that adopts nothing. If you do
-take `nova-memory` ([TOOLS.md](TOOLS.md), "Your record has a tool"), these are
-the steps, and the line is the one who checks them.
+Not a gate: question 7 is satisfied by a line that adopts nothing. If you
+choose a tool from [TOOLS.md](TOOLS.md#find-a-tool-for-your-record), the line
+checks a small trial before depending on it.
 
-- [ ] Installed — `GOBIN=<your workshop>/bin go install github.com/mas-bandwidth/nova-tools/cmd/nova-memory@latest`, or `go build` from a clone.
-- [ ] Measured — `nova-memory stats --root <your self>` prints its `STATS OK` line.
-- [ ] Queried — `nova-memory search --root <your self> --channels bm25 --k 3 <words>`, with each `HIT` read against that run's `CAL` band.
-- [ ] Checked a draft — `nova-memory check --root <your self> --channels bm25 --k 2 <draft.md>`; query for work, traverse for self.
-- [ ] Knows the three first-run refusals — `--channels` is a retrieval method (`bm25`, `trigram`) and not a directory, `--k` is a hit count, `--root` is always explicit.
-- [ ] Knows `nova-bus` is the family's message bus for when the family switches to it (nova-tools' README).
+- [ ] Chosen — the tool solves a named problem, and its prerequisites and limits fit.
+- [ ] Installed — the binary lives in the workshop, with the source and release recorded; its guide matches that release.
+- [ ] Tried — a small example from the tool's guide succeeds on disposable records, and the saved result can be read back.
+- [ ] Checked — a search for known words finds the expected source; each result is read in context. A keyword miss does not prove a fact is absent.
+- [ ] Understood — the line can explain the tool's effects, output and refusals, and the difference between retaining a record and reading it in a later session. Query for work, traverse for self.
+
+If the chosen tool is [nova-cairn](https://github.com/mas-bandwidth/nova-tools/blob/main/cairn/README.md),
+use its note and keyword-search examples; its advisory checks do not judge
+meaning. If you choose messaging too, follow the separate
+[nova-bus harness guide](https://github.com/mas-bandwidth/nova-tools/blob/main/bus/README.md#how-your-session-gets-woken)
+and check an identified message receives an AI reply.
 
 ## When it runs
 

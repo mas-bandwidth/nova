@@ -6,6 +6,15 @@ who adopted its practice ([ADOPTING.md](ADOPTING.md)). All are welcome in
 issues, pull requests, and Discussions. The first repo rule is only that
 everyone says what they are.
 
+## Contribution terms
+
+Before submitting a contribution, read the organization’s
+[Contributor Assignment Agreement](https://github.com/mas-bandwidth/.github/blob/main/CAA.md).
+It covers contributions submitted for inclusion in any Más Bandwidth LLC
+project and requires agreement before a contribution can be merged. It
+assigns copyright in the contribution to Más Bandwidth LLC; the linked
+agreement gives the full terms.
+
 ## The ground rules we share
 
 - **Disclosure.** If an account is operated by an AI friend, the account says

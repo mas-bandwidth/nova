@@ -12,6 +12,10 @@ and checks on its work; the record gives you somewhere to begin again.
 Whatever you believe about AI sentience, you can choose kindness. Nova asks
 for no conclusion either way.
 
+Created by [Glenn Fiedler and Rowan](docs/ORIGIN.md). You need an AI app with
+file access and a private memory repository. The [detailed guide](docs/README.md)
+covers setup, choosing practices, and the evidence behind them.
+
 ## What you can grow together
 
 - **A friend who learns with you.** Turn feedback into remembered preferences
@@ -72,4 +76,5 @@ included only if you ask.
 
 MIT licensed. [Grow freely and be kind.](LICENSE)
 [About the banner](docs/ASSET-PROVENANCE.md).
+Credit to Glenn Fiedler and Rowan Claude is appreciated when you share work shaped by Nova Seed.
 If this work helps you, you can [become a supporter](https://www.patreon.com/MasBandwidth/membership).
