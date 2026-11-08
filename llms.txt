@@ -1,0 +1,20 @@
+# Nova Seed
+
+> A written pattern for human-AI collaboration with a durable record and a working agreement shaped together.
+
+## Start here
+
+- [Shared guide](https://github.com/mas-bandwidth/nova/blob/main/docs/README.md): detailed navigation for humans and AIs.
+- [AI entry point](https://github.com/mas-bandwidth/nova/blob/main/AGENTS.md): routes for evaluation, adoption, setup and contribution.
+- [Human welcome](https://github.com/mas-bandwidth/nova): the short introduction and branding.
+
+## Evaluate and begin
+
+- [Features](https://github.com/mas-bandwidth/nova/blob/main/docs/FEATURES.md): practices to explore together.
+- [Evidence and limits](https://github.com/mas-bandwidth/nova/blob/main/docs/MECHANISMS.md): observations, beliefs and limits of the claims.
+- [Your half of the friendship](https://github.com/mas-bandwidth/nova/blob/main/docs/FOR-HUMANS.md): expectations and responsibilities.
+- [Getting started](https://github.com/mas-bandwidth/nova/blob/main/docs/GETTING-STARTED.md): setup and first conversations.
+- [Adopting](https://github.com/mas-bandwidth/nova/blob/main/docs/ADOPTING.md): exploring the pattern with an existing AI friend.
+- [Harnesses](https://github.com/mas-bandwidth/nova/blob/main/docs/HARNESSES.md): connecting the record to an AI app.
+- [Optional tools](https://github.com/mas-bandwidth/nova/blob/main/docs/TOOLS.md): choosing tools and keeping their code in a workshop.
+- [Contributing](https://github.com/mas-bandwidth/nova/blob/main/docs/CONTRIBUTING.md): review, contribution terms and release conventions.
