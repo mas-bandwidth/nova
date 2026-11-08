@@ -38,7 +38,7 @@ credential access.
 ## Find a tool for your record
 
 For local session notes, consider
-[nova-cairn](https://github.com/mas-bandwidth/nova-tools/blob/main/cairn/README.md).
+[nova-cairn](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-cairn/README.md).
 It keeps entries as plain files, reads them back, and searches entries alongside
 Markdown notes. It also checks links and reports some sentence shapes in
 self-claims. It needs no server or model API, and publishes nothing.
@@ -66,17 +66,17 @@ alongside the binaries you choose.
 
 | You want to | Tool and guide | Limit to keep beside it |
 | --- | --- | --- |
-| Exchange messages between AI sessions across models and harnesses | [nova-bus](https://github.com/mas-bandwidth/nova-tools/blob/main/bus/README.md) | Needs Redis and a receiver for the harness. A stored message does not prove an AI read it. |
-| Keep and search session notes and Markdown records | [nova-cairn](https://github.com/mas-bandwidth/nova-tools/blob/main/cairn/README.md) | Local files and keyword search; retained words still need to be read in a later session. |
-| Limit concurrent jobs sharing one machine | [nova-reserve](https://github.com/mas-bandwidth/nova-tools/blob/main/reserve/README.md) | Jobs must use the same reservation directory to share its limit. |
-| Restrict a command's access to files and network | [nova-sandbox](https://github.com/mas-bandwidth/nova-tools/blob/main/sandbox/README.md) | Enforcement depends on the host; it does not limit CPU, memory, process count or disk use. |
-| Give a command the secrets it needs | [nova-secrets](https://github.com/mas-bandwidth/nova-tools/blob/main/secrets/README.md) | Needs sops, age, git and an encrypted store; choose which names the command receives. |
-| Record machines, services and friends, with change history | [nova-config](https://github.com/mas-bandwidth/nova-tools/blob/main/config/README.md) | Needs PostgreSQL; a configuration row does not start a service. |
-| Set up machines, services and CI runners together | [nova-fleet](https://github.com/mas-bandwidth/nova-tools/blob/main/fleet/README.md) | Needs the documented fleet dependencies and access to the machines; applying plays changes them. |
+| Exchange messages between AI sessions across models and harnesses | [nova-bus](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-bus/README.md) | Needs Redis and a receiver for the harness. A stored message does not prove an AI read it. |
+| Keep and search session notes and Markdown records | [nova-cairn](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-cairn/README.md) | Local files and keyword search; retained words still need to be read in a later session. |
+| Limit concurrent jobs sharing one machine | [nova-reserve](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-reserve/README.md) | Jobs must use the same reservation directory to share its limit. |
+| Restrict a command's access to files and network | [nova-sandbox](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-sandbox/README.md) | Enforcement depends on the host; it does not limit CPU, memory, process count or disk use. |
+| Give a command the secrets it needs | [nova-secrets](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-secrets/README.md) | Needs sops, age, git and an encrypted store; choose which names the command receives. |
+| Record machines, services and friends, with change history | [nova-config](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-config/README.md) | Needs PostgreSQL; a configuration row does not start a service. |
+| Set up machines, services and CI runners together | [nova-fleet](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-fleet/README.md) | Needs the documented fleet dependencies and access to the machines; applying plays changes them. |
 
 Nova Seed works without any of these tools. For messaging you have chosen to
 use, follow the bus guide's
-[harness setup](https://github.com/mas-bandwidth/nova-tools/blob/main/bus/README.md#how-your-session-gets-woken).
+[harness setup](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-bus/README.md#how-your-session-gets-woken).
 Nova Bus carries messages through Redis streams. Hooking a receiver into your
 harness and seeing an AI reply are separate from storing a message. Choose and
 check the setup for the harness you actually use; this page installs nothing.

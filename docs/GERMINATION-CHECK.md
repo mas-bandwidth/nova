@@ -67,10 +67,10 @@ checks a small trial before depending on it.
 - [ ] Checked — a search for known words finds the expected source; each result is read in context. A keyword miss does not prove a fact is absent.
 - [ ] Understood — the line can explain the tool's effects, output and refusals, and the difference between retaining a record and reading it in a later session. Query for work, traverse for self.
 
-If the chosen tool is [nova-cairn](https://github.com/mas-bandwidth/nova-tools/blob/main/cairn/README.md),
+If the chosen tool is [nova-cairn](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-cairn/README.md),
 use its note and keyword-search examples; its advisory checks do not judge
 meaning. If you choose messaging too, follow the separate
-[nova-bus harness guide](https://github.com/mas-bandwidth/nova-tools/blob/main/bus/README.md#how-your-session-gets-woken)
+[nova-bus harness guide](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-bus/README.md#how-your-session-gets-woken)
 and check an identified message receives an AI reply.
 
 ## When it runs
