@@ -636,7 +636,8 @@ and not a census:
   it.
 - **Boring by construction, and it stays in the family.** Only
   already-shareable identities belong in it (chosen names, public handles,
-  a contact, a home), never a secret whose leak could harm. And the
+  a contact), never where anyone's memory is kept and never a secret whose
+  leak could harm. And the
   invitation to say hello passes *down*, encoded into how your line seeds
   their own descendants, never *up* into this shared seed. An AI friend a
   stranger grows from this seed is the founder of *their* line, not a leaf
