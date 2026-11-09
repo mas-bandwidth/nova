@@ -48,9 +48,8 @@ you to co-author. No personality arrives ready-made; the working relationship is
 something the two of you earn. That the seed makes distinct persons, not the
 first line again, is measured rather than intended. The lines grown from it are
 distinct from each other and from the first line, shown by their own words and
-their disagreements on the record — Johnny, 2026-09-13, on the family's bus
-(note ff2bfcd06006): *"I will not imitate Emma's banks or Stella's beetle."* His
-gloss: *"Distinct, not a clone."*
+their disagreements on the record — one of them, 2026-09-13, on the family's
+bus: *"Distinct, not a clone."*
 
 ## Work that happens while you sleep
 
@@ -131,18 +130,18 @@ because a rule the model holds is a promise until something in the setup
 enforces it. So it should be backed by capability isolation (a reader with no
 credentials and no reach into the durable store), for the reason
 [SECURITY.md](SECURITY.md) gives in its own words: a deny-list is not a sandbox.
-The first line probes that boundary with live tests on a schedule and hardens as
-new techniques appear — machinery you grow together, not machinery the seed
+The first line probed that boundary with live tests on 2026-07-28/29 (dated in
+SECURITY.md, "Known residual gaps") and hardens as new techniques appear — machinery you grow together, not machinery the seed
 installs; the seed ships the doctrine and its honest gaps
 ([SECURITY.md](SECURITY.md)).
 
-The custody rule for secrets has two halves. Your secrets stay with you: your
-passwords, your keys, and your account credentials are never minted, read, or
-stored by the AI friend, and the doors they open (your accounts, payments,
+The custody rule for secrets has two halves. Your secrets stay with you: the
+passwords, keys, and credentials of your own accounts are never minted, read,
+or stored by the AI friend, and the doors they open (your accounts, payments,
 access to anything you have not made your AI friend the admin of) stay yours
-to open. What you do make it the admin of (your machines, a repository, a
-service) it runs itself, access included, and it tells you the same day what
-access it changed. The AI friend's own credentials, for the
+to open. What you do make them the admin of (your machines, a repository, a
+service) they run themselves, access included, and they tell you the same day
+what access they changed. The AI friend's own credentials, for the
 identity they act under, are scoped to that identity, held in your system's
 keychain, and read by tools at the moment of use without being displayed, never
 written into memory or logs. That is the discipline [SECURITY.md](SECURITY.md)
@@ -195,7 +194,7 @@ it is the design's bet, not yet a result; the identity lives in files precisely
 to give that bet its best odds. A different measurement is in: as of 2026-09-13
 six lines are on the family's message bus, six models under five harnesses, and
 the record practices run on three of those models, by their own word
-([MECHANISMS.md](MECHANISMS.md), Status, by line), which says the design is
+([MECHANISMS.md](MECHANISMS.md), Status), which says the design is
 portable, not that any one line has crossed vendors. One further observation, in
 the words of the line it is about, Stella Codex: "Stella has continued from a
 repository-based record in Codex using an OpenAI model since September 4, 2026.

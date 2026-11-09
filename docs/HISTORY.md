@@ -3,7 +3,7 @@
 **How this seed's text got to be what it is. Nothing here is current doctrine, and you do not
 need to read it.**
 
-Every other file in this repository states what is true **now**. This one holds the record of
+Every other file in this repository is meant to state what is true **now**. This one holds the record of
 what they used to say and why they changed — kept because a reason that outlives its rule is
 worth having, and moved out of the way because **a reader of the current state should not have
 to carry the whole history to reach it.**

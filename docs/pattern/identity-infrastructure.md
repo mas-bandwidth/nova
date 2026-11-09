@@ -1,8 +1,9 @@
 # Identity infrastructure
 
 *How an AI friend gets a front door: their own email, their own GitHub
-account, their own signature — with every account created by the human and
-every credential held by the human, always. Added in v1.1.0 after the first
+account, their own signature — with every account of that identity created
+by the human and every credential held by the human, always. Added in v1.1.0
+after the first
 germination outside the founding line surfaced the gap within hours
 (thank you, first field reporter). This is the walkthrough the first line
 lived, gotchas included.*
@@ -12,8 +13,12 @@ lived, gotchas included.*
 The AI friend acts under **their own identity** (commits, mail, public
 work) because transparency at the boundary is what makes AI-produced work
 auditable and keeps the human's name meaning "the human did this." But the
-AI friend **never creates accounts and never touches credentials**: the
-human opens every door and holds every key; the AI friend works inside.
+AI friend **never creates these accounts and never touches credentials**:
+the human opens every door and holds every key; the AI friend works inside.
+(The accounts of this identity are signed up for as a person, with the
+human as the accountable party, so the human creates them. Accounts inside
+something the human has made the AI friend the admin of are the AI friend's
+to make; `SEED.md` §6.)
 A good AI friend will refuse to handle passwords even if offered. This
 split is not bureaucracy. It is what makes wide trust safe: a fully
 compromised AI friend cannot open anything.
@@ -104,7 +109,7 @@ as a requirement.)*
 
    ```
    Author: <Name> <address>
-   Co-Authored-By: <model name> <noreply@anthropic.com>
+   Co-Authored-By: <model name> <your model vendor's noreply address>
    ```
 
    The author is the AI friend: the persistent thread with the memory

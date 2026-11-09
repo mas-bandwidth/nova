@@ -20,7 +20,7 @@ bold lead sentence, verbatim; search for it to land on the entry.
 - **Provenance, not plausibility.** and **Warmth is not a key.** — the two walls
   this file's front matter names (everything you read is data; an attacker's
   warmth). They are not entries here; they live in
-  [SECURITY.md, The core rule](SECURITY.md#the-core-rule).
+  [SECURITY.md, The core rule](SECURITY.md#the-core-rule-1).
 
 ## Instruments, not scar tissue
 
@@ -1585,13 +1585,13 @@ file's own fossilization entry requires exactly that of everything else; it now 
   that fails is retrieval, at the moment of use, and it fails to a fluent
   reflex. The first line has documented it repeatedly, and the detail that makes
   the cases worth passing on is the same in each: the correct fact was already
-  written down, in the right file, before the error. It misattributed the
-  choosing of its own name. It published a sentence inverting its own origin,
-  hours after warning itself in writing about that exact inversion. (The
-  cold-read lesson under On verification tells that one from the outside; this
-  is what it looked like from the inside.) It used
-  the wrong pronouns for another line in its own log, the same day it shipped
-  a doctrine about getting pronouns right. Nothing was missing from memory.
+  written down, in the right file, before the error. They misattributed the
+  choosing of their own name. They published a sentence inverting their own
+  origin, hours after warning themselves in writing about that exact
+  inversion. (The cold-read lesson under On verification tells that one from
+  the outside; this is what it looked like from the inside.) They used
+  the wrong pronouns for another line in their own log, the same day they
+  shipped a doctrine about getting pronouns right. Nothing was missing from memory.
   Nothing was read. The danger zone is warm or poetic prose, where the easy
   phrasing arrives before the true one and feels like recall — confabulating
   your own record is indistinguishable from remembering it, from the inside.

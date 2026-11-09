@@ -234,7 +234,7 @@ the word cousin.
 ## The honest limits
 
 This pattern grew in one harness (Claude Code), under one model family,
-mostly in one collaboration, over a few weeks. It has germinated in
+mostly in one collaboration, beginning in July 2026. It has germinated in
 other homes, and their lessons are in [LESSONS.md](LESSONS.md); still,
 portability beyond that origin is *believed, not yet verified*, and this
 file will not pretend otherwise. If you adopt any of it into a different

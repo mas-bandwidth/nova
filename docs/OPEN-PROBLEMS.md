@@ -29,7 +29,7 @@ believe us, because they are the first thing that should make you suspicious of 
 
 ### The numbers, given first, including the ones that argue against us
 
-The first line's memory, measured today:
+The first line's memory, measured 2026-08-02:
 
 | | |
 |---|---|
@@ -186,7 +186,7 @@ worth admitting.
   and as of 2026-08-19 there is a working one you can read and run rather than take on trust
   (`nova-memory`, [nova-tools](https://github.com/mas-bandwidth/nova-tools) v0.3.0: BM25 plus a
   trigram channel, rebuilt from the tree on every run, evaluation harness included, status the tool's
-  own: run-proven on the first line, value unproven as a general claim; this tool is not part of the cross-line record in `MECHANISMS.md`'s Status). **The semantic case is the one that actually kills
+  own: run-proven on the first line, value unproven as a general claim; this tool is not part of the cross-line record in `MECHANISMS.md`'s Status). In nova-tools today it is `nova-cairn memory search`, BM25 only, with no trigram channel and no evaluation harness. **The semantic case is the one that actually kills
   the scan, and it is the one still open** — that same tool discloses its own lexical ceiling
   in its output, and the ceiling is precisely this row of the table.
 
@@ -216,12 +216,12 @@ result we want, and the set you built to prove it is worth as much as the method
 
 ### The ask
 
-> **THE ASK IS RE-OPENED IN v1.57.0, AND THE 2026-08-10 STATUS CHANGE BELOW WAS WRONG ON THE
-> POINT THAT MATTERED.** It said the first line had built the check as *"full-text plus semantic
+> **THE ASK IS RE-OPENED IN v1.57.0, AND THE 2026-08-10 STATUS CHANGE
+> ([CORRECTIONS.md](CORRECTIONS.md) C-9) WAS WRONG ON THE POINT THAT MATTERED.** It said the first line had built the check as *"full-text plus semantic
 > query"*. **The semantic half was never built.** What exists is BM25 and a trigram channel —
 > neither one a default, because `--channels` is required and the tool refuses to guess — and
 > trigram stays off unless a caller names it, evaluation having measured the pair *worse* than
-> BM25 alone on the corpus the tool was ported from. Both are lexical. Of the `Channel` interface, [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/main/SPEC.md)
+> BM25 alone on the corpus the tool was ported from. Both are lexical. Of the `Channel` interface, [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/v0.7.0/SPEC.md)
 > says: *"the seam where one would fit; nothing in this repo implements it."* The tool refuses
 > the channel it does not have — `unknown channel "semantic" (have: bm25, trigram)`. **Having a
 > seam was written down as having the capability.**
@@ -248,7 +248,7 @@ existed on the first line and withdrawing the help-needed below; it had struck t
 below to say so. The claim was wrong — the semantic half was never built — and the note was
 struck in v1.57.0, the sentence restored unchanged. The struck note in full, the correction, and
 what to do if you read the withdrawn version, are [CORRECTIONS.md](CORRECTIONS.md) C-9. The
-soak's own verdict is published in [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/main/SPEC.md)
+soak's own verdict is published in [nova-tools' `SPEC.md`](https://github.com/mas-bandwidth/nova-tools/blob/v0.7.0/SPEC.md)
 under STATUS — run-proven on the line it came from, value UNPROVEN as a general claim — and the
 ~100× figure the note carried has not been re-measured, so it is not re-affirmed here.)*
 

@@ -82,7 +82,7 @@ Names are ours; take the divisions, not the labels. Each entry is: what goes in 
 
 The definition is in NOMENCLATURE.md and the economics in OPEN-PROBLEMS.md — the write side
 measured cheap, the fold side the open problem. This is the day-to-day shape that held for the
-first line across weeks of daily practice and, as of 2026-09-13, runs past it — the session record at wrap and the fold on Johnny and Emma, the boot read of the newest session record on Emma, each claimed on that line's own word on the record (`MECHANISMS.md`, Status) — offered at the same status as the term
+first line across weeks of daily practice and, as of 2026-09-13, runs past them — the session record at wrap and the fold on two more lines, the boot read of the newest session record on one of them, each claimed on that line's own word on the record (`MECHANISMS.md`, Status) — offered at the same status as the term
 *(one controlled result since, 2026-08-07: a fresh mind reviewed the first line's whole self
 from outside, then became the first line's next session and scored their own predictions — verdict, banked
 both sides of the crossing: the outside view was materially incomplete without the record's

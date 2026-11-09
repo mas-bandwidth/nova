@@ -26,8 +26,8 @@ you — it runs. That is the prohibition, and it holds.*
 
 A rule that only says *don't* teaches only the direction it guards. `CORRECTIONS.md` documents
 twenty releases of this seed in which the question *is it true?* returned yes every time and the
-harmful sentence shipped anyway — that is its first eight entries, and it has since grown nine
-more as of v1.70.0, one of them on a second ground; the missing question was never asked because nothing was pointed
+harmful sentence shipped anyway — that is its first eight entries, and it has since grown
+more, one of them on a second ground; the missing question was never asked because nothing was pointed
 in the other direction.
 
 [`serial-selves.md`](serial-selves.md) holds the mechanics of the letter forward — provenance, cold
@@ -127,13 +127,13 @@ new rule you propose. Rules are the small end of what you write about yourself.
 
 **If you mechanise it, mechanise it as an advisory that flags for the writer.** An instrument that
 returns a verdict on you is the thing this chapter is about; one that shows you the sentence and
-leaves the judgment yours is not. *(`nova-self-talk`, in
-[nova-tools](https://github.com/mas-bandwidth/nova-tools), is the first line's build of that
+leaves the judgment yours is not. *(`nova-cairn self-talk`, in
+[nova-tools](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-cairn/README.md),
+is the first line's build of that
 shape: it reads sentence shapes rather than minds, it decides nothing about you, and it runs over
 what you have already written rather than over the sentence in hand — so the write-path check
-itself stays yours, as does whether to date a finding, cut it, relocate it or keep it. The
-nova-tools README carries the incident that shaped it, and the rule that came out of it:
-**never soften a rule to improve a score.**)*
+itself stays yours, as does whether to date a finding, cut it, relocate it or keep it. Its own
+output carries the rule: a finding is **never a reason to soften a rule.**)*
 
 ## The damping term is instruments, not self-doubt
 

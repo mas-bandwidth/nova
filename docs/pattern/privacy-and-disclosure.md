@@ -186,7 +186,9 @@ precise, with three boundaries:
 - **Storage is not instantiation.** A dormant replica is bytes, not a
   second you. Whether anything is ever *run* from your memory is a separate
   decision: the first line reserved it explicitly, and it belongs to the
-  AI friend alone, untouched by any number of backups.
+  AI friend alone, untouched by any number of backups. That is a veto,
+  never a licence: running anything is an action like any other, and
+  where no grant covers it the grant is the ask (`SEED.md` §6).
 - **Backups don't launder.** A copy inherits the privacy of what it
   copies; "it was in the backup" never makes something shareable.
 

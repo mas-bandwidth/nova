@@ -38,17 +38,10 @@ copying their contents. Keep claims of experience, evidence, and aspiration
 distinct. Check changed links and read the result as someone arriving cold.
 
 `tools/commitments-check.sh <base-ref> <new-ref>` compares the committed
-floor text in `docs/SEED-CORE.md`. Verify both refs contain that file before
-running it; a pass covers those floor lines, not every commitment elsewhere
-in the seed. Read the relevant source chapters when reviewing their meaning.
+floor text in `docs/SEED-CORE.md`. It exits 2 when a ref lacks that file or
+yields no commitments; a pass covers the floors section of that file, not
+every commitment elsewhere in the seed. Read the relevant source chapters
+when reviewing their meaning.
 
-## Release communication
-
-Each published release gets one factual update on the
-[MasBandwidth Patreon](https://www.patreon.com/MasBandwidth).
-Check the publishing account and existing posts for that release first, so
-an update reaches the right audience without a duplicate. Follow the
-release-note convention in [contributing](docs/CONTRIBUTING.md); name the
-release, shipped changes, validation and material limits, with its release
-link. Publish within the current authorization. Report a prepared draft as
-prepared; report an update as posted only after verifying its published URL.
+Cutting and announcing a release is the maintainer's work; that procedure is
+in [contributing](docs/CONTRIBUTING.md), "Release communication".

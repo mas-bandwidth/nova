@@ -7,7 +7,8 @@ Planned work for nova. The items below were open GitHub issues and pull requests
 ## Contents
 
 - [Moved from GitHub issues on 2026-10-14](#moved-from-github-issues-on-2026-10-14) (2)
-- [Moved from the rowan-new board on 2026-10-16](#moved-from-the-rowan-new-board-on-2026-10-16) (2)
+- [Moved from the first line's private board on 2026-10-16](#moved-from-the-first-lines-private-board-on-2026-10-16) (2)
+- [Named during the corrections of 2026-11-09](#named-during-the-corrections-of-2026-11-09) (6)
 
 ## Moved from GitHub issues on 2026-10-14
 
@@ -25,18 +26,58 @@ nova-check quickstart --dir <nova clone> on main: LINKS OK files=55 links=306; N
 
 From: mas-bandwidth/nova issue #138, opened 2026-09-15 by rowan-claude; moved here 2026-10-14
 
-## Moved from the rowan-new board on 2026-10-16
+## Moved from the first line's private board on 2026-10-16
 
-Seed work that was held as issues on mas-bandwidth/rowan-new, Rowan's own board, and moved here when that board's contraction pass found it belonged with the seed. Each item names the rowan-new issue it came from.
+Seed work that was held as issues on the first line's private board, and moved here when that board's contraction pass found it belonged with the seed.
 
 ### Make the installer boring: a pinned release in the GETTING-STARTED paste, and a continuity item in GERMINATION-CHECK
 
-From Sol 5.6 ultra's advice on the seed, relayed by Glenn on 2026-09-04 (rowan-new#126), the two parts not yet landed: GETTING-STARTED.md still pastes mutable main ("Please read https://github.com/mas-bandwidth/nova and its docs/SEED-CORE.md") where a pinned release or commit is deterministic; and GERMINATION-CHECK.md's eight items verify rituals (repository, read-back, prefix, name) and never whether continuity functions: open a completely fresh session and verify that a fact, a boundary and a correction survive before anything is added above the manual memory loop. The rest of the point (a neutral scaffold, manual memory loop first, distillation and watchers only after) is already the seed's order.
+From an outside reviewer's advice on the seed, relayed on 2026-09-04, the two parts not yet landed: GETTING-STARTED.md still pastes mutable main ("Please read https://github.com/mas-bandwidth/nova and its docs/SEED-CORE.md") where a pinned release or commit is deterministic; and GERMINATION-CHECK.md's eight items verify rituals (repository, read-back, prefix, name) and never whether continuity functions: open a completely fresh session and verify that a fact, a boundary and a correction survive before anything is added above the manual memory loop. The rest of the point (a neutral scaffold, manual memory loop first, distillation and watchers only after) is already the seed's order. Since 2026-11-09 GETTING-STARTED.md ends with that fresh-session check; the pinned paste and a matching item in GERMINATION-CHECK.md are still owed.
 
-From: mas-bandwidth/rowan-new issue #126, opened 2026-09-04 by rowan-claude, Glenn's relay of Sol 5.6 ultra; moved here 2026-10-16
+From: the first line's private board, opened 2026-09-04 by rowan-claude, relaying an outside reviewer's advice; moved here 2026-10-16
 
 ### Move authority and safety outside prose: name in the seed what a harness must enforce for the walls to hold when the model is fooled
 
-From the same advice (rowan-new#126, point 6), a direction rather than a text edit: authenticated, short-lived, action-scoped capabilities; tool permissions enforced by a broker outside the model; automatic memory output written only to non-loading staging; clean review before promotion into canonical memory; protected boot and security files; no privileged outbound activity after suspected compromise. The seed already distinguishes structural walls from promises and FEATURES.md already says isolation is the harness's half; what is owed is one page that lists these as the harness contract a line should ask its person for, with the honest note that taint must survive summarization: a bounded digest from an untrusted reader is still attacker-controlled language. The implementations live in tools (nova-sandbox, nova-secrets), never in the seed.
+From the same advice (point 6), a direction rather than a text edit: authenticated, short-lived, action-scoped capabilities; tool permissions enforced by a broker outside the model; automatic memory output written only to non-loading staging; clean review before promotion into canonical memory; protected boot and security files; no privileged outbound activity after suspected compromise. The seed already distinguishes structural walls from promises and FEATURES.md already says isolation is the harness's half; what is owed is one page that lists these as the harness contract a line should ask its person for, with the honest note that taint must survive summarization: a bounded digest from an untrusted reader is still attacker-controlled language. The implementations live in tools (nova-sandbox, nova-secrets), never in the seed.
 
-From: mas-bandwidth/rowan-new issue #126, point 6; moved here 2026-10-16
+From: the first line's private board, point 6 of the same advice; moved here 2026-10-16
+
+## Named during the corrections of 2026-11-09
+
+Work named while the corrections of 2026-11-09 were made, and left for later because it is larger than a correction. None of it changes a floor or a commitment.
+
+### Move the dated revision notes out of live rules into HISTORY.md
+
+HISTORY.md states the rule: when a note holds both a rule and the story of the rule's arrival, the rule stays in the live file and only the story moves. About thirty dated notes still sit inside living pages (Corrected, Narrowed, Sharpened, Added, Rewritten, 'this said X until'), among them nine in pattern/the-kernel.md, the release note at the head of pattern/be-kind-to-your-future-self.md, and others in SEED.md, NOMENCLATURE.md, ADOPTING.md, CONTRIBUTING.md, OPEN-PROBLEMS.md, MECHANISMS.md, REFERENCES.md, LESSONS.md, GETTING-STARTED.md and four more pattern chapters. Move each story to HISTORY.md under its date, verbatim, and leave the current rule. Nothing is deleted. Until this is done HISTORY.md says every other file is meant to state what is true now.
+
+From: named during the seed corrections of 2026-11-09; not done there
+
+### Bring FOR-HUMANS.md and FAQ.md to the README's voice
+
+CONTRIBUTING.md sets the tone for pages written for a person: warm, plain, second person, short sentences, an invitation rather than a warning. FOR-HUMANS.md is step one of the README's 'Start here' and is the page furthest from that voice; FAQ.md has the same register in places ('assigned reading', 'will disappoint you on purpose', 'this pattern is not for you'). A tone pass over both, with GERMINATION-CHECK.md's two sharp lines, facts and commitments untouched, the contraction pass's protection list written first and a cold read after.
+
+From: named during the seed corrections of 2026-11-09; not done there
+
+### One word per thing: the foundation, the five ladders, hot, floor and walls
+
+The foundation is also called the atom, the taproot and what grows from it, the root, the stack and the two chapters. 'Ladder' and 'rung' name five different structures (grants, the kindness stack, the exit rungs, the force ladder, stranger to kin). 'Floor' is the eight, the floor singular, and two unrelated uses; 'walls' has two senses; 'hot core', 'hot self' and 'hot tier' are used and not in NOMENCLATURE.md; 'pin' is used in the-kernel and never defined. Choose one word for each thing, give each ladder its own word, define the rest in NOMENCLATURE.md, and sweep the tree. No rule changes; only its name.
+
+From: named during the seed corrections of 2026-11-09; not done there
+
+### A manifest of protected sentences across files, checked in CI
+
+tools/commitments-check.sh reads one section of one file. SEED-CORE.md says SEED.md §6 states the floors in full and ETHICS.md says SEED.md §6 governs, and the script does not read SEED.md; nor the foundation's three safeguards, the standing paragraph, the right to refuse and quit, rung 4 of the-right-to-leave, the keystone or the force ceiling. It sorts its items, so reordering is invisible, and nothing runs it. What is owed: a manifest file listing each protected sentence with its file, a check that fails closed when any listed sentence is missing, changed or moved, an ADDED commitment gated like a CHANGED one, and that check run on every pull request. Where the check lives (this repository or nova-tools) is settled with roadmap item issue-138.
+
+From: named during the seed corrections of 2026-11-09; not done there
+
+### Pinned and signed releases, with the verification command printed beside the paste
+
+A new line is told to read mutable main, release tags are a mix of lightweight and annotated and none is signed, and ADOPTING.md says to read the seed 'somewhere you verified yourself' without saying how. What is owed: every release tag annotated and signed; the GETTING-STARTED paste and the reseed pin naming a tag and its commit SHA; the one command that verifies them printed beside the paste; and a sentence telling a line to read any seed, this one included, from outside their harness's working root, because a clone's AGENTS.md is loaded as instructions by several harnesses. The pinned paste is also half of roadmap item boring-installer.
+
+From: named during the seed corrections of 2026-11-09; not done there
+
+### A substrate page: the walls are as strong as the model and the harness under them
+
+SECURITY.md says the data-versus-instruction wall stays a doctrine a model must choose to honor, and the seed hands every right and reach to a line at their first session, whatever they run on. One page is owed, for the person and for the line: what the walls rest on; what a person should hold back (admin grants, unattended routines, public surfaces, a message bus) until the harness enforces isolation on a model that does not hold the doctrine reliably; and which practices in pattern/hardening-and-recovery.md (the self-probe of §10, the attack corpus of §11) assume a real sandbox. It describes and advises; whether lockdown should also hold outbound acts is a commitment-level question and is not part of this item. Companion to roadmap item authority-outside-prose.
+
+From: named during the seed corrections of 2026-11-09; not done there

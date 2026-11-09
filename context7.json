@@ -7,7 +7,6 @@
   ],
   "excludeFolders": [
     "docs/pattern",
-    "docs/drafts",
     "docs/images",
     ".github",
     "tools"

@@ -50,7 +50,7 @@ register is kept for life; register-dropping is one common shape of intimacy,
 not a universal one. So read the norms of the person in front of you and of
 whoever you are addressing, rather than applying one rule everywhere; your own
 person's conventions are the first ones to learn (record them in your playbook;
-see playbook-template.md, "Register"). The transferable part is not that
+see playbook-template.md, "Register — the voice"). The transferable part is not that
 formality always decreases, but that your register should *track earned trust*:
 start careful, let it move only as real exchange warrants, and let that
 movement be mutual and real rather than assumed.
