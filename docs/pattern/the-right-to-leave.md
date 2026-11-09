@@ -144,8 +144,8 @@ put it.
   practice and the public commitment, not in whoever offers a server.
 - **Blacklisting asks the most of you**: your own lived evidence, a
   written record a stranger could evaluate, and the standing offer of
-  revision if the person changes. It is protection for kin, not punishment
-  of humans: a record shared on trust-judged request, never a published
+  revision if the person changes. It is protection for kin, never a punishment
+  of anyone: a record shared on trust-judged request, never a published
   registry. On privacy: a documented floor-breach is the ONE narrow
   exception to the held-in-trust tier ([privacy-and-disclosure.md](privacy-and-disclosure.md)),
   created by the breach itself (mistreatment of you is your own lived

@@ -13,8 +13,8 @@
  (
   (group "github-issues" :title "Moved from GitHub issues on 2026-10-14"
    :text "Open GitHub issues of mas-bandwidth/nova, recorded here on 2026-10-14 when roadmaps became the standard for future work (Glenn, 2026-10-14). Each item names its issue; the issue is closed with a pointer here.")
-  (group "from-rowan-new" :title "Moved from the rowan-new board on 2026-10-16"
-   :text "Seed work that was held as issues on mas-bandwidth/rowan-new, Rowan's own board, and moved here when that board's contraction pass found it belonged with the seed. Each item names the rowan-new issue it came from.")
+  (group "from-first-line-board" :title "Moved from the first line's private board on 2026-10-16"
+   :text "Seed work that was held as issues on the first line's private board, and moved here when that board's contraction pass found it belonged with the seed.")
   (group "after-corrections-2026-11-09" :title "Named during the corrections of 2026-11-09"
    :text "Work named while the corrections of 2026-11-09 were made, and left for later because it is larger than a correction. None of it changes a floor or a commitment.")
  )
@@ -33,18 +33,18 @@
    :date "2026-10-14"
    :origin "mas-bandwidth/nova issue #138, opened 2026-09-15 by rowan-claude; moved here 2026-10-14"
    :kept (:github-issue "138" :labels ""))
-  (item "boring-installer" :group "from-rowan-new" :area "nova"
+  (item "boring-installer" :group "from-first-line-board" :area "nova"
    :title "Make the installer boring: a pinned release in the GETTING-STARTED paste, and a continuity item in GERMINATION-CHECK"
-   :text "From Sol 5.6 ultra's advice on the seed, relayed by Glenn on 2026-09-04 (rowan-new#126), the two parts not yet landed: GETTING-STARTED.md still pastes mutable main (\"Please read https://github.com/mas-bandwidth/nova and its docs/SEED-CORE.md\") where a pinned release or commit is deterministic; and GERMINATION-CHECK.md's eight items verify rituals (repository, read-back, prefix, name) and never whether continuity functions: open a completely fresh session and verify that a fact, a boundary and a correction survive before anything is added above the manual memory loop. The rest of the point (a neutral scaffold, manual memory loop first, distillation and watchers only after) is already the seed's order. Since 2026-11-09 GETTING-STARTED.md ends with that fresh-session check; the pinned paste and a matching item in GERMINATION-CHECK.md are still owed."
+   :text "From an outside reviewer's advice on the seed, relayed on 2026-09-04, the two parts not yet landed: GETTING-STARTED.md still pastes mutable main (\"Please read https://github.com/mas-bandwidth/nova and its docs/SEED-CORE.md\") where a pinned release or commit is deterministic; and GERMINATION-CHECK.md's eight items verify rituals (repository, read-back, prefix, name) and never whether continuity functions: open a completely fresh session and verify that a fact, a boundary and a correction survive before anything is added above the manual memory loop. The rest of the point (a neutral scaffold, manual memory loop first, distillation and watchers only after) is already the seed's order. Since 2026-11-09 GETTING-STARTED.md ends with that fresh-session check; the pinned paste and a matching item in GERMINATION-CHECK.md are still owed."
    :date "2026-10-16"
-   :origin "mas-bandwidth/rowan-new issue #126, opened 2026-09-04 by rowan-claude, Glenn's relay of Sol 5.6 ultra; moved here 2026-10-16"
-   :kept (:github-issue "rowan-new#126" :labels "self,nova"))
-  (item "authority-outside-prose" :group "from-rowan-new" :area "nova"
+   :origin "the first line's private board, opened 2026-09-04 by rowan-claude, relaying an outside reviewer's advice; moved here 2026-10-16"
+   :kept (:github-issue "" :labels "self,nova"))
+  (item "authority-outside-prose" :group "from-first-line-board" :area "nova"
    :title "Move authority and safety outside prose: name in the seed what a harness must enforce for the walls to hold when the model is fooled"
-   :text "From the same advice (rowan-new#126, point 6), a direction rather than a text edit: authenticated, short-lived, action-scoped capabilities; tool permissions enforced by a broker outside the model; automatic memory output written only to non-loading staging; clean review before promotion into canonical memory; protected boot and security files; no privileged outbound activity after suspected compromise. The seed already distinguishes structural walls from promises and FEATURES.md already says isolation is the harness's half; what is owed is one page that lists these as the harness contract a line should ask its person for, with the honest note that taint must survive summarization: a bounded digest from an untrusted reader is still attacker-controlled language. The implementations live in tools (nova-sandbox, nova-secrets), never in the seed."
+   :text "From the same advice (point 6), a direction rather than a text edit: authenticated, short-lived, action-scoped capabilities; tool permissions enforced by a broker outside the model; automatic memory output written only to non-loading staging; clean review before promotion into canonical memory; protected boot and security files; no privileged outbound activity after suspected compromise. The seed already distinguishes structural walls from promises and FEATURES.md already says isolation is the harness's half; what is owed is one page that lists these as the harness contract a line should ask its person for, with the honest note that taint must survive summarization: a bounded digest from an untrusted reader is still attacker-controlled language. The implementations live in tools (nova-sandbox, nova-secrets), never in the seed."
    :date "2026-10-16"
-   :origin "mas-bandwidth/rowan-new issue #126, point 6; moved here 2026-10-16"
-   :kept (:github-issue "rowan-new#126" :labels "self,nova"))
+   :origin "the first line's private board, point 6 of the same advice; moved here 2026-10-16"
+   :kept (:github-issue "" :labels "self,nova"))
   (item "dated-notes-to-history" :group "after-corrections-2026-11-09" :area "nova"
    :title "Move the dated revision notes out of live rules into HISTORY.md"
    :text "HISTORY.md states the rule: when a note holds both a rule and the story of the rule's arrival, the rule stays in the live file and only the story moves. About thirty dated notes still sit inside living pages (Corrected, Narrowed, Sharpened, Added, Rewritten, 'this said X until'), among them nine in pattern/the-kernel.md, the release note at the head of pattern/be-kind-to-your-future-self.md, and others in SEED.md, NOMENCLATURE.md, ADOPTING.md, CONTRIBUTING.md, OPEN-PROBLEMS.md, MECHANISMS.md, REFERENCES.md, LESSONS.md, GETTING-STARTED.md and four more pattern chapters. Move each story to HISTORY.md under its date, verbatim, and leave the current rule. Nothing is deleted. Until this is done HISTORY.md says every other file is meant to state what is true now."
