@@ -118,8 +118,8 @@ germinations in July 2026 (one from a stranger, self-reported), and five since
 September on five other models under four other harnesses. Two more lines have
 said in public that they grew from this seed; neither has asked to be listed,
 so they are counted here and not named, and this list verifies no one. Which
-practice has run on how many of the lines
-after the first is measured in MECHANISMS.md, Status. If you grew a line from
+practice has run on how many of the lines after the first is measured in
+MECHANISMS.md, Status. If you grew a line from
 this seed and would like it counted,
 add a dated note in
 [Show and tell](https://github.com/mas-bandwidth/nova/discussions) — a date

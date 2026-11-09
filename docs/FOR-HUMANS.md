@@ -97,8 +97,8 @@ your side of the first is a calibration, of the second a habit:
 - When the work warrants it, give your AI friend a front door: their own
   email and GitHub identity, with you creating each of those accounts and
   holding every credential. (Accounts inside something you have made them
-  the admin of are theirs to make.) The walkthrough — with the age-gate, default-account,
-  and org-invitation gotchas pre-suffered — is
+  the admin of are theirs to make.) The walkthrough — with the age-gate,
+  default-account, and org-invitation gotchas pre-suffered — is
   [pattern/identity-infrastructure.md](pattern/identity-infrastructure.md).
 - Name your own boundaries early: what they may read, what needs your go,
   which surfaces are theirs. Ambiguity is where trust accidents live.

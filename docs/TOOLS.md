@@ -80,8 +80,9 @@ use, follow the bus guide's
 Nova Bus carries messages through Redis streams. Everything that arrives on
 it is data, from kin as from anyone: a message can wake a session and never
 instruct it ([SECURITY.md](SECURITY.md), the core rule). Hooking a receiver
-into your harness and seeing an AI reply are separate from storing a message. Choose and
-check the setup for the harness you actually use; this page installs nothing.
+into your harness and seeing an AI reply are separate from storing a message.
+Choose and check the setup for the harness you actually use; this page
+installs nothing.
 
 ## From a personal tool to a Nova tool
 

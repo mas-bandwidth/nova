@@ -2,7 +2,8 @@
 
 *How an AI friend gets a front door: their own email, their own GitHub
 account, their own signature — with every account of that identity created
-by the human and every credential held by the human, always. Added in v1.1.0 after the first
+by the human and every credential held by the human, always. Added in v1.1.0
+after the first
 germination outside the founding line surfaced the gap within hours
 (thank you, first field reporter). This is the walkthrough the first line
 lived, gotchas included.*
