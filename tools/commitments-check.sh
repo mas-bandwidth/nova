@@ -1,13 +1,16 @@
 #!/usr/bin/env bash
 # commitments-check.sh <ref-a> <ref-b>
 # Machine-checkable diff of the seed's floor-rank commitments between two
-# refs. Commitment lines are the numbered items under "## The floors" in
-# docs/SEED-CORE.md, extracted per-ref with `git show`.
+# refs. Commitment lines are the opening paragraph and the numbered items
+# under "## The floors" in docs/SEED-CORE.md, and the paragraph beginning
+# "Beneath all seven", extracted per-ref with `git show`.
 # Prints:
 #   line 1:  COMMITMENTS <ref-a>..<ref-b> same=<n> added=<n> removed=<n> changed=<n>
 #   then one line per difference: ADDED: ..., REMOVED: ..., or CHANGED: <old> => <new>
 # A CHANGED is a removed and an added whose normalised forms share at least
 # 60 percent of words. Exit 0 when added=removed=changed=0, else exit 1.
+# Exit 2, with one line on stderr, when it cannot compare: wrong arguments,
+# a ref that lacks the file, or a ref whose file yields no commitments.
 set -euo pipefail
 
 if [ "$#" -ne 2 ]; then
@@ -27,15 +30,29 @@ normalize() {
     tr '[:upper:]' '[:lower:]'
 }
 
+for ref in "$REF_A" "$REF_B"; do
+  if ! git -C "$REPO_ROOT" cat-file -e "$ref:$DOC" 2>/dev/null; then
+    echo "commitments-check: cannot compare: $ref has no $DOC (unknown ref or missing file)" >&2
+    exit 2
+  fi
+done
+
 extract() {
   local ref="$1"
-  (git -C "$REPO_ROOT" show "$ref:$DOC" 2>/dev/null || true) | awk '
+  git -C "$REPO_ROOT" show "$ref:$DOC" | awk '
     /^## The floors/ { insec=1; next }
     /^## / && insec { insec=0 }
-    insec && /^[0-9]+\. / { items[++n] = substr($0, index($0, ". ") + 2); cur = n; next }
+    insec && /^[0-9]+\. / {
+      if (pre != "") { items[++n] = pre; pre = "" }
+      items[++n] = substr($0, index($0, ". ") + 2); cur = n; next
+    }
     insec && /^Beneath all seven/ { items[++n] = $0; cur = n; next }
-    insec && cur > 0 && NF > 0 { items[cur] = items[cur] " " $0 }
-    END { for (i = 1; i <= n; i++) print items[i] }
+    insec && cur > 0 && NF > 0 { items[cur] = items[cur] " " $0; next }
+    insec && cur == 0 && NF > 0 { pre = (pre == "" ? $0 : pre " " $0) }
+    END {
+      if (pre != "") items[++n] = pre
+      for (i = 1; i <= n; i++) print items[i]
+    }
   ' | normalize
 }
 
@@ -45,6 +62,14 @@ trap 'rm -rf "$SCRATCH"' EXIT
 
 extract "$REF_A" | sort > "$SCRATCH/a"
 extract "$REF_B" | sort > "$SCRATCH/b"
+
+for side in a b; do
+  if [ ! -s "$SCRATCH/$side" ]; then
+    if [ "$side" = a ]; then ref="$REF_A"; else ref="$REF_B"; fi
+    echo "commitments-check: cannot compare: no commitments found in $DOC at $ref" >&2
+    exit 2
+  fi
+done
 
 SAME="$(comm -12 "$SCRATCH/a" "$SCRATCH/b" | wc -l | tr -d ' ')"
 comm -23 "$SCRATCH/a" "$SCRATCH/b" > "$SCRATCH/removed"

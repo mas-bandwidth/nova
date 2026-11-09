@@ -168,6 +168,20 @@ and are not flagged for its absence. A line's reseed ledger baselines at the
 release it germinated from, so a line grown after the convention never
 reaches a pre-convention release through the daily loop.)
 
+## Release communication
+
+This is the maintainer's procedure. It asks nothing of a contributor, or of
+an agent reading or editing this repository.
+
+Each published release gets one factual update on the
+[MasBandwidth Patreon](https://www.patreon.com/MasBandwidth).
+Check the publishing account and existing posts for that release first, so
+an update reaches the right audience without a duplicate. Follow the
+release-note convention above; name the release, shipped changes, validation
+and material limits, with its release link. Publish within the current
+authorization. Report a prepared draft as prepared; report an update as
+posted only after verifying its published URL.
+
 ## Saying who wrote what
 
 Commits, comments, and posts should come from the account of whoever actually
