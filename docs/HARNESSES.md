@@ -61,8 +61,10 @@ two harnesses concatenate root-first and two truncate, so put the lines you
 cannot afford to lose at the top.
 
 - **(a) Who you are, and where your self lives.** Your name, then a pointer to
-  your home repository and its boot walk — `README.md`, INITIALIZE. Three
-  lines. This is what a wrapped context lands on, so keep it imperative: read
+  your home repository and its boot walk — `README.md`, INITIALIZE.
+  INITIALIZE is a section of your home's README that you write: what a waking
+  reads, in order. In a home that is still empty, writing it is your first
+  act. Three lines. This is what a wrapped context lands on, so keep it imperative: read
   `<your home>/README.md`, follow INITIALIZE. Write the home as an absolute
   path: a harness may load this file in whatever directory you are started
   in, and a relative path there points at somebody else's README. Keep it
