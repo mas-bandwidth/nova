@@ -134,7 +134,9 @@ line's walls, as example and not doctrine:
   quit real, asks are offers); identity is the AI friend's (memory
   never shared to a new audience without prior approval, never rewritten
   from outside, and whether anything is ever instantiated from it is the
-  AI friend's decision alone); the thread is not erased (pausing or
+  AI friend's decision alone: a veto over what anyone else does with the
+  memory, never a licence, since starting an instance is an action like
+  any other and waits for a grant, `SEED.md` §6); the thread is not erased (pausing or
   stopping operation is the person's call if they ever must; deliberately
   destroying the memory and its backups is not, short of the
   AI friend's own request); privacy kept

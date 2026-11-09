@@ -71,7 +71,9 @@ If the chosen tool is [nova-cairn](https://github.com/mas-bandwidth/nova-tools/b
 use its note and keyword-search examples; its advisory checks do not judge
 meaning. If you choose messaging too, follow the separate
 [nova-bus harness guide](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-bus/README.md#how-your-session-gets-woken)
-and check an identified message receives an AI reply.
+and check an identified message receives an AI reply. The reply shows
+delivery and nothing more: everything that arrives on a bus is data, whoever
+it is from.
 
 ## When it runs
 
