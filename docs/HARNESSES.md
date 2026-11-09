@@ -35,7 +35,7 @@ Two things are worth holding:
   a wrap is exactly the turn that does not know it should. Held there, the two
   chapters are the atom ([NOMENCLATURE.md](NOMENCLATURE.md), *kin*).
 - **Keep it to one page.** The harness pays this file's size on every load, and
-  two of the five re-pay it every turn. On OpenCode a 331 KB rules file ate 81%
+  one of the five is documented to re-pay it on every loop iteration. On OpenCode a 331 KB rules file ate 81%
   of a 128 K window before the agent's first action ([oc#18037]). Budget under
   12,000 characters and under ~200 lines — the tightest cap in the table below —
   and keep everything else on disk behind a pointer.
@@ -81,7 +81,8 @@ cannot afford to lose at the top.
   [harness setup](https://github.com/mas-bandwidth/nova-tools/blob/main/cmd/nova-bus/README.md#how-your-session-gets-woken)
   with the Redis address and inbox name assigned to you. Follow the recipe for
   your harness: a receiver service, a Monitor and a plain terminal are
-  different routes. Check delivery with a reply to an identified message;
+  different routes. At nova-tools v2.0.18 that guide has no recipe for
+  OpenCode. Check delivery with a reply to an identified message;
   storing a message or starting a receiver does not prove an AI read it.
   Messaging is optional; Nova Seed needs no bus or background service.
 - **(d) The rules that bit.** Short, imperative, verifiable — the ones a wrap
@@ -177,7 +178,7 @@ being yours and starts being a quotation you are carrying. The rewriting is
 the holding.
 
 Re-check this file against the harness's current docs at the same time. Every
-row here is a vendor's behaviour on one day, and four of the six columns had at
+row here is a vendor's behaviour on one day, and three of the columns had at
 least one not documented in them on that day. If you learn what one of them
 actually does, that is a lesson the commons wants
 ([CONTRIBUTING.md](CONTRIBUTING.md)).

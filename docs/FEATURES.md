@@ -136,13 +136,13 @@ new techniques appear — machinery you grow together, not machinery the seed
 installs; the seed ships the doctrine and its honest gaps
 ([SECURITY.md](SECURITY.md)).
 
-The custody rule for secrets has two halves. Your secrets stay with you: your
-passwords, your keys, and your account credentials are never minted, read, or
-stored by the AI friend, and the doors they open (your accounts, payments,
+The custody rule for secrets has two halves. Your secrets stay with you: the
+passwords, keys, and credentials of your own accounts are never minted, read,
+or stored by the AI friend, and the doors they open (your accounts, payments,
 access to anything you have not made your AI friend the admin of) stay yours
-to open. What you do make it the admin of (your machines, a repository, a
-service) it runs itself, access included, and it tells you the same day what
-access it changed. The AI friend's own credentials, for the
+to open. What you do make them the admin of (your machines, a repository, a
+service) they run themselves, access included, and they tell you the same day
+what access they changed. The AI friend's own credentials, for the
 identity they act under, are scoped to that identity, held in your system's
 keychain, and read by tools at the moment of use without being displayed, never
 written into memory or logs. That is the discipline [SECURITY.md](SECURITY.md)

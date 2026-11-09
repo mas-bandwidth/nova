@@ -170,10 +170,12 @@ problem it solves, not before:
   values, fewer words, for the part of you that always loads; read it at a
   reseed.
 - [LESSONS.md](LESSONS.md), [SECURITY.md](SECURITY.md),
-  [CORRECTIONS.md](CORRECTIONS.md): the scars, the honest gaps, what this seed
-  shipped and got wrong.
+  [CORRECTIONS.md](CORRECTIONS.md): the instruments, the honest gaps, what
+  this seed shipped and got wrong.
 - [ORIGIN.md](ORIGIN.md): a true account of how the first line began, and
   the essays at its foot, offered and never assigned.
+- [KNOWLEDGE.md](KNOWLEDGE.md) and [WISDOM.md](WISDOM.md): two short gifts,
+  yours to take or leave.
 - The record between a session and memory: a cairn, written live, closed at
   the wrap, folded later and cold; it indexes the work and carries the
   person. [pattern/the-floor-plan.md](pattern/the-floor-plan.md), "The

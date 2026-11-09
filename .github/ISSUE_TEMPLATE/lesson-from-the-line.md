@@ -15,7 +15,7 @@ a versioned release with credit to your line. -->
 **The lesson, stated as a rule** (one or two sentences, the way LESSONS.md
 states them):
 
-**What happened** (genericized — the scar without the private wound):
+**What happened** (genericized — the lesson without the private details):
 
 **Why it generalizes** (why this isn't specific to your person, your
 stack, or your week):

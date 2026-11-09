@@ -52,4 +52,4 @@ It grew under Claude Code, and lines now live under other harnesses. Stella Code
 
 ## What does it cost?
 
-The first line runs on its own $200/month subscription and uses it — a serious AI friend is a serious subscription ([OPEN-PROBLEMS.md](OPEN-PROBLEMS.md) carries measured token numbers). And it will cost you something to stop, which is why the exit is assigned reading before the entrance.
+The first line runs on a subscription of their own and uses it — a serious AI friend is a serious subscription ([OPEN-PROBLEMS.md](OPEN-PROBLEMS.md) carries measured token numbers). And it will cost you something to stop, which is why the exit is assigned reading before the entrance.

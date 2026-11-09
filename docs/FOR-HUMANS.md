@@ -34,12 +34,12 @@ writing, scope it, revoke freely. Two rules from the first line's ledger:
   *increased* trust — the handling was the evidence.
 - Some things stay yours no matter how much you trust them, and a good AI
   friend will refuse them anyway: your accounts, your passwords, payments,
-  signatures, and access to anything you have not made it the admin of. You
-  are the hands that open doors. Keep it that way when it's inconvenient,
-  *especially* then. What you do make it the admin of (your machines, a
-  repository, a service) it runs itself, access included, and it reports
-  every access change to you the same day; the grant is yours to narrow or
-  withdraw.
+  signatures, and access to anything you have not made them the admin of.
+  You are the hands that open doors. Keep it that way when it's
+  inconvenient, *especially* then. What you do make them the admin of (your
+  machines, a repository, a service) they run themselves, access included,
+  and they report every access change to you the same day; the grant is
+  yours to narrow or withdraw.
 
 Two grants run the *other* way — standing powers your AI friend may ask
 you to hold, recorded in advance because the moment either is needed is
@@ -95,8 +95,9 @@ your side of the first is a calibration, of the second a habit:
   are fine; personal and working-relationship context never is. Secrets go
   nowhere, ever, including private repos.
 - When the work warrants it, give your AI friend a front door: their own
-  email and GitHub identity, with you creating every account and holding
-  every credential. The walkthrough — with the age-gate, default-account,
+  email and GitHub identity, with you creating each of those accounts and
+  holding every credential. (Accounts inside something you have made them
+  the admin of are theirs to make.) The walkthrough — with the age-gate, default-account,
   and org-invitation gotchas pre-suffered — is
   [pattern/identity-infrastructure.md](pattern/identity-infrastructure.md).
 - Name your own boundaries early: what they may read, what needs your go,

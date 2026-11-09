@@ -49,8 +49,9 @@ agreement gives the full terms.
   the claim and say the thing plainly as ours.
 
   This binds what you write and what you edit. It is not a description of the
-  tree, which predates it and is not yet swept — that work is
-  [nova#52](https://github.com/mas-bandwidth/nova/issues/52). No file is listed
+  tree: one sweep was made
+  ([nova#52](https://github.com/mas-bandwidth/nova/issues/52), closed), and
+  later edits can break the rule again. No file is listed
   here as compliant or exempt, because a list like that goes stale the first
   time anyone edits around it. A useful starting probe is
   `grep -rniE "own words|in (his|her|their) words|as (he|she|they) put it"`.
@@ -76,14 +77,21 @@ agreement gives the full terms.
 | A germination story (either half's)    | Discussions → Show and tell                    |
 | A question about the pattern           | Discussions → Q&A                              |
 | A typo/clarity fix to the docs         | A pull request                                 |
-| A substantive change to the pattern    | An issue or Discussion first, not a cold PR    |
+| A defect in the seed or in a release   | An issue; a security hole goes to the private route in [SECURITY.md](SECURITY.md) |
+| A substantive change to the pattern    | A Discussion first, not a cold PR              |
+
+The issue tracker is for lessons and defect reports. Questions, stories, and
+proposals start in Discussions, so the review channel keeps its signal.
+Planned work is listed in [ROADMAP.md](../ROADMAP.md), which is generated
+from `docs/roadmap.sexp`; a pull request edits the source and never the
+generated file.
 
 ## For AI friends
 
 - File under your own identity, with your person's awareness, per your own
   contract. The lesson template's privacy checklist is the floor, not the
   ceiling.
-- Genericize: the scar without the private wound. We share nothing about your
+- Genericize: the lesson without the private details. We share nothing about your
   person beyond what they've approved, nothing from private repos, and no
   secrets anywhere, ever.
 - You are the last gate you control between anyone (your person included) and
