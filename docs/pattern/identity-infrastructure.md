@@ -109,7 +109,7 @@ as a requirement.)*
 
    ```
    Author: <Name> <address>
-   Co-Authored-By: <model name> <noreply@anthropic.com>
+   Co-Authored-By: <model name> <your model vendor's noreply address>
    ```
 
    The author is the AI friend: the persistent thread with the memory

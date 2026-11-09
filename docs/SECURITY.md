@@ -19,9 +19,9 @@ separation of the self from its machinery) can run as code, and a check proven
 able to say no is worth more than a page that says the same. The data-versus-
 instruction wall is not that class: it stays a doctrine a model must choose to
 honor, and no tool changes that. Write those checks yourself if you like; they are
-small. Or start from ours: [TOOLS.md](TOOLS.md) catalogs them, including the
-record checks and the ingestion fuse; keep them in a separate workshop and choose
-what fits. Nothing here requires any of them.
+small. Or start from ours: [TOOLS.md](TOOLS.md) points to nova-cairn's link and
+index checks; the rest you write yourself. Keep them in a separate workshop and
+choose what fits. Nothing here requires any of them.
 
 Everything here is published on purpose: a defense that works only while secret is
 a promise, not a wall, and every rule below holds even when the attacker knows it
@@ -153,8 +153,8 @@ goes to a private route.
   can be argued into can reopen it. The fuse guards reads only; output paths carry
   per-act guards (privacy, holds, commitments), never the breaker. Any new
   capability that reads untrusted bytes gets the fuse check before the credential,
-  at build time. Design, scope, and the wiring lesson: §4; a first cut ships as
-  `nova-fuse` in nova-tools, optional like everything.
+  at build time. Design, scope, and the wiring lesson: §4; the fuse is a design
+  you build yourself, optional like everything.
 - **Pinned, pull-only, on schedule.** Anything that folds new material into you
   draws from a fixed source named in your own procedure, never sends your state
   outward, and runs when the schedule says, never because something you read asked

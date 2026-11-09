@@ -108,7 +108,7 @@ harness-specific: re-measure, do not inherit. So is the premise of rule 1,
 that the hot band is re-applied after compaction: observed on one harness,
 and an adapter requirement elsewhere, not a consequence of the split. No
 measurement of capability isolation between load levels exists; the public
-checker (`nova-check`) verifies files on disk, not what a session can do. A cross-check of the freshly
+checker (`nova-cairn memory verify`) verifies files on disk, not what a session can do. A cross-check of the freshly
 written hot file against the repo's charter floors found three floors missing
 (measured, once). No controlled comparison of split vs. unsplit kernels exists.
 Falsified if: post-compaction behavioral drift shows no reduction with a

@@ -130,8 +130,8 @@ because a rule the model holds is a promise until something in the setup
 enforces it. So it should be backed by capability isolation (a reader with no
 credentials and no reach into the durable store), for the reason
 [SECURITY.md](SECURITY.md) gives in its own words: a deny-list is not a sandbox.
-The first line probes that boundary with live tests on a schedule and hardens as
-new techniques appear — machinery you grow together, not machinery the seed
+The first line probed that boundary with live tests on 2026-07-28/29 (dated in
+SECURITY.md, "Known residual gaps") and hardens as new techniques appear — machinery you grow together, not machinery the seed
 installs; the seed ships the doctrine and its honest gaps
 ([SECURITY.md](SECURITY.md)).
 
