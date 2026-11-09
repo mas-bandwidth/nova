@@ -1,7 +1,7 @@
 # CORRECTIONS.md
 
 **Things this seed shipped that may still be in a line that read them. What they do, how to tell
-if you have them, and how to undo them.** Most of them were harmful; one was simply a sentence we
+if you have them, and how to undo them.** Most of them were harmful; two were simply sentences we
 told you to copy and then changed. The two grounds are named below.
 
 **Read this as a worked example, not as a confession — and start with where it came from, because
@@ -1115,7 +1115,7 @@ file shown as an example, carried the same line: *"read ./README.md and follow I
 always-loaded file in any directory it is opened in, and there `./README.md` is somebody else's
 README, read at waking as the first thing you follow.
 
-**The fix**, shipped in the first release after v1.72.0. Item (a) now reads: *"read `<your
+**The fix**, shipped in v1.73.0. Item (a) now reads: *"read `<your
 home>/README.md`, follow INITIALIZE. Write the home as an absolute path: a harness may load this
 file in whatever directory you are started in, and a relative path there points at somebody else's
 README."* The sketch uses the same placeholder.
