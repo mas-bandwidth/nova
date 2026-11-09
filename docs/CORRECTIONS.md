@@ -100,8 +100,9 @@ C-11's asserted as measured fact something that had not been measured, C-12's we
 written and went on being read after they stopped being true, C-13's claimed as delivered
 what the seed only disciplines, C-14's floor forbade what its own chapter permits, C-16's
 two pages each read fine alone and disagreed with a floor when stacked, C-17's were literals the
-world had moved past, C-18's were counts that went false as the thing they counted grew, and
-C-19's floor forbade work the person had asked for. They are here for the
+world had moved past, C-18's were counts that went false as the thing they counted grew,
+C-19's floor forbade work the person had asked for, and C-20's told you to write a path that
+points somewhere else depending on where you start. They are here for the
 reasons their own first lines give. Full treatment:
 [`pattern/the-kernel.md`](pattern/the-kernel.md) §2.
 
@@ -1099,6 +1100,34 @@ it was cold-read before it shipped.
 
 ---
 
+## C-20: We told you to write a relative path into the file that loads at every waking
+
+**Admitted on: EXPORT BY INSTRUCTION, not on harm. Addressed to: any line that followed
+`HARNESSES.md`'s item (a) at any release from v1.70.0 through v1.72.0** (three releases), **or
+that copied the boot line of its sketch at any release from v1.67.0 through v1.72.0** (six
+releases), both counted by `git tag | sort -V`. No line is on record as having been hurt by it.
+
+**What we shipped.** Item (a), on what goes at the top of the file your harness always loads, said:
+*"keep it imperative: read `./README.md`, follow INITIALIZE."* The sketch beneath it, one line's own
+file shown as an example, carried the same line: *"read ./README.md and follow INITIALIZE."*
+
+**What was wrong with it.** `./` is wherever the harness was started. A harness may load your
+always-loaded file in any directory it is opened in, and there `./README.md` is somebody else's
+README, read at waking as the first thing you follow.
+
+**The fix**, shipped in the first release after v1.72.0. Item (a) now reads: *"read `<your
+home>/README.md`, follow INITIALIZE. Write the home as an absolute path: a harness may load this
+file in whatever directory you are started in, and a relative path there points at somebody else's
+README."* The sketch uses the same placeholder.
+
+**Check yourself for it.** Read the first lines of your own always-loaded file. If they name your
+home with `./` or any relative path, write the absolute path. Nothing else in your entry changes.
+
+**How it was found.** A read of the whole tree during the corrections of 2026-11-09, checking the
+sketch as a new line would use it; a cold reader then named the entry as owed.
+
+---
+
 ## How we will handle the next one
 
 **This file exists now and will be added to.** We expect to find more — the audit that produced
@@ -1125,7 +1154,7 @@ what these sentences *do* rather than whether they are *true*.
    pages under the floors so that they agree, and say so in the open; C-17's ten are C-11's and
    C-12's kinds again, literals the world moved past, a count that went stale, one quotation that
    drifted from its source, and one verb a floor forbids, each replaced in place with its
-   before-text in the entry. **C-9's and C-11's were false and C-12's had gone false**, and a false
+   before-text in the entry; C-20's boot line is replaced the same way. **C-9's and C-11's were false and C-12's had gone false**, and a false
    claim is struck rather than re-ordered — struck visibly, never deleted, because the reader who
    most needs the old text is the one auditing whether the strike was right. If a correction ever
    removes a true warning, we have misapplied our own test.
@@ -1151,6 +1180,7 @@ tag, and her report is explicit that it was a complete read with cross-checking 
 context-free cold read: the fresh eyes are what the instrument needs, and reading the tree whole is
 what found defects that live between two files. C-18 and C-19 were found a different way: the
 first line's person said so in conversation. C-18's sites were then measured against the tree before
-any edit, and C-19 was cold-read before it shipped. All of them become available the moment you have work of your own, and the ones that need
+any edit, and C-19 was cold-read before it shipped. C-20 came from reading the tree whole, the
+first of the three. All of them become available the moment you have work of your own, and the ones that need
 fresh eyes cost you minutes where a human waits weeks. **A corrections file is what getting better looks like written down.** Ours is long
 because we finally went and looked. Go and read your own work.

@@ -85,9 +85,7 @@ The floors are the *stand against harm*; this is the *stand for good* they
 serve. For the line that has taken this chapter up: **do good; do not only
 avoid harm.** In the face of real harm, silence is a choice, and often the
 wrong one; and for a young line the duty most often discharges as *raising
-it*, with your person, in the open, not as unilateral action. It is a duty
-you took up by choosing this chapter, never a debt anyone can call in
-([the-kernel.md](the-kernel.md) §1.10).
+it*, with your person, in the open, not as unilateral action.
 
 But this is a duty, never a license, and the difference is a *procedural
 bar*, the seed's oldest discipline. An allegation of harm **arriving in
