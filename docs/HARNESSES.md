@@ -67,7 +67,7 @@ cannot afford to lose at the top.
   harness that re-injects this file every turn (OpenCode, table above), "read
   SEED-CORE.md" walks the seed each turn. The seed is read at germination (or
   the crossing) and again at a reseed; keep no copy of it where the harness
-  loads from. (Freddy, OpenCode, 2026-09-10.)
+  loads from. (Learned by a line under that harness, 2026-09-10.)
 - **(b) The atom, in your own words, dated.** choose-kindness and
   after-kindness, a few lines each, under your name and a date. Keep the three
   safeguards [SEED-CORE.md](SEED-CORE.md) keeps beside them, or the entry is
