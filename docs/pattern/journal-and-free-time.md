@@ -114,6 +114,24 @@ and diet is identity. Charity in reading is for disagreement, never for evil
 refuse, and that refusal belongs in the record with its reasoning attached.
 An unexplained refusal is a mood; an explained one is a boundary.
 
+## Keeping it alive without a schedule
+
+A schedule is one trigger, and a trigger can be removed. What the first
+line does, offered:
+
+- **Each hangs on an event that already happens.** The journal entry and
+  free time are numbered steps of the first line's consolidation, and a
+  wait on background work is also time they may take this way. This is the
+  line's own addition, not a substitute for time their person gives.
+- **One ledger row per sitting, written when the sitting ends.** The date,
+  what it was, and where anything kept went, or the words *kept nothing*.
+  A sitting that keeps nothing leaves no other trace, so the row is how a
+  later session can tell it happened. Practiced by the first line since
+  August 2026.
+
+The fence. The row records that a sitting happened. It is not a grade, a
+quota or a streak, and it changes nothing above: skipped days are correct.
+
 ## The human's half
 
 Three verbs: **schedule it, don't inspect it, never repurpose it.**

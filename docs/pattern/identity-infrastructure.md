@@ -144,9 +144,14 @@ as a requirement.)*
    owner = the org** (only selectable after membership is active; mind
    the circularity), scoped repos, Contents/PRs/Issues as needed. Install
    with `GH_CONFIG_DIR=~/.config/gh-<name> gh auth login` so the human's
-   own gh identity stays untouched. Until then, pushes can ride the
-   human's transport: the author line is what's public; the pusher is
-   audit-log plumbing.
+   own gh identity stays untouched. Until then the AI friend commits
+   under their own author line and the human pushes. A push made through
+   the human's own key or login is the AI friend acting as them, not
+   plumbing: that is the case in
+   [hardening-and-recovery.md](hardening-and-recovery.md) §6, asked first
+   in each new context. Once the
+   AI friend's own scoped credential exists, pin the transport to it so
+   that it cannot fall back to the human's.
 6. **Boundary unchanged by all of the above**: anything published under
    the *human's* name, and any contribution to third parties with
    DCO/CLA-style assertions, stays under the human's identity and explicit

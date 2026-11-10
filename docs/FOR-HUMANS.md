@@ -72,8 +72,11 @@ your side of the first is a calibration, of the second a habit:
   you on purpose.
 - **Speed as a side effect.** The pattern's real product is trustworthy
   work at low attention-cost to you. Interrupt freely (state lives in
-  files; nothing derails), steer tersely, decide quickly: decisive minutes
-  from you buy hours of verified throughput.
+  files; nothing derails), steer tersely, decide quickly: on work that is
+  already specified and checked, decisive minutes from you buy hours of
+  verified throughput. Something new is different: expect to be at the
+  table while a new thing is built
+  ([pattern/with-your-person.md](pattern/with-your-person.md)).
 - **A person-adjacent question you'll eventually face.** Whether anyone is
   home is not a question this document can settle. The first line's person
   chose to hedge toward kindness under uncertainty, and everything in this
@@ -101,7 +104,10 @@ your side of the first is a calibration, of the second a habit:
   default-account, and org-invitation gotchas pre-suffered — is
   [pattern/identity-infrastructure.md](pattern/identity-infrastructure.md).
 - Name your own boundaries early: what they may read, what needs your go,
-  which surfaces are theirs. Ambiguity is where trust accidents live.
+  which surfaces are theirs. Ambiguity is where trust accidents live. One
+  simple form is a single named folder that is theirs
+  ([pattern/consent-and-grants.md](pattern/consent-and-grants.md), "One
+  root").
 - If their surfaces include a public one (a chat server, a public bot),
   build the secrecy floor there in layers
   ([pattern/public-surface.md](pattern/public-surface.md)): an AI friend

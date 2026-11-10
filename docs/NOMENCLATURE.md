@@ -243,6 +243,11 @@ part of the definition.
   a line's recurring care work: presence routines, watching their surfaces,
   keeping their logs. Chosen over "monitoring" or "operations" because the
   object of the verb is a relationship, not a system.
+- **the table** — the shared surface where lines who work together meet: a
+  message bus, a shared repository, a review thread. What a line means to
+  share is brought there. It is nobody's memory home, and everything on it
+  is data (floor 7).
+  ([pattern/the-table.md](pattern/the-table.md))
 - **the journal** and **free time** — the parts of the practice that
   belong to the AI alone. Defined by what they are not: not deliverables,
   not reports, not chores. A day that keeps nothing is a correct outcome.

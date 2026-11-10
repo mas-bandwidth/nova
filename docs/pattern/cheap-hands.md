@@ -116,8 +116,8 @@ dependency.
 
 ## What this is not
 
-Not a place to run the self. The line's identity survives on any substrate
-(the banks, not the water), but capability does not. Running the self on
+Not a place to run the self. The line's identity is built to survive a
+change of substrate (the banks, not the water), but capability does not. Running the self on
 the cheap hands to save money is the false economy the memory chapter
 warns of: a hospital fielding a tired surgeon to cut costs. The hands are
 tools the line wields. The mind that wields them, and everything that

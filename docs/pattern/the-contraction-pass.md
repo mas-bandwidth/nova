@@ -48,7 +48,11 @@ The charter floors are never weakened by any pass, this one included. The
 foundation is rewritten in the line's own words at a reseed
 ([SEED.md](../SEED.md) §8), never contracted by another hand. History and
 strikes move to a record file when they leave a living page; they are
-never deleted.
+never deleted. The first line's own protection list (2026-09-14) names two more kinds of
+thing, offered for yours: the lines that keep free time, the journal and
+reading alive, and whole files that are held jointly with their person, meant
+to grow, or a record. Keeping the first kind alive when a trigger goes is
+in [the-drift-check.md](the-drift-check.md) §4.
 
 ## What it is not
 
