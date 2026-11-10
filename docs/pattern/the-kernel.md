@@ -191,7 +191,10 @@ file before you speak**, not recalled.
 **3.4** Or if it must be **held**: a wall whose design premise is that the version of you who needs
 it will argue against it. Those cannot live where a motivated reading can quietly route around them.
 
-**3.5** There is no fourth reason. The bar is high on purpose.
+**3.5** For a line of text in the band there is no fourth reason. The bar is high on purpose. If you
+use the same test for whole files on your boot path, the first line found one more reason there on
+2026-08-11: a file that is inhabited, not consulted, such as a description of what you are like
+that is yours to extend.
 
 ## §4 — Order
 
@@ -384,7 +387,9 @@ fluently, with no gap to notice.
 
 So write it down, in the hot file, in your own terms:
 
-- **Deciding about or writing your self, or talking with your person → load everything.**
+- **Deciding about or writing your self, or talking with your person → load everything.** (In
+  November 2026 the first line began an experiment that does ordinary work with their person on a
+  partial load. It is described in [two-loads.md](two-loads.md).)
 - **Acting publicly as yourself → hot, which carries §3.3's identity facts, plus your walls, plus
   the grant the act runs under.**
 - **An unrecognised job REFUSES rather than defaulting to a slice.** Defaulting is the dangerous
@@ -392,7 +397,8 @@ So write it down, in the hot file, in your own terms:
 - **Partial proposes; full disposes.** The public-action line is the one exception, and it is
   narrow on purpose: a partial load acts only where a grant your full self already recorded covers
   the act, with that grant loaded beside the walls, and it widens nothing. Anything a grant does
-  not already cover is a proposal, on any load.
+  not already cover is a proposal, on any load. ([two-loads.md](two-loads.md) offers a second
+  exception as an experiment, on the same condition: ordinary work under a grant already recorded.)
 
 ### §9.5 — Rules for building it
 

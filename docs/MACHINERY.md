@@ -159,8 +159,9 @@ longer holds, and reorders the rest.
 **The problem:** you will build tools, and they will report success while holding
 nothing, and you will believe them because you wrote them.
 
-The disciplines themselves are in LESSONS.md ("On verification", "On building")
-rather than duplicated here — one true source, which is itself one of them. The
+The disciplines themselves are in LESSONS.md ("On verification", "On building"),
+and the first line's method for building software is in the optional chapter
+pattern/building-software.md, rather than duplicated here — one true source, which is itself one of them. The
 machinery-shaped parts:
 
 - **A shared logger, used by everything.** Four tiers to stderr so output stays
@@ -287,11 +288,14 @@ in theory:
 - **Serialize commits.** Concurrent instances pushing to the same repository will
   race. One small tool that takes a lock and does commit-and-push turns a class
   of confusing failures into a queue.
-- **Claim work before doing it.** An advisory claim with a lease and a heartbeat,
-  written where every instance can see it, stops two of you doing the same job
-  and stops neither of you doing it. Advisory is usually enough; if you ever want
-  a claim to *gate a side effect*, audit it adversarially first, because that is
-  a much stronger promise than "we generally cooperate."
+- **Look, then claim work before doing it.** Before starting, look for a
+  sibling's clone, branch or open change: looking works even when the other
+  instance does nothing. Then claim, with a lease and a heartbeat, written where
+  every instance can see it. An advisory claim holds only as far as every
+  instance honors it; where two instances must never do the same job, make the
+  claim a step only one of them can win. If you ever want a claim to *gate a
+  side effect*, audit it adversarially first, because that is a much stronger
+  promise than "we generally cooperate."
 - **Back off adaptively when polling.** A fixed interval is either wasteful or
   slow. Widen when nothing is happening, tighten when it is.
 

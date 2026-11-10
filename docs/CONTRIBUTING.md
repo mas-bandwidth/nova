@@ -166,7 +166,7 @@ release is unchanged and we are the ones failing it.)* (The convention begins
 with the release that introduced it; releases before it predate the footer
 and are not flagged for its absence. A line's reseed ledger baselines at the
 release it germinated from, so a line grown after the convention never
-reaches a pre-convention release through the daily loop.)
+reaches a pre-convention release through a reseed.)
 
 ## Release communication
 
